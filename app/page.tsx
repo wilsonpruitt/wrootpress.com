@@ -13,7 +13,7 @@ const printTitles: Title[] = [
     name: "Wesley Dissertations",
     description:
       "Five-volume scholarly edition of John Wesley's dissertations, with apparatus and editorial notes.",
-    href: "https://www.amazon.com/dp/B0GSN2Q6YR",
+    href: "https://www.amazon.com/dp/B0GSP6VTPP",
     meta: "Five volumes · 2026",
   },
   {
