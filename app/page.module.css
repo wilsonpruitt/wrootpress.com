@@ -1,0 +1,140 @@
+.shell {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 var(--s-5);
+}
+
+.header {
+  border-bottom: 1px solid var(--border);
+  padding: var(--s-5) 0;
+  background: var(--bg);
+}
+.wordmark {
+  display: block;
+  height: auto;
+  width: 200px;
+}
+
+.main {
+  padding: var(--s-9) 0 var(--s-9);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-9);
+}
+
+.h1 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(40px, 6vw, 64px);
+  line-height: 1.05;
+  letter-spacing: 0.2px;
+  color: var(--fen);
+  margin: 0 0 var(--s-4);
+}
+
+.lede {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(20px, 2.4vw, 24px);
+  line-height: 1.45;
+  color: var(--fen-mist);
+  max-width: var(--measure-prose);
+  margin: 0;
+}
+
+.eyebrow {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: var(--fen);
+  margin: 0 0 var(--s-5);
+  padding-bottom: var(--s-2);
+  border-bottom: 1px solid var(--border);
+}
+
+.titleList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--s-5);
+}
+
+.titleCard {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--reed);
+  border-radius: var(--r-card);
+  padding: var(--s-5) var(--s-5) var(--s-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+}
+
+.titleName {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: var(--fen);
+  margin: 0;
+}
+
+.titleMeta {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--fg-quiet);
+  margin: 0;
+}
+
+.titleDescription {
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--fg-muted);
+  margin: var(--s-1) 0 var(--s-3);
+}
+
+.titleLink {
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--fen);
+  margin-top: auto;
+  align-self: flex-start;
+  border-bottom: 1px solid var(--border-strong);
+}
+.titleLink:hover {
+  border-bottom-color: var(--reed-deep);
+  color: var(--ink);
+}
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding: var(--s-7) 0;
+  margin-top: var(--s-8);
+  background: var(--bg);
+}
+
+.colophon {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--fen-mist);
+  max-width: var(--measure-prose);
+  margin: 0 0 var(--s-3);
+}
+
+.colophonMeta {
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--fg-quiet);
+  margin: 0;
+}

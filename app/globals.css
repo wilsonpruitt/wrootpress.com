@@ -1,0 +1,92 @@
+/* ============================================================
+   Wroot Press — design tokens
+   Forked from ~/wroot-labs/brand/design-system/colors_and_type.css
+   Fonts loaded via next/font in app/layout.tsx (no @font-face here).
+   ============================================================ */
+
+:root {
+  /* ---------- Color: brand ---------- */
+  --fen:           #2C3E4A;
+  --fen-mist:      #5B6B76;
+  --ink:           #1A2128;
+  --reed:          #C9A86A;
+  --reed-deep:     #A98748;
+
+  /* ---------- Color: surfaces & neutrals ---------- */
+  --parchment:     #F7F3EC;
+  --ivory:         #FBF8F1;
+  --slate-100:     #E7E2D7;
+  --slate-200:     #D6D0C2;
+  --slate-300:     #B6B0A2;
+  --slate-600:     #54595E;
+
+  /* ---------- Color: semantic ---------- */
+  --bg:            var(--parchment);
+  --bg-raised:     var(--ivory);
+  --bg-sunken:     #EFEAE0;
+  --fg:            var(--ink);
+  --fg-muted:      var(--slate-600);
+  --fg-quiet:      #7A7E81;
+  --fg-on-fen:     var(--ivory);
+  --border:        var(--slate-100);
+  --border-strong: var(--slate-200);
+  --focus-ring:    rgba(44, 62, 74, 0.35);
+
+  /* ---------- Type: scale ---------- */
+  --serif: var(--font-serif), "Adobe Garamond Pro", Garamond, Georgia, serif;
+  --sans:  var(--font-sans), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* ---------- Spacing ---------- */
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px;
+  --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px; --s-9: 96px;
+
+  /* ---------- Radii ---------- */
+  --r-chip: 4px; --r-input: 6px; --r-card: 10px; --r-feature: 14px;
+
+  /* ---------- Measure ---------- */
+  --measure-prose: 64ch;
+
+  /* ---------- Motion ---------- */
+  --ease-quiet: cubic-bezier(0.32, 0.72, 0.32, 1);
+  --d-state: 120ms; --d-panel: 200ms; --d-page: 320ms;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+body {
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--fen);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color var(--d-state) var(--ease-quiet),
+              border-color var(--d-state) var(--ease-quiet);
+}
+a:hover {
+  color: var(--ink);
+  border-bottom-color: var(--reed-deep);
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: var(--reed);
+  color: var(--ink);
+}
