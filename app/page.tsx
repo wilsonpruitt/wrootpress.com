@@ -44,15 +44,15 @@ const digitalEditions: Title[] = [
     name: "Ambrose of Milan",
     description:
       "Critical reading edition of Ambrose's Expositio in Psalmum CXVIII, following Petschenig (CSEL 62), with Latin text, apparatus, and English translation.",
-    href: "https://ambrose.actasanctorum.org",
+    href: "https://ambrose.wrootpress.com",
     meta: "Live",
   },
   {
     name: "Bonaventure, Sentences",
     description:
       "Quaracchi-text reading edition of Bonaventure's Commentary on the Sentences, Latin alongside English translation, with scholion and apparatus criticus.",
-    href: "https://bonaventure.actasanctorum.org",
-    meta: "In progress · Book I, dd. 1–26",
+    href: "https://bonaventure.wrootpress.com",
+    meta: "In progress · Book I, dd. 1–30",
   },
 ];
 
