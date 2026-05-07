@@ -54,6 +54,13 @@ const digitalEditions: Title[] = [
     href: "https://bonaventure.wrootpress.com",
     meta: "In progress · Book I, dd. 1–30",
   },
+  {
+    name: "Topographia Sacra",
+    description:
+      "Geographical editions of the place-heavy books of scripture, pairing the World English Bible with maps and a gazetteer of every named place. Identifications follow the Anchor Bible Dictionary. The first edition is the Book of Joshua.",
+    href: "https://topographia.wrootpress.com",
+    meta: "In progress · Joshua",
+  },
 ];
 
 export default function HomePage() {
