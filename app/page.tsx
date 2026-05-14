@@ -57,9 +57,30 @@ const digitalEditions: Title[] = [
   {
     name: "Topographia Sacra",
     description:
-      "Geographical editions of the place-heavy books of scripture, pairing the World English Bible with maps and a gazetteer of every named place. Identifications follow the Anchor Bible Dictionary. The first edition is the Book of Joshua.",
+      "Geographical editions of the place-heavy books of scripture, pairing the World English Bible with maps and a gazetteer of every named place. Identifications follow the Anchor Bible Dictionary.",
     href: "https://topographia.wrootpress.com",
-    meta: "In progress · Joshua",
+    meta: "Live · Joshua, Judges, Ruth, Jonah, Acts",
+  },
+  {
+    name: "Loci",
+    description:
+      "Thematic reading editions of biblical books, each organised around an interpretive frame — Leviticus as an architecture of approach, Lamentations as an alphabet of grief.",
+    href: "https://loci.wrootpress.com",
+    meta: "Live · Leviticus, Lamentations",
+  },
+  {
+    name: "Doctrine",
+    description:
+      "Annotated reading editions of the historic creeds and confessions, with line-level commentary. Seeded with the Apostles' Creed; Nicene, Athanasian, and the Wesleyan standards in preparation.",
+    href: "https://doctrine.wrootpress.com",
+    meta: "Live",
+  },
+  {
+    name: "Difficult Passages",
+    description:
+      "A pastoral reference mapping the scholarly landscape on hard places in scripture — each entry presents the difficulty, then three to five historical responses with strengths, weaknesses, and further reading.",
+    href: "https://difficult.wrootpress.com",
+    meta: "Live · 38 entries",
   },
 ];
 
