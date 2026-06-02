@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cohort Curriculum · Wroot Press</title>
+<link rel="icon" href="data:,">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Crimson+Pro:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #f5f0e8; color: #2c2418;
+         font-family: 'Crimson Pro', Georgia, serif; line-height: 1.6; }
+
+  header.top { background: #2c2418; padding: 40px 24px 32px; text-align: center; }
+  header.top .ornament { color: #c9a96e; font-size: 15px; letter-spacing: 12px; margin-bottom: 10px; }
+  header.top h1 { font-family: 'Cormorant Garamond', serif; font-size: 36px; font-weight: 700;
+                  color: #f5f0e8; margin: 0; letter-spacing: 4px; }
+  header.top .rule { width: 70px; height: 1px; background: #c9a96e; margin: 13px auto; }
+  header.top .subtitle { font-family: 'Cormorant Garamond', serif; font-size: 17px; color: #c9a96e;
+                         margin: 0 0 4px; font-style: italic; letter-spacing: 1px; }
+  header.top .byline { color: #b8a98e; font-size: 13px; letter-spacing: 1px; }
+  header.top .kicker { color: #8a7a6a; font-size: 10.5px; letter-spacing: 3px; text-transform: uppercase; margin-top: 10px; }
+
+  .layout { display: flex; max-width: 1080px; margin: 0 auto; align-items: flex-start; }
+  .sidebar { width: 250px; flex-shrink: 0; padding: 26px 16px; border-right: 1px solid #d4c9b5;
+             background: #eee9df; position: sticky; top: 0; max-height: 100vh; overflow-y: auto; }
+  .sidebar .h { font-family: 'Cormorant Garamond', serif; font-size: 12px; font-weight: 600; color: #4a3d30;
+                letter-spacing: 1.5px; text-transform: uppercase; margin: 0 0 12px; }
+  .navbtn { display: block; width: 100%; text-align: left; border: 1px solid #d4c9b5; background: transparent;
+            border-radius: 5px; padding: 9px 11px; margin-bottom: 7px; cursor: pointer;
+            font-family: 'Crimson Pro', serif; color: #4a3d30; transition: all .15s; }
+  .navbtn:hover { background: rgba(201,169,110,.15); transform: translateX(1px); }
+  .navbtn.active { background: #2c2418; border-color: #2c2418; }
+  .navbtn.active .nlbl, .navbtn.active .nnum { color: #f5f0e8; }
+  .navbtn .nnum { display: block; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #b5793b; }
+  .navbtn .nlbl { display: block; font-size: 14.5px; font-weight: 500; color: #2c2418; margin-top: 2px; }
+  .convene { margin-top: 18px; padding: 13px; background: rgba(92,58,46,.07); border-left: 3px solid #5c3a2e;
+             border-radius: 5px; font-size: 12.5px; line-height: 1.55; color: #5c3a2e; }
+  .convene .h { color: #5c3a2e; margin-bottom: 6px; }
+
+  main { flex: 1; padding: 34px 46px 80px; min-width: 0; max-width: 720px; }
+
+  .kick { font-family: 'Cormorant Garamond', serif; font-size: 12px; letter-spacing: 3px;
+          text-transform: uppercase; color: #b5793b; }
+  h2.sx { font-family: 'Cormorant Garamond', serif; font-size: 30px; font-weight: 700; color: #2c2418;
+          margin: 4px 0 8px; letter-spacing: .5px; }
+  .chips { margin: 6px 0 18px; }
+  .chip { display: inline-block; font-family: 'Cormorant Garamond', serif; font-size: 12px; letter-spacing: .5px;
+          color: #6b4a26; background: rgba(201,169,110,.22); border: 1px solid rgba(201,169,110,.5);
+          border-radius: 12px; padding: 2px 11px; margin: 0 6px 6px 0; }
+  .topsplit { border: 0; border-top: 2px solid #c9a96e; margin: 0 0 22px; }
+
+  .sech { font-family: 'Cormorant Garamond', serif; font-size: 12px; letter-spacing: 2px; text-transform: uppercase;
+          color: #5c3a2e; font-weight: 600; margin: 30px 0 10px; }
+
+  .reading { background: #fbf8f2; border: 1px solid #e2d8c4; border-left: 3px solid #c9a96e;
+             border-radius: 6px; padding: 18px 22px; }
+  .reading .meta { font-size: 12.5px; font-style: italic; color: #8a7a6a; margin-bottom: 10px; }
+  .reading p { margin: 0 0 11px; text-indent: 1.2em; font-size: 16.5px; }
+  .reading p:first-of-type { text-indent: 0; }
+
+  .frame { font-style: italic; font-size: 17px; color: #3a3025; border-left: 3px solid #d4c9b5;
+           padding-left: 16px; margin: 4px 0; }
+
+  ol.disc { padding-left: 0; list-style: none; counter-reset: q; }
+  ol.disc li { counter-increment: q; position: relative; padding-left: 34px; margin-bottom: 14px; font-size: 16.5px; }
+  ol.disc li::before { content: counter(q); position: absolute; left: 0; top: 0;
+      font-family: 'Cormorant Garamond', serif; font-weight: 700; color: #b5793b; font-size: 17px; }
+  ol.disc .prompt { display: block; font-size: 14px; font-style: italic; color: #8a7a6a; margin-top: 4px; }
+
+  .covenant { background: rgba(92,58,46,.06); border-left: 3px solid #5c3a2e; border-radius: 6px; padding: 16px 20px; }
+  .covenant ul { margin: 0; padding-left: 18px; }
+  .covenant li { font-style: italic; color: #4a3d30; margin-bottom: 8px; font-size: 16.5px; }
+
+  .practice { background: rgba(201,169,110,.13); border-left: 3px solid #c9a96e; border-radius: 6px;
+              padding: 15px 20px; font-size: 16.5px; }
+
+  .cnotes { margin-top: 14px; }
+  .cnotes .n { font-size: 13.5px; color: #8a7a6a; margin-bottom: 8px; padding-left: 14px; border-left: 2px solid #e2d8c4; }
+
+  .overview p { font-size: 17.5px; }
+  .pager { display: flex; justify-content: space-between; margin-top: 44px; border-top: 1px solid #d4c9b5; padding-top: 18px; }
+  .pager button { font-family: 'Cormorant Garamond', serif; font-size: 14px; letter-spacing: 1px; background: transparent;
+                  border: 1px solid #c9b99a; border-radius: 5px; padding: 8px 16px; cursor: pointer; color: #4a3d30; }
+  .pager button:hover:not(:disabled) { background: rgba(92,64,51,.08); }
+  .pager button:disabled { opacity: .35; cursor: default; }
+
+  @media (max-width: 760px) {
+    .layout { flex-direction: column; }
+    .sidebar { width: 100%; position: static; max-height: none; border-right: 0; border-bottom: 1px solid #d4c9b5; }
+    main { padding: 26px 22px 60px; }
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="ornament">· · ✦ · ·</div>
+  <h1 id="h-title">·</h1>
+  <div class="rule"></div>
+  <p class="subtitle" id="h-sub"></p>
+  <div class="byline" id="h-by"></div>
+  <div class="kicker">A Wroot Press Cohort Curriculum</div>
+</header>
+
+<div class="layout">
+  <nav class="sidebar">
+    <p class="h">Sessions</p>
+    <div id="nav"></div>
+    <div class="convene" id="convene"></div>
+  </nav>
+  <main id="main"></main>
+</div>
+
+<script>
+// AUTO-GENERATED by build/build.py — do not edit by hand.
+window.CURRICULUM = {
+ "id": "curriculum:scripture-way-of-salvation",
+ "title": "The Scripture Way of Salvation",
+ "subtitle": "A four-session Wesleyan cohort study",
+ "author": "John Wesley",
+ "tradition": "Wesleyan / Methodist",
+ "audience": "clergy-cohort",
+ "cadence": "weekly",
+ "overview": "In 1765, near the end of his preaching life, Wesley distilled the whole of the Christian way into one sermon on a single verse — “by grace are ye saved through faith” (Ephesians 2:8). He had grown impatient with religion made “intricate, complex, and hard to be understood,” and set out to draw a plain map: where grace begins, what saving faith is, and how a person is actually saved by it. This study walks a cohort of pastors through that map in four sittings, one part of the sermon per meeting. It is built for peers, not students — there is no expert in the room, and none is needed. The aim is not to master Wesley but to let his map test our own preaching and our own souls.",
+ "convenerNote": "You are a convener, not a teacher. Your only jobs are to keep time, read the framing aloud, ask the questions in order, and make sure every voice is heard before yours. Let silence sit. The reading is short on purpose — assume everyone has read it, and spend the hour talking, not lecturing. Close every meeting with the covenant questions; they are the point. A 60–75 minute rhythm works: 5 min gathering prayer, 10 min reading recap, 30–35 min discussion, 15 min covenant, 5 min practice + sending.",
+ "source": {
+  "project": "wesley-loci",
+  "credit": "John Wesley, Sermon 43, 'The Scripture Way of Salvation' (1765), Jackson edition, public domain.",
+  "license": "Public domain (text); curriculum © Wroot Press."
+ },
+ "sessions": [
+  {
+   "n": 1,
+   "title": "The Whole of Religion in Two Words",
+   "themeFocus": [
+    "faith",
+    "prevenient"
+   ],
+   "reading": {
+    "source": "wesley-loci",
+    "slug": "scripture-way-of-salvation",
+    "lineStart": 5,
+    "lineEnd": 15,
+    "label": "Introduction — §§1–3 and the three questions"
+   },
+   "frame": "Wesley opens with a complaint that should land on anyone who preaches: religion has been made “intricate, complex, and hard to be understood.” Over against that, he says, two little words — faith and salvation — hold “the substance of all the Bible, the marrow, as it were, of the whole Scripture.” Then he refuses to be vague about it and asks three blunt questions: What is salvation? What is the faith whereby we are saved? How are we saved by it? This first meeting is about the questions, not yet the answers. Before we follow Wesley's map, name the maps we are already preaching from.",
+   "discussion": [
+    {
+     "q": "Wesley says religion is too often made intricate and hard to understand. Where do you catch yourself making the gospel complicated from the pulpit — and where do you oversimplify it?",
+     "theme": "faith"
+    },
+    {
+     "q": "He claims faith and salvation are 'the marrow of the whole Scripture.' If a parishioner asked you to put the whole Bible in two words, would you choose those two? What would you add or resist?",
+     "theme": "faith"
+    },
+    {
+     "q": "Notice that Wesley sets the questions in this order: salvation first, then faith, then how. Why might he define the destination before the means? What changes if you preach it the other way around?",
+     "prompt": "Push on whether your own preaching usually starts with the human response (faith, decision) or with God's work (salvation, grace)."
+    },
+    {
+     "q": "Wesley wrote this at the end of his life, simplifying decades of preaching into one page. What have you stopped saying as you've aged in ministry, and what have you come back to?"
+    }
+   ],
+   "covenant": [
+    "How is it with your soul today — not your ministry, your soul?",
+    "Where, this week, have you sensed God at work before and around you, ahead of anything you did?",
+    "What is one thing this cohort can hold in prayer for you between now and next time?"
+   ],
+   "practice": "Before the next meeting, write the gospel in three sentences as you would say it to a dying parishioner — no jargon. Bring it; we will read them aloud after the Part I discussion.",
+   "convenerNotes": [
+    "The phrase 'preventing grace' (§I.2 next week) is Wesley's habitual rendering of prevenient grace — the grace at work before and around us while we are 'yet without strength.' The language is the Church's own: Article X of the Articles of Religion speaks of 'the grace of God by Christ preventing us.' If it comes up early, let it; it is the door the whole sermon opens.",
+    "Ephesians 2:8 is the only text. Wesley is not building a system; he is unfolding a verse. Keep the cohort anchored to the verse, not to later Methodist textbooks."
+   ],
+   "_resolved": {
+    "title": "The Scripture Way of Salvation",
+    "scripture": "Ephesians 2:8",
+    "credit": "John Wesley · Standard Sermon 43 (1765) · Jackson edition, public domain",
+    "paragraphs": [
+     "1. Nothing can be more intricate, complex, and hard to be understood, than religion, as it has been often described. And this is not only true concerning the religion of the Heathens, even many of the wisest of them, but concerning the religion of those also who were, in some sense, Christians; yea, and men of great name in the Christian world; men who seemed to be pillars thereof. Yet how easy to be understood, how plain and simple a thing, is the genuine religion of Jesus Christ; provided only that we take it in its native form, just as it is described in the oracles of God! It is exactly suited, by the wise Creator and Governor of the world, to the weak understanding and narrow capacity of man in his present state. How observable is this, both with regard to the end it proposes, and the means to attain that end! The end is, in one word, salvation; the means to attain it, faith.",
+     "2. It is easily discerned, that these two little words, I mean faith and salvation, include the substance of all the Bible, the marrow, as it were, of the whole Scripture. So much the more should we take all possible care to avoid all mistake concerning them, and to form a true and accurate judgement concerning both the one and the other.",
+     "3. Let us then seriously inquire,",
+     "I. What is Salvation",
+     "II. What is that faith whereby we are saved And,",
+     "III. How are we saved by it"
+    ],
+    "wordCount": 255,
+    "lineStart": 5,
+    "lineEnd": 15
+   },
+   "_themeLabels": {
+    "faith": "Justifying Faith",
+    "prevenient": "Prevenient Grace"
+   }
+  },
+  {
+   "n": 2,
+   "title": "What Is Salvation?",
+   "themeFocus": [
+    "prevenient",
+    "newbirth",
+    "sin-believers",
+    "perfection"
+   ],
+   "reading": {
+    "source": "wesley-loci",
+    "slug": "scripture-way-of-salvation",
+    "lineStart": 17,
+    "lineEnd": 35,
+    "label": "Part I — What Is Salvation"
+   },
+   "frame": "Wesley's first move is to take salvation out of the funeral. “The salvation which is here spoken of,” he says, “is not what is frequently understood by that word, the going to heaven, eternal happiness.” It is “a present thing” — a work begun in this life. He then lays the whole arc on the table at once: prevenient grace, the awakening of conscience, justification (pardon, our acceptance with God), and sanctification, the actual renewal of the heart, all the way to perfect love. For a room of pastors, the provocation is direct: do we preach salvation as a future destination, or as a present work God is doing in our people right now?",
+   "discussion": [
+    {
+     "q": "Wesley insists salvation is 'a present thing,' not chiefly 'going to heaven.' Listen honestly to your own preaching: is your gospel mostly about where people go when they die, or what God is doing in them now?",
+     "theme": "prevenient"
+    },
+    {
+     "q": "He distinguishes justification (pardon, 'our acceptance with God') from sanctification (the real renewal of the heart). In your congregation, which of these gets short-changed — and what does that produce in the people?",
+     "theme": "newbirth"
+    },
+    {
+     "q": "Wesley assumes growth continues after conversion — that believers still wrestle with indwelling sin and are being made new. How do you pastor someone who was 'saved' years ago but seems stuck?",
+     "theme": "sin-believers"
+    },
+    {
+     "q": "Perfection — perfect love — sits at the far end of Wesley's map. Does that word embarrass you, attract you, or both? What would it cost to preach it without flinching?",
+     "theme": "perfection",
+     "prompt": "If the cohort recoils, ask what Wesley actually means: not flawlessness, but a heart so filled with love of God and neighbor that nothing contrary remains."
+    },
+    {
+     "q": "Read each other's three-sentence gospels from last week's practice. Where did they land on Wesley's arc — pardon, renewal, both? What was missing?"
+    }
+   ],
+   "covenant": [
+    "How is it with your soul — where do you sense God still at work renewing you, not just forgiving you?",
+    "Is there a sin you are excusing in yourself because you were 'saved' long ago?",
+    "What grace do you most need from God this week, and will you ask the cohort to pray for it by name?"
+   ],
+   "practice": "Pick one parishioner you tend to think of as 'finished' — long converted, settled. This week, pray for their sanctification by name, and find one way to ask them how God is still at work in them.",
+   "convenerNotes": [
+    "On 'justification is another word for pardon': Wesley is careful that justification is what God does FOR us (forgiveness, acceptance), while sanctification is what God works IN us (renewal). Holding the two together — neither collapsing grace into mere pardon nor making renewal a human achievement — is the Wesleyan balance the whole sermon defends.",
+    "Wesley folds 'natural conscience' into 'preventing grace.' For Wesley there is no purely natural human goodness untouched by grace; even conscience is already grace at work. This is why he can be hopeful about people far from the Church."
+   ],
+   "_resolved": {
+    "title": "The Scripture Way of Salvation",
+    "scripture": "Ephesians 2:8",
+    "credit": "John Wesley · Standard Sermon 43 (1765) · Jackson edition, public domain",
+    "paragraphs": [
+     "1. I. And, first, let us inquire, What is salvation The salvation which is here spoken of is not what is frequently understood by that word, the going to heaven, eternal happiness. It is not the soul's going to paradise, termed by our Lord, \"Abraham's bosom.\" It is not a blessing which lies on the other side death; or, as we usually speak, in the other world. The very words of the text itself put this beyond all question: \"Ye are saved.\" It is not something at a distance: it is a present thing; a blessing which, through the free mercy of God, ye are now in possession of. Nay, the words may be rendered, and that with equal propriety, \"Ye have been saved\": so that the salvation which is here spoken of might be extended to the entire work of God, from the first dawning of grace in the soul, till it is consummated in glory.",
+     "2. If we take this in its utmost extent, it will include all that is wrought in the soul by what is frequently termed \"natural conscience,\" but more properly, \"preventing grace\"; --all the drawings of the Father; the desires after God, which, if we yield to them, increase more and more; --all that light wherewith the Son of God \"enlighteneth every one that cometh into the world;\" showing every man \"to do justly, to love mercy, and to walk humbly with his God\"; --all the convictions which His Spirit, from time to time, works in every child of man--although it is true, the generality of men stifle them as soon as possible, and after a while forget, or at least deny, that they ever had them at all.",
+     "3. But we are at present concerned only with that salvation which the Apostle is directly speaking of. And this consists of two general parts, justification and sanctification.",
+     "Justification is another word for pardon. It is the forgiveness of all our sins; and , what is necessarily implied therein, our acceptance with God. The price whereby this hath been procured for us (commonly termed \"the meritorious cause of our justification\"), is the blood and righteousness of Christ; or, to express it a little more clearly, all that Christ hath done and suffered for us, till He \"poured out His soul for the transgressors.\" The immediate effects of justification are, the peace of God, a \"peace that passeth all understanding,\" and a \"rejoicing in hope of the glory of God\" \"with joy unspeakable and full of glory.\"",
+     "4. And at the same time that we are justified, yea, in that very moment, sanctification begins. In that instant we are born again, born from above, born of the Spirit: there is a real as well as a relative change. We are inwardly renewed by the power of God. We feel \"the love of God shed abroad in our heart by the Holy Ghost which is given unto us\"; producing love to all mankind, and more especially to the children of God; expelling the love of the world, the love of pleasure, of ease, of honour, of money, together with pride, anger, self-will, and every other evil temper; in a word, changing the earthly, sensual, devilish mind, into \"the mind which was in Christ Jesus.\"",
+     "5. How naturally do those who experience such a change imagine that all sin is gone; that it is utterly rooted out of their heart, and has no more any place therein! How easily do they draw that inference, \"I feel no sin; therefore, I have none: it does not stir; therefore it does not exist: it has no motion; therefore, it has no being!\"",
+     "6. But it is seldom long before they are undeceived, finding sin was only suspended, not destroyed. Temptations return, and sin revives; showing it was but stunned before, not dead. They now feel two principles in themselves, plainly contrary to each other; \"the flesh lusting against the Spirit\"; nature opposing the grace of God. They cannot deny, that although they still feel power to believe in Christ, and to love God; and although His \"Spirit\" still \"witnesses with their spirits, that they are children of God\"; yet they feel in themselves sometimes pride or self-will, sometimes anger or unbelief. They find one or more of these frequently stirring in their heart, though not conquering; yea, perhaps, \"thrusting sore at them that they may fall\"; but the Lord is their help.",
+     "7. How exactly did Macarius, fourteen hundred years ago, describe the present experience of the children of God: \"The unskilful,\" or unexperienced, \"when grace operates, presently imagine they have no more sin. Whereas they that have discretion cannot deny, that even we who have the grace of God may be molested again. For we have often had instances of some among the brethren, who have experienced such grace as to affirm that they had no sin in them; and yet, after all, when they thought themselves entirely freed from it, the corruption that lurked within was stirred up anew, and they were wellnigh burned up.\"",
+     "8. From the time of our being born again, the gradual work of sanctification takes place. We are enabled \"by the Spirit\" to \"mortify the deeds of the body,\" of our evil nature; and as we are more and more dead to sin, we are more and more alive to God. We so on from grace to grace, while we are careful to \"abstain from all appearance of evil,\" and are \"zealous of good works,\" as we have opportunity, doing good to all men; while we walk in all His ordinances blameless, therein worshipping Him in spirit and in truth; while we take up our cross, and deny ourselves every pleasure that does not lead us to God.",
+     "9. It is thus that we wait for entire sanctification; for a full salvation from all our sins, --from pride, self-will, anger, unbelief; or, as the Apostle expresses it, \"go unto perfection.\" But what is perfection The word has various senses: here it means perfect love. It is love excluding sin; love filling the heart, taking up the whole capacity of the soul. It is love \"rejoicing evermore, praying without ceasing, in everything giving thanks.\""
+    ],
+    "wordCount": 1040,
+    "lineStart": 17,
+    "lineEnd": 35
+   },
+   "_themeLabels": {
+    "prevenient": "Prevenient Grace",
+    "newbirth": "The New Birth",
+    "sin-believers": "Sin in Believers",
+    "perfection": "Christian Perfection"
+   }
+  },
+  {
+   "n": 3,
+   "title": "What Is Saving Faith?",
+   "themeFocus": [
+    "faith",
+    "assurance"
+   ],
+   "reading": {
+    "source": "wesley-loci",
+    "slug": "scripture-way-of-salvation",
+    "lineStart": 39,
+    "lineEnd": 45,
+    "label": "Part II — What Is the Faith Whereby We Are Saved"
+   },
+   "frame": "Wesley starts with the writer of Hebrews — faith as 'a divine evidence and conviction of things not seen' — and then sharpens it to the personal point: not only that 'God was in Christ, reconciling the world unto Himself,' but 'that Christ loved me, and gave Himself for me.' Saving faith is not bare assent to true things; even the devils believe. It is trust that lays hold of Christ for oneself. Wesley then refuses a distinction his hearers wanted — between a 'faith of assurance' and a 'faith of adherence' — insisting Scripture knows 'one faith.' For pastors, this is the most pastorally loaded session: it is about what we ask of people when we call them to believe, and what we do with the ones who can't feel it.",
+   "discussion": [
+    {
+     "q": "Wesley moves from 'Christ reconciling the world' to 'Christ loved me, and gave Himself for me.' Why is that shift from the general to the personal the hinge of saving faith? Where do your people get stuck — the general or the personal?",
+     "theme": "faith"
+    },
+    {
+     "q": "He says even the devils 'believe' in a sense. What is the difference between the faith that saves and the faith that merely agrees? How do you tell the two apart in someone sitting in your office?",
+     "theme": "faith"
+    },
+    {
+     "q": "Wesley denies a hard line between assurance and mere adherence, but elsewhere he prizes the witness of the Spirit. How do you pastor a faithful person who has never 'felt' assured — do you treat that as a problem to fix or a season to accompany?",
+     "theme": "assurance",
+     "prompt": "Watch for the cohort's own anxieties here; many pastors carry private uncertainty about their own assurance."
+    },
+    {
+     "q": "If saving faith is trust rather than correct belief, what does that change about how you handle a parishioner with doubts about doctrine? Is doubt the opposite of this faith?"
+    }
+   ],
+   "covenant": [
+    "How is it with your soul — can you say tonight, and mean it, 'Christ loved me and gave Himself for me'?",
+    "Where is your own faith more adherence than assurance right now, and is that all right with you?",
+    "Whose faith are you carrying for them in a hard season — and who is carrying yours?"
+   ],
+   "practice": "This week, in prayer, put it in the first person and the past tense as Wesley does: 'Christ loved me and gave himself for me.' Notice what rises — comfort, resistance, numbness — and bring it to the cohort.",
+   "convenerNotes": [
+    "The Greek Wesley quotes ('elegchos pragmaton ou blepomenon', Heb. 11:1) he renders 'evidence' AND 'conviction' — he says the word means both. Faith for Wesley is at once objective (evidence of unseen realities) and subjective (an inward conviction). Don't let the cohort flatten it to mere feeling or mere proposition.",
+    "On the 'faith of assurance vs. adherence' distinction Wesley rejects: this was a live 18th-century debate. Wesley's pastoral instinct is to refuse to make assurance a second, higher tier of Christian — there is 'one faith.' Yet he never gives up on the Spirit's witness. The tension is the pastoral gold of this session."
+   ],
+   "_resolved": {
+    "title": "The Scripture Way of Salvation",
+    "scripture": "Ephesians 2:8",
+    "credit": "John Wesley · Standard Sermon 43 (1765) · Jackson edition, public domain",
+    "paragraphs": [
+     "1. Faith, in general, is defined by the Apostle, elegcos pragmatvn ou blepomenvn. An evidence, a divine evidence and conviction (the word means both) of things not seen; not visible, not perceivable either by sight, or by any other of the external senses. It implies both a supernatural evidence of God, and of the things of God; a kind of spiritual light exhibited to the soul, and a supernatural sight or perception thereof. Accordingly, the Scripture speaks of God's giving sometimes light, sometimes a power of discerning it. So St. Paul: \"God, who commanded light to shine out of darkness, hath shined in our hearts, to give us the light of the knowledge of the glory of God in the face of Jesus Christ.\" And elsewhere the same Apostle speaks of \"the eyes of\" our \"understanding being opened.\" By this two-fold operation of the Holy Spirit, having the eyes of our soul both opened and enlightened, we see the things which the natural \"eye hath not seen, neither the ear heard.\" We have a prospect of the invisible things of God; we see the spiritual world, which is all round about us, and yet no more discerned by our natural faculties than if it had no being. And we see the eternal world; piercing through the veil which hangs between time and eternity. Clouds and darkness then rest upon it no more, but we already see the glory which shall be revealed.",
+     "2. Taking the word in a more particular sense, faith is a divine evidence and conviction not only that \"God was in Christ, reconciling the world unto Himself,\" but also that Christ loved me, and gave Himself for me. It is by this faith (whether we term it the essence, or rather a property thereof) that we receive Christ; that we receive Him in all His offices, as our Prophet, Priest, and King. It is by this that He is \"made of God unto us wisdom, and righteousness, and sanctification, and redemption.\"",
+     "3. \"But is this the faith of assurance, or faith of adherence\" The Scripture mentions no such distinction. The Apostle says, \"There is one faith, and one hope of our calling\"; one Christian, saving faith; \"as there is one Lord,\" in whom we believe, and \"one God and Father of us all.\" And it is certain, this faith necessarily implies an assurance (which is here only another word for evidence, it being hard to tell the difference between them) that Christ loved me, and gave Himself for me. For \"he that believeth\" with the true living faith \"hath the witness in himself\": \"the Spirit witnesseth with his spirit that he is a child of God.\" \"Because he is a son, God hath sent forth the Spirit of His Son into his heart, crying, Abba, Father\"; giving him an assurance that he is so, and a childlike confidence in Him. But let it be observed, that, in the very nature of the thing, the assurance goes before the confidence. For a man cannot have a childlike confidence in God till he knows he is a child of God. Therefore, confidence, trust, reliance, adherence, or whatever else it be called, is not the first, as some have supposed, but the second, branch or act of faith.",
+     "4. It is by this faith we are saved, justified, and sanctified; taking that word in its highest sense. But how are we justified and sanctified by faith This is our third head of inquiry. And this being the main point in question, and a point of no ordinary importance, it will not be improper to five it a more distinct and particular consideration."
+    ],
+    "wordCount": 612,
+    "lineStart": 39,
+    "lineEnd": 45
+   },
+   "_themeLabels": {
+    "faith": "Justifying Faith",
+    "assurance": "Witness of the Spirit"
+   }
+  },
+  {
+   "n": 4,
+   "title": "How Are We Saved by It?",
+   "themeFocus": [
+    "faith",
+    "works",
+    "means",
+    "law"
+   ],
+   "reading": {
+    "source": "wesley-loci",
+    "slug": "scripture-way-of-salvation",
+    "lineStart": 47,
+    "lineEnd": 85,
+    "label": "Part III — How We Are Saved by Faith"
+   },
+   "frame": "Here Wesley answers the 'how.' Faith is 'the condition, and the only condition, of justification' — and of sanctification too. But then he does the move that keeps Methodism from collapsing into 'easy believism': he insists that this faith is never idle. Repentance and its fruits go before it; works of piety and works of mercy — the means of grace — attend it; the law still does its work. And he ends not with a doctrine but an altar call to the believer: 'Expect it by faith, expect it as you are, and expect it now.' He closes with Charles's hymn — 'Come in, come in, thou heavenly Guest.' This last session is where the whole map becomes an invitation, and where a cohort of pastors decides what it will actually expect of God.",
+   "discussion": [
+    {
+     "q": "Faith is 'the only condition' of salvation — yet Wesley spends most of Part III on repentance, works of mercy, and the means of grace. How does he hold 'faith alone' together with 'faith never alone' without contradiction? Where does your tradition tilt?",
+     "theme": "works"
+    },
+    {
+     "q": "Wesley calls works of piety and works of mercy 'means of grace' — channels, not earnings. Which means of grace has gone slack in your own life? Which has gone slack in your congregation's?",
+     "theme": "means",
+     "prompt": "Name them concretely: prayer, Scripture, Supper, fasting, Christian conference, visiting the sick, feeding the poor."
+    },
+    {
+     "q": "He still gives the law a job, even for believers. What is the law for, once a person is justified? How do you preach law to the already-forgiven without crushing them?",
+     "theme": "law"
+    },
+    {
+     "q": "Wesley's threefold charge is 'expect it by faith, expect it as you are, expect it now.' Which of the three is hardest for you personally — by faith (not by working for it), as you are (not once you've cleaned up), or now (not someday)?",
+     "theme": "faith"
+    },
+    {
+     "q": "Now that you've walked the whole map — salvation, faith, how — what will you preach differently? Be specific: one sermon, one funeral, one conversation that will change."
+    }
+   ],
+   "covenant": [
+    "How is it with your soul as we close — what has shifted across these four weeks?",
+    "Will you 'expect it now' — is there a grace you have been postponing in your own life because you don't feel ready?",
+    "What is one means of grace this cohort will commit to together, and how will we hold each other to it after this study ends?",
+    "How shall we keep watching over one another in love when we are no longer reading the same page?"
+   ],
+   "practice": "Choose one means of grace to restore this season — personally and in your congregation — and tell the cohort what it is. Agree on how you will check in on one another a month from now.",
+   "convenerNotes": [
+    "On 'expect it by faith, expect it as you are, expect it now': this is Wesley preaching sanctification the same way he preaches justification — received by faith, not earned by degrees. The radical claim is that entire sanctification is, like pardon, a gift to be trusted for, not a summit to be climbed. Let the cohort sit with how counter-intuitive that is to working pastors.",
+    "The closing lines are from Charles Wesley's hymn 'Come, O Thou Traveller Unknown' / 'Come in, come in, thou heavenly Guest.' John ends a doctrinal sermon by handing the congregation a song to sing. Consider literally closing the final meeting by reading or singing the stanza together."
+   ],
+   "_resolved": {
+    "title": "The Scripture Way of Salvation",
+    "scripture": "Ephesians 2:8",
+    "credit": "John Wesley · Standard Sermon 43 (1765) · Jackson edition, public domain",
+    "paragraphs": [
+     "III. 1. And, first, how are we justified by faith In what sense is this to be understood I answer, Faith is the condition, and the only condition, of justification. It is the condition: none is justified but he that believes: without faith no man is justified. And it is the only condition: this alone is sufficient for justification. Every one that believes is justified, whatever else he has or has not. In other words: no man is justified till he believes; every man when he believes is justified.",
+     "2. \"But does not God command us to repent also Yea, and to `bring forth fruits meet for repentance'--to cease, for instance, from doing evil, and learn to do well And is not both the one and the other of the utmost necessity, insomuch that if we willingly neglect either, we cannot reasonably expect to be justified at all But if this be so, how can it be said that faith is the only condition of justification\" God does undoubtedly command us both to repent, and to bring forth fruits meet for repentance; which if we willingly neglect, we cannot reasonably expect to be justified at all: therefore both repentance, and fruits meet for repentance, are, in some sense, necessary to justification. But they are not necessary in the same sense with faith, nor in the same degree. Not in the same degree; for those fruits are only necessary conditionally; if there be time and opportunity for them. Otherwise a man may be justified without them, as was the thief upon the cross (if we may call him so; for a late writer has discovered that he was no thief, but a very honest and respectable person!); but he cannot be justified without faith; this is impossible. Likewise, let a man have ever so much repentance, or ever so many of the fruits meet for repentance, yet all this does not at all avail; he is not justified till he believes. But the moment he believes, with or without those fruits, yea, with more or less repentance, he is justified. --Not in the same sense; for repentance and its fruits are only remotely necessary; necessary in order to faith; whereas faith is immediately necessary to justification. It remains, that faith is the only condition, which is immediately and proximately necessary to justification.",
+     "3. \"But do you believe we are sanctified by faith We know you believe that we are justified by faith; but do not you believe, and accordingly teach, that we are sanctified by our works\" So it has been roundly and vehemently affirmed for these five-and-twenty years: but I have constantly declared just the contrary; and that in all manner of ways. I have continually testified in private and in public, that we are sanctified as well as justified by faith. And indeed the one of those great truths does exceedingly illustrate the other. Exactly as we are justified by faith, so are we sanctified by faith. Faith is the condition, and the only condition, of sanctification, exactly as it is of justification. It is the condition: none is sanctified but he that believes; with out faith no man is sanctified. And it is the only condition: this alone is sufficient for sanctification. Every one that believes is sanctified, whatever else he has or has not. In other words, no man is sanctified till he believes: every man when he believes is sanctified.",
+     "4. \"But is there not a repentance consequent upon, as well as a repentance previous to, justification And is it not incumbent on all that are justified to be `zealous of good works' Yea, are not these so necessary, that if a man willingly neglect them he cannot reasonably expect that he shall ever be sanctified in the full sense; that is, perfected in love Nay, can he grow at all in grace, in the loving knowledge of our Lord Jesus Christ Yea, can he retain the grace which God has already given him Can he continue in the faith which he has received, or in the favour of God. Do not you yourself allow all this, and continually assert it But, if this be so, how can it be said that faith is the only condition of sanctification\"",
+     "5. I do allow all this, and continually maintain it as the truth of God. I allow there is a repentance consequent upon, as well as a repentance previous to, justification. It is incumbent on all that are justified to be zealous of good works. And there are so necessary, that if a man willingly neglect them, he cannot reasonably expect that he shall ever be sanctified; he cannot grow in grace, in the image of God, the mind which was in Christ Jesus; nay, he cannot retain the grace he has received; he cannot continue in faith, or in the favour of God. What is the inference we mist draw herefrom Why, that both repentance, rightly understood, and the practice of all good works, --works of piety, as well as works of mercy (now properly so called, since they spring from faith), are, in some sense, necessary to sanctification.",
+     "6. I say, \"repentance rightly understood\"; for this must not be confounded with the former repentance. The repentance consequent upon justification is widely different from that which is antecedent to it. This implies no guilt, no sense of condemnation, no consciousness of the wrath of God. It does not suppose any doubt of the favour of God, or any \"fear that hath torment.\" It is properly a conviction, wrought by the Holy Ghost, of the sin which still remains in our heart; of the jronhma sarkos, the carnal mind, which \"does still remain\" (as our Church speaks) \"even in them that are regenerate\"; although it does no longer reign; it has not now dominion over them. It is a conviction of our proneness to evil, of an heart bent to backsliding, of the still continuing tendency of the flesh to lust against the spirit. Sometimes, unless we continually watch and pray, it lusteth to pride, sometimes to anger, sometimes to love of the world, love of ease, love of honour, or love of pleasure more than of God. It is a conviction of the tendency of our heart to self-will, to Atheism, or idolatry; and above all, to unbelief; whereby, in a thousand ways, and under a thousand pretenses, we are ever departing, more or less, from the living God.",
+     "7. With this conviction of the sin remaining in our hearts, there is joined a clear conviction of the sin remaining in our lives; still cleaving to all our words and actions. In the best of these we now discern a mixture of evil, either in the spirit, the matter, or the manner of them; something that could not endure the righteous judgement of God, were He extreme to mark what is done amiss. Where we least suspected it, we find a taint of pride or self-will, of unbelief or idolatry; so that we are now more ashamed of our best duties than formerly of our worst sins: and hence we cannot but feel that these are so far from having anything meritorious in them, yea, so far from being able to stand in sight of the divine justice, that for those also we should be guilty before God, were it not for the blood of the covenant.",
+     "8. Experience shows that, together with this conviction of sin remaining in our hearts, and cleaving to all our words and actions; as well as the guilt which on account thereof we should incur, were we not continually sprinkled with the atoning blood; one thing more is implied in this repentance; namely, a conviction of our helplessness, of our utter inability to think one good thought, or to form one good desire; and much more to speak one word aright, or to perform one good action, but through His free, almighty grace, first preventing us, and then accompanying us every moment.",
+     "9. \"But what good works are those, the practice of which you affirm to be necessary to sanctification\" First, all works of piety; such as public prayer, family prayer, and praying in our closet; receiving the supper of the Lord; searching the Scriptures, by hearing, reading, meditating; and using such a measure of fasting or abstinence as our bodily health allows.",
+     "10. Secondly, all works of mercy; whether they relate to the bodies or souls of men; such as feeding the hungry, clothing the naked, entertaining the stranger, visiting those that are in prison, or sick, or variously afflicted; such as the endeavouring to instruct the ignorant, to awaken the stupid sinner, to quicken the lukewarm, to confirm the wavering, to comfort the feeble-minded, to succour the tempted, or contribute in any manner to the saving of souls from death. This is the repentance, and these the \"fruits meet for repentance,\" which are necessary to full sanctification. This is the way wherein God hath appointed His children to wait for complete salvation.",
+     "11. Hence may appear the extreme mischievousness of that seemingly innocent opinion, that there is no sin in a believer; that all sin is destroyed, root and branch, the moment a man is justified. By totally preventing that repentance, it quite blocks up the way to sanctification. There is no place for repentance in him who believes there is no sin either in his life or heart: consequently, there is no place for his being perfected in love, to which that repentance is indispensably necessary.",
+     "12. Hence it may likewise appear, that there is no possible danger in thus expecting full salvation. For suppose we were mistaken, suppose no such blessing ever was or can be attained, yet we lose nothing: nay, that very expectation quickens us in using all the talents which God has given us; yea, in improving them all; so that when our Lord cometh, He will receive His own with increase.",
+     "13. But to return. though it be allowed, that both this repentance and its fruits are necessary to full salvation; yet they are not necessary either in the same sense with faith, or in the same degree: --Not in the same degree; for these fruits are only necessary conditionally, if there be time and opportunity for them; otherwise a man may be sanctified without them. But he cannot be sanctified without faith. likewise, let a man have ever so much of this repentance, or ever so many good works, yet all this does not at all avail: he is not sanctified till he believes. But the moment he believes, with or without those fruits, yea, with more or less of this repentance, he is sanctified. --Not in the same sense; for this repentance and these fruits are only remotely necessary, --necessary in order to the continuance of his faith, as well as the increase of it; whereas faith is immediately and directly necessary to sanctification. It remains, that faith is the only condition which is immediately and proximately necessary to sanctification.",
+     "14. \"But what is that faith whereby we are sanctified, --saved from sin, and perfected in love\" It is a divine evidence and conviction, first, that God hath promised it in the holy Scripture. Till we are thoroughly satisfied of this, there in no moving one step further. And one would imagine there needed not one word more to satisfy a reasonable man of this, than the ancient promise, \"Then will I circumcise thy heart, and the heart of thy seed, to love the Lord they God with all thy heart, and with all thy soul, and with all thy mind.\" How clearly does this express the being perfected in love! --how strongly imply the being saved from all sin! For as long as love takes up the whole heart, what room is there for sin therein",
+     "15. It is a divine evidence and conviction, secondly, that what God hath promised He is able to perform. Admitting, therefore, that \"with men it is impossible\" to \"bring a clean thing out of an unclean,\" to purify the heart from all sin, and to till it with all holiness; yet this creates no difficulty in the case, seeing \"with God all things are possible.\" And surely no one ever imagined it was possible to any power less than that of the Almighty! But if God speaks, it shall be done. God saith, \"Let there be light; and there\" is \"light\"!",
+     "16. It is, thirdly, a divine evidence and conviction that He is able and willing to do it now. And why not Is not a moment to Him the same as a thousand years He cannot want more time to accomplish whatever is His will. And He cannot want or stay for any more worthiness or fitness in the persons He is pleased to honour. We may therefore boldly say, at any point of time, \"Now is the day of salvation!\" \"To-day, if ye will hear His voice, harden not your hearts!\" \"Behold, all things are now ready; come unto the marriage!\"",
+     "17. To this confidence, that God is both able and willing to sanctify us now, there needs to be added one thing more, --a divine evidence and conviction that He doeth it. In that hour it is done: God says to the inmost soul, \"According to thy faith be it unto thee!\" Then the soul is pure from every spot of sin; it is clean \"from all unrighteousness.\" The believer then experiences the deep meaning of those solemn words, \"If we walk in the light as He is in the light, we have fellowship one with another, and the blood of Jesus Christ His Son cleanseth us from all sin.\"",
+     "18. \"But does God work this great work in the soul gradually or instantaneously\" Perhaps it may be gradually wrought in some; I mean in this sense, --they do not advert to the particular moment wherein sin ceases to be. But it us infinitely desirable, were it the will of God, that it should be done instantaneously; that the Lord should destroy sin \"by the breath of His mouth,\" in a moment, in the twinkling of an eye. And so He generally does; a plain fact, of which there is evidence enough to satisfy any unprejudiced person. Thou therefore look for it every moment! Look for it in the way above described; in all those good works whereunto thou art \"created anew in Christ Jesus.\" There in then no danger: you can be no worse, if you are no better, for that expectation. For were you to be disappointed of your hope, still you lose nothing. But you shall not be disappointed of your hope: it will come, and will not tarry. Look for it then every day, every hour, every moment! Why not this hour, this moment Certainly you may look for it now, if you believe it is by faith. And by this token you may surely know whether you seek it by faith or by works. If by works, you want something to be done first, before you are sanctified. You think, I must first be or do thus or thus. Then you are seeking it by works unto this day. If you seek it by faith, you may expect it as you are; and expect it now. It is of importance to observe, that there is an inseparable connexion between these three points, --expect it by faith; expect it as you are; and expect it now! To deny one of them, is to deny them all; to allow one, is to allow them all. Do you believe we are sanctified by faith Be true then to your principle; and look for this blessing just as you are, neither better nor worse; as a poor sinner that has still nothing to pay, nothing to plead, but \"Christ died.\" And if you look for it as you are, then expect it now. Stay for nothing: why should you Christ is ready; and He is all you want. He is waiting for you: He is at the door! Let your inmost soul cry out,",
+     "Come in, come in, thou heavenly Guest! Nor hence again remove;",
+     "But sup with me, and let the feast Be everlasting love."
+    ],
+    "wordCount": 2727,
+    "lineStart": 47,
+    "lineEnd": 85
+   },
+   "_themeLabels": {
+    "faith": "Justifying Faith",
+    "works": "Faith & Works",
+    "means": "The Means of Grace",
+    "law": "The Moral Law"
+   }
+  }
+ ]
+};
+</script>
+<script>
+(function () {
+  var C = window.CURRICULUM;
+  if (!C) { document.getElementById('main').innerHTML = '<p>No curriculum data loaded.</p>'; return; }
+  var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>]/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; }); };
+
+  document.title = C.title + ' · Wroot Press';
+  document.getElementById('h-title').textContent = C.title;
+  document.getElementById('h-sub').textContent = C.subtitle || '';
+  document.getElementById('h-by').textContent = (C.author || '') + (C.tradition ? ' · ' + C.tradition : '');
+  if (C.convenerNote) {
+    document.getElementById('convene').innerHTML =
+      '<div class="h">How to convene</div>' + esc(C.convenerNote);
+  }
+
+  var views = [{ overview: true, title: 'Overview' }].concat(C.sessions);
+  var nav = document.getElementById('nav');
+  views.forEach(function (v, i) {
+    var b = document.createElement('button');
+    b.className = 'navbtn';
+    b.innerHTML = v.overview
+      ? '<span class="nnum">Begin here</span><span class="nlbl">Overview</span>'
+      : '<span class="nnum">Session ' + v.n + '</span><span class="nlbl">' + esc(v.title) + '</span>';
+    b.onclick = function () { show(i); };
+    nav.appendChild(b);
+  });
+
+  function show(i) {
+    var btns = nav.querySelectorAll('.navbtn');
+    btns.forEach(function (b, k) { b.classList.toggle('active', k === i); });
+    var v = views[i], m = document.getElementById('main'), html;
+    if (v.overview) {
+      html = '<div class="kick">A four-session study</div>'
+        + '<h2 class="sx">' + esc(C.title) + '</h2>'
+        + '<hr class="topsplit"><div class="overview"><p>' + esc(C.overview) + '</p></div>'
+        + '<div class="sech">The four sessions</div><ol class="disc">'
+        + C.sessions.map(function (s) {
+            return '<li><strong>' + esc(s.title) + '</strong><span class="prompt">'
+              + esc(s.reading.label || '') + '</span></li>'; }).join('')
+        + '</ol>';
+    } else {
+      var s = v, res = s._resolved || {}, labels = s._themeLabels || {};
+      var chips = (s.themeFocus || []).map(function (k) {
+        return '<span class="chip">' + esc(labels[k] || k) + '</span>'; }).join('');
+      var reading = (res.paragraphs || []).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('');
+      var disc = (s.discussion || []).map(function (q) {
+        return '<li>' + esc(q.q) + (q.prompt ? '<span class="prompt">↳ ' + esc(q.prompt) + '</span>' : '') + '</li>'; }).join('');
+      var cov = (s.covenant || []).map(function (c) { return '<li>' + esc(c) + '</li>'; }).join('');
+      var cnotes = (s.convenerNotes || []).map(function (n) { return '<div class="n">' + esc(n) + '</div>'; }).join('');
+      html = '<div class="kick">Session ' + s.n + '</div>'
+        + '<h2 class="sx">' + esc(s.title) + '</h2>'
+        + '<div class="chips">' + chips + '</div><hr class="topsplit">'
+        + '<div class="sech">Reading — ' + esc(s.reading.label || '') + '</div>'
+        + '<div class="reading"><div class="meta">'
+          + (res.scripture ? 'Text: ' + esc(res.scripture) + ' · ' : '')
+          + (res.wordCount || 0) + ' words · ' + esc(res.credit || '') + '</div>' + reading + '</div>'
+        + '<div class="sech">Framing</div><div class="frame">' + esc(s.frame) + '</div>'
+        + '<div class="sech">For discussion</div><ol class="disc">' + disc + '</ol>'
+        + '<div class="sech">Watching over one another in love</div><div class="covenant"><ul>' + cov + '</ul></div>'
+        + '<div class="sech">Practice for the week</div><div class="practice">' + esc(s.practice) + '</div>'
+        + (cnotes ? '<div class="sech">Notes for the convener</div><div class="cnotes">' + cnotes + '</div>' : '');
+    }
+    html += '<div class="pager">'
+      + '<button ' + (i === 0 ? 'disabled' : '') + ' onclick="__nav(' + (i - 1) + ')">‹ Previous</button>'
+      + '<button ' + (i === views.length - 1 ? 'disabled' : '') + ' onclick="__nav(' + (i + 1) + ')">Next ›</button></div>';
+    m.innerHTML = html;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  window.__nav = show;
+  show(0);
+})();
+</script>
+</body>
+</html>

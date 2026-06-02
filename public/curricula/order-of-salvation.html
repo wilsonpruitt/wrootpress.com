@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cohort Curriculum · Wroot Press</title>
+<link rel="icon" href="data:,">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Crimson+Pro:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #f5f0e8; color: #2c2418;
+         font-family: 'Crimson Pro', Georgia, serif; line-height: 1.6; }
+
+  header.top { background: #2c2418; padding: 40px 24px 32px; text-align: center; }
+  header.top .ornament { color: #c9a96e; font-size: 15px; letter-spacing: 12px; margin-bottom: 10px; }
+  header.top h1 { font-family: 'Cormorant Garamond', serif; font-size: 36px; font-weight: 700;
+                  color: #f5f0e8; margin: 0; letter-spacing: 4px; }
+  header.top .rule { width: 70px; height: 1px; background: #c9a96e; margin: 13px auto; }
+  header.top .subtitle { font-family: 'Cormorant Garamond', serif; font-size: 17px; color: #c9a96e;
+                         margin: 0 0 4px; font-style: italic; letter-spacing: 1px; }
+  header.top .byline { color: #b8a98e; font-size: 13px; letter-spacing: 1px; }
+  header.top .kicker { color: #8a7a6a; font-size: 10.5px; letter-spacing: 3px; text-transform: uppercase; margin-top: 10px; }
+
+  .layout { display: flex; max-width: 1080px; margin: 0 auto; align-items: flex-start; }
+  .sidebar { width: 250px; flex-shrink: 0; padding: 26px 16px; border-right: 1px solid #d4c9b5;
+             background: #eee9df; position: sticky; top: 0; max-height: 100vh; overflow-y: auto; }
+  .sidebar .h { font-family: 'Cormorant Garamond', serif; font-size: 12px; font-weight: 600; color: #4a3d30;
+                letter-spacing: 1.5px; text-transform: uppercase; margin: 0 0 12px; }
+  .navbtn { display: block; width: 100%; text-align: left; border: 1px solid #d4c9b5; background: transparent;
+            border-radius: 5px; padding: 9px 11px; margin-bottom: 7px; cursor: pointer;
+            font-family: 'Crimson Pro', serif; color: #4a3d30; transition: all .15s; }
+  .navbtn:hover { background: rgba(201,169,110,.15); transform: translateX(1px); }
+  .navbtn.active { background: #2c2418; border-color: #2c2418; }
+  .navbtn.active .nlbl, .navbtn.active .nnum { color: #f5f0e8; }
+  .navbtn .nnum { display: block; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #b5793b; }
+  .navbtn .nlbl { display: block; font-size: 14.5px; font-weight: 500; color: #2c2418; margin-top: 2px; }
+  .convene { margin-top: 18px; padding: 13px; background: rgba(92,58,46,.07); border-left: 3px solid #5c3a2e;
+             border-radius: 5px; font-size: 12.5px; line-height: 1.55; color: #5c3a2e; }
+  .convene .h { color: #5c3a2e; margin-bottom: 6px; }
+
+  main { flex: 1; padding: 34px 46px 80px; min-width: 0; max-width: 720px; }
+
+  .kick { font-family: 'Cormorant Garamond', serif; font-size: 12px; letter-spacing: 3px;
+          text-transform: uppercase; color: #b5793b; }
+  h2.sx { font-family: 'Cormorant Garamond', serif; font-size: 30px; font-weight: 700; color: #2c2418;
+          margin: 4px 0 8px; letter-spacing: .5px; }
+  .chips { margin: 6px 0 18px; }
+  .chip { display: inline-block; font-family: 'Cormorant Garamond', serif; font-size: 12px; letter-spacing: .5px;
+          color: #6b4a26; background: rgba(201,169,110,.22); border: 1px solid rgba(201,169,110,.5);
+          border-radius: 12px; padding: 2px 11px; margin: 0 6px 6px 0; }
+  .topsplit { border: 0; border-top: 2px solid #c9a96e; margin: 0 0 22px; }
+
+  .sech { font-family: 'Cormorant Garamond', serif; font-size: 12px; letter-spacing: 2px; text-transform: uppercase;
+          color: #5c3a2e; font-weight: 600; margin: 30px 0 10px; }
+
+  .reading { background: #fbf8f2; border: 1px solid #e2d8c4; border-left: 3px solid #c9a96e;
+             border-radius: 6px; padding: 18px 22px; }
+  .reading .meta { font-size: 12.5px; font-style: italic; color: #8a7a6a; margin-bottom: 10px; }
+  .reading p { margin: 0 0 11px; text-indent: 1.2em; font-size: 16.5px; }
+  .reading p:first-of-type { text-indent: 0; }
+
+  .frame { font-style: italic; font-size: 17px; color: #3a3025; border-left: 3px solid #d4c9b5;
+           padding-left: 16px; margin: 4px 0; }
+
+  ol.disc { padding-left: 0; list-style: none; counter-reset: q; }
+  ol.disc li { counter-increment: q; position: relative; padding-left: 34px; margin-bottom: 14px; font-size: 16.5px; }
+  ol.disc li::before { content: counter(q); position: absolute; left: 0; top: 0;
+      font-family: 'Cormorant Garamond', serif; font-weight: 700; color: #b5793b; font-size: 17px; }
+  ol.disc .prompt { display: block; font-size: 14px; font-style: italic; color: #8a7a6a; margin-top: 4px; }
+
+  .covenant { background: rgba(92,58,46,.06); border-left: 3px solid #5c3a2e; border-radius: 6px; padding: 16px 20px; }
+  .covenant ul { margin: 0; padding-left: 18px; }
+  .covenant li { font-style: italic; color: #4a3d30; margin-bottom: 8px; font-size: 16.5px; }
+
+  .practice { background: rgba(201,169,110,.13); border-left: 3px solid #c9a96e; border-radius: 6px;
+              padding: 15px 20px; font-size: 16.5px; }
+
+  .cnotes { margin-top: 14px; }
+  .cnotes .n { font-size: 13.5px; color: #8a7a6a; margin-bottom: 8px; padding-left: 14px; border-left: 2px solid #e2d8c4; }
+
+  .overview p { font-size: 17.5px; }
+  .pager { display: flex; justify-content: space-between; margin-top: 44px; border-top: 1px solid #d4c9b5; padding-top: 18px; }
+  .pager button { font-family: 'Cormorant Garamond', serif; font-size: 14px; letter-spacing: 1px; background: transparent;
+                  border: 1px solid #c9b99a; border-radius: 5px; padding: 8px 16px; cursor: pointer; color: #4a3d30; }
+  .pager button:hover:not(:disabled) { background: rgba(92,64,51,.08); }
+  .pager button:disabled { opacity: .35; cursor: default; }
+
+  @media (max-width: 760px) {
+    .layout { flex-direction: column; }
+    .sidebar { width: 100%; position: static; max-height: none; border-right: 0; border-bottom: 1px solid #d4c9b5; }
+    main { padding: 26px 22px 60px; }
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="ornament">· · ✦ · ·</div>
+  <h1 id="h-title">·</h1>
+  <div class="rule"></div>
+  <p class="subtitle" id="h-sub"></p>
+  <div class="byline" id="h-by"></div>
+  <div class="kicker">A Wroot Press Cohort Curriculum</div>
+</header>
+
+<div class="layout">
+  <nav class="sidebar">
+    <p class="h">Sessions</p>
+    <div id="nav"></div>
+    <div class="convene" id="convene"></div>
+  </nav>
+  <main id="main"></main>
+</div>
+
+<script>
+// AUTO-GENERATED by build/build.py — do not edit by hand.
+window.CURRICULUM = {
+ "id": "curriculum:order-of-salvation",
+ "title": "The Order of Salvation",
+ "subtitle": "Four sermons on the Wesleyan way — a cohort survey",
+ "author": "John Wesley",
+ "tradition": "Wesleyan / Methodist",
+ "audience": "clergy-cohort",
+ "cadence": "weekly",
+ "overview": "Where the Scripture Way study reads one late sermon closely, this survey moves across four of Wesley's Standard Sermons to trace the order of salvation as he preached it over thirty years — the awakening of a sleeping soul, justification by faith, the new birth, and the witness of the Spirit. Each meeting takes the heart of one sermon. Together they form the spine of Wesleyan soteriology, drawn straight from the sermons rather than a textbook. For a cohort of pastors the value is double: it is a refresher in the tradition's grammar, and it is a mirror held up to what we actually preach about how a person is saved.",
+ "convenerNote": "This is a survey, not a verse-by-verse study — keep the cohort moving. You are a convener, not a lecturer: read the framing, ask the questions in order, let silence work, and speak last. Because each week is a different sermon, remind the group of where we are in the arc (awakening → justification → new birth → assurance) at the top of every meeting. A 60–75 minute rhythm works: gathering prayer, a recap of the reading, discussion, the covenant questions, and a sending into the week's practice.",
+ "source": {
+  "project": "wesley-loci",
+  "credit": "John Wesley, Standard Sermons (Jackson edition), public domain. 'Awake, Thou That Sleepest' was preached by Charles Wesley and included among the Standard Sermons.",
+  "license": "Public domain (texts); curriculum © Wroot Press."
+ },
+ "sessions": [
+  {
+   "n": 1,
+   "title": "The Sleep of Sin",
+   "themeFocus": [
+    "repentance",
+    "prevenient",
+    "nominal"
+   ],
+   "reading": {
+    "source": "wesley-loci",
+    "slug": "awake-thou-that-sleepest",
+    "lineStart": 7,
+    "lineEnd": 27,
+    "label": "Awake, Thou That Sleepest — the sleeping soul (§§1–7)"
+   },
+   "frame": "The arc begins before faith, with a diagnosis. Preaching on 'Awake, thou that sleepest' (Ephesians 5:14), Wesley describes the natural condition not as open wickedness but as sleep — 'a state of spiritual sleep,' a soul 'dead in trespasses and sins' that feels perfectly safe. The danger is not the scandalous sinner who knows he is lost; it is the respectable, church-going person who is insensible. Before a cohort can talk about how people are saved, it has to be honest about the sleep grace must first break — in our pews, and in us.",
+   "discussion": [
+    {
+     "q": "Wesley makes the natural condition 'sleep' rather than obvious wickedness — a soul at ease, feeling no danger. Who in your congregation fits that description, and how do you preach to the comfortable without simply scaring them?",
+     "theme": "nominal"
+    },
+    {
+     "q": "He insists the awakening is grace's work, not the preacher's cleverness ('preventing grace' stirring the sleeper). How does believing that change how you carry the weight of unconverted people in your care?",
+     "theme": "prevenient"
+    },
+    {
+     "q": "Repentance here is awakening — conviction before faith. In your own tradition and practice, has 'repentance' shrunk to an altar-call formality? What would it mean to recover it as a real first work?",
+     "theme": "repentance"
+    },
+    {
+     "q": "Be honest as a peer group: where are you yourself asleep right now — coasting, insensible, going through the motions of ministry? Name it before we talk about anyone else."
+    }
+   ],
+   "covenant": [
+    "How is it with your soul — are you awake, or have you been coasting?",
+    "Where has God been trying to wake you, and have you been hitting the snooze?",
+    "What will you ask this cohort to watch for in you this week?"
+   ],
+   "practice": "This week, pray by name for one 'sleeping' member — comfortable, churched, insensible — and ask God to do the waking. Resist the urge to engineer it yourself; notice what He does.",
+   "convenerNotes": [
+    "'Awake, Thou That Sleepest' was preached by Charles Wesley (1742) and printed among John's Standard Sermons — the brothers' shared theology of awakening. If the cohort knows it as 'a Wesley sermon,' that's accurate either way.",
+    "Watch for the trap of treating awakening as something only 'sinners out there' need. Wesley aims it squarely at the religious. The whole arc collapses if the cohort exempts itself from the diagnosis."
+   ],
+   "_resolved": {
+    "title": "Awake, Thou That Sleepest",
+    "scripture": "Ephesians 5:14",
+    "credit": "Charles Wesley · Standard Sermon 3 (1742) · Jackson edition, public domain",
+    "paragraphs": [
+     "In discoursing on these words, I shall, with the help of God, --",
+     "First. Describe the sleepers, to whom they are spoken:",
+     "Secondly. Enforce the exhortation, \"Awake, thou that sleepest, and arise from the dead:\" And,",
+     "Thirdly. Explain the promise made to such as do awake and arise: \"Christ shall give thee light.\"",
+     "1. And first, as to the sleepers here spoken to. By sleep is signified the natural state of man; that deep sleep of the soul, into which the sin of Adam hath cast all who spring from his loins: That supineness, indolence, and stupidity, that insensibility of his real condition, wherein every man comes Into the world, and continues till the voice of God awakes him.",
+     "2. Now, \"they that sleep, sleep in the night.\" The state of nature is a state of utter darkness; a state wherein \"darkness covers the earth, and gross darkness the people.\" The poor unawakened sinner, how much knowledge soever he may have as to other things, has no knowledge of himself: in this respect \"he knoweth nothing yet as he ought to know.\" he knows not that he is a fallen spirit, whose only business in the present world, is to recover from his fall, to regain that image of God wherein he was created. he sees no necessity for the one thing needful, even that inward universal change, that \"birth from above,\" figured out by baptism, which is the beginning of that total renovation. that sanctification of spirit, soul, and body, \"without which no man shall see the Lord.\"",
+     "3. Full of all diseases as he is, he fancies himself in perfect health. Fast bound in misery and iron, he dreams that he is at liberty. he says, \"Peace! Peace!\" while the devil, as \"a strong, man armed,\" is in full possession of his soul. he sleeps on still and takes his rest, though hell is moved from beneath to meet him; though the pit from whence there is no return hath opened its mouth to swallow him up. A fire is kindled around him, yet he knoweth it not; yea, it burns him, yet he lays it not to heart.",
+     "4. By one who sleeps, we are, therefore, to understand (and would to God we might all understand it!) a sinner satisfied in his sins; contented to remain in his fallen state, to live and die without the image of God; one who is ignorant both of his disease, and of the only remedy for it; one who never was warned, or never regarded the warning voice of God, \"to flee from the wrath to come;\" one that never yet saw he was in danger of hell-fire, or cried out in the earnestness of his soul, \"What must I do to be saved\"",
+     "5. If this sleeper be not outwardly vicious, his sleep is usually the deepest of all: whether he be of the Laodicean spirit, \"neither cold nor hot,\" but a quiet, rational, inoffensive, good-natured professor of the religion of his fathers; or whether he be zealous and orthodox, and, \"after the most straitest sect of our religion,\" live \"a Pharisee;\" that is, according to the scriptural account, one that justifies himself; one that labours to establish his own righteousness, as the ground of his acceptance with God.",
+     "6. This is he, who, \"having a form of godliness, denies the power thereof;\" yea, and probably reviles it, wheresoever it is found, as mere extravagance and delusion. Meanwhile, the wretched self-deceiver thanks God, that he is \"not as other men are; adulterers, unjust, extortioners\": no, he doeth no wrong to any man. he \"fasts twice in a week,\" uses all the means of grace, is constant at church and sacrament, yea, and \"gives tithes of all that he has;\" does all the good that he can \"touching the righteousness of the law,\" he is \"blameless\": he wants nothing of godliness, but the power; nothing of religion, but the spirit; nothing of Christianity, but the truth and the life.",
+     "7. But know ye not, that, however highly esteemed among men such a Christian as this may be, he is an abomination in the sight of God, and an heir of every woe which the Son of God, yesterday, to-day, and for ever, denounces against \"scribes and Pharisees, hypocrites\" he hath \"made clean the outside of the cup and the platter,\" but within is full of all filthiness. \"An evil disease cleaveth still unto him, so that his inward parts are very wickedness.\" Our Lord fitly compares him to a \"painted sepulchre,\" which \"appears beautiful without;\" but, nevertheless, is \"full of dead men's bones, and of all uncleanness.\" The bones indeed are no longer dry; the sinews and flesh are come upon them, and the skin covers them above: but there is no breath in them, no Spirit of the living God. And, \"if any man have not the Spirit of Christ, he is none of his.\" \"Ye are Christ's, if so be that the Spirit of God dwell in you\": but, if not, God knoweth that ye abide in death, even until now."
+    ],
+    "wordCount": 853,
+    "lineStart": 7,
+    "lineEnd": 27
+   },
+   "_themeLabels": {
+    "repentance": "Repentance (Awakening)",
+    "prevenient": "Prevenient Grace",
+    "nominal": "Nominal Religion"
+   }
+  },
+  {
+   "n": 2,
+   "title": "Justified by Faith",
+   "themeFocus": [
+    "faith",
+    "assurance"
+   ],
+   "reading": {
+    "source": "wesley-loci",
+    "slug": "salvation-by-faith",
+    "lineStart": 37,
+    "lineEnd": 47,
+    "label": "Salvation by Faith — what the saved are saved from (Part II)"
+   },
+   "frame": "In his very first Standard Sermon (1738, on Ephesians 2:8), preached weeks after Aldersgate, Wesley presses what salvation by faith actually delivers: a present salvation from the guilt and the power of sin, and from fear. The justified are saved 'from all their sins' — pardoned, accepted, and set free from the terror that drives religion by dread. This is the hinge of the whole order: not a sleeper trying harder, but a guilty soul receiving, by faith alone, what it cannot earn. For pastors the question is sharp — do we preach a gospel that actually frees people from fear, or one that keeps them anxious and striving?",
+   "discussion": [
+    {
+     "q": "Wesley says faith saves us now from the guilt, the power, and the fear of sin — present tense. Which of those three do your people most need to hear is already available, and which do you find hardest to preach with conviction?",
+     "theme": "faith"
+    },
+    {
+     "q": "This is Wesley fresh from Aldersgate. Have you a moment where justification stopped being a doctrine and became personal? What did it change in your preaching?",
+     "theme": "assurance"
+    },
+    {
+     "q": "He is adamant salvation is received by faith, not earned. Where does your congregation's functional religion still run on earning — and where does yours?",
+     "theme": "faith"
+    },
+    {
+     "q": "If a parishioner's faith is real but joyless and fearful, how do you pastor them toward the freedom Wesley describes without making 'feel free' one more thing they're failing at?"
+    }
+   ],
+   "covenant": [
+    "How is it with your soul — do you live as one already pardoned and accepted, or as one still earning it?",
+    "What fear is driving you right now, and will you let the cohort name the gospel over it?",
+    "Where do you need to receive grace this week rather than achieve it?"
+   ],
+   "practice": "Pick the one fear most shaping your ministry this season — of failure, of a person, of decline. Each day this week, preach Ephesians 2:8 to yourself against it: saved by grace, through faith, now.",
+   "convenerNotes": [
+    "This sermon is dated 11 June 1738, weeks after Wesley's Aldersgate experience (24 May). It is the manifesto of the Revival — justification by faith alone, received now. The personal heat behind the doctrine is the point; don't let it read as dry ordo.",
+    "Wesley guards both sides: faith alone justifies, yet this faith is never the 'dead faith' of mere assent (cf. the devils who 'believe and tremble'). If the cohort drifts toward cheap grace, that guardrail is in the text."
+   ],
+   "_resolved": {
+    "title": "Salvation by Faith",
+    "scripture": "Ephesians 2:8",
+    "credit": "John Wesley · Standard Sermon 1 (1738) · Jackson edition, public domain",
+    "paragraphs": [
+     "1. And, First, whatsoever else it imply, it is a present salvation. It is something attainable, yea, actually attained, on earth, by those who are partakers of this faith. For thus saith the Apostle to the believers at Ephesus, and in them to the believers of all ages, not, Ye shall be (though that also is true), but, \"Ye are saved through faith.\"",
+     "2. Ye are saved (to comprise all in one word) from sin. This is the salvation which is through faith. This is that great salvation foretold by the angel, before God brought his First-begotten into the world: \"Thou shalt call his name Jesus; for he shall save his people from their sins.\" And neither here, nor in other parts of holy writ, is there any limitation or restriction. All his people, or, as it is elsewhere expressed, \"all that believe in him,\" he will save from all their sins; from original and actual, past and present sin, \"of the flesh and of the spirit.\" Through faith that is in him, they are saved both from the guilt and from the power of it.",
+     "3. First. From the guilt of all past sin: for, whereas all the world is guilty before God, insomuch that should he \"be extreme to mark what is done amiss, there is none that could abide it;\" and whereas, \"by the law is\" only \"the knowledge of sin,\" but no deliverance from it, so that, \"by\" fulfilling \"the deeds of the law, no flesh can be justified in his sight\": now, \"the righteousness of God, which is by faith of Jesus Christ, is manifested unto all that believe.\" Now, \"they are justified freely by his grace, through the redemption that is in Jesus Christ.\" \"Him God hath set forth to be a propitiation through faith in his blood, to declare his righteousness for (or by) the remission of the sins that are past.\" Now hath Christ taken away \"the curse of the law, being made a curse for us.\" he hath \"blotted out the handwriting that was against us, taking it out of the way, nailing it to his cross.\" \"There is therefore no condemnation now to them which\" believe \"in Christ Jesus.\"",
+     "4. And being saved from guilt, they are saved from fear. Not indeed from a filial fear of offending; but from all servile fear; from that fear which hath torment; from fear of punishment; from fear of the wrath of God, whom they now no longer regard as a severe Master, but as an indulgent Father. \"They have not received again the spirit of bondage, but the Spirit of adoption, whereby they cry, Abba, Father: the Spirit itself also bearing witness with their spirits, that they are the children of God.\" They are also saved from the fear, though not from the possibility, of falling away from the grace of God, and coming short of the great and precious promises. Thus have they \"peace with God through our Lord Jesus Christ. They rejoice in hope of the glory of God. And the love of God is shed abroad in their hearts, through the Holy Ghost, which is given unto them.\" And hereby they are persuaded (though perhaps not at all times, nor with the same fullness of persuasion), that \"neither death, nor life, nor things present, nor things to come, nor height, nor depth, nor any other creature, shall be able to separate them from the love of God, which is in Christ Jesus our Lord.\"",
+     "5. Again: through this faith they are saved from the power of sin, as well as from the guilt of it. So the Apostle declares, \"Ye know that he was manifested to take away our sins; and in him is no sin. Whosoever abideth in him sinneth not\" (1 John 3:5ff.). Again, \"Little children, let no man deceive you. he that committeth sin is of the devil. Whosoever believeth is born of God. And whosoever is born of God doth not commit sin; for his seed remaineth in him: and he cannot sin, because he is born of God.\" Once more: \"We know that whosoever is born of God sinneth not; but he that is begotten of God keepeth himself, and that wicked one toucheth him not\" (1 John 5:18).",
+     "6. he that is, by faith, born of God sinneth not (1.) by any habitual sin; for all habitual sin is sin reigning: But sin cannot reign in any that believeth. Nor (2.) by any wilful sin: for his will, while he abideth in the faith, is utterly set against all sin, and abhorreth it as deadly poison. Nor (3.) By any sinful desire; for he continually desireth the holy and perfect will of God. and any tendency to an unholy desire, he by the grace of God, stifleth in the birth. Nor (4.) Doth he sin by infirmities, whether in act, word, or thought; for his infirmities have no concurrence of his will; and without this they are not properly sins. Thus, \"he that is born of God doth not commit sin\": and though he cannot say he hath not sinned, yet now \"he sinneth not.\""
+    ],
+    "wordCount": 862,
+    "lineStart": 37,
+    "lineEnd": 47
+   },
+   "_themeLabels": {
+    "faith": "Justifying Faith",
+    "assurance": "Witness of the Spirit"
+   }
+  },
+  {
+   "n": 3,
+   "title": "Ye Must Be Born Again",
+   "themeFocus": [
+    "newbirth",
+    "perfection"
+   ],
+   "reading": {
+    "source": "wesley-loci",
+    "slug": "the-new-birth",
+    "lineStart": 17,
+    "lineEnd": 25,
+    "label": "The New Birth — what it is (Part II)"
+   },
+   "frame": "Justification is what God does for us; the new birth is what God works in us — and Wesley will not let the two be confused or separated. Preaching on 'Ye must be born again' (John 3:7, 1760), he defines regeneration as 'that great change which God works in the soul when He brings it into life,' the moment the love of God is shed abroad and the whole bent of the heart is turned. Where justification changes our standing, the new birth changes our nature. For a cohort the provocation is pastoral: we are good at counting professions of faith, but do we expect, look for, and nurture the actual change of heart Wesley calls being born of God?",
+   "discussion": [
+    {
+     "q": "Wesley sharply distinguishes justification (a change in our relation to God) from the new birth (a change in our actual nature). Why does collapsing the two — assuming the pardoned are automatically transformed — do pastoral damage?",
+     "theme": "newbirth"
+    },
+    {
+     "q": "He describes the new birth as a real, perceptible change — the love of God shed abroad in the heart. Are you wary of 'perceptible change' language? Where is the line between healthy expectation and manufactured experience?",
+     "theme": "newbirth"
+    },
+    {
+     "q": "The new birth opens onto sanctification, toward perfect love. How do you keep a congregation from treating conversion as the finish line rather than the birth?",
+     "theme": "perfection"
+    },
+    {
+     "q": "Where have you seen a genuine new birth in someone you pastor — a changed nature, not just changed behavior? What did it teach you to look for?"
+    }
+   ],
+   "covenant": [
+    "How is it with your soul — is the love of God being shed abroad in you now, or have you settled for pardon without renewal?",
+    "Where is God trying to change your actual nature, not just your conduct?",
+    "What is one mark of new life the cohort can encourage in you this week?"
+   ],
+   "practice": "Identify one place where you are managing behavior — your own or your congregation's — without expecting a changed heart. This week, pray and labor for the new birth there, not just better conduct.",
+   "convenerNotes": [
+    "Wesley's two anchors in this sermon: the new birth is necessary (because of original sin and the holiness without which none shall see the Lord) and it is instantaneous as to its beginning, though it opens onto a lifelong sanctification. Keep both in view — necessity and growth.",
+    "On baptism: Wesley affirms infant baptism yet insists the baptized must still be born of the Spirit ('you may have been born of water and not of the Spirit'). This is a live tension for many cohorts and a fruitful one to let surface."
+   ],
+   "_resolved": {
+    "title": "The New Birth",
+    "scripture": "John 3:7",
+    "credit": "John Wesley · Standard Sermon 45 (1760) · Jackson edition, public domain",
+    "paragraphs": [
+     "II. 1. But how must a man be born again What is the nature of the new birth This is the Second question. And a question it is of the highest moment that can be conceived. We ought not, therefore, in so weighty a concern, to be content with a slight inquiry; but to examine it with all possible care, and to ponder it in our hearts, till we fully understand this important point, and clearly see how we are to be born again.",
+     "2. Not that we are to expect any minute, philosophical account of the manner how this is done. Our Lord sufficiently guards us against any such expectation, by the words immediately following the text; wherein he reminds Nicodemus of as indisputable a fact as any in the whole compass of nature, which, notwithstanding, the wisest man under the sun is not able fully to explain. \"The wind bloweth where it listeth,\" -- not by thy power or wisdom; \"and thou hearest the sound thereof;\" -- thou art absolutely assured, beyond all doubt, that it doth blow; \"but thou canst not tell whence it cometh, nor whither it goeth;\" -- the precise manner how it begins and ends, rises and falls, no man can tell. \"So is every one that is born of the Spirit:\" -- Thou mayest be as absolutely assured of the fact, as of the blowing of the wind; but the precise manner how it is done, how the Holy Spirit works this in the soul, neither thou nor the wisest of the children of men is able to explain.",
+     "3. However, it suffices for every rational and Christian purpose, that, without descending into curious, critical inquiries, we can give a plain scriptural account of the nature of the new birth. This will satisfy every reasonable man, who desires only the salvation of his soul. The expression, \"being born again,\" was not first used by our Lord in his conversation with Nicodemus: It was well known before that time, and was in common use among the Jews when our Saviour appeared among them. When an adult Heathen was convinced that the Jewish religion was of God, and desired to join therein, it was the custom to baptize him first, before he was admitted to circumcision. And when he was baptized, he was said to be born again; by which they meant, that he who was before a child of the devil was now adopted into the family of God, and accounted one of his children. This expression, therefore, which Nicodemus, being \"a Teacher in Israel,\" ought to have understood well, our Lord uses in conversing with him; only in a stronger sense than he was accustomed to. And this might be the reason of his asking, \"How can these things be\" They cannot be literally: -- A man cannot \"enter a second time into his mother's womb, and be born:\" -- But they may spiritually: A man may be born from above, born of God, born of the Spirit, in a manner which bears a very near analogy to the natural birth.",
+     "4. Before a child is born into the world he has eyes, but sees not; he has ears, but does not hear. He has a very imperfect use of any other sense. He has no knowledge of any of the things of the world, or any natural understanding. To that manner of existence which he then has, we do not even give the name of life. It is then only when a man is born, that we say he begins to live. For as soon as he is born, be begins to see the light, and the various objects with which he is encompassed. His ears are then opened, and he hears the sounds which successively strike upon them. At the same time, all the other organs of sense begin to be exercised upon their proper objects. He likewise breathes, and lives in a manner wholly different from what he did before. How exactly doth the parallel hold in all these instances! While a man is in a mere natural state, before he is born of God, he has, in a spiritual sense, eyes and sees not; a thick impenetrable veil lies upon them; he has ears, but hears not; he is utterly deaf to what he is most of all concerned to hear. His other spiritual senses are all locked up: He is in the same condition as if he had them not. Hence he has no knowledge of God; no intercourse with him; he is not at all acquainted with him. He has no true knowledge of the things of God, either of spiritual or eternal things; therefore, though he is a living man, he is a dead Christian. But as soon as he is born of God, there is a total change in all these particulars. The \"eyes of his understanding are opened;\" (such is the language of the great Apostle;) and, He who of old \"commanded light to shine out of darkness shining on his heart, he sees the light of the glory of God,\" his glorious love, \"in the face of Jesus Christ.\" His ears being opened, he is now capable of hearing the inward voice of God, saying, \"Be of good cheer; thy sins are forgiven thee;\" \"go and sin no more.\" This is the purport of what God speaks to his heart; although perhaps not in these very words. He is now ready to hear whatsoever \"He that teacheth man knowledge\" is pleased, from time to time, to reveal to him. He \"feels in his heart,\" to use the language of our Church, \"the mighty working of the Spirit of God;\" not in a gross, carnal sense as the men of the world stupidly and wilfully misunderstand the expression; though they have been told again and again, we mean thereby neither more nor less than this: He feels, is inwardly sensible of, the graces which the Spirit of god works in his heart. He feels, he is conscious of, a \"peace which passeth all understanding.\" He many times feels such a joy in God as is \"unspeakable, and full of glory.\" He feels \"the love of God shed abroad in his heart by the Holy Ghost which is given unto him;\" and all his spiritual senses are then exercised to discern spiritual good and evil. By the use of these, he is daily increasing in the knowledge of God, of Jesus Christ whom he hath sent and to all the things pertaining to his inward kingdom. And now he may be properly said to live: God having quickened him by his Spirit, he is alive to God through Jesus Christ. He lives a life which the world knoweth not of, a \"life which is hid with Christ in God.\" God is continually breathing, as it were, upon the soul; and his soul is breathing unto God. Grace is descending into his heart; and prayer and praise ascending to heaven: And by this intercourse between God and man, this fellowship with the Father and the Son, as by a kind of spiritual respiration, the life of God in the soul is sustained; and the child of God grows up, till he comes to the \"full measure of the stature of Christ.\"",
+     "5. From hence it manifestly appears, what is the nature of the new birth. It is that great change which God works in the soul when he brings it into life; when he raises it from the death of sin to the life of righteousness. It is the change wrought in the whole soul by the almighty Spirit of God when it is \"created anew in Christ Jesus;\" when it is \"renewed after the image of God, in righteousness and true holiness;\" when the love of the world is changed into the love of God; pride into humility; passion into meekness; hatred, envy, malice, into a sincere, tender, disinterested love for all mankind. In a word, it is that change whereby the earthly, sensual, devilish mind is turned into the \"mind which was in Christ Jesus.\" This is the nature of the new birth: \"So is every one that is born of the Spirit.\""
+    ],
+    "wordCount": 1379,
+    "lineStart": 17,
+    "lineEnd": 25
+   },
+   "_themeLabels": {
+    "newbirth": "The New Birth",
+    "perfection": "Christian Perfection"
+   }
+  },
+  {
+   "n": 4,
+   "title": "The Witness of the Spirit",
+   "themeFocus": [
+    "assurance",
+    "faith"
+   ],
+   "reading": {
+    "source": "wesley-loci",
+    "slug": "witness-of-the-spirit-i",
+    "lineStart": 5,
+    "lineEnd": 19,
+    "label": "The Witness of the Spirit, I — what the witness is (intro–I.3)"
+   },
+   "frame": "The arc closes where Methodism was most distinctive and most often misunderstood. Preaching on 'The Spirit itself beareth witness with our spirit, that we are the children of God' (Romans 8:16, 1746), Wesley defends a direct, inward assurance — 'an inward impression on the soul, whereby the Spirit of God directly witnesses to my spirit that I am a child of God.' He walks a knife's edge: against the formalists who deny any such witness, and against the enthusiasts who mistake every feeling for the Spirit. He insists the Spirit's witness and the fruit of the Spirit must go together. For pastors this is the most delicate ground we tread — what we tell people they may and may not expect to know of their own standing with God.",
+   "discussion": [
+    {
+     "q": "Wesley defends a direct inward witness of the Spirit — not merely inferring our adoption from our works, but the Spirit testifying to our spirit. Are you comfortable preaching assurance this strongly? Where do you hedge, and why?",
+     "theme": "assurance"
+    },
+    {
+     "q": "He guards against two errors at once — the formalist who denies the witness and the enthusiast who trusts every impulse. Which error is your congregation (or your tradition) more prone to, and how do you correct it without overcorrecting?",
+     "theme": "assurance"
+    },
+    {
+     "q": "Wesley pairs the Spirit's witness with the fruit of the Spirit — assurance and a changed life must travel together. How do you pastor someone who claims the witness but shows no fruit, or shows fruit but feels no assurance?",
+     "theme": "faith"
+    },
+    {
+     "q": "Having walked the whole order now — sleep, justification, new birth, assurance — where does your own preaching live most, and which movement do you neglect? What will you do about it?"
+    }
+   ],
+   "covenant": [
+    "How is it with your soul as we close — can the Spirit witness with your spirit tonight that you are God's child?",
+    "Across these four weeks, which movement exposed the most in you — your sleep, your fear, your need of renewal, your uncertainty?",
+    "What one practice or change will you carry out of this study, and how shall this cohort keep watch over one another once we stop meeting?"
+   ],
+   "practice": "Name where you land: do you more often deny the witness (functional formalism) or over-trust feeling (functional enthusiasm)? This week, ask God for the witness AND tend the fruit — and tell the cohort which you most need.",
+   "convenerNotes": [
+    "Wesley wrote two sermons on the Witness of the Spirit; this is the first (1746). Twenty years later 'The Witness of the Spirit, II' (1767) tempers the early confidence against enthusiastic abuse — worth flagging if the cohort wants to go deeper.",
+    "The key balance Wesley defends: the direct witness (the Spirit to our spirit) and the indirect witness (our own spirit, reasoning from the fruit) are distinct but inseparable. Assurance without fruit is presumption; fruit without assurance is the long, anxious religion Wesley spent his life trying to free people from."
+   ],
+   "_resolved": {
+    "title": "The Witness of the Spirit, I",
+    "scripture": "Romans 8:16",
+    "credit": "John Wesley · Standard Sermon 10 (1746) · Jackson edition, public domain",
+    "paragraphs": [
+     "1. How many vain men, not understanding what they spake, neither whereof they affirmed, have wrested this Scripture to the great loss if not the destruction of their souls! How many have mistaken the voice of their own imagination for this witness of the Spirit of God, and thence idly presumed they were the children of God while they were doing the works of the devil! These are truly and properly enthusiasts; and, indeed, in the worst sense of the word. But with what difficulty are they convinced thereof, especially if they have drank deep into that spirit of error! All endeavours to bring them to the knowledge of themselves they will then account fighting against God; and that vehemence and impetuosity of spirit which they call \"contending earnestly for the faith,\" sets them so far above all the usual methods of conviction that we may well say, \"With men it is impossible.\"",
+     "2. Who can then be surprised if many reasonable men, seeing the dreadful effects of this delusion, and labouring to keep at the utmost distance from it, should sometimes lean toward another extreme -- if they are not forward to believe any who speak of having this witness concerning which others have so grievously erred -- if they are almost ready to set all down for enthusiasts, who use the expressions which have been so terribly abused -- yea, if they should question whether the witness or testimony here spoken of, be the privilege of ordinary Christians, and not, rather, one of those extraordinary gifts which they suppose belonged only to the apostolic age",
+     "3 . But is there any necessity laid upon us of running either into one extreme or the other May we not steer a middle course -- keep a sufficient distance from that spirit of error and enthusiasm, without denying the gift of God, and giving up the great privilege of his children Surely we may. In order thereto, let us consider, in the presence and fear of God,",
+     "First. What is this witness or testimony of our spirit; what is the testimony of God's Spirit; and, how does he \"bear witness with our spirit that we are the children of God\"",
+     "Secondly. How is this joint testimony of God's Spirit and our own, clearly and solidly distinguished from the presumption of a natural mind, and from the delusion of the devil",
+     "I. 1. Let us first consider, what is the witness or testimony of our spirit. But here I cannot but desire all those who are for swallowing up the testimony of the Spirit of God, in the rational testimony of our own spirit, to observe, that in this text the Apostle is so far from speaking of the testimony of our own spirit only, that it may be questioned whether he speaks of it at all, -- whether he does not speak only of the testimony of God's Spirit. It does not appear but the original text may fairly be understood thus. The Apostle had just said, in the preceding verse, \"Ye have received the Spirit of adoption, whereby we cry, Abba, Father;\" and immediately subjoins, Auto to pneuma (some copies read to auto pneuma) summarturei tv pneumati hmvn, oti esmen tekna qeou, which may be translated, \"The same Spirit beareth witness to our spirit that we are the children of God\" (the preposition sun only denoting that he witnesses this at the same time that he enables us to cry Abba, Father.) But I contend not; seeing so many other texts, with the experience of all real Christians, sufficiently evince, that there is in every believer, both the testimony of God's Spirit, and the testimony of his own, that he is a child of God.",
+     "2. With regard to the latter, the foundation thereof is laid in those numerous texts of Scripture which describe the marks of the children of God; and that so plain, that he which runneth may read them. These are also collected together, and placed in the strongest light, by many both ancient and modern writers. If any need farther light, he may receive it by attending on the ministry of God's Word; by meditating thereon before God in secret; and by conversing with those who have the knowledge of his ways. And by the reason or understanding that God has given him, which religion was designed not to extinguish, but to perfect; -- according to that of the Apostle, \"Brethren, be not children in understanding; in malice\" or wickedness \"be ye children; but in understanding be ye men;\" (1 Cor. 14:20;) -- every man applying those scriptural marks to himself, may know whether he is a child of God. Thus, if he know, First, \"as many as are led by the Spirit of God,\" into all holy tempers and actions, \"they are the sons of God;\" (for which he has the infallible assurance of holy writ;) Secondly, I am thus \"led by the Spirit of God;\" he will easily conclude, -- \"Therefore I am a son of God.\"",
+     "3. Agreeable to this are all those plain declarations of St. John, in his First Epistle: \"Hereby we know that we do know him, if we keep his commandments.\" (1 John 2:3.) \"Whoso keepeth his word, in him verily is the love of God perfected; Hereby know we that we are in him;\" that we are indeed the children of God. (1 John 2:5.) \"If ye know that he is righteous, ye know that everyone that doeth righteousness is born of him.\" (1 John 2:29.) \"We know that we have passed from death unto life, because we love the brethren.\" (1 John 3:14) \"Hereby we know that we are of the truth, and shall assure our hearts before him;\" namely, because we \"love one another not in word, neither in tongue, but in deed and in truth.\" \"Hereby know we that we dwell in him, because he hath given us of his\" loving \"Spirit.\" (1 John 4:13.) And, \"hereby we know that he abideth in us, by the\" obedient \"spirit which he hath given us.\" (1 John 3:24.)"
+    ],
+    "wordCount": 1021,
+    "lineStart": 5,
+    "lineEnd": 19
+   },
+   "_themeLabels": {
+    "assurance": "Witness of the Spirit",
+    "faith": "Justifying Faith"
+   }
+  }
+ ]
+};
+</script>
+<script>
+(function () {
+  var C = window.CURRICULUM;
+  if (!C) { document.getElementById('main').innerHTML = '<p>No curriculum data loaded.</p>'; return; }
+  var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>]/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; }); };
+
+  document.title = C.title + ' · Wroot Press';
+  document.getElementById('h-title').textContent = C.title;
+  document.getElementById('h-sub').textContent = C.subtitle || '';
+  document.getElementById('h-by').textContent = (C.author || '') + (C.tradition ? ' · ' + C.tradition : '');
+  if (C.convenerNote) {
+    document.getElementById('convene').innerHTML =
+      '<div class="h">How to convene</div>' + esc(C.convenerNote);
+  }
+
+  var views = [{ overview: true, title: 'Overview' }].concat(C.sessions);
+  var nav = document.getElementById('nav');
+  views.forEach(function (v, i) {
+    var b = document.createElement('button');
+    b.className = 'navbtn';
+    b.innerHTML = v.overview
+      ? '<span class="nnum">Begin here</span><span class="nlbl">Overview</span>'
+      : '<span class="nnum">Session ' + v.n + '</span><span class="nlbl">' + esc(v.title) + '</span>';
+    b.onclick = function () { show(i); };
+    nav.appendChild(b);
+  });
+
+  function show(i) {
+    var btns = nav.querySelectorAll('.navbtn');
+    btns.forEach(function (b, k) { b.classList.toggle('active', k === i); });
+    var v = views[i], m = document.getElementById('main'), html;
+    if (v.overview) {
+      html = '<div class="kick">A four-session study</div>'
+        + '<h2 class="sx">' + esc(C.title) + '</h2>'
+        + '<hr class="topsplit"><div class="overview"><p>' + esc(C.overview) + '</p></div>'
+        + '<div class="sech">The four sessions</div><ol class="disc">'
+        + C.sessions.map(function (s) {
+            return '<li><strong>' + esc(s.title) + '</strong><span class="prompt">'
+              + esc(s.reading.label || '') + '</span></li>'; }).join('')
+        + '</ol>';
+    } else {
+      var s = v, res = s._resolved || {}, labels = s._themeLabels || {};
+      var chips = (s.themeFocus || []).map(function (k) {
+        return '<span class="chip">' + esc(labels[k] || k) + '</span>'; }).join('');
+      var reading = (res.paragraphs || []).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('');
+      var disc = (s.discussion || []).map(function (q) {
+        return '<li>' + esc(q.q) + (q.prompt ? '<span class="prompt">↳ ' + esc(q.prompt) + '</span>' : '') + '</li>'; }).join('');
+      var cov = (s.covenant || []).map(function (c) { return '<li>' + esc(c) + '</li>'; }).join('');
+      var cnotes = (s.convenerNotes || []).map(function (n) { return '<div class="n">' + esc(n) + '</div>'; }).join('');
+      html = '<div class="kick">Session ' + s.n + '</div>'
+        + '<h2 class="sx">' + esc(s.title) + '</h2>'
+        + '<div class="chips">' + chips + '</div><hr class="topsplit">'
+        + '<div class="sech">Reading — ' + esc(s.reading.label || '') + '</div>'
+        + '<div class="reading"><div class="meta">'
+          + (res.scripture ? 'Text: ' + esc(res.scripture) + ' · ' : '')
+          + (res.wordCount || 0) + ' words · ' + esc(res.credit || '') + '</div>' + reading + '</div>'
+        + '<div class="sech">Framing</div><div class="frame">' + esc(s.frame) + '</div>'
+        + '<div class="sech">For discussion</div><ol class="disc">' + disc + '</ol>'
+        + '<div class="sech">Watching over one another in love</div><div class="covenant"><ul>' + cov + '</ul></div>'
+        + '<div class="sech">Practice for the week</div><div class="practice">' + esc(s.practice) + '</div>'
+        + (cnotes ? '<div class="sech">Notes for the convener</div><div class="cnotes">' + cnotes + '</div>' : '');
+    }
+    html += '<div class="pager">'
+      + '<button ' + (i === 0 ? 'disabled' : '') + ' onclick="__nav(' + (i - 1) + ')">‹ Previous</button>'
+      + '<button ' + (i === views.length - 1 ? 'disabled' : '') + ' onclick="__nav(' + (i + 1) + ')">Next ›</button></div>';
+    m.innerHTML = html;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+  window.__nav = show;
+  show(0);
+})();
+</script>
+</body>
+</html>
