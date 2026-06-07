@@ -18,9 +18,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Wroot Press",
+  metadataBase: new URL("https://wrootpress.com"),
+  title: {
+    default: "Wroot Press",
+    template: "%s",
+  },
   description:
-    "Independent imprint publishing primary-source editions and works in Wesleyan and patristic studies.",
+    "Independent imprint publishing primary-source editions and works in Wesleyan, French Catholic, and patristic studies.",
   icons: { icon: "/favicon.svg" },
 };
 

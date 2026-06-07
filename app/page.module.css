@@ -42,6 +42,9 @@
   margin: 0;
 }
 
+.collectionHead {
+  margin-bottom: var(--s-6);
+}
 .eyebrow {
   font-family: var(--sans);
   font-size: 12px;
@@ -49,9 +52,32 @@
   text-transform: uppercase;
   letter-spacing: 1.4px;
   color: var(--fen);
-  margin: 0 0 var(--s-5);
+  margin: 0 0 var(--s-3);
   padding-bottom: var(--s-2);
   border-bottom: 1px solid var(--border);
+}
+.collectionBlurb {
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--fen-mist);
+  max-width: var(--measure-prose);
+  margin: 0;
+}
+
+.seriesBlock {
+  margin-bottom: var(--s-7);
+}
+.seriesBlock:last-child {
+  margin-bottom: 0;
+}
+.seriesName {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 19px;
+  color: var(--fen);
+  margin: 0 0 var(--s-4);
 }
 
 .titleList {
@@ -129,7 +155,8 @@
   line-height: 1.55;
   color: var(--fen-mist);
   max-width: var(--measure-prose);
-  margin: 0 0 var(--s-3);
+  margin: 0 auto var(--s-3);
+  text-align: center;
 }
 
 .colophonMeta {
@@ -137,4 +164,5 @@
   font-size: 13px;
   color: var(--fg-quiet);
   margin: 0;
+  text-align: center;
 }

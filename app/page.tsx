@@ -1,88 +1,7 @@
 import Image from "next/image";
+import { collectionsInOrder, seriesGroups } from "@/content/catalog";
+import WorkCard from "@/components/WorkCard";
 import styles from "./page.module.css";
-
-type Title = {
-  name: string;
-  description: string;
-  href: string;
-  meta?: string;
-};
-
-const printTitles: Title[] = [
-  {
-    name: "Wesley Dissertations",
-    description:
-      "Five-volume scholarly edition of John Wesley's dissertations, with apparatus and editorial notes.",
-    href: "https://www.amazon.com/dp/B0GSP6VTPP",
-    meta: "Five volumes · 2026",
-  },
-  {
-    name: "History of Methodism",
-    description:
-      "Four-volume publication drawn from the History of Methodism podcast — narrative history with primary-source citations.",
-    href: "#",
-    meta: "Four volumes · in preparation",
-  },
-  {
-    name: "Acta Devotional",
-    description:
-      "A daily devotional spun off from the Acta Sanctorum project — one entry per day, one saint per page, drawn from the Bollandist Latin and lightly modernised for reading.",
-    href: "#",
-    meta: "365 entries · in preparation",
-  },
-];
-
-const digitalEditions: Title[] = [
-  {
-    name: "Acta Sanctorum",
-    description:
-      "The flagship project — a digital reading edition of the Bollandist Acta Sanctorum, the seventeenth-century Latin compendium of saints' lives. Latin text, English translation, and editorial apparatus, organised by feast day.",
-    href: "https://actasanctorum.org",
-    meta: "Hosted at actasanctorum.org · January–April complete",
-  },
-  {
-    name: "Ambrose of Milan",
-    description:
-      "Critical reading edition of Ambrose's Expositio in Psalmum CXVIII, following Petschenig (CSEL 62), with Latin text, apparatus, and English translation.",
-    href: "https://ambrose.wrootpress.com",
-    meta: "Live",
-  },
-  {
-    name: "Bonaventure, Sentences",
-    description:
-      "Quaracchi-text reading edition of Bonaventure's Commentary on the Sentences, Latin alongside English translation, with scholion and apparatus criticus.",
-    href: "https://bonaventure.wrootpress.com",
-    meta: "In progress · Book I, dd. 1–30",
-  },
-  {
-    name: "Topographia Sacra",
-    description:
-      "Geographical editions of the place-heavy books of scripture, pairing the World English Bible with maps and a gazetteer of every named place. Identifications follow the Anchor Bible Dictionary.",
-    href: "https://topographia.wrootpress.com",
-    meta: "Live · Joshua, Judges, Ruth, Jonah, Acts",
-  },
-  {
-    name: "Loci",
-    description:
-      "Thematic reading editions of biblical books, each organised around an interpretive frame — Leviticus as an architecture of approach, Lamentations as an alphabet of grief.",
-    href: "https://loci.wrootpress.com",
-    meta: "Live · Leviticus, Lamentations",
-  },
-  {
-    name: "Doctrine",
-    description:
-      "Annotated reading editions of the historic creeds and confessions, with line-level commentary. Seeded with the Apostles' Creed; Nicene, Athanasian, and the Wesleyan standards in preparation.",
-    href: "https://doctrine.wrootpress.com",
-    meta: "Live",
-  },
-  {
-    name: "Difficult Passages",
-    description:
-      "A pastoral reference mapping the scholarly landscape on hard places in scripture — each entry presents the difficulty, then three to five historical responses with strengths, weaknesses, and further reading.",
-    href: "https://difficult.wrootpress.com",
-    meta: "Live · 38 entries",
-  },
-];
 
 export default function HomePage() {
   return (
@@ -105,46 +24,48 @@ export default function HomePage() {
           <h1 className={styles.h1}>An independent imprint.</h1>
           <p className={styles.lede}>
             Wroot Press publishes primary-source editions and original works in
-            Wesleyan and patristic studies — print titles distributed through
-            Amazon KDP and digital reading editions hosted here.
+            Wesleyan, French Catholic, and patristic studies — print titles
+            distributed through Amazon and digital reading editions hosted here.
           </p>
         </section>
 
-        <section className={styles.shell}>
-          <h2 className={styles.eyebrow}>Print titles</h2>
-          <ul className={styles.titleList}>
-            {printTitles.map((t) => (
-              <li key={t.name} className={styles.titleCard}>
-                <h3 className={styles.titleName}>{t.name}</h3>
-                {t.meta && <p className={styles.titleMeta}>{t.meta}</p>}
-                <p className={styles.titleDescription}>{t.description}</p>
-                {t.href !== "#" && (
-                  <a className={styles.titleLink} href={t.href} rel="noopener">
-                    View on Amazon →
-                  </a>
+        {collectionsInOrder().map((collection) => {
+          const groups = seriesGroups(collection.id);
+          if (groups.length === 0) return null;
+          return (
+            <section key={collection.id} className={styles.shell}>
+              <div className={styles.collectionHead}>
+                <h2 className={styles.eyebrow}>{collection.name}</h2>
+                {collection.blurb && (
+                  <p className={styles.collectionBlurb}>
+                    {collection.blurb}
+                    {collection.blurbHref && (
+                      <>
+                        {" "}
+                        <a href={collection.blurbHref} rel="noopener">
+                          {collection.blurbLinkText ?? "Learn more"} →
+                        </a>
+                      </>
+                    )}
+                  </p>
                 )}
-              </li>
-            ))}
-          </ul>
-        </section>
+              </div>
 
-        <section className={styles.shell}>
-          <h2 className={styles.eyebrow}>Digital editions</h2>
-          <ul className={styles.titleList}>
-            {digitalEditions.map((t) => (
-              <li key={t.name} className={styles.titleCard}>
-                <h3 className={styles.titleName}>{t.name}</h3>
-                {t.meta && <p className={styles.titleMeta}>{t.meta}</p>}
-                <p className={styles.titleDescription}>{t.description}</p>
-                {t.href !== "#" && (
-                  <a className={styles.titleLink} href={t.href} rel="noopener">
-                    Read the edition →
-                  </a>
-                )}
-              </li>
-            ))}
-          </ul>
-        </section>
+              {groups.map((group) => (
+                <div key={group.series ?? "_"} className={styles.seriesBlock}>
+                  {group.series && (
+                    <h3 className={styles.seriesName}>{group.series}</h3>
+                  )}
+                  <ul className={styles.titleList}>
+                    {group.works.map((w) => (
+                      <WorkCard key={w.slug} work={w} />
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </section>
+          );
+        })}
       </main>
 
       <footer className={styles.footer}>

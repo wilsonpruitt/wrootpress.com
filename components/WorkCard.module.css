@@ -1,0 +1,112 @@
+.card {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--reed);
+  border-radius: var(--r-card);
+  padding: var(--s-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-4);
+}
+
+.coverWrap {
+  display: flex;
+  justify-content: center;
+}
+.cover {
+  height: 220px;
+  width: auto;
+  border-radius: 3px;
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 1px 2px rgba(26, 33, 40, 0.12), 0 6px 18px rgba(26, 33, 40, 0.1);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+  flex: 1;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-2);
+  margin-bottom: var(--s-1);
+}
+
+.langBadge {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  color: var(--fen-mist);
+  background: var(--bg-sunken);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--r-chip);
+  padding: 1px 6px;
+}
+
+.forthcoming {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--reed-deep);
+  background: rgba(201, 168, 106, 0.14);
+  border: 1px solid rgba(201, 168, 106, 0.4);
+  border-radius: var(--r-chip);
+  padding: 1px 7px;
+}
+
+.name {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.2;
+  color: var(--fen);
+  margin: 0;
+}
+
+.subtitle {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.35;
+  color: var(--fen-mist);
+  margin: 0;
+}
+
+.formats {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--fg-quiet);
+  margin: var(--s-1) 0 0;
+}
+
+.summary {
+  font-family: var(--sans);
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--fg-muted);
+  margin: var(--s-2) 0 var(--s-3);
+}
+
+.link {
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--fen);
+  margin-top: auto;
+  align-self: flex-start;
+  border-bottom: 1px solid var(--border-strong);
+}
+.link:hover {
+  border-bottom-color: var(--reed-deep);
+  color: var(--ink);
+}

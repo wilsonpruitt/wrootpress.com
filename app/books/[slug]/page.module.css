@@ -1,0 +1,226 @@
+.shell {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 var(--s-5);
+}
+
+.header {
+  border-bottom: 1px solid var(--border);
+  padding: var(--s-5) 0;
+  background: var(--bg);
+}
+.wordmark {
+  display: block;
+  height: auto;
+  width: 180px;
+}
+
+.main {
+  padding: var(--s-7) 0 var(--s-8);
+}
+
+.breadcrumb {
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--fg-quiet);
+  margin: 0 0 var(--s-6);
+}
+
+.top {
+  display: flex;
+  gap: var(--s-7);
+  align-items: flex-start;
+}
+@media (max-width: 640px) {
+  .top {
+    flex-direction: column;
+    gap: var(--s-5);
+  }
+}
+
+.coverWrap {
+  flex-shrink: 0;
+}
+.cover {
+  width: 260px;
+  height: auto;
+  border-radius: 4px;
+  border: 1px solid var(--border-strong);
+  box-shadow: 0 2px 4px rgba(26, 33, 40, 0.14), 0 12px 32px rgba(26, 33, 40, 0.14);
+}
+@media (max-width: 640px) {
+  .cover {
+    width: 200px;
+  }
+}
+
+.head {
+  flex: 1;
+  min-width: 0;
+}
+
+.forthcoming {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--reed-deep);
+  background: rgba(201, 168, 106, 0.14);
+  border: 1px solid rgba(201, 168, 106, 0.4);
+  border-radius: var(--r-chip);
+  padding: 2px 8px;
+  margin-bottom: var(--s-3);
+}
+
+.title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(32px, 4.5vw, 44px);
+  line-height: 1.1;
+  color: var(--fen);
+  margin: 0 0 var(--s-2);
+}
+.subtitle {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 19px;
+  line-height: 1.35;
+  color: var(--fen-mist);
+  margin: 0 0 var(--s-3);
+}
+.author {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--fg-quiet);
+  margin: 0 0 var(--s-5);
+}
+
+.editions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-4);
+  border-top: 1px solid var(--border);
+  padding-top: var(--s-5);
+}
+.langGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+}
+.langName {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--fen);
+  margin: 0;
+}
+.editionList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+}
+.edition {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--s-3);
+}
+.buyLink {
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--fen);
+  border-bottom: 1px solid var(--border-strong);
+}
+.buyLink:hover {
+  border-bottom-color: var(--reed-deep);
+  color: var(--ink);
+}
+.buySoon {
+  font-family: var(--sans);
+  font-size: 15px;
+  color: var(--fg-quiet);
+}
+.editionNote {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--fg-quiet);
+}
+
+.description {
+  max-width: var(--measure-prose);
+  margin: var(--s-8) 0 0;
+}
+.description p {
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--fg);
+  margin: 0 0 var(--s-4);
+}
+
+.related {
+  margin-top: var(--s-8);
+  padding-top: var(--s-6);
+  border-top: 1px solid var(--border);
+}
+.relatedHead {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: var(--fen);
+  margin: 0 0 var(--s-4);
+}
+.relatedList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+}
+.relatedList li {
+  font-family: var(--serif);
+  font-size: 17px;
+  color: var(--fen);
+}
+.relatedSub {
+  color: var(--fen-mist);
+  font-style: italic;
+  font-size: 15px;
+}
+
+.back {
+  margin-top: var(--s-8);
+}
+.back a {
+  font-family: var(--sans);
+  font-size: 14px;
+  color: var(--fg-muted);
+}
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding: var(--s-7) 0;
+  background: var(--bg);
+}
+.colophonMeta {
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--fg-quiet);
+  margin: 0;
+  text-align: center;
+}
