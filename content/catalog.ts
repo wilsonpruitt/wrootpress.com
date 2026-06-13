@@ -154,6 +154,7 @@ export const works: Work[] = [
       {
         lang: "en",
         format: "kindle",
+        price: "$5",
         asin: "B0H3FY75ZG",
         url: "https://www.amazon.com/dp/B0H3FY75ZG",
       },
@@ -164,6 +165,14 @@ export const works: Work[] = [
         asin: "B0H3H7GM5V",
         isbn: "9798199300742",
         url: "https://www.amazon.com/dp/B0H3H7GM5V",
+        note: "Wesley en Georgia: Memorias de su misión, 1735–1738",
+      },
+      {
+        lang: "es",
+        format: "kindle",
+        price: "$5",
+        asin: "B0H3G4KK74",
+        url: "https://www.amazon.com/dp/B0H3G4KK74",
         note: "Wesley en Georgia: Memorias de su misión, 1735–1738",
       },
     ],
@@ -179,7 +188,7 @@ export const works: Work[] = [
     status: "live",
     cover: "/covers/aldersgate-en.jpg",
     summary:
-      "Book 2 of the memoir series. The year between Georgia and the revival — Böhler, the warmed heart, Herrnhut, the closing church doors. Kindle now; paperback and translations forthcoming.",
+      "Book 2 of the memoir series. The year between Georgia and the revival — Böhler, the warmed heart, Herrnhut, the closing church doors. Paperback and Kindle, English and Spanish.",
     description: [
       "In February 1738 John Wesley came home from Georgia a failed missionary, asking who would convert him. Fourteen months later he was the most talked-of preacher in England. This is the story of the year between — the months in which a defeated clergyman met a young Moravian named Peter Böhler, argued his way to the brink of a faith he could not yet feel, and, on the evening of the twenty-fourth of May, in a society room in Aldersgate Street, felt his heart strangely warmed.",
       "Aldersgate is the hinge of Methodist memory and the most mythologized moment in Wesley's life. This volume returns it to its setting, following the whole arc the one famous sentence stands for: the long argument with Böhler over whether faith can be given in a moment; the warmed heart and the doubt that came the very next morning; the pilgrimage to the Moravian town of Herrnhut; and the doors of the London churches closing against him one by one.",
@@ -189,9 +198,33 @@ export const works: Work[] = [
     editions: [
       {
         lang: "en",
+        format: "paperback",
+        price: "$10",
+        asin: "B0H4D2RS6D",
+        url: "https://www.amazon.com/dp/B0H4D2RS6D",
+      },
+      {
+        lang: "en",
         format: "kindle",
+        price: "$5",
         asin: "B0H4C2ZDD4",
         url: "https://www.amazon.com/dp/B0H4C2ZDD4",
+      },
+      {
+        lang: "es",
+        format: "paperback",
+        price: "$10",
+        asin: "B0H4KW4VDP",
+        url: "https://www.amazon.com/dp/B0H4KW4VDP",
+        note: "Aldersgate: Memoria del año en que su corazón fue reconfortado",
+      },
+      {
+        lang: "es",
+        format: "kindle",
+        price: "$5",
+        asin: "B0H4S2WXSG",
+        url: "https://www.amazon.com/dp/B0H4S2WXSG",
+        note: "Aldersgate: Memoria del año en que su corazón fue reconfortado",
       },
     ],
   },
@@ -209,7 +242,7 @@ export const works: Work[] = [
     status: "live",
     cover: "/covers/st-matthew-en.jpg",
     summary:
-      "Volume I. The full King James text of Matthew with Wesley's note printed beneath each verse, and a critical apparatus tracing his sources. Mark, Luke, and John forthcoming.",
+      "Volume I. The full King James text of Matthew with Wesley's note printed beneath each verse, and a critical apparatus tracing his sources. Mark, Luke, and John also available.",
     description: [
       "For two and a half centuries John Wesley's Explanatory Notes upon the New Testament have been read with a Bible held in the other hand. This edition gathers the two into one: the King James text of St. Matthew is printed in full, and beneath each verse stands Wesley's note upon it, so that Scripture and commentary are read together.",
       "What sets this edition apart is its apparatus. Wesley built his Notes by quietly abridging the best learning of his age — Bengel above all, with Doddridge, Lightfoot, Poole, and others. Here each chapter closes with a critical apparatus that traces, note by note, where his comments came from — and, as tellingly, where they are his own.",
@@ -220,10 +253,105 @@ export const works: Work[] = [
       {
         lang: "en",
         format: "paperback",
-        price: "$15",
+        price: "$20",
         asin: "B0H3ZRBC7Z",
         isbn: "9798199892667",
         url: "https://www.amazon.com/dp/B0H3ZRBC7Z",
+      },
+      {
+        lang: "en",
+        format: "kindle",
+        price: "$9.99",
+        asin: "B0H5674R43",
+        url: "https://www.amazon.com/dp/B0H5674R43",
+      },
+    ],
+  },
+
+  {
+    slug: "st-mark",
+    title: "St. Mark",
+    subtitle:
+      "The King James Text with the Explanatory Notes of John Wesley",
+    author: "John Wesley",
+    collectionId: "wesley",
+    series: "The Explanatory Notes upon the New Testament",
+    seriesOrder: 2,
+    status: "live",
+    cover: "/covers/st-mark-en.jpg",
+    summary:
+      "Volume II. The shortest Gospel, and the one where Wesley leans on almost nothing but Bengel — the apparatus shows him 'barely translating the Gnomon,' just as he said he would.",
+    description: [
+      "The full King James text of Mark with Wesley's note printed beneath each verse, and a critical apparatus tracing his sources at the close of every chapter.",
+      "If Matthew shows Wesley leaning on Bengel, Mark shows him leaning on almost nothing else: the terse observation, the eye for a single word, the psychological aside are again and again Bengel rendered into a clause of English. The apparatus marks where the warmth of Doddridge and the rabbinic depth of Lightfoot enter, and where the note is Wesley's own.",
+      "With the series and volume introductions, the full apparatus, and indexes of sources, of Scripture cited, and of subjects.",
+    ],
+    detail: true,
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$15",
+        asin: "B0H4KJ4K89",
+        url: "https://www.amazon.com/dp/B0H4KJ4K89",
+      },
+    ],
+  },
+  {
+    slug: "st-luke",
+    title: "St. Luke",
+    subtitle:
+      "The King James Text with the Explanatory Notes of John Wesley",
+    author: "John Wesley",
+    collectionId: "wesley",
+    series: "The Explanatory Notes upon the New Testament",
+    seriesOrder: 3,
+    status: "live",
+    cover: "/covers/st-luke-en.jpg",
+    summary:
+      "Volume III. The Gospel of the great parables — where the pastoral warmth long felt to be Wesley's own proves, in the apparatus, to be Doddridge's.",
+    description: [
+      "The full King James text of Luke with Wesley's note printed beneath each verse, and a critical apparatus tracing his sources at the close of every chapter.",
+      "Luke is the Gospel of the great parables, and its surprise is that the warm, pastoral notes on the Good Samaritan and the Prodigal — long felt to be Wesley's own pulpit voice — prove to be Doddridge's 'Improvement' sections near-verbatim. The apparatus also marks his anti-Rome polemic and his Arminian re-slants, including the inward reading of 'the kingdom of God is within you.'",
+      "With the series and volume introductions, the full apparatus, and indexes of sources, of Scripture cited, and of subjects.",
+    ],
+    detail: true,
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$20",
+        asin: "B0H4KXT7GJ",
+        url: "https://www.amazon.com/dp/B0H4KXT7GJ",
+      },
+    ],
+  },
+  {
+    slug: "st-john",
+    title: "St. John",
+    subtitle:
+      "The King James Text with the Explanatory Notes of John Wesley",
+    author: "John Wesley",
+    collectionId: "wesley",
+    series: "The Explanatory Notes upon the New Testament",
+    seriesOrder: 4,
+    status: "live",
+    cover: "/covers/st-john-en.jpg",
+    summary:
+      "Volume IV. The most Bengel-dependent of the four — where the famous Logos gloss and the great anti-heresy readings are Bengel's, and Wesley's own hand shows in his grace-and-freedom re-slants.",
+    description: [
+      "The full King James text of John with Wesley's note printed beneath each verse, and a critical apparatus tracing his sources at the close of every chapter.",
+      "John is overwhelmingly Bengel: the famous gloss on the Logos and the readings that 'confute Sabellius' and 'confute Arius' are his, not Wesley's. Where Wesley's own hand shows is on the Calvinist battleground texts — the grace that can still be fallen from, the branch genuinely 'in the vine' — and in his sharpening of Christ's Godhead against the Socinians. Doddridge supplies the warmth.",
+      "With the series and volume introductions, the full apparatus, and indexes of sources, of Scripture cited, and of subjects.",
+    ],
+    detail: true,
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$20",
+        asin: "B0H4KTPXSX",
+        url: "https://www.amazon.com/dp/B0H4KTPXSX",
       },
     ],
   },
@@ -257,12 +385,27 @@ export const works: Work[] = [
         url: "https://www.amazon.com/dp/B0H3ZGWBNW",
       },
       {
+        lang: "en",
+        format: "kindle",
+        price: "$5",
+        asin: "B0GX3353H9",
+        url: "https://www.amazon.com/dp/B0GX3353H9",
+      },
+      {
         lang: "es",
         format: "paperback",
         price: "$15",
         asin: "B0H3HFNJSK",
         isbn: "9798199330671",
         url: "https://www.amazon.com/dp/B0H3HFNJSK",
+        note: "Wesley para hoy: Sermones sobre el camino de la salvación",
+      },
+      {
+        lang: "es",
+        format: "kindle",
+        price: "$5",
+        asin: "B0H3SQKLZ1",
+        url: "https://www.amazon.com/dp/B0H3SQKLZ1",
         note: "Wesley para hoy: Sermones sobre el camino de la salvación",
       },
     ],
