@@ -613,6 +613,18 @@ export const works: Work[] = [
     editions: [{ lang: "en", format: "reader", url: "https://loci.wrootpress.com" }],
   },
   {
+    slug: "catena",
+    title: "Catena",
+    author: "Wroot Press",
+    collectionId: "digital",
+    status: "live",
+    summary:
+      "Intertextual reading editions tracing how scripture quotes scripture — every quotation, allusion, and echo a book reaches back to, marked, sourced, and weighed. Seeded with Hebrews.",
+    detail: false,
+    external: "https://catena.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://catena.wrootpress.com" }],
+  },
+  {
     slug: "doctrine",
     title: "Doctrine",
     author: "Wroot Press",
