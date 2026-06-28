@@ -113,9 +113,16 @@ export const collections: Collection[] = [
       "Critical and devotional editions of the Fathers and the saints — Latin alongside English, edited for reading.",
   },
   {
+    id: "tradition",
+    name: "Doctrine & Tradition",
+    order: 5,
+    blurb:
+      "Critical and reading editions of the Church's historic doctrinal texts — the defenders of the Nicene faith and the formularies of the Reformation — edited and translated for readers today.",
+  },
+  {
     id: "digital",
     name: "Digital Reading Editions",
-    order: 5,
+    order: 6,
     blurb:
       "Free, hosted reading editions of primary sources — Latin and original-language text with English translation and apparatus.",
   },
@@ -543,6 +550,90 @@ export const works: Work[] = [
       "A daily devotional spun off from the Acta Sanctorum project — one entry per day, one saint per page, drawn from the Bollandist Latin and lightly modernised.",
     detail: false,
     editions: [],
+  },
+
+  // ---------- Doctrine & Tradition ----------
+  // The Books of Homilies
+  {
+    slug: "homilies-first-book",
+    title: "The Books of Homilies",
+    subtitle: "Volume I: The First Book (1547)",
+    author: "Thomas Cranmer",
+    collectionId: "tradition",
+    series: "The Books of Homilies",
+    seriesOrder: 1,
+    status: "live",
+    cover: "/covers/homilies-first-book-en.jpg",
+    summary:
+      "Volume I. The first clean modern critical edition of the First Book (1547) — the twelve homilies of Cranmer's circle, modernized with a full apparatus and a general introduction.",
+    description: [
+      "For nearly three centuries the Books of Homilies were the appointed preaching of the Church of England — read aloud, Sunday by Sunday, in the many parishes that had no preacher of their own. The First Book, set forth in 1547 by Thomas Cranmer and his circle, was a missionary book: a quarter of it given to the single disputed doctrine of justification by faith, addressed to a people not yet persuaded. It is the Reformation's argument, preached.",
+      "This is the first clean modern critical edition of the First Book. The twelve homilies are given in modernized spelling and punctuation, with their Tudor syntax kept intact — obsolete words retained and glossed rather than silently replaced. Beneath the text a full scholarly apparatus traces every source the homilists drew on — scriptural, patristic, and Continental — each one verified against a primary text rather than a secondary report. The long silence of earlier editions about the homilies' debts to Luther and the Reformed divines of the Continent is, here, broken.",
+      "The volume opens with a general introduction to the homilies and their place in the English Reformation, gives a headnote to each sermon, and closes with a complete index.",
+    ],
+    detail: true,
+    editions: [
+      { lang: "en", format: "paperback", price: "$15", isbn: "9798184731988" },
+      { lang: "en", format: "kindle", price: "$8" },
+    ],
+  },
+  {
+    slug: "homilies-second-book",
+    title: "The Books of Homilies",
+    subtitle: "Volume II: The Second Book (1563 & 1571)",
+    author: "John Jewel",
+    collectionId: "tradition",
+    series: "The Books of Homilies",
+    seriesOrder: 2,
+    status: "live",
+    cover: "/covers/homilies-second-book-en.jpg",
+    summary:
+      "Volume II. The first clean modern critical edition of the Second Book — Jewel's twenty-one homilies, ending with Against Wilful Rebellion, modernized with a full apparatus.",
+    description: [
+      "For nearly three centuries the Books of Homilies were the appointed preaching of the Church of England — read aloud, Sunday by Sunday, in the many parishes that had no preacher of their own. The Second Book, set forth under Elizabeth I in 1563 and largely the work of John Jewel, is the work of a Church that had, for the moment, won: its twenty-one homilies teach a settled people how to worship, pray, give, marry, and obey. If the First Book is the Reformation's argument, the Second is its settlement.",
+      "This is the first clean modern critical edition of the Second Book. The homilies are given in modernized spelling and punctuation, with their Tudor syntax kept intact — obsolete words retained and glossed rather than silently replaced. Beneath the text a full scholarly apparatus traces every source — scriptural, patristic, and Continental, including the homilies' substantial debts to Bullinger and Gualther of Zurich — each one verified against a primary text. The volume ends, as the Elizabethan Church ended it, with the homily added in 1571 against disobedience and wilful rebellion, printed in full and set in its occasion.",
+      "The volume opens with an introduction to the Second Book and the original 1563 Admonition to ministers, gives a headnote to each sermon, and closes with a complete index.",
+    ],
+    detail: true,
+    editions: [
+      { lang: "en", format: "paperback", price: "$25", isbn: "9798184754567" },
+      { lang: "en", format: "kindle", price: "$8" },
+    ],
+  },
+
+  // John Henry Newman
+  {
+    slug: "newman-dissertations",
+    title: "Critical and Theological Dissertations",
+    subtitle: "On St. Athanasius and the Nicene Creed",
+    author: "John Henry Newman",
+    collectionId: "tradition",
+    status: "live",
+    cover: "/covers/newman-dissertations-en.jpg",
+    summary:
+      "The first English translation of John Henry Newman's Latin dissertations of 1847 — close studies in the language and theology of St. Athanasius and the Nicene faith.",
+    description: [
+      "In 1847, recently received into the Roman Catholic Church and studying in Rome, John Henry Newman set down in Latin a series of short critical and theological dissertations on St. Athanasius — the great fourth-century defender of the Nicene faith, whose works Newman had spent years translating and annotating.",
+      "Newman's Dissertatiunculae have never before been translated into English. This edition presents them for the first time, in a translation that follows his Latin closely while rendering his argument readable for students of the Nicene controversy today.",
+    ],
+    detail: true,
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$10",
+        asin: "B0H6RP165N",
+        isbn: "9798184507972",
+        url: "https://www.amazon.com/dp/B0H6RP165N",
+      },
+      {
+        lang: "en",
+        format: "kindle",
+        price: "$5",
+        asin: "B0H6RH24YC",
+        url: "https://www.amazon.com/dp/B0H6RH24YC",
+      },
+    ],
   },
 
   // ---------- Digital Reading Editions ----------
