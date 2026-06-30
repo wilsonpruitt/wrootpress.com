@@ -716,6 +716,30 @@ export const works: Work[] = [
     editions: [{ lang: "en", format: "reader", url: "https://catena.wrootpress.com" }],
   },
   {
+    slug: "annales-sacra",
+    title: "Annales Sacra",
+    author: "Wroot Press",
+    collectionId: "digital",
+    status: "live",
+    summary:
+      "Chronological reading editions that lay scripture's years flat — two kingdoms on one timeline, the reigns and synchronisms Kings tells in a braid, the life of Paul, a gospel harmony.",
+    detail: false,
+    external: "https://annales.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://annales.wrootpress.com" }],
+  },
+  {
+    slug: "voces",
+    title: "Voces",
+    author: "Wroot Press",
+    collectionId: "digital",
+    status: "live",
+    summary:
+      "Reading editions that color every line by who is speaking — the debate buried in Job, the divine voice inside the Psalms, the unlabeled dialogue of the Song of Songs, the choirs of Revelation. Seeded with five books.",
+    detail: false,
+    external: "https://voces.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://voces.wrootpress.com" }],
+  },
+  {
     slug: "doctrine",
     title: "Doctrine",
     author: "Wroot Press",
