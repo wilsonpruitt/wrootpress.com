@@ -638,6 +638,20 @@ export const works: Work[] = [
 
   // ---------- Digital Reading Editions ----------
   {
+    slug: "kjv-wesley",
+    title: "The Bible with Wesley's Notes",
+    author: "John Wesley",
+    collectionId: "digital",
+    status: "live",
+    summary:
+      "The King James Bible alongside John Wesley's Explanatory Notes Upon the Old and New Testament, side by side — free to read, cover to cover.",
+    detail: false,
+    external: "https://notes.historyofmethodism.com",
+    editions: [
+      { lang: "en", format: "reader", url: "https://notes.historyofmethodism.com" },
+    ],
+  },
+  {
     slug: "acta-sanctorum",
     title: "Acta Sanctorum",
     author: "Wroot Press",
