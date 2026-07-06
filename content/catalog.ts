@@ -120,9 +120,16 @@ export const collections: Collection[] = [
       "Critical and reading editions of the Church's historic doctrinal texts — the defenders of the Nicene faith and the formularies of the Reformation — edited and translated for readers today.",
   },
   {
+    id: "spirituality",
+    name: "Spirituality & Devotion",
+    order: 6,
+    blurb:
+      "Devotional and formational writing for the practising Christian life — where the habits of the body and the soul meet.",
+  },
+  {
     id: "digital",
     name: "Digital Reading Editions",
-    order: 6,
+    order: 7,
     blurb:
       "Free, hosted reading editions of primary sources — Latin and original-language text with English translation and apparatus.",
   },
@@ -302,6 +309,13 @@ export const works: Work[] = [
         asin: "B0H4KJ4K89",
         url: "https://www.amazon.com/dp/B0H4KJ4K89",
       },
+      {
+        lang: "en",
+        format: "kindle",
+        price: "$9.99",
+        asin: "B0H519DRFN",
+        url: "https://www.amazon.com/dp/B0H519DRFN",
+      },
     ],
   },
   {
@@ -359,6 +373,64 @@ export const works: Work[] = [
         price: "$20",
         asin: "B0H4KTPXSX",
         url: "https://www.amazon.com/dp/B0H4KTPXSX",
+      },
+    ],
+  },
+  {
+    slug: "acts-of-the-apostles",
+    title: "The Acts of the Apostles",
+    subtitle:
+      "The King James Text with the Explanatory Notes of John Wesley",
+    author: "John Wesley",
+    collectionId: "wesley",
+    series: "The Explanatory Notes upon the New Testament",
+    seriesOrder: 5,
+    status: "live",
+    cover: "/covers/acts-en.png",
+    summary:
+      "Volume V. The narrative bridge from the Gospels to the Epistles — the birth of the Church and the journeys of Paul, with Wesley's note beneath each verse and the apparatus tracing his sources.",
+    description: [
+      "The full King James text of the Acts of the Apostles with Wesley's note printed beneath each verse, and a critical apparatus tracing his sources at the close of every chapter.",
+      "Acts is the hinge of the New Testament — the account of how the gospel of the four evangelists became the Church of the epistles. Wesley reads it as a practical man, alert to the movements of Paul, the shape of the early preaching, and the working of the Spirit in a community still discovering what it was.",
+      "With the series and volume introductions, the full apparatus, and indexes of sources, of Scripture cited, and of subjects.",
+    ],
+    detail: true,
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$20",
+        asin: "B0H6KM3K2W",
+        url: "https://www.amazon.com/dp/B0H6KM3K2W",
+      },
+    ],
+  },
+  {
+    slug: "romans-first-corinthians",
+    title: "Romans & First Corinthians",
+    subtitle:
+      "The King James Text with the Explanatory Notes of John Wesley",
+    author: "John Wesley",
+    collectionId: "wesley",
+    series: "The Explanatory Notes upon the New Testament",
+    seriesOrder: 6,
+    status: "live",
+    cover: "/covers/romans-first-corinthians-en.png",
+    summary:
+      "Volume VI. The first of the Epistles — the doctrinal core where Wesley's own hand shows most plainly, with his note beneath each verse and the apparatus tracing his sources.",
+    description: [
+      "The full King James text of Romans and First Corinthians with Wesley's note printed beneath each verse, and a critical apparatus tracing his sources at the close of every chapter.",
+      "With the Epistles the Notes change temper. Romans is the doctrinal battleground of the whole New Testament, and it is here that Wesley's own hand shows most plainly — his readings of grace and election, and the freedom he was determined to defend against the Calvinist construction of the text. First Corinthians turns from doctrine to a divided congregation and the order of its common life. The apparatus marks where he still leans on Bengel and Doddridge, and where the note is his own argument.",
+      "With the series and volume introductions, the full apparatus, and indexes of sources, of Scripture cited, and of subjects.",
+    ],
+    detail: true,
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$15",
+        asin: "B0H7DLB987",
+        url: "https://www.amazon.com/dp/B0H7DLB987",
       },
     ],
   },
@@ -496,6 +568,67 @@ export const works: Work[] = [
 
   // ---------- French Catholic Letters ----------
   {
+    slug: "peguy-veronique",
+    title: "Véronique",
+    subtitle: "Dialogue of History and the Carnal Soul",
+    author: "Charles Péguy",
+    collectionId: "french",
+    status: "live",
+    summary:
+      "Péguy's dialogue between History and the carnal soul — on memory, the past, and the flesh that carries it. The first English translation, by Wilson Pruitt. Paperback and Kindle.",
+    description: [
+      "Véronique is one of Charles Péguy's great dialogues of history — a meditation, carried between History and the carnal soul, on what it means for the past to be remembered, and on the difference between the history that is written down and the living memory carried in flesh and spirit.",
+      "This is the first English translation, by Wilson Pruitt, with the translator's preface and Marcel Péguy's 1972 notice. Péguy's prose advances by return and insistence — the repetitions that are not padding but the argument itself — and the translation is made to keep that rhythm in English.",
+    ],
+    detail: true,
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$15",
+        asin: "B0FNWG9C53",
+        url: "https://www.amazon.com/dp/B0FNWG9C53",
+      },
+      {
+        lang: "en",
+        format: "kindle",
+        price: "$5",
+        asin: "B0FNRY4SKB",
+        url: "https://www.amazon.com/dp/B0FNRY4SKB",
+      },
+    ],
+  },
+  {
+    slug: "peguy-victor-marie",
+    title: "Victor-Marie, comte Hugo",
+    author: "Charles Péguy",
+    collectionId: "french",
+    status: "live",
+    summary:
+      "Péguy's long 1910 essay on Hugo, Corneille, and the inheritance of greatness in French letters. The first English translation, by Wilson Pruitt. Paperback and Kindle.",
+    description: [
+      "Victor-Marie, comte Hugo (1910) is one of Péguy's central prose works — a sprawling, personal essay that begins with Victor Hugo and opens onto Corneille and Racine, and onto Péguy's own quarrel with his generation over what greatness in French letters is and how it is handed down.",
+      "This is the first English translation, by Wilson Pruitt, with Péguy's preface. Like all his mature prose it moves by return and insistence rather than by outline; the translation keeps that movement.",
+    ],
+    detail: true,
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$12",
+        asin: "B0DK1WJQYB",
+        url: "https://www.amazon.com/dp/B0DK1WJQYB",
+      },
+      {
+        lang: "en",
+        format: "kindle",
+        price: "$5",
+        asin: "B0FNSX65CP",
+        url: "https://www.amazon.com/dp/B0FNSX65CP",
+      },
+    ],
+  },
+  {
     slug: "peguy-cahiers",
     title: "Charles Péguy — Les Cahiers",
     subtitle: "The Cahiers de la Quinzaine shelf",
@@ -541,15 +674,27 @@ export const works: Work[] = [
   },
   {
     slug: "acta-devotional",
-    title: "Acta Devotional",
-    subtitle: "A Daily Devotional of the Saints",
-    author: "Wroot Press",
+    title: "Acta Sanctorum",
+    subtitle: "A Daily Devotional — Three Hundred Fifteen Lives of the Saints",
+    author: "Wilson Pruitt",
     collectionId: "patristic",
-    status: "forthcoming",
+    status: "live",
     summary:
-      "A daily devotional spun off from the Acta Sanctorum project — one entry per day, one saint per page, drawn from the Bollandist Latin and lightly modernised.",
-    detail: false,
-    editions: [],
+      "A year of the saints, a day at a time — 315 lives from January 1 to November 10, drawn from the Bollandist Acta Sanctorum and rendered into plain English. A companion in print to the digital reading edition.",
+    description: [
+      "A year of the saints, a day at a time. Drawn from the great Bollandist Acta Sanctorum, this devotional gathers three hundred and fifteen lives — from January 1 to November 10 — and gives each saint a single page: who they were, what they suffered, and what the Church remembered.",
+      "The lives are rendered from the Bollandist Latin into plain, readable English, lightly modernised and shaped for daily reading rather than reference. It is a companion in print to the full digital reading edition at actasanctorum.org.",
+    ],
+    detail: true,
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$15",
+        asin: "B0H6KPXHVY",
+        url: "https://www.amazon.com/dp/B0H6KPXHVY",
+      },
+    ],
   },
 
   // ---------- Doctrine & Tradition ----------
@@ -573,8 +718,21 @@ export const works: Work[] = [
     ],
     detail: true,
     editions: [
-      { lang: "en", format: "paperback", price: "$15", isbn: "9798184731988" },
-      { lang: "en", format: "kindle", price: "$8" },
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$15",
+        asin: "B0H7N78Y6Z",
+        isbn: "9798184731988",
+        url: "https://www.amazon.com/dp/B0H7N78Y6Z",
+      },
+      {
+        lang: "en",
+        format: "kindle",
+        price: "$8",
+        asin: "B0H35XNQSF",
+        url: "https://www.amazon.com/dp/B0H35XNQSF",
+      },
     ],
   },
   {
@@ -596,8 +754,21 @@ export const works: Work[] = [
     ],
     detail: true,
     editions: [
-      { lang: "en", format: "paperback", price: "$25", isbn: "9798184754567" },
-      { lang: "en", format: "kindle", price: "$8" },
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$25",
+        asin: "B0H7N99D5W",
+        isbn: "9798184754567",
+        url: "https://www.amazon.com/dp/B0H7N99D5W",
+      },
+      {
+        lang: "en",
+        format: "kindle",
+        price: "$8",
+        asin: "B0H7N7ZY5S",
+        url: "https://www.amazon.com/dp/B0H7N7ZY5S",
+      },
     ],
   },
 
@@ -632,6 +803,41 @@ export const works: Work[] = [
         price: "$5",
         asin: "B0H6RH24YC",
         url: "https://www.amazon.com/dp/B0H6RH24YC",
+      },
+    ],
+  },
+
+  // ---------- Spirituality & Devotion ----------
+  {
+    slug: "bjj-and-jesus",
+    title: "BJJ and Jesus",
+    subtitle: "Sixty Days on the Mat",
+    author: "Wilson Pruitt",
+    collectionId: "spirituality",
+    status: "live",
+    cover: "/covers/bjj-and-jesus-en.png",
+    summary:
+      "Sixty devotionals that read the positions of Brazilian jiu-jitsu against the life of faith — a pastor and practitioner on control, surrender, and the bodily discipline of following Christ.",
+    description: [
+      "How does Jesus relate to Brazilian jiu-jitsu? On the surface, nothing: Jesus was no fighter, and no one comes to the mats because of their faith. But the Christian is called to take everything captive to Christ — to plunder the Egyptians, as Origen said — and jiu-jitsu, it turns out, has a great deal to teach about the body, the will, and the surrender at the heart of the gospel.",
+      "Written by a pastor who trains, these sixty short devotionals pair a structural position of jiu-jitsu with an aspect of the life of faith. Christianity is a bodily religion — our bodies are saved, not just our souls — and both the mat and the following of Christ reward the same thing: not conceptual knowledge but practice, the daily drilling and live rolling where control is learned and, in the end, relinquished.",
+      "Sixty days, one position at a time. The first title on Wroot Press's Spirituality & Devotion shelf.",
+    ],
+    detail: true,
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$10",
+        asin: "B0H4P955BF",
+        url: "https://www.amazon.com/dp/B0H4P955BF",
+      },
+      {
+        lang: "en",
+        format: "kindle",
+        price: "$7",
+        asin: "B0H4NSS3WD",
+        url: "https://www.amazon.com/dp/B0H4NSS3WD",
       },
     ],
   },
@@ -676,6 +882,19 @@ export const works: Work[] = [
     editions: [
       { lang: "la", format: "reader", url: "https://bonaventure.wrootpress.com" },
     ],
+  },
+  {
+    slug: "migne",
+    title: "Migne",
+    subtitle: "The Patrologia in English",
+    author: "Wroot Press",
+    collectionId: "digital",
+    status: "live",
+    summary:
+      "Migne's Patrologia Latina and Graeca, rendered into English and made citable by volume and column — every work a page from day one, Latin and Greek alongside, translation lighting up the map one first-ever English rendering at a time.",
+    detail: false,
+    external: "https://migne.app",
+    editions: [{ lang: "en", format: "reader", url: "https://migne.app" }],
   },
   {
     slug: "notabene",
