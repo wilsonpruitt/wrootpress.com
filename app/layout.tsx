@@ -35,6 +35,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${garamond.variable} ${inter.variable}`}>
+      <head>
+        <script defer src="/_vercel/insights/script.js"></script>
+      </head>
       <body>{children}</body>
     </html>
   );
