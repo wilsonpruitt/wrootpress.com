@@ -509,14 +509,14 @@ export const works: Work[] = [
   {
     slug: "wesley-dissertations",
     title: "Wesley Dissertations",
-    subtitle: "A Five-Volume Scholarly Edition",
+    subtitle: "A Four-Volume Scholarly Edition",
     author: "John Wesley",
     collectionId: "wesley",
     series: "Wesley Dissertations",
     seriesOrder: 1,
     status: "live",
     summary:
-      "A five-volume scholarly edition of John Wesley's dissertations, with apparatus and editorial notes.",
+      "A four-volume scholarly edition of John Wesley's dissertations, with apparatus and editorial notes.",
     detail: false,
     external: "https://www.amazon.com/dp/B0GSP6VTPP",
     editions: [
