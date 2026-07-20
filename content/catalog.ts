@@ -528,6 +528,39 @@ export const works: Work[] = [
     ],
   },
 
+  // A Christian Library
+  {
+    slug: "christian-library",
+    title: "A Christian Library",
+    subtitle: "In Fifty Volumes",
+    author: "John Wesley",
+    collectionId: "wesley",
+    series: "A Christian Library",
+    status: "live",
+    cover: "/covers/christian-library-en.jpg",
+    summary:
+      "Wesley's own 1749–55 devotional anthology, restored to its original fifty-volume shape — the Apostolic Fathers, Arndt, Foxe, and on. Published one volume at a time; also a free digital reading edition.",
+    description: [
+      "Between 1749 and 1755, John Wesley compiled and published A Christian Library: fifty small volumes of extracts from the devotional and practical writings he judged most useful for the formation of Methodist preachers and societies. It was not a scholar's anthology — Wesley pruned, abridged, and occasionally rewrote his sources for a reader with little time and less money, meant to be carried on a circuit and read in pieces.",
+      "This edition restores that original shape. Later reprints compressed Wesley's fifty volumes into thirty or fewer; this one follows Wesley's own volume divisions instead, verified one at a time against the 1755 printing. The text is lightly modernized, each work carries an editor's headnote, and — where Wesley traced a connection himself — cross-references to his sermons, Notes, journal, and hymns are marked.",
+      "Volumes are published one at a time, in order, as each is finished. A free digital reading edition tracks the same progress at achristianlibrary.org.",
+    ],
+    detail: true,
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        url: "https://www.amazon.com/dp/B0H27276VZ",
+        note: "Series page — volumes published one at a time as each is finished",
+      },
+      {
+        lang: "en",
+        format: "reader",
+        url: "https://achristianlibrary.org",
+      },
+    ],
+  },
+
   // ---------- History of Methodism ----------
   {
     slug: "history-of-methodism-print",
@@ -669,6 +702,58 @@ export const works: Work[] = [
         lang: "en",
         format: "reader",
         url: "https://ambrose.wrootpress.com",
+      },
+    ],
+  },
+  {
+    slug: "agatha-of-catania",
+    title: "Saint Agatha of Catania",
+    subtitle:
+      "The Acts, the Greek Recensions, the Oration of Methodius, the Translation, and the Miracles",
+    author: "Wroot Press",
+    collectionId: "patristic",
+    series: "The Acta Library",
+    status: "live",
+    cover: "/covers/agatha-of-catania-en.jpg",
+    summary:
+      "Her name is spoken in the Canon of the Mass — six distinct testimonies to the martyr of Catania, drawn from the Bollandist Acta Sanctorum and gathered under her feast day. The first title in The Acta Library, in English and Spanish.",
+    description: [
+      "Her name is spoken in the Canon of the Mass, where it has stood for some fifteen centuries. She died at Catania in the persecution under Decius, about the year 251 — a girl who refused a consul and was broken for it.",
+      "This volume gathers what the Church preserved of her: the early Acts of her passion, an anonymous Greek recension, the polished retelling of Simeon Metaphrastes, the long oration of Methodius of Constantinople, the history of her body's return from Constantinople, two collections of her miracles, and the hymns sung on her feast. Each is a distinct work by a distinct hand, some separated by centuries.",
+      "Translated from the Bollandists' Acta Sanctorum under the fifth of February. The scholars' commentary on the sources is left to the reference edition at actasanctorum.org; what remains here is the testimony itself.",
+      "The first title in The Acta Library, Wroot Press's print companion to the Acta Sanctorum translation — the daily-devotional apparatus stripped away, the primary sources bound as a single reading.",
+    ],
+    detail: true,
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$10",
+        asin: "B0H9LVSLQJ",
+        url: "https://www.amazon.com/dp/B0H9LVSLQJ",
+      },
+      {
+        lang: "en",
+        format: "kindle",
+        price: "$5",
+        asin: "B0H9LWP8YD",
+        url: "https://www.amazon.com/dp/B0H9LWP8YD",
+      },
+      {
+        lang: "es",
+        format: "paperback",
+        price: "$10",
+        asin: "B0H9NTJTSD",
+        url: "https://www.amazon.com/dp/B0H9NTJTSD",
+        note: "Santa Águeda de Catania: Las Actas, los Himnos, la Oración y los Milagros de las Acta Sanctorum",
+      },
+      {
+        lang: "es",
+        format: "kindle",
+        price: "$5",
+        asin: "B0H9NQXL2C",
+        url: "https://www.amazon.com/dp/B0H9NQXL2C",
+        note: "Santa Águeda de Catania: Las Actas, los Himnos, la Oración y los Milagros de las Acta Sanctorum",
       },
     ],
   },
