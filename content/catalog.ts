@@ -764,6 +764,7 @@ export const works: Work[] = [
     author: "Wilson Pruitt",
     collectionId: "patristic",
     status: "live",
+    cover: "/covers/acta-devotional-en.jpg",
     summary:
       "A year of the saints, a day at a time — 315 lives from January 1 to November 10, drawn from the Bollandist Acta Sanctorum and rendered into plain English. A companion in print to the digital reading edition.",
     description: [
