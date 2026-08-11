@@ -1,0 +1,6096 @@
+{
+ "bands": [
+  {
+   "numeral": "Before",
+   "name": "The Country and the Road",
+   "entries": [
+    {
+     "date": "c.450-420 BCE",
+     "year": -450,
+     "approx": true,
+     "event": "Herodotus composes the Histories; \"Syria called Palestine,\" Cadytis (Gaza) on the Egypt road (1.105, 2.104-106, 3.5)",
+     "tier": "S",
+     "bigCh": "1",
+     "shortCh": [
+      1
+     ],
+     "band": "Before",
+     "chapterStart": {
+      "n": 1,
+      "title": "The Road, and the Country"
+     }
+    },
+    {
+     "date": "332 BCE",
+     "year": -332,
+     "approx": false,
+     "event": "Alexander takes Gaza after a two-month siege (Josephus, Ant. 11.8.4)",
+     "tier": "S",
+     "bigCh": "1",
+     "shortCh": [
+      1
+     ],
+     "band": "Before"
+    },
+    {
+     "date": "c.96 BCE",
+     "year": -96,
+     "approx": true,
+     "event": "Alexander Jannaeus destroys Gaza after a year's siege (Josephus, Ant. 13.13.3)",
+     "tier": "S",
+     "bigCh": "1",
+     "shortCh": [
+      1
+     ],
+     "band": "Before"
+    },
+    {
+     "date": "63 BCE",
+     "year": -63,
+     "approx": false,
+     "event": "Pompey detaches Gaza and the Greek coastal cities, attaches them to Syria (War 1.7.7)",
+     "tier": "S",
+     "bigCh": "1",
+     "shortCh": [
+      1
+     ],
+     "band": "Before"
+    },
+    {
+     "date": "57 BCE",
+     "year": -57,
+     "approx": false,
+     "event": "Gabinius rebuilds Gaza, Ashdod, Raphia, Anthedon and others (Ant. 14.5.3)",
+     "tier": "S",
+     "bigCh": "1",
+     "shortCh": [
+      1
+     ],
+     "band": "Before"
+    },
+    {
+     "date": "30 BCE",
+     "year": -30,
+     "approx": false,
+     "event": "Augustus gives Gaza, Anthedon, Joppa and Strato's Tower to Herod (War 1.20.3)",
+     "tier": "S",
+     "bigCh": "1",
+     "shortCh": [
+      1
+     ],
+     "band": "Before"
+    },
+    {
+     "date": "c.22-10 BCE",
+     "year": -22,
+     "approx": true,
+     "event": "Herod rebuilds Strato's Tower as Caesarea with an artificial harbour \"larger than the Piraeus\" (War 1.21.5-8)",
+     "tier": "S",
+     "bigCh": "6",
+     "shortCh": [
+      1
+     ],
+     "band": "Before"
+    },
+    {
+     "date": "4 BCE",
+     "year": -4,
+     "approx": false,
+     "event": "Herod dies; Gaza cut off from the kingdom and added to Syria (War 2.6.3)",
+     "tier": "S",
+     "bigCh": "1",
+     "shortCh": [
+      1
+     ],
+     "band": "Before"
+    },
+    {
+     "date": "6",
+     "year": 6,
+     "approx": false,
+     "event": "Judaea annexed as a Roman province under a prefect",
+     "tier": "S",
+     "bigCh": "1",
+     "shortCh": [
+      1
+     ],
+     "band": "Before"
+    }
+   ],
+   "chapters": [
+    1
+   ]
+  },
+  {
+   "numeral": "I",
+   "name": "The Mother Church",
+   "entries": [
+    {
+     "date": "c.33",
+     "year": 33,
+     "approx": true,
+     "event": "Pentecost; birth of the Jerusalem community",
+     "tier": "T",
+     "bigCh": "2",
+     "shortCh": [
+      1,
+      2
+     ],
+     "band": "I",
+     "chapterStart": {
+      "n": 2,
+      "title": "The Church of James"
+     }
+    },
+    {
+     "date": "c.34-36",
+     "year": 34,
+     "approx": true,
+     "event": "Philip and the Ethiopian on the Gaza road (Acts 8:26)",
+     "tier": "T",
+     "bigCh": "1",
+     "shortCh": [
+      2
+     ],
+     "band": "I"
+    },
+    {
+     "date": "c.36",
+     "year": 36,
+     "approx": true,
+     "event": "Stephen killed; the Greek-speaking believers scattered from Jerusalem (Acts 8:1) — undated by Luke",
+     "tier": "T",
+     "bigCh": "2",
+     "shortCh": [
+      2
+     ],
+     "band": "I"
+    },
+    {
+     "date": "41-44",
+     "year": 41,
+     "approx": false,
+     "event": "Agrippa I rules Judaea as king; dies 44 (Ant. 19.8.2)",
+     "tier": "S",
+     "bigCh": "2",
+     "shortCh": [
+      2
+     ],
+     "band": "I"
+    },
+    {
+     "date": "44",
+     "year": 44,
+     "approx": false,
+     "event": "James bar Zebedee executed under Agrippa I",
+     "tier": "S",
+     "bigCh": "2",
+     "shortCh": [
+      2
+     ],
+     "band": "I"
+    },
+    {
+     "date": "c.45-48",
+     "year": 45,
+     "approx": true,
+     "event": "Famine in Judaea under Fadus and Tiberius Alexander; Helena of Adiabene buys grain in Egypt (Ant. 20.5.2, 20.2.5); Antioch sends relief (Acts 11:27-30)",
+     "tier": "S",
+     "bigCh": "2",
+     "shortCh": [
+      2
+     ],
+     "band": "I"
+    },
+    {
+     "date": "c.49-50",
+     "year": 49,
+     "approx": true,
+     "event": "Council of Jerusalem",
+     "tier": "S",
+     "bigCh": "2",
+     "shortCh": [
+      2
+     ],
+     "band": "I"
+    },
+    {
+     "date": "c.57",
+     "year": 57,
+     "approx": true,
+     "event": "Paul's last visit to Jerusalem; James and the nazirite vow (Acts 21:18-26)",
+     "tier": "S",
+     "bigCh": "2",
+     "shortCh": [
+      2
+     ],
+     "band": "I"
+    },
+    {
+     "date": "62",
+     "year": 62,
+     "approx": false,
+     "event": "James brother of Jesus executed (Josephus, Ant. 20)",
+     "tier": "S",
+     "bigCh": "2",
+     "shortCh": [
+      2
+     ],
+     "band": "I"
+    },
+    {
+     "date": "66",
+     "year": 66,
+     "approx": false,
+     "event": "Eleazar son of Ananias halts the sacrifice for the emperor — Josephus's \"true beginning of our war\" (War 2.17.2); rebels seize Masada",
+     "tier": "S",
+     "bigCh": "3",
+     "shortCh": [
+      3
+     ],
+     "band": "I",
+     "chapterStart": {
+      "n": 3,
+      "title": "The First Revolt"
+     }
+    },
+    {
+     "date": "66",
+     "year": 66,
+     "approx": false,
+     "event": "Jewish parties demolish Gaza and Anthedon and sack the Greek cities incl. Pella (War 2.18.1)",
+     "tier": "S",
+     "bigCh": "3",
+     "shortCh": [
+      3
+     ],
+     "band": "I"
+    },
+    {
+     "date": "66-70",
+     "year": 66,
+     "approx": false,
+     "event": "Pella flight tradition (Eusebius HE 3.5.3 — scholarly doubts stated)",
+     "tier": "T",
+     "bigCh": "3",
+     "shortCh": [
+      3
+     ],
+     "band": "I"
+    },
+    {
+     "date": "66-74",
+     "year": 66,
+     "approx": false,
+     "event": "First Jewish Revolt",
+     "tier": "S",
+     "bigCh": "3",
+     "shortCh": [
+      3
+     ],
+     "band": "I"
+    },
+    {
+     "date": "Nov 66",
+     "year": 66,
+     "approx": false,
+     "event": "Cestius Gallus routed in the descent at Beth-horon (War 2.19.8-9)",
+     "tier": "S",
+     "bigCh": "3",
+     "shortCh": [
+      3
+     ],
+     "band": "I"
+    },
+    {
+     "date": "67",
+     "year": 67,
+     "approx": false,
+     "event": "Vespasian's Galilee campaign; Jotapata falls; Josephus surrenders",
+     "tier": "S",
+     "bigCh": "3",
+     "shortCh": [
+      3
+     ],
+     "band": "I"
+    },
+    {
+     "date": "68-69",
+     "year": 68,
+     "approx": false,
+     "event": "Nero dies (June 68); Vespasian proclaimed emperor (July 69)",
+     "tier": "S",
+     "bigCh": "3",
+     "shortCh": [
+      3
+     ],
+     "band": "I"
+    },
+    {
+     "date": "70",
+     "year": 70,
+     "approx": false,
+     "event": "Destruction of the Temple",
+     "tier": "S",
+     "bigCh": "3",
+     "shortCh": [
+      3
+     ],
+     "band": "I"
+    },
+    {
+     "date": "70",
+     "year": 70,
+     "approx": false,
+     "event": "Temple burned on 10 Lous/Ab (War 6.4.5), the date of the Babylonian destruction; Jerusalem taken",
+     "tier": "S",
+     "bigCh": "3",
+     "shortCh": [
+      3
+     ],
+     "band": "I"
+    },
+    {
+     "date": "71",
+     "year": 71,
+     "approx": false,
+     "event": "Flavian triumph at Rome; the two-drachma Temple tax redirected to the Capitol (War 7.6.6)",
+     "tier": "S",
+     "bigCh": "3",
+     "shortCh": [
+      3
+     ],
+     "band": "I"
+    },
+    {
+     "date": "73/74",
+     "year": 73,
+     "approx": false,
+     "event": "Fall of Masada",
+     "tier": "S",
+     "bigCh": "3",
+     "shortCh": [
+      3
+     ],
+     "band": "I"
+    },
+    {
+     "date": "c.75-79",
+     "year": 75,
+     "approx": true,
+     "event": "Josephus writes the Jewish War (Rome)",
+     "tier": "S",
+     "bigCh": "1",
+     "shortCh": [
+      3
+     ],
+     "band": "I"
+    },
+    {
+     "date": "c.95",
+     "year": 95,
+     "approx": true,
+     "event": "Domitian summons the grandsons of Jude (Hegesippus in Eusebius, HE 3.19-20) — tradition, undated",
+     "tier": "T",
+     "bigCh": "4",
+     "shortCh": [
+      4
+     ],
+     "band": "I",
+     "chapterStart": {
+      "n": 4,
+      "title": "Aelia"
+     }
+    },
+    {
+     "date": "c.100-165",
+     "year": 100,
+     "approx": true,
+     "event": "Justin Martyr of Neapolis",
+     "tier": "S",
+     "bigCh": "5",
+     "shortCh": [
+      4
+     ],
+     "band": "I"
+    },
+    {
+     "date": "c.107",
+     "year": 107,
+     "approx": true,
+     "event": "Simeon son of Clopas martyred under Trajan, Atticus governor (HE 3.32); Eusebius's age of 120 is legendary",
+     "tier": "T",
+     "bigCh": "4",
+     "shortCh": [
+      4
+     ],
+     "band": "I"
+    },
+    {
+     "date": "115-117",
+     "year": 115,
+     "approx": false,
+     "event": "Diaspora revolt under Trajan (Cyrene, Egypt, Cyprus, Mesopotamia)",
+     "tier": "S",
+     "bigCh": "4",
+     "shortCh": [
+      4
+     ],
+     "band": "I"
+    },
+    {
+     "date": "132-135",
+     "year": 132,
+     "approx": false,
+     "event": "Bar Kokhba revolt",
+     "tier": "S",
+     "bigCh": "4",
+     "shortCh": [
+      4
+     ],
+     "band": "I"
+    }
+   ],
+   "chapters": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "numeral": "II",
+   "name": "Martyrs and Scholars",
+   "entries": [
+    {
+     "date": "135",
+     "year": 135,
+     "approx": false,
+     "event": "Aelia Capitolina; province renamed Syria Palaestina; end of the circumcised-bishop line (Eusebius HE 4.5)",
+     "tier": "S",
+     "bigCh": "1,4",
+     "shortCh": [
+      4,
+      5
+     ],
+     "band": "II",
+     "chapterStart": {
+      "n": 5,
+      "title": "A Gentile Church in a Pagan Land"
+     }
+    },
+    {
+     "date": "c.135-c.190",
+     "year": 135,
+     "approx": true,
+     "event": "Fifteen gentile bishops of Aelia from Marcus to Narcissus, names without dates (HE 5.12)",
+     "tier": "S",
+     "bigCh": "5",
+     "shortCh": [
+      4,
+      5
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.136",
+     "year": 136,
+     "approx": true,
+     "event": "Marcus, first gentile bishop of Aelia (HE 4.6)",
+     "tier": "S",
+     "bigCh": "4",
+     "shortCh": [
+      4,
+      5
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.155",
+     "year": 155,
+     "approx": true,
+     "event": "Justin's First Apology, addressed to Antoninus Pius, \"Verissimus the Philosopher\" (Marcus) and Lucius (1 Apol. 1)",
+     "tier": "S",
+     "bigCh": "5",
+     "shortCh": [
+      5
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.160",
+     "year": 160,
+     "approx": true,
+     "event": "Dialogue with Trypho written; set at Ephesus (Eusebius, HE 4.18) shortly after the Bar Kokhba war",
+     "tier": "S",
+     "bigCh": "5",
+     "shortCh": [
+      5
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.160s-170s",
+     "year": 160,
+     "approx": true,
+     "event": "Melito of Sardis visits \"the place\"",
+     "tier": "S",
+     "bigCh": "5",
+     "shortCh": [
+      5
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.165",
+     "year": 165,
+     "approx": true,
+     "event": "Justin and six companions tried before Junius Rusticus, prefect of Rome, and beheaded (Acts of Justin); Crescens the Cynic named as the instigator (HE 4.16)",
+     "tier": "S",
+     "bigCh": "5",
+     "shortCh": [
+      5
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.170",
+     "year": 170,
+     "approx": true,
+     "event": "Melito of Sardis goes East \"to the place where these things were preached and done\" and compiles an Old Testament list for Onesimus (HE 4.26)",
+     "tier": "S",
+     "bigCh": "5",
+     "shortCh": [
+      5
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.170s-180s",
+     "year": 170,
+     "approx": true,
+     "event": "Hegesippus's Memoirs, source of Eusebius's account of James's death (HE 2.23)",
+     "tier": "S",
+     "bigCh": "2",
+     "shortCh": [
+      5
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.180",
+     "year": 180,
+     "approx": true,
+     "event": "Irenaeus, Against Heresies (quotes Acts 8:37, absent from the oldest MSS)",
+     "tier": "S",
+     "bigCh": "1",
+     "shortCh": [
+      5
+     ],
+     "band": "II"
+    },
+    {
+     "date": "189",
+     "year": 189,
+     "approx": false,
+     "event": "Narcissus attested as bishop of Jerusalem in the tenth year of Commodus (HE 5.22)",
+     "tier": "S",
+     "bigCh": "5",
+     "shortCh": [
+      5
+     ],
+     "band": "II"
+    },
+    {
+     "date": "202",
+     "year": 202,
+     "approx": false,
+     "event": "Origen's father Leonides martyred under Severus; Origen is seventeen (HE 6.1-2)",
+     "tier": "S",
+     "bigCh": "6",
+     "shortCh": [
+      6
+     ],
+     "band": "II",
+     "chapterStart": {
+      "n": 6,
+      "title": "Caesarea"
+     }
+    },
+    {
+     "date": "c.212",
+     "year": 212,
+     "approx": true,
+     "event": "Alexander arrives in Jerusalem on pilgrimage and is kept as coadjutor to Narcissus, then 116 years old (HE 6.11); he founds the library at Aelia",
+     "tier": "S",
+     "bigCh": "6",
+     "shortCh": [
+      6
+     ],
+     "band": "II"
+    },
+    {
+     "date": "spring 232",
+     "year": 232,
+     "approx": true,
+     "event": "Origen ordained presbyter at Caesarea in passage to Greece; Demetrius's council at Alexandria condemns it",
+     "tier": "S",
+     "bigCh": "6",
+     "shortCh": [
+      6
+     ],
+     "band": "II"
+    },
+    {
+     "date": "234-235",
+     "year": 234,
+     "approx": false,
+     "event": "Origen settles at Caesarea permanently (Nautin p. 182)",
+     "tier": "S",
+     "bigCh": "6",
+     "shortCh": [
+      6
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.240s",
+     "year": 240,
+     "approx": true,
+     "event": "The Hexapla: Hebrew and six Greek columns side by side (HE 6.16)",
+     "tier": "S",
+     "bigCh": "6",
+     "shortCh": [
+      6
+     ],
+     "band": "II"
+    },
+    {
+     "date": "250",
+     "year": 250,
+     "approx": false,
+     "event": "Decian persecution; Origen tortured under the iron collar and in the stocks; Alexander of Jerusalem dies in prison at Caesarea (HE 6.39)",
+     "tier": "S",
+     "bigCh": "6",
+     "shortCh": [
+      6
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.253",
+     "year": 253,
+     "approx": true,
+     "event": "Origen dies aged sixty-nine, in the reign of Gallus (HE 7.1)",
+     "tier": "S",
+     "bigCh": "6",
+     "shortCh": [
+      6
+     ],
+     "band": "II"
+    },
+    {
+     "date": "270-275",
+     "year": 270,
+     "approx": false,
+     "event": "Aurelian, named by the Life of Chariton as the persecutor under whom Chariton confessed; Di Segni's note holds this cannot stand -- Aurelian never signed his edict, and the coupling with Macarius of Jerusalem is chronologically impossible; she proposes Diocletian 303-304 or one of Galerius (d. 311), Maximinus Daia (d. 313), Licinius (d. 324). The prose states the difficulty rather than choosing",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      6
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.280s-309",
+     "year": 280,
+     "approx": true,
+     "event": "Pamphilus at Caesarea; the library rebuilt and enlarged around Origen's books (HE 7.32)",
+     "tier": "S",
+     "bigCh": "6",
+     "shortCh": [
+      6
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.290s",
+     "year": 290,
+     "approx": true,
+     "event": "Eusebius compiles the Onomasticon (On the Place-Names in Holy Scripture); Barnes dates it before the persecution",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      6
+     ],
+     "band": "II"
+    },
+    {
+     "date": "17 Nov 303",
+     "year": 303,
+     "approx": false,
+     "event": "Alphaeus and Zacchaeus beheaded at Caesarea (Mart. Pal. 1.5)",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II",
+     "chapterStart": {
+      "n": 7,
+      "title": "The Great Persecution"
+     }
+    },
+    {
+     "date": "303",
+     "year": 303,
+     "approx": false,
+     "event": "Second edict: bishops imprisoned and compelled to sacrifice",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "303-311",
+     "year": 303,
+     "approx": false,
+     "event": "Great Persecution; Eusebius's Martyrs of Palestine",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "7 Jun 303",
+     "year": 303,
+     "approx": false,
+     "event": "Procopius beheaded at Caesarea, the first martyr of Palestine (Mart. Pal. 1)",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "Apr 303",
+     "year": 303,
+     "approx": false,
+     "event": "First edict: churches levelled, scriptures burned, honours stripped (Mart. Pal. praef., Flavianus governor of Palestine)",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "304",
+     "year": 304,
+     "approx": false,
+     "event": "Universal edict: everyone to sacrifice",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.304-305",
+     "year": 304,
+     "approx": true,
+     "event": "Timotheus burned at Gaza; Agapius and Thecla condemned to the beasts (Mart. Pal. 3)",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "24 Mar c.305",
+     "year": 305,
+     "approx": false,
+     "event": "Eight beheaded at Caesarea, incl. Alexander of Gaza, after presenting themselves bound to the governor Urbanus (Mart. Pal. 3.3-4)",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "306",
+     "year": 306,
+     "approx": false,
+     "event": "Maximinus enforces sacrifice at Caesarea by herald and name-roll; Apphianus seizes Urbanus's hand at the libation and is drowned (Mart. Pal. 4.8-15)",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c. 306",
+     "year": 306,
+     "approx": true,
+     "event": "Hilarion, born at Thabatha five miles south of Gaza to pagan parents and schooled at Alexandria, visits Antony in Egypt, returns to give away his property, and at about fifteen enters the wilderness seven miles from Maiumas (Jerome, V. Hilar. 2-3).",
+     "tier": "T",
+     "bigCh": "12",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "307",
+     "year": 307,
+     "approx": false,
+     "event": "Pamphilus imprisoned by the governor Urbanus",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.307",
+     "year": 307,
+     "approx": true,
+     "event": "Ninety-seven confessors from the Thebaid mutilated (left ankle sinews, right eye) and sent to the mines by Firmilian (Mart. Pal. 8.1)",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "25 Jul 308",
+     "year": 308,
+     "approx": false,
+     "event": "Ennatha of Gaza and Valentina of Caesarea martyred.",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "308",
+     "year": 308,
+     "approx": false,
+     "event": "Market goods and bath doors polluted with libations (Mart. Pal. 9.2)",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.308",
+     "year": 308,
+     "approx": true,
+     "event": "A congregation seized at Gaza while the scriptures were being read; two women burned, one of them Valentina of Caesarea (Mart. Pal. 8.4-8)",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "16 Feb 309",
+     "year": 309,
+     "approx": false,
+     "event": "Pamphilus and eleven companions executed at Caesarea under Firmilian, incl. Porphyry his servant and Seleucus (Mart. Pal. 11)",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "19 Sep 310",
+     "year": 310,
+     "approx": false,
+     "event": "At Phaeno the dux of Palestine executes four Egyptians to terrify their fellow confessors, who numbered about a hundred and fifty and had dared to build a church at Zoar for Christian worship (Barnes p. 154, read by eye)",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "30 Apr 311",
+     "year": 311,
+     "approx": false,
+     "event": "Galerius's edict of toleration posted at Nicomedia, issued in the name of the imperial college.",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "4 May 311",
+     "year": 311,
+     "approx": false,
+     "event": "Silvanus of Gaza, condemned to the copper mines some time before, is beheaded at Phaeno together with another thirty-nine confessors -- the last martyrdom of the persecution in Palestine.",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "Apr 311",
+     "year": 311,
+     "approx": false,
+     "event": "Galerius's edict of toleration ends the persecution; Maximin renews it in the East",
+     "tier": "S",
+     "bigCh": "7",
+     "shortCh": [
+      7
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.313",
+     "year": 313,
+     "approx": true,
+     "event": "Eusebius becomes bishop of Caesarea",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      7,
+      8
+     ],
+     "band": "II",
+     "chapterStart": {
+      "n": 8,
+      "title": "The Holy Land Invented"
+     }
+    },
+    {
+     "date": "c.313",
+     "year": 313,
+     "approx": true,
+     "event": "Eusebius, HE 3.5.3 — earliest surviving account of the Pella flight",
+     "tier": "S",
+     "bigCh": "3",
+     "shortCh": [
+      7,
+      8
+     ],
+     "band": "II"
+    },
+    {
+     "date": "late 313",
+     "year": 313,
+     "approx": true,
+     "event": "Eusebius issues a new edition of the Church History with the short Martyrs of Palestine and Book Nine (Barnes)",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      7,
+      8
+     ],
+     "band": "II"
+    },
+    {
+     "date": "314-334",
+     "year": 314,
+     "approx": false,
+     "event": "Macarius bishop of Jerusalem (Di Segni; Hirschfeld gives ca. 314-333); he consecrated the church of the laura of Pharan, and was at Nicaea",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      8
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.315",
+     "year": 315,
+     "approx": true,
+     "event": "New edition of the Church History, including the present Book Eight and 10.1-7 (Barnes)",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      8
+     ],
+     "band": "II"
+    },
+    {
+     "date": "316-317",
+     "year": 316,
+     "approx": false,
+     "event": "First war between Constantine and Licinius",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      8
+     ],
+     "band": "II"
+    },
+    {
+     "date": "c.322",
+     "year": 322,
+     "approx": true,
+     "event": "Sporadic persecution resumed in Licinius's territories",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      8
+     ],
+     "band": "II"
+    }
+   ],
+   "chapters": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "numeral": "III",
+   "name": "The Byzantine Holy Land",
+   "entries": [
+    {
+     "date": "20 Dec 324",
+     "year": 324,
+     "approx": false,
+     "event": "Philogonius bishop of Antioch dies; disputed succession, Eustathius chosen (Barnes)",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "Sept 324",
+     "year": 324,
+     "approx": false,
+     "event": "Licinius defeated and deposed; Constantine sole ruler of the empire",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "19 June 325",
+     "year": 325,
+     "approx": false,
+     "event": "Ossius promulgates the creed at Nicaea and subscribes first (Barnes)",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "325",
+     "year": 325,
+     "approx": false,
+     "event": "Council of Nicaea",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "325",
+     "year": 325,
+     "approx": false,
+     "event": "Canon 7 of Nicaea: the bishop of Aelia to be honoured, saving the metropolitan's dignity",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "325-326",
+     "year": 325,
+     "approx": false,
+     "event": "Eusebius publishes the final edition of the Church History and the second edition of the Chronicle (Barnes)",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "after 325",
+     "year": 325,
+     "approx": true,
+     "event": "Constantine orders the Aphrodite shrine demolished, the platform dug out, the cave identified beneath (VC 3.26-28); Barnes p. 248 narrates the sequence without a year",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "after 325",
+     "year": 325,
+     "approx": true,
+     "event": "Constantine's letter to Macarius of Jerusalem ordering the basilica over the tomb (VC 3.29-32; Barnes p. 248)",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "early 325",
+     "year": 325,
+     "approx": true,
+     "event": "Council of Antioch; Eusebius of Caesarea provisionally excommunicated with Theodotus of Laodicea and Narcissus of Neronias, pending the council then planned for Ancyra (Barnes)",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "15 July 326",
+     "year": 326,
+     "approx": false,
+     "event": "Constantine enters Rome for his vicennalia; Crispus already executed at Pola, Fausta dies in the overheated caldarium (Barnes pp. 220-221)",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "326",
+     "year": 326,
+     "approx": false,
+     "event": "The discovery of the tomb, per Bagster's editorial note at VC 3.30 (NPNF 2/1), which infers it from the reference to Licinius's death; not Barnes's date and not in Barnes's chronological table",
+     "tier": "T",
+     "bigCh": "9",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "326",
+     "year": 326,
+     "approx": false,
+     "event": "Constantine orders the pagan rites at Mamre suppressed and a basilica built; Eutropia his mother-in-law informs him; letters to the comes Acacius and to Macarius and the Palestinian bishops (VC 3.51-53; Barnes pp. 110, 248)",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "326-328",
+     "year": 326,
+     "approx": false,
+     "event": "Helena's journey",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "326/327",
+     "year": 326,
+     "approx": false,
+     "event": "Helena in Palestine; she endows the churches at Bethlehem and on the Mount of Olives (VC 3.41-43; Barnes pp. 221, 248)",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "autumn 326",
+     "year": 326,
+     "approx": true,
+     "event": "Helena, near eighty, leaves Rome for the Holy Land (Barnes p. 221)",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c.328",
+     "year": 328,
+     "approx": true,
+     "event": "Helena dies, probably at Nicomedia, in her son's presence; 7 Jan 328 Constantine refounds Drepanum as Helenopolis (Barnes p. 221)",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8
+     ],
+     "band": "III"
+    },
+    {
+     "date": "after c. 330",
+     "year": 330,
+     "approx": true,
+     "event": "Chariton founds Douka near Jericho, then Souka (the Old Laura) fourteen stadia from Tekoa, and retires last to the 'hanging cave'; he dies at Pharan",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      8,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c. 330",
+     "year": 330,
+     "approx": true,
+     "event": "Chariton founds the laura of Pharan in Wadi Fara, nine km north-east of Jerusalem -- Hirschfeld's date, 'approximately 330'; the first known monastery of the Judaean desert",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      8,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c.330",
+     "year": 330,
+     "approx": true,
+     "event": "Constantine orders fifty copies of the scriptures from Eusebius for the churches of Constantinople (VC 4.36-37)",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      8,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "333",
+     "year": 333,
+     "approx": false,
+     "event": "Bordeaux Pilgrim",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "333",
+     "year": 333,
+     "approx": false,
+     "event": "The Bordeaux Pilgrim: leaves Constantinople 30 May, in Jerusalem by about September, back at Constantinople by 26 Dec; consuls Dalmaticus and Zenophilus fix the year (Burd. 571; Wilkinson, Egeria's Travels, pp. 23-25)",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "13-20 Sept 335",
+     "year": 335,
+     "approx": false,
+     "event": "Dedication of the Holy Sepulchre, a full week, in Constantine's thirtieth year; Constantine absent, the notarius Marianus presiding over the largesse; the same assembly readmits Arius (VC 4.43-47; Barnes pp. 238-239)",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "335",
+     "year": 335,
+     "approx": false,
+     "event": "Holy Sepulchre dedicated",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "Aug-Sept 335",
+     "year": 335,
+     "approx": false,
+     "event": "Council of Tyre; the Mareotis clergy swear their declaration 8 Sept; the council adjourns on Constantine's letter summoning the bishops to Jerusalem (Barnes p. 238)",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "22 May 337",
+     "year": 337,
+     "approx": false,
+     "event": "Constantine baptised in the suburbs of Nicomedia, having hoped for the Jordan, and dies at noon on the last day of Pentecost (VC 4.61-64; Barnes, chronological table, p. 279)",
+     "tier": "S",
+     "bigCh": "9",
+     "shortCh": [
+      8,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "346",
+     "year": 346,
+     "approx": false,
+     "event": "Athanasius, returning from Sardica, reaches Jerusalem; Maximus convenes a synod of bishops of Syria and Palestine which restores him to communion, and writes to Alexandria and the bishops of Egypt and Libya. Athanasius's adversaries \"exceedingly derided Maximus\" for it (Socrates, HE 2.24, verified in NPNF 2/2).",
+     "tier": "S",
+     "bigCh": "8",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "348",
+     "year": 348,
+     "approx": false,
+     "event": "Cyril delivers the Catechetical Lectures in the Martyrium basilica as a presbyter, under bishop Maximus; dated before the death of Constans early in 350, since Cat. 14.14 names the reigning emperors in the plural (NPNF 2/7, intro ch. ix sec. 1)",
+     "tier": "S",
+     "bigCh": "10",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III",
+     "chapterStart": {
+      "n": 9,
+      "title": "Pilgrims"
+     }
+    },
+    {
+     "date": "350/351",
+     "year": 350,
+     "approx": false,
+     "event": "Cyril consecrated bishop of Jerusalem; NPNF: he 'must therefore have been consecrated in 350, or early in 351'",
+     "tier": "S",
+     "bigCh": "10",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III",
+     "chapterStart": {
+      "n": 10,
+      "title": "The Desert, and the Bishop of Gaza"
+     }
+    },
+    {
+     "date": "7 May 351",
+     "year": 351,
+     "approx": false,
+     "event": "Cyril's letter to Constantius on the luminous cross seen over Jerusalem, described by Cyril as the first-fruit of his episcopate -- the fixed point that dates the consecration",
+     "tier": "S",
+     "bigCh": "10",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "371",
+     "year": 371,
+     "approx": false,
+     "event": "Hilarion dies in Cyprus (Bitton-Ashkelony & Kofsky)",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "d.371",
+     "year": 371,
+     "approx": true,
+     "event": "Hilarion, father of Gaza monasticism (Jerome's Life)",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "Aug 377",
+     "year": 377,
+     "approx": false,
+     "event": "Euthymius born at Melitene in Armenia, in the fourth consulship of Gratian (Cyril of Scythopolis, Vit. Euth. 2)",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "381-384",
+     "year": 381,
+     "approx": false,
+     "event": "Egeria in the Holy Land -- Wilkinson's dating; an older dating placed the pilgrimage in 414-416, and the on-disk McClure-Feltoe edition still footnotes 'the earlier date of this pilgrimage' as an assumption",
+     "tier": "S",
+     "bigCh": "10",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "381-384",
+     "year": 381,
+     "approx": false,
+     "event": "Egeria in the Holy Land",
+     "tier": "S",
+     "bigCh": "10",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "385",
+     "year": 385,
+     "approx": false,
+     "event": "Paula and Eustochium leave Rome for the East",
+     "tier": "S",
+     "bigCh": "10",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "386",
+     "year": 386,
+     "approx": false,
+     "event": "Jerome settles in Bethlehem (d. 420)",
+     "tier": "S",
+     "bigCh": "10",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c.386",
+     "year": 386,
+     "approx": true,
+     "event": "Cyril dies, after an episcopate of some thirty-five years",
+     "tier": "S",
+     "bigCh": "10",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "390",
+     "year": 390,
+     "approx": false,
+     "event": "Jerome writes the Life of Hilarion at Bethlehem, some twenty years after Hilarion's death; NPNF 2/6's headnote calls it a record containing 'amidst much that is legendary, some statements which attach it to genuine history', and rejects the German theory that it is a religious romance",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "395",
+     "year": 395,
+     "approx": false,
+     "event": "Porphyry becomes bishop of Gaza",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "395-420",
+     "year": 395,
+     "approx": false,
+     "event": "Porphyry bishop of Gaza; Marneion destroyed 402",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "398",
+     "year": 398,
+     "approx": false,
+     "event": "Porphyry sends the deacon Mark to Constantinople; Arcadius orders the temples closed and sends Hilarius to enforce it, but the Marneion is left open, reportedly for a bribe (Glucker)",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "400/401",
+     "year": 400,
+     "approx": false,
+     "event": "Jerome writes to Laeta that Marnas at Gaza mourns shut up and dreads the overthrow of his temple",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "Sept 400",
+     "year": 400,
+     "approx": false,
+     "event": "Porphyry and the archbishop of Caesarea go to Constantinople; Arcadius refuses on the ground that Gaza pays its taxes loyally; Eudoxia procures the edict through a petition to her infant son",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      9,
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "1 May 402",
+     "year": 402,
+     "approx": false,
+     "event": "Porphyry lands at Maiumas; Cynegius follows two weeks later with the consularis and dux from Caesarea and troops; the temples are fired and the Marneion destroyed after its priests barricade themselves in",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "402",
+     "year": 402,
+     "approx": false,
+     "event": "The marble of the Marneion, which women were forbidden to tread, is laid as paving in the street outside so that it would be walked on; the more part of the idolaters, especially the women, still would not walk on it when the Life was written",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "after 402",
+     "year": 402,
+     "approx": true,
+     "event": "The Eudoxiana built on the site of the Marneion to a cruciform plan sent by the empress, who also sent pillars and marbles; about three hundred received into the church that year",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "404",
+     "year": 404,
+     "approx": false,
+     "event": "Paula dies at Bethlehem; Jerome tells Theophilus that grief for her death has stopped his literary work (Ep. 99)",
+     "tier": "S",
+     "bigCh": "10",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "405-420",
+     "year": 405,
+     "approx": false,
+     "event": "Jerome's last period at Bethlehem: poverty, failing eyesight, enemies, the barbarians crossing the empire (NPNF 2/6 periodization)",
+     "tier": "S",
+     "bigCh": "10",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "405/6",
+     "year": 405,
+     "approx": false,
+     "event": "Euthymius comes to Jerusalem in the twenty-ninth year of his life and settles in a cell outside the laura of Pharan, six miles from the city",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "411",
+     "year": 411,
+     "approx": false,
+     "event": "After five years at Pharan, Euthymius and Theoctistus find the cave in the gorge and make it a church; the cenobium of Theoctistus grows there",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c. 420",
+     "year": 420,
+     "approx": true,
+     "event": "Juvenal succeeds Praylius as bishop of Jerusalem.",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "7 June 421",
+     "year": 421,
+     "approx": false,
+     "event": "Athenais, daughter of the Athenian sophist Leontius, marries Theodosius II; baptized by Atticus shortly before and renamed Eudocia (Socrates, H.E. vii.21; Hunt 221)",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "7 May 428",
+     "year": 428,
+     "approx": false,
+     "event": "Juvenal, with Passarion and Hesychius, consecrates the church of Euthymius's laura in the fifty-second year of Euthymius's life -- the eleventh indiction",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "431",
+     "year": 431,
+     "approx": false,
+     "event": "At Ephesus Juvenal claims for the apostolic see of Jerusalem the same rank and authority as the apostolic see of Rome (Labbe iii.642), takes precedence over his own metropolitan of Caesarea, and sits as vice-president next after Cyril of Alexandria",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "431",
+     "year": 431,
+     "approx": false,
+     "event": "The Oriental party complains to Theodosius that Juvenal has ordained in provinces where he has no jurisdiction (Labbe iii.728); Cyril of Alexandria had written to Leo, then archdeacon of Rome, asking that the attempt get no sanction",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "by 431",
+     "year": 431,
+     "approx": true,
+     "event": "Aspebetus, a Persian Saracen chief baptised by Euthymius as Peter, is ordained by Juvenal the first bishop of the Encampments in Palestine; he attends Ephesus in 431 as 'Bishop Peter of the Saracens'",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "437",
+     "year": 437,
+     "approx": false,
+     "event": "Marriage of Eudocia's daughter Licinia Eudoxia to Valentinian III, the occasion of her vow to go to Jerusalem (Socrates, H.E. vii.47)",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "spring 438",
+     "year": 438,
+     "approx": true,
+     "event": "Eudocia sets out on her first pilgrimage to Palestine; halts at Antioch, where she speaks in praise of the city and is commemorated in a bronze statue (Evagrius, H.E. i.20, via Hunt 229)",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "439",
+     "year": 439,
+     "approx": false,
+     "event": "Sabas born at Mutalasca in Cappadocia, in the seventeenth consulship of Theodosius",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "summer 439",
+     "year": 439,
+     "approx": true,
+     "event": "Eudocia returns to the court, the vow fulfilled, carrying relics of Stephen (Marcellinus, Chron. s.a. 439, via Hunt 234; Hunt says \"probably\")",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c.443-460",
+     "year": 443,
+     "approx": true,
+     "event": "Empress Eudocia resident in Jerusalem",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "449",
+     "year": 449,
+     "approx": false,
+     "event": "At the Second Council of Ephesus Juvenal takes the third place, after Dioscorus and the papal legate, named by Theodosius with Thalassius of Caesarea as next in authority to Dioscorus",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      10
+     ],
+     "band": "III"
+    },
+    {
+     "date": "31 Oct 451",
+     "year": 451,
+     "approx": false,
+     "event": "Fragments of the acts cited by the Ballerini, generally received as genuine and printed by Mansi vii.722C, show the Antioch-Jerusalem question treated again at a later session and settled the same way",
+     "tier": "T",
+     "bigCh": "13",
+     "shortCh": [
+      11
+     ],
+     "band": "III",
+     "chapterStart": {
+      "n": 11,
+      "title": "The Height"
+     }
+    },
+    {
+     "date": "451",
+     "year": 451,
+     "approx": false,
+     "event": "Chalcedon; Jerusalem raised to patriarchate (Juvenal)",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "451",
+     "year": 451,
+     "approx": false,
+     "event": "Chalcedon, Session VII: the dispute between Juvenal and Maximus of Antioch is settled by agreement -- Antioch keeps the two Phoenicias and Arabia, Jerusalem gets the three Palestines (Labbe iv.618).",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "451-453",
+     "year": 451,
+     "approx": false,
+     "event": "Theodosius the monk seizes the see of Jerusalem for twenty months against Chalcedon; of the whole desert only Euthymius refuses his communion, and Symeon the Stylite directs the empress Eudocia to him",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "11 June 453",
+     "year": 453,
+     "approx": false,
+     "event": "Leo writes to Maximus of Antioch upholding the Nicene canons and condemning Juvenal's ambition; no further action follows from either man (Leo, Ep. 119 [92])",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "456",
+     "year": 456,
+     "approx": false,
+     "event": "Sabas comes to Jerusalem in the eighteenth year of his life, at the end of Marcian's reign and under Juvenal",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "458/459",
+     "year": 458,
+     "approx": false,
+     "event": "Juvenal dies, in the same sentence of Cyril of Scythopolis (Vit. Euth. 33) that dates Anastasius's accession to 458 and Euthymius's eighty-third year to 459; Price's note calls the \"forty-fourth year\" of Juvenal's own episcopate impossible, since Praylius was still in office in 417",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c.465-528",
+     "year": 465,
+     "approx": true,
+     "event": "Procopius of Gaza; Choricius his pupil",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "3 Sept 466",
+     "year": 466,
+     "approx": false,
+     "event": "Theoctistus dies, of the fourth indiction (Cyril of Scythopolis, Vit. Sab. 8)",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "20 Jan 473",
+     "year": 473,
+     "approx": false,
+     "event": "Euthymius dies aged ninety-seven, after sixty-eight years in the desert; the archbishop Anastasius comes down to the laura with clergy and soldiers",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "d.473",
+     "year": 473,
+     "approx": true,
+     "event": "Euthymius dies",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "478",
+     "year": 478,
+     "approx": false,
+     "event": "Sabas takes the cave above the Kidron gorge in the fortieth year of his life; Saracens bring him bread, cheese and dates",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "480s",
+     "year": 480,
+     "approx": true,
+     "event": "Cosmas the Spatharius comes with orders to bring Isaiah of Scetis and Peter the Iberian to Constantinople; Isaiah excuses himself on grounds of ill health and Peter, forewarned, escapes to Phoenicia (Chryssavgis, p. 19, from the anonymous Life, the Syriac Chronicle and the Plerophoriae)",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "483",
+     "year": 483,
+     "approx": false,
+     "event": "Mar Saba founded; Sabas d. 532",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "483",
+     "year": 483,
+     "approx": false,
+     "event": "After five years alone Sabas begins to receive disciples; the Great Laura is founded in the forty-fifth year of his life and grows to seventy monks",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "484",
+     "year": 484,
+     "approx": false,
+     "event": "First Samaritan revolt",
+     "tier": "S",
+     "bigCh": "14",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "484",
+     "year": 484,
+     "approx": false,
+     "event": "Under Zeno the Samaritans fall on the Christians of Neapolis at Pentecost; the bishop Terebinthius is cut at the altar and loses the fingers of his hand (Procopius, De Aedif. 5.7.5). Malalas tells the same events as anti-Roman where Procopius tells them as anti-Christian",
+     "tier": "S",
+     "bigCh": "14",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "484",
+     "year": 484,
+     "approx": false,
+     "event": "Malalas 15.8 (Dindorf 382.10-383.4) sets the same rising at Caesarea, not Neapolis: the Samaritans crown a bandit chief named Justasas, who presides over the chariot-races, kills many Christians and burns the church of St Prokopios; the dux Asklepiades takes and beheads him and sends the head with its crown to Zeno, who converts the Gerizim sanctuary to a chapel of the Theotokos, rebuilds St Prokopios, bars Samaritans from public service and confiscates the property of the wealthy. Sivan calls the man Iustus; Di Segni reads the events as a pogrom within circus-faction rivalry rather than a rebellion",
+     "tier": "S",
+     "bigCh": "14",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "485-488",
+     "year": 485,
+     "approx": false,
+     "event": "Peter the Iberian resides at Thabatha at the invitation of a wealthy inhabitant, establishing anti-Chalcedonian connections there before Seridus's monastery (Bitton-Ashkelony & Kofsky)",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "11 Aug 491",
+     "year": 491,
+     "approx": false,
+     "event": "Isaiah of Scetis dies; he had withdrawn to the Gaza region near Beth Dallatha, four miles from Thabatha, to escape the crowds at his door, and lived there enclosed, running a coenobium through his disciple Peter. The day is Chryssavgis's introduction, p. 19, from the anonymous Life of Peter the Iberian",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "12 Dec 491",
+     "year": 491,
+     "approx": false,
+     "event": "Sabas ordained priest by the patriarch Sallustius, who then dedicates the 'church built by God' -- the cave found in the gorge -- in the fifty-third year of Sabas's life",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "491",
+     "year": 491,
+     "approx": false,
+     "event": "Jeremias the Armenian and his two disciples received into the Great Laura; the office is said in Armenian in the little oratory on Saturdays and Sundays",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "d.491",
+     "year": 491,
+     "approx": true,
+     "event": "Isaiah of Scetis, at Gaza from mid-5th c.",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "21 Jan 492",
+     "year": 492,
+     "approx": false,
+     "event": "Sabas founds Castellion on the hill north-east of the laura; the community reaches one hundred and fifty",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "494",
+     "year": 494,
+     "approx": false,
+     "event": "On the death of the archimandrite Marcianus the monks assemble at the sick patriarch Sallustius and by common vote Sabas is made archimandrite of the anchorites and Theodosius of the cenobites",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "494",
+     "year": 494,
+     "approx": false,
+     "event": "Theodosius and Sabas made archimandrites and exarchs of all the monasteries under Jerusalem by the dying patriarch Sallustius, at the request of the whole monastic order (Cyril, V. Sab. 30). The Jerusalem office carries authority over the monks of the diocese, not of one house; Binns judges it took over the ground of the lapsing chorepiscop",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c. 500-510",
+     "year": 500,
+     "approx": true,
+     "event": "Aeneas of Gaza writes the Theophrastus; its dramatic date is fixed by Euxitheus treating Huneric's persecution of 484 as very recent (Dillon & Russell, p. 3)",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "1 Jul 501",
+     "year": 501,
+     "approx": false,
+     "event": "The great church of the Theotokos dedicated at the Great Laura by the patriarch Elias in Sabas's sixty-third year; the Armenians moved into the church built by God",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "1 Sep 516",
+     "year": 516,
+     "approx": false,
+     "event": "Anastasius ousts the patriarch Elias and banishes him to Aila; John son of Marcianus, who had promised to receive Severus and anathematize Chalcedon, is made bishop of Jerusalem (Cyril, V. Sab. 56, dated AD 516 in Price's margin)",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "516",
+     "year": 516,
+     "approx": false,
+     "event": "The dux of Palestine imprisons John for breaking the promise; released after being coached by Zacharias governor of Caesarea, John summons every monk in Palestine overnight -- ten thousand counted -- to the basilica of St Stephen, where with Theodosius and Sabas beside him in the pulpit he anathematizes Severus and all who reject Chalcedon; the dux flees to Caesarea (Cyril, V. Sab. 56, Schwartz 150.20-152.15)",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      11
+     ],
+     "band": "III"
+    },
+    {
+     "date": "520",
+     "year": 520,
+     "approx": false,
+     "event": "The fifth year of famine: the springs fail, the archbishop sinks a shaft two hundred feet below Siloam with an engineer and a mass of workmen and finds nothing, then sends for Sabas on a pretext and asks him to pray; Sabas leaves on 3 September and the rain comes the following night (Cyril, V. Sab. 66-67, dated AD 520 in Price's margin)",
+     "tier": "S",
+     "bigCh": "13",
+     "shortCh": [
+      11,
+      12
+     ],
+     "band": "III",
+     "chapterStart": {
+      "n": 12,
+      "title": "The Crowded Land"
+     }
+    },
+    {
+     "date": "c. 525",
+     "year": 525,
+     "approx": true,
+     "event": "Cyril of Scythopolis born, inferred by Binns from his being a small boy at Sabas's visit of 531/2 and near manhood at his profession in 543",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c. 525",
+     "year": 525,
+     "approx": true,
+     "event": "John joins Barsanuphius at Thabatha; Barsanuphius gives the newcomer his own cell and builds another nearby, and the two live as neighbouring recluses eighteen years (Letter 599b)",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c.525-543",
+     "year": 525,
+     "approx": true,
+     "event": "Barsanuphius & John correspondence at Thawatha",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "529",
+     "year": 529,
+     "approx": false,
+     "event": "Great Samaritan revolt",
+     "tier": "S",
+     "bigCh": "14",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "529",
+     "year": 529,
+     "approx": false,
+     "event": "The Samaritan rising begins as inter-communal violence at Scythopolis, capital of Palaestina Secunda, against Christians and Jews both; the governor is beheaded on imperial orders. Malalas's second edition blames a ritual assault by Christian children on Samaritan synagogues",
+     "tier": "S",
+     "bigCh": "14",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "529",
+     "year": 529,
+     "approx": false,
+     "event": "Malalas 18.35-36 (Dindorf 445.20-447.21): the June riot; the governor Bassus relieved and beheaded in his own district; the Samaritans crown a bandit chief named Julian, who burns estates and churches; at Neapolis Julian watches the races and has the winning Christian charioteer Nikeas beheaded in the hippodrome; the dux Theodoros and the phylarch of Palestine defeat him, and his head goes to Justinian with its diadem. Malalas's 20,000 dead and 20,000 children sold into Persia and India are his own figures and are uncheckable. Eirenaios the Antiochene replaces the dux and exacts a harsh vengeance in the mountains",
+     "tier": "S",
+     "bigCh": "14",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "529",
+     "year": 529,
+     "approx": false,
+     "event": "The cause given by the fuller Malalas preserved in the Excerpta de insidiis (printed in Jeffreys p. 260): the sabbath custom of Christian children throwing stones at Samaritan houses near the synagogues after the gospel; that year the Samaritans came out with swords, and children who fled to the altar of St Basil's were killed under it",
+     "tier": "S",
+     "bigCh": "14",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "530s",
+     "year": 530,
+     "approx": true,
+     "event": "Marcian bishop of Gaza: an elite Gazan family, trained in the rhetorical school alongside Choricius, helped administer it after Procopius's death; Barsanuphius approved his election (Ep. 804) and he sent the Old Man his clergy list to choose ordinands (Epp. 808-809)",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "531-543",
+     "year": 531,
+     "approx": false,
+     "event": "The Nea built in twelve years under the architect Theodore, funded by the treasury officials of Palestine, with the archbishop holding overall authority and Bishop Barachus of Bacatha supervising the works",
+     "tier": "S",
+     "bigCh": "14",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "531/2",
+     "year": 531,
+     "approx": false,
+     "event": "Sabas at Scythopolis blesses the boy Cyril and tells his father to teach him the psalter; Cyril leaves home for Jerusalem in 543",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c. 531",
+     "year": 531,
+     "approx": true,
+     "event": "Sabas goes to Constantinople and puts four requests to Justinian: tax remission for the province, relief for the bishops funded from public money or from Samaritan property, a hospital at Jerusalem, and the completion of the new church. All four are granted (Cyril of Scythopolis, Vit. Sab. 73)",
+     "tier": "S",
+     "bigCh": "14",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c. 531",
+     "year": 531,
+     "approx": true,
+     "event": "Justinian orders a hospital of 100 beds at the centre of Jerusalem with a tax-free income of 1,850 solidi, to be enlarged afterwards to 200 beds with the income doubled",
+     "tier": "S",
+     "bigCh": "14",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "5 Dec 532",
+     "year": 532,
+     "approx": false,
+     "event": "Sabas dies in his tower in the ninety-fourth year of his life -- eighteen when he came to Palestine, seventeen years in the cenobium, fifty-nine in the desert and at the Great Laura",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c.540",
+     "year": 540,
+     "approx": true,
+     "event": "Dorotheus founds his own monastery",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "543",
+     "year": 543,
+     "approx": false,
+     "event": "Justinian's Nea church dedicated",
+     "tier": "S",
+     "bigCh": "14",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c. 543",
+     "year": 543,
+     "approx": true,
+     "event": "Seridus and John die; the correspondence ends",
+     "tier": "S",
+     "bigCh": "12",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "554/5",
+     "year": 554,
+     "approx": false,
+     "event": "The Origenists expelled from the New Laura after the fifth council; Cyril moves there with his sheets on Euthymius and Sabas and writes the Lives, c. 555-558",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "555-558",
+     "year": 555,
+     "approx": false,
+     "event": "Cyril of Scythopolis writes the Lives of Euthymius and Sabas at the New Laura (Binns's dating: after his arrival in 555, and the Origenist troubles of 558 could have ended his activity)",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c. 570",
+     "year": 570,
+     "approx": true,
+     "event": "The Piacenza Pilgrim writes, dated from the contents; Grisar proposed c. 580 without decisive evidence. Anonymous, from Piacenza; survives in two versions, the second tidied to remove what its editor found unintelligible or unedifying",
+     "tier": "S",
+     "bigCh": "14",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c.570",
+     "year": 570,
+     "approx": true,
+     "event": "Piacenza Pilgrim",
+     "tier": "S",
+     "bigCh": "14",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "2nd half 6th c.",
+     "year": 575,
+     "approx": true,
+     "event": "The anonymous Life of Chariton written by a monk of one of Chariton's foundations, after Cyril of Scythopolis (c. 559) and before the Persian invasion of 614 (Di Segni)",
+     "tier": "S",
+     "bigCh": "11",
+     "shortCh": [
+      12
+     ],
+     "band": "III"
+    },
+    {
+     "date": "614",
+     "year": 614,
+     "approx": false,
+     "event": "Persian sack of Jerusalem; True Cross taken; Mamilla killings",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III",
+     "chapterStart": {
+      "n": 13,
+      "title": "The Persians, and the End of Byzantium"
+     }
+    },
+    {
+     "date": "614",
+     "year": 614,
+     "approx": false,
+     "event": "The Persians take Jerusalem after a short siege; the patriarch Zachariah is carried to Persia with the True Cross. Strategos's account survives in Georgian and Arabic; Conybeare's 1910 English is on disk",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    },
+    {
+     "date": "614",
+     "year": 614,
+     "approx": false,
+     "event": "Christians shut into the reservoir of Mamilla, about two stades outside the city from the tower of David; Strategos says the crowd suffocated and many died without the sword, and blames the Jews of the city for offering escape in exchange for apostasy",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    },
+    {
+     "date": "614-628",
+     "year": 614,
+     "approx": false,
+     "event": "The Persian occupation of Jerusalem",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    },
+    {
+     "date": "after 614",
+     "year": 614,
+     "approx": true,
+     "event": "Modestus buries the forty-four, reads Isaiah and Wisdom over them, and tells the community not to abandon the place; the monks stay two months, flee to the monastery of Abba Anastasius twenty stadia from Jerusalem, and return after about two years (Antiochus, same letter)",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    },
+    {
+     "date": "after 614",
+     "year": 614,
+     "approx": true,
+     "event": "Modestus, locum tenens of the patriarchate, buries the dead and rebuilds the burned churches; Antiochus of Mar Saba reports the rebuilding first-hand",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c. May 614",
+     "year": 614,
+     "approx": true,
+     "event": "Ishmaelite/Saracen raiders plunder the Great Laura of Sabas one week before Jerusalem falls; the monks who stay are tortured for days and killed -- forty-four by name, commemorated 15 May (Antiochus Monachus, Ep. ad Eustathium, PG 89.1421-1428, our own English). not the Persian army: the letter names Ishmaelites and 'the Saracens who neighbour upon us'",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    },
+    {
+     "date": "c. 616-630",
+     "year": 616,
+     "approx": true,
+     "event": "Modestus rebuilds the burned churches of Jerusalem -- Golgotha, the Anastasis, the house of the Cross, the Martyrium, the Ascension -- reported first-hand by Antiochus, who calls him a new Bezalel.",
+     "tier": "T",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    },
+    {
+     "date": "619",
+     "year": 619,
+     "approx": false,
+     "event": "John Moschus dies at Rome, having fled ahead of the Persians, and leaves the Spiritual Meadow to Sophronius to bring back to Palestine (Hoyland, ch. 3)",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    },
+    {
+     "date": "627-630",
+     "year": 627,
+     "approx": false,
+     "event": "Heraclius restores the True Cross -- year disputed, see the fuller row",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    },
+    {
+     "date": "627-630",
+     "year": 627,
+     "approx": false,
+     "event": "Heraclius defeats the Persians near Nineveh (627) and comes down through Palestine to restore the True Cross to the Holy Sepulchre in person; Sebeos describes the entry.",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    },
+    {
+     "date": "634",
+     "year": 634,
+     "approx": false,
+     "event": "Sophronius's Nativity sermon (Bethlehem under Arab control)",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    },
+    {
+     "date": "634",
+     "year": 634,
+     "approx": false,
+     "event": "Sophronius becomes patriarch of Jerusalem; in his Christmas sermon of December 634 he tells his congregation that the Saracens hold Bethlehem and bar the way, so the city cannot keep the feast where it belongs",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    },
+    {
+     "date": "636/637",
+     "year": 636,
+     "approx": false,
+     "event": "Sophronius preaches at Epiphany on the baptism of Christ and breaks off to ask why the churches are being pulled down and the cross mocked, calling the Saracens the abomination of desolation foretold by the prophets.",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    },
+    {
+     "date": "637/638",
+     "year": 637,
+     "approx": false,
+     "event": "Sophronius surrenders Jerusalem to Umar",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13
+     ],
+     "band": "III"
+    }
+   ],
+   "chapters": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "numeral": "IV",
+   "name": "Under the Crescent",
+   "entries": [
+    {
+     "date": "638",
+     "year": 638,
+     "approx": false,
+     "event": "Gaza falls (July, per the Passion of the Sixty Martyrs)",
+     "tier": "S",
+     "bigCh": "16",
+     "shortCh": [
+      13,
+      14
+     ],
+     "band": "IV",
+     "chapterStart": {
+      "n": 14,
+      "title": "The Covenant"
+     }
+    },
+    {
+     "date": "638",
+     "year": 638,
+     "approx": false,
+     "event": "Jerusalem surrenders to Umar",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13,
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "638",
+     "year": 638,
+     "approx": false,
+     "event": "Gaza besieged and forced by necessity to ask for terms; the Saracens grant terms to the city but expressly exclude the garrison soldiers captured in it (Passion of the Sixty Martyrs, trans. Wolf)",
+     "tier": "S",
+     "bigCh": "16",
+     "shortCh": [
+      13,
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "638",
+     "year": 638,
+     "approx": false,
+     "event": "Umar comes up from Medina into Palestine; Sophronius goes out of the city to meet him and returns with a guarantee of security for the country and a written provision that no Jew is to live in Jerusalem; the caliph enters and orders a place of prayer on the platform of Solomon's temple (Syriac common source, per Hoyland)",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13,
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "638",
+     "year": 638,
+     "approx": false,
+     "event": "The Capitol is cleared by local labour, some conscripted and some hired; Sophronius forbids the archdeacon John, a marble-worker, to work on it, offers him double at the Anastasis, and excommunicates him when he returns to the site (Georgian narrative 19, on the authority of the archdeacon Theodore)",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      13,
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "638-639",
+     "year": 638,
+     "approx": false,
+     "event": "Sixty Martyrs executed at Jerusalem (Nov 638) and Eleutheropolis (Dec 639)",
+     "tier": "S",
+     "bigCh": "16",
+     "shortCh": [
+      13,
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "638-639",
+     "year": 638,
+     "approx": false,
+     "event": "The Gaza soldiers imprisoned in stages -- thirty days at Gaza, two months at Eleutheropolis, three at Theropolis, then Jerusalem; their wives, children and arms taken from them; offered their families back and honour 'just like one of us' if they would recant",
+     "tier": "S",
+     "bigCh": "16",
+     "shortCh": [
+      13,
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "639",
+     "year": 639,
+     "approx": false,
+     "event": "The sixty soldiers executed for refusing conversion, at Eleutheropolis and Jerusalem.",
+     "tier": "S",
+     "bigCh": "16",
+     "shortCh": [
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "639",
+     "year": 639,
+     "approx": false,
+     "event": "A stone pavement laid in the southern church at Shivta in the Negev, and a burial inscription of the same year in the town's northern church -- construction continuing through the conquest (Avni, from Negev)",
+     "tier": "S",
+     "bigCh": "16",
+     "shortCh": [
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "c. 639",
+     "year": 639,
+     "approx": true,
+     "event": "Sophronius dies",
+     "tier": "S",
+     "bigCh": "15",
+     "shortCh": [
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "640",
+     "year": 640,
+     "approx": false,
+     "event": "Michael the Great reports that Umar ordered a census of his entire realm (AG 951) and imposed a poll tax on Christians.",
+     "tier": "S",
+     "bigCh": "16",
+     "shortCh": [
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "late 7th c.",
+     "year": 675,
+     "approx": true,
+     "event": "The central church at Nessana built, c. 37 m long, its nave paved with marble slabs carrying Greek inscriptions; in use until the ninth century, by which time Quranic verses, prayers and oaths had been cut on some of the same slabs. No destruction evident; Avni reads it as possible shared use",
+     "tier": "S",
+     "bigCh": "16",
+     "shortCh": [
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "late 7th c.",
+     "year": 675,
+     "approx": true,
+     "event": "The earliest extant Arabic translations of the Gospels: a family of Palestinian Melkite manuscripts rendered from Greek, marked with the pericopes of the old Jerusalem liturgy (Griffith)",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "681",
+     "year": 681,
+     "approx": false,
+     "event": "Constantinople III. Acceptance of this council is what the Syriac-speaking Jacobites meant by calling a man a Melkite (Griffith)",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "717-720",
+     "year": 717,
+     "approx": false,
+     "event": "Caliphate of Umar II b. Abd al-Aziz. His fiscal rescript declares that a convert to Islam has both the privileges and the obligations of a Muslim, and so does not pay the jizya; both Muslim and Christian sources remember him for lifting the tax from converts (Tannous)",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "c. 749",
+     "year": 749,
+     "approx": true,
+     "event": "Death of John of Damascus (Mansur ibn Sarjun), author of the Fount of Knowledge, probably a monk of Mar Sabas.",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "c.749",
+     "year": 749,
+     "approx": true,
+     "event": "John of Damascus dies at Mar Saba",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      14
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "8th c. onward",
+     "year": 750,
+     "approx": true,
+     "event": "A centre for translating and copying books in Georgian at Mar Saba, with similar centres at the Calvary monastery and at Gabbatha; the translators David and Stephen turn Greek and Arabic books into Georgian at Jerusalem (Gil)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      14,
+      15
+     ],
+     "band": "IV",
+     "chapterStart": {
+      "n": 15,
+      "title": "Christians in Arabic"
+     }
+    },
+    {
+     "date": "c. 750",
+     "year": 750,
+     "approx": true,
+     "event": "Al-Mansur (per Gil, following a Greek source) orders a special mark stamped on the hands of Christians and Jews on a visit to Jerusalem; many Christians flee to Byzantium.",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      14,
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "754",
+     "year": 754,
+     "approx": false,
+     "event": "The Iconoclast council of Hiereia names him 'Mansur, the one with a vile-sounding name and of Saracen opinion' -- and makes no reference to any part of the Fount of Knowledge (Griffith, quoting Sahas)",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "c. 755",
+     "year": 755,
+     "approx": true,
+     "event": "On the Triune Nature of God (Sinai Arabic MS 154), the oldest known work of Christian theology composed in Arabic; anonymous, probably by a monk of Mar Sabas or Mar Chariton.",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "c. 755-c. 830",
+     "year": 755,
+     "approx": true,
+     "event": "Theodore Abu Qurrah, Melkite, bishop of Harran: the first writer known by name who regularly wrote Christian theology in Arabic",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "758",
+     "year": 758,
+     "approx": false,
+     "event": "A papyrus from Qasr Ibrim: the Abbasid governor of Egypt writes to the king of Nubia demanding 'what you owe of the baqt about which a peace agreement was made with you' -- evidence that a mid-eighth-century governor believed a valid surrender agreement existed",
+     "tier": "S",
+     "bigCh": "16",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "758",
+     "year": 758,
+     "approx": false,
+     "event": "The Abbasid governor of Egypt writes to the king of Muqurra demanding the baqt 'about which a peace agreement was made with you' (Qasr Ibrim papyrus, excavated 1972) -- a governor invoking a surrender agreement as valid a century after the conquests",
+     "tier": "S",
+     "bigCh": "16",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "767",
+     "year": 767,
+     "approx": false,
+     "event": "Gaza is the birthplace of al-Shafi'i, founder of one of the four schools of Sunni law; he left the city in youth (Filiu)",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "772",
+     "year": 772,
+     "approx": false,
+     "event": "Al-Mansur's tax demands. Michael the Great reports people digging up and desecrating graves for metal to pay the tribute; the Chronicle to 1234 says the tax was demanded 'even from windows and doors' (Tannous)",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "788",
+     "year": 788,
+     "approx": false,
+     "event": "Civil war devastation in Palestine under the patriarch Elias II: Bet Guvrin, Ascalon, Gaza and Sariphaea wasted; the St Chariton monastery robbed and Mar Saba attacked (Gil, from Stephen of Mar Saba)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "14 Apr 789",
+     "year": 789,
+     "approx": false,
+     "event": "Christophoros, a Muslim convert to Christianity who became a monk, beheaded (Gil)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "c. 789",
+     "year": 789,
+     "approx": true,
+     "event": "An Arab attack on the monastery of St Theodosius near Bethlehem: the house pillaged, many monks killed, two neighbouring churches destroyed (Gil)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "soon after 800",
+     "year": 800,
+     "approx": true,
+     "event": "Theodore Abu Qurrah writes his Arabic tract in defence of venerating the icons, occasioned by Christians abandoning prostration at the Church of the Icon of Christ at Edessa (Griffith)",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "c. 808",
+     "year": 808,
+     "approx": true,
+     "event": "De casis Dei records Georgian monks on the Mount of Olives and at the Gethsemane church (Gil)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "c.808",
+     "year": 808,
+     "approx": true,
+     "event": "Commemoratorium de casis Dei (Charlemagne-era survey)",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "809",
+     "year": 809,
+     "approx": false,
+     "event": "Harun al-Rashid dies; the war between al-Amin and al-Ma'mun. Theophanes, a contemporary, reports great suffering for the Christians and many churches and monasteries around Jerusalem abandoned (Gil)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "810",
+     "year": 810,
+     "approx": false,
+     "event": "Charlemagne orders donations to Jerusalem arranged for the restoration of \"God's churches\" (Gil, from the Carolingian record)",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      15
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "8th-9th c.",
+     "year": 850,
+     "approx": true,
+     "event": "The Pact of Umar (Shurut Umar) formalised.",
+     "tier": "S",
+     "bigCh": "16",
+     "shortCh": [
+      15,
+      16
+     ],
+     "band": "IV",
+     "chapterStart": {
+      "n": 16,
+      "title": "The Fire and the Ruin"
+     }
+    },
+    {
+     "date": "mid-9th c.",
+     "year": 850,
+     "approx": true,
+     "event": "Constantine, formerly governor of Upper Georgia, visits Palestine with large donations to its monasteries, is seized by the Muslims and dies under torture at Baghdad (Gil)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      15,
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "late 9th c.",
+     "year": 875,
+     "approx": true,
+     "event": "John the Physician, of Jerusalem, translates Georgian books into Armenian (Gil)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      15,
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "877",
+     "year": 877,
+     "approx": false,
+     "event": "Stephen of Ramla, monk of Mar Chariton, copies British Library Oriental MS 4950: the Summary of the Ways of Faith and Abu Qurrah's icon tract",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      15,
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "885/6",
+     "year": 885,
+     "approx": false,
+     "event": "Anthony David of Baghdad, monk and scribe of Mar Sabas, writes two Arabic manuscripts for Abba Isaac of Mount Sinai -- patristic lives and treatises translated from Greek, including Cyril of Scythopolis on Euthymius and Sabas",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      15,
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "897",
+     "year": 897,
+     "approx": false,
+     "event": "Stephen of Ramla finishes Sinai Arabic MS 72, an Arabic Gospel lectionary and one of the earliest dated manuscripts of the Gospels in Arabic",
+     "tier": "S",
+     "bigCh": "17",
+     "shortCh": [
+      15,
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "969",
+     "year": 969,
+     "approx": false,
+     "event": "The Fatimids take Egypt and move at once on Gaza, the transit point for their offensive against Jerusalem (Filiu)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "later 10th c.",
+     "year": 975,
+     "approx": true,
+     "event": "A group of copyists of Georgian books active at Mar Saba; illuminated manuscripts remain in these monasteries (Gil)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "992",
+     "year": 992,
+     "approx": false,
+     "event": "Prochore comes to Palestine, joins Mar Saba and begins restoring the church of the Cross near Jerusalem; his thanksgiving text of 1038 survives and Georgius Mtzamindeli finds him still at the work in 1056 (Gil)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1005",
+     "year": 1005,
+     "approx": false,
+     "event": "Ibn al-Nahwi extorts 200,000 dinars from the artisans and merchants of Ramla; a Christian retainer of the caliph's sister complains, and al-Hakim has him beheaded in the cloth market (Gil, from Ibn al-Qalanisi)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1007",
+     "year": 1007,
+     "approx": false,
+     "event": "The Christians of Jerusalem keep Easter a week later than every other see, against the warning of the patriarch of Alexandria, because the date of Passover was in dispute (Gil, from Yahya ibn Sa'id)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1009",
+     "year": 1009,
+     "approx": false,
+     "event": "al-Hakim destroys the Holy Sepulchre",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1009-1010",
+     "year": 1009,
+     "approx": false,
+     "event": "There was no patriarch at Jerusalem when the Holy Sepulchre was destroyed. Arsenius, patriarch of Alexandria and brother of the late patriarch Orestes, was covering the affairs of the see; he was murdered at Alexandria on 4 July 1010 (Gil, correcting the western sources that have Orestes blinded and killed in the persecution)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "28 Sep 1009",
+     "year": 1009,
+     "approx": false,
+     "event": "Yahya ibn Sa'id: al-Hakim's men dismantle the Church of the Resurrection to its foundations, with Golgotha and St Constantine's, on 5 Safar AH 400. Muslim sources give AH 398 (1007 or March 1008); William of Tyre's 'thirty-seven years in ruins' before 1048 implies 1011. The prose gives Yahya's date and names the disagreement",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1021",
+     "year": 1021,
+     "approx": false,
+     "event": "Al-Hakim murdered, 27 Shawwal AH 411 = 13 February AD 1021 (Gil)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "c. 1023",
+     "year": 1023,
+     "approx": true,
+     "event": "About two years after al-Hakim's death his sister orders the patriarch Nicephorus to go to the emperor and report on the restoration of the churches (Gil, who gives no year for the embassy itself)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1027",
+     "year": 1027,
+     "approx": false,
+     "event": "The truce with Byzantium: prayers for the Fatimid caliph resume in Byzantine mosques, and al-Zahir gives back the Church of the Resurrection and cancels the decree of forced conversion (Gil, from Maqrizi)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1047",
+     "year": 1047,
+     "approx": false,
+     "event": "Nasir-i Khusraw at Jerusalem: Greeks and Jews coming up in great numbers to the Church of the Resurrection and the synagogue; he passes the night at Bethlehem on leaving the city (PPTS vol. 4, Le Strange)",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      16,
+      17
+     ],
+     "band": "IV",
+     "chapterStart": {
+      "n": 17,
+      "title": "The Conquest"
+     }
+    },
+    {
+     "date": "1048",
+     "year": 1048,
+     "approx": false,
+     "event": "Holy Sepulchre rebuilt (Constantine IX Monomachos)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16,
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1048",
+     "year": 1048,
+     "approx": false,
+     "event": "The rebuilding of the Church of the Holy Sepulchre completed in the lifetime of the patriarch Nicephorus, after thirty-seven years in ruins (William of Tyre, per Gil)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16,
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "9th-11th c.",
+     "year": 1050,
+     "approx": true,
+     "event": "Muslim writers from al-Jahiz to Sibt ibn al-Jawzi describe the Paschal fire at the Church of the Resurrection, several of them as a trick; the church's own typikon of the ninth or tenth century says the patriarch lights it and passes it to the head deacon (Gil)",
+     "tier": "S",
+     "bigCh": "18",
+     "shortCh": [
+      16,
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1055",
+     "year": 1055,
+     "approx": false,
+     "event": "Tughril Beg enters Baghdad; the Turcomans take northern Syria (Gil sec. 603)",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      16,
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1071",
+     "year": 1071,
+     "approx": false,
+     "event": "Manzikert; and Atsiz b. Uwaq turns on the Fatimids. Ramla falls to the Turcomans and Jerusalem is put under siege.",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1073",
+     "year": 1073,
+     "approx": false,
+     "event": "Seljuks take Jerusalem (Gil); Filiu dates the Fatimid loss to 1071, after which the city changes hands repeatedly between Fatimids and Seljuks. Both datings kept; ch. 19 narrates the handover once",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1073",
+     "year": 1073,
+     "approx": false,
+     "event": "Jerusalem falls to Atsiz, Shawwal AH 465 = June/July.",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1075",
+     "year": 1075,
+     "approx": false,
+     "event": "Severe drought; wheat above 20 dinars a ghirara at Damascus (Ibn Asakir, per Gil sec. 608)",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1077",
+     "year": 1077,
+     "approx": false,
+     "event": "After Atsiz's defeat in Egypt (19 February 1077) the local Muslim population rises against the Turcomans, and the rising begins in Gaza before spreading to Ramla and Jerusalem (Sibt ibn al-Jawzi, per Gil sec. 605)",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1077",
+     "year": 1077,
+     "approx": false,
+     "event": "Atsiz retakes Jerusalem after promising the aman, ignores it, and kills 3,000 including the cadi and the notaries; he then annihilates Ramla until its people flee and Gaza, 'where he murdered the entire population' (Sibt ibn al-Jawzi, per Gil sec. 605).",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1077-1078",
+     "year": 1077,
+     "approx": false,
+     "event": "Sec. 605 puts it after February 1077; sec. 608 calls them 'the rebellions of the year 1078'. Atsiz is executed by Tutush in AH 471 = AD 1078/9 (sec. 606), which caps it. The chapter says 1077 and flags the discrepancy",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1078",
+     "year": 1078,
+     "approx": false,
+     "event": "Atsiz spares the Christians in suppressing the rising and the Greek patriarch Simeon is allowed to remain in Jerusalem — Cahen's evidence for a positive Turcoman attitude, which Gil rejects (Gil sec. 608)",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1085",
+     "year": 1085,
+     "approx": false,
+     "event": "Joseph b. Manasseh of Ascalon writes to Fustat that he dared to travel up to Jerusalem, dug at his abandoned house for what he had buried before fleeing, and found nothing but 'quires and books spoiled by the dampness of the walls' (Gil sec. 609)",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1092",
+     "year": 1092,
+     "approx": false,
+     "event": "A church founded in Jerusalem for the Copts; its twelfth-century successor is probably the church of St Mary at the house of Mary Mark, today St Mark's (Pringle no. 343)",
+     "tier": "S",
+     "bigCh": "21",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1092-1093",
+     "year": 1092,
+     "approx": false,
+     "event": "Rumours that the world would end in AH 485; a lost commentary on Daniel on 'the kingdoms and the wars' (Gil sec. 608)",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1093",
+     "year": 1093,
+     "approx": false,
+     "event": "Al-Azimi: the coastal ports turn pilgrims away, Latins and Byzantines alike, AH 485; those who got home spread the word, 'and it was this which provoked the Christian world to organise a Crusade'. Gil adds that the ports were then Fatimid, not Turcoman (Gil sec. 608)",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1097",
+     "year": 1097,
+     "approx": false,
+     "event": "18 October: joint encyclical from the camp near Antioch by Adhemar of Le Puy and Simeon II, Greek patriarch of Jerusalem, in exile in Cyprus from the Artukid Turks; a second letter of January 1098 goes out from 'the patriarch of Jerusalem, the bishops both Greek and Latin, and the whole army' (Hamilton pp. 6-7)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1098",
+     "year": 1098,
+     "approx": false,
+     "event": "Fatimids retake Jerusalem",
+     "tier": "S",
+     "bigCh": "19",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1098",
+     "year": 1098,
+     "approx": false,
+     "event": "Siege of Antioch. Yaghisiyan sets the city's Christians to digging the trench and will not let them home, swearing an oath over their families; Ibn al-Athir says he protected them. Antioch handed to the crusaders by a Christian, al-Azimi's Armenian Firuz (Hillenbrand ch. 2)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    },
+    {
+     "date": "1098",
+     "year": 1098,
+     "approx": false,
+     "event": "11 September: the princes write to Urban II — 'we have beaten the Turks and the heathen, but we do not know how to defeat the heretics, the Greeks and Armenians and Syrian Jacobites' (Hamilton p. 9)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "IV"
+    }
+   ],
+   "chapters": [
+    13,
+    14,
+    15,
+    16,
+    17
+   ]
+  },
+  {
+   "numeral": "V",
+   "name": "Crusade and Reconquest",
+   "entries": [
+    {
+     "date": "1099",
+     "year": 1099,
+     "approx": false,
+     "event": "Crusader conquest of Jerusalem (15 July)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1099",
+     "year": 1099,
+     "approx": false,
+     "event": "15 July (Friday): Jerusalem stormed. Fulcher gives nearly ten thousand beheaded at the Temple of Solomon; Ibn al-Qalanisi, contemporary, gives no number and dates the citadel's surrender on guarantee of safety to 22 Shaban = 14 July; the synagogue burned over the Jews inside",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1099",
+     "year": 1099,
+     "approx": false,
+     "event": "Simeon II dies in Cyprus at about the time Jerusalem is captured; the crusaders may not have known. 1 August: the senior clergy elect Arnulf of Chocques Latin patriarch, without reference to the pope and without consulting the Orthodox canons in Cyprus (Hamilton p. 12)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1099",
+     "year": 1099,
+     "approx": false,
+     "event": "one of Arnulf's first acts as patriarch is to expel all eastern Christians from the Holy Sepulchre and confide the shrine to Latin clergy — 'This act of triumphalism accurately reflected the mood of the crusader army' (Hamilton p. 14)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1099",
+     "year": 1099,
+     "approx": false,
+     "event": "Gaza empties before the crusaders and is taken without a fight; the mosque of Umar becomes a church again, which Filiu calls a posthumous vengeance for Eudoxia and Porphyry; the crusaders build the fort at Darum to hold the Egypt road (Filiu p. 21)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1099",
+     "year": 1099,
+     "approx": false,
+     "event": "29 July: Urban II dies before news of the crusade's success reaches him. September: Daimbert of Pisa arrives in Syria as Urban's legate (Hamilton pp. 14-15)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1099",
+     "year": 1099,
+     "approx": false,
+     "event": "1 December: al-Rumayli, a Jerusalem hadith scholar and writer on the Merits of Jerusalem, stoned to death by the Franks when a ransom of a thousand dinars is not produced (Hillenbrand ch. 2)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1099-1187",
+     "year": 1099,
+     "approx": false,
+     "event": "The Greek patriarchate of Jerusalem does not lapse: Symeon II, John VIII, Sabas, Nicolas, John IX, Nicephorus II and Leontius II hold it in exile in Cyprus and Constantinople alongside the Latin line (Pringle, Jerusalem entry, Table 1)",
+     "tier": "S",
+     "bigCh": "21",
+     "shortCh": [
+      17
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1100",
+     "year": 1100,
+     "approx": false,
+     "event": "November: Baldwin I enters Jerusalem — 'clergy as well as laity, Greeks also and Syrians, with crosses and candles' (Fulcher II.iii, printed p. 143). Late November, the caves near Ascalon: Syrian Christians in hiding among the Saracens identify the robbers of the Ramla road and are spared (Fulcher, printed p. 144)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1101",
+     "year": 1101,
+     "approx": false,
+     "event": "Easter Saturday 21 April: the Holy Fire fails. Daimbert prays inside the tomb and comes out without it; the fire appears on Easter Sunday only after the Latin clergy leave for the Templum Domini and the Melkite priests pray alone. Matthew of Edessa blames Frankish sin and the expulsion of the Armenian, Greek, Syrian and Georgian monks (MacEvitt pp. 115-118)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1101",
+     "year": 1101,
+     "approx": false,
+     "event": "Caesarea taken and its Muslim inhabitants slaughtered; Arsuf taken and its inhabitants expelled; Acre the same in 1104. Hamilton: 'These intolerant measures sometimes created a population vacuum which it proved difficult to fill' (Hamilton p. 86)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1101-1103",
+     "year": 1101,
+     "approx": false,
+     "event": "Saewulf's pilgrimage. Thirty ships wrecked at Jaffa in one day, more than a thousand dead; the Jerusalem road strewn with unburied Christian corpses torn by wild beasts; the Saracens in the caves 'awake day and night' (Wilkinson, Saewulf secs. 7-8)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      17
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1102",
+     "year": 1102,
+     "approx": false,
+     "event": "7 October: Daimbert deposed a second time by a council under the legate Robert of Paris; Evremar succeeds him (MacEvitt p. 119)",
+     "tier": "S",
+     "bigCh": "20",
+     "shortCh": [
+      18
+     ],
+     "band": "V",
+     "chapterStart": {
+      "n": 18,
+      "title": "Rough Tolerance"
+     }
+    },
+    {
+     "date": "1106-1108",
+     "year": 1106,
+     "approx": false,
+     "event": "Daniel the Abbot's pilgrimage. Baldwin I grants him leave to set a lamp on the tomb for the Russian land; at the Holy Fire the lamps of the Greeks and of Mar Saba light and 'of the Frankish lamps which had been hung higher up not one was lit'; the orthodox sing vespers 'while the Latins on the great altar began mumbling after their own fashion' (Wilkinson, Daniel secs. 96-97)",
+     "tier": "S",
+     "bigCh": "21",
+     "shortCh": [
+      18
+     ],
+     "band": "V"
+    },
+    {
+     "date": "c.1140",
+     "year": 1140,
+     "approx": true,
+     "event": "Usama ibn Munqidh at the Aqsa precinct: the Templars, 'who were my friends', clear the little adjoining mosque for him, and twice pull off a newly arrived Frank who turns his face east (Hitti, printed pp. 163-64)",
+     "tier": "S",
+     "bigCh": "21",
+     "shortCh": [
+      18
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1148",
+     "year": 1148,
+     "approx": false,
+     "event": "Queen Melisende and Baldwin III help the Jacobite monks of Jerusalem to a third village; earlier she had reversed Fulk's restoration of Beit Arif and Adassiyya to Geoffrey of the Tower of David, returned from thirty years in an Egyptian prison (MacEvitt pp. 122-123)",
+     "tier": "S",
+     "bigCh": "21",
+     "shortCh": [
+      18
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1149",
+     "year": 1149,
+     "approx": false,
+     "event": "Baldwin III and the nobles rebuild Gaza against Ascalon. William of Tyre finds the city 'in ruins and entirely uninhabited', its 'many handsome churches' still standing as ruins; they fortify part of the hill only and give the castle to the Templars in perpetuity. Filiu: the church on the foundations of the mosque of Umar is enlarged into a Latin cathedral of St John the Baptist",
+     "tier": "S",
+     "bigCh": "21",
+     "shortCh": [
+      18
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1153",
+     "year": 1153,
+     "approx": false,
+     "event": "Ascalon surrenders after a seven-month siege; Gaza loses most of its strategic value (Filiu p. 21)",
+     "tier": "S",
+     "bigCh": "21",
+     "shortCh": [
+      18
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1163-1164",
+     "year": 1163,
+     "approx": false,
+     "event": "Meletios, abbot of Mar Saba, sells to the Latin canons of the Holy Sepulchre three gastinae given to the monastery by Queen Melisende so the monks might distribute twenty-four loaves to the poor every Saturday, for 480 bezants (MacEvitt pp. 121-122)",
+     "tier": "S",
+     "bigCh": "21",
+     "shortCh": [
+      18
+     ],
+     "band": "V"
+    },
+    {
+     "date": "c.1165",
+     "year": 1165,
+     "approx": true,
+     "event": "John of Wurzburg lists more than twenty nations and tongues holding chapels in Jerusalem.",
+     "tier": "S",
+     "bigCh": "21",
+     "shortCh": [
+      18
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1169-1174",
+     "year": 1169,
+     "approx": false,
+     "event": "Theoderic in Jerusalem: 'every day when the Latins have finished their offices, the Syrians... are accustomed to chant their divine hymns'; six traditions celebrate the office in the church — Latins, Syrians, Armenians, Greeks, Jacobins and Nubians (Wilkinson, Theoderic secs. 7-9)",
+     "tier": "S",
+     "bigCh": "21",
+     "shortCh": [
+      18
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1170",
+     "year": 1170,
+     "approx": false,
+     "event": "Saladin takes Darum (Deir al-Balah) and rides up to the walls of the Templar castle at Gaza (Filiu p. 22)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1173",
+     "year": 1173,
+     "approx": false,
+     "event": "Al-Harawi visits Jerusalem and derives Qumama from the city's refuse tip and the ground where thieves were crucified — 'and God alone knows the truth' (Hillenbrand ch. 5)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1177-1178",
+     "year": 1177,
+     "approx": false,
+     "event": "Leontius II, the only Greek patriarch of Jerusalem to visit the city during the Frankish occupation, receives 'a cool reception from the Latin establishment there' (Pringle, Jerusalem entry)",
+     "tier": "S",
+     "bigCh": "21",
+     "shortCh": [
+      18
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1179",
+     "year": 1179,
+     "approx": false,
+     "event": "The Latin patriarch of Antioch invites Michael the Great to the Third Lateran Council and asks him to refute the Cathars, ignoring that Michael claims the same patriarchal title he does (MacEvitt p. 21)",
+     "tier": "S",
+     "bigCh": "21",
+     "shortCh": [
+      18
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1187",
+     "year": 1187,
+     "approx": false,
+     "event": "Hattin (July); Saladin takes Jerusalem (October)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18,
+      19
+     ],
+     "band": "V",
+     "chapterStart": {
+      "n": 19,
+      "title": "Hattin to Acre"
+     }
+    },
+    {
+     "date": "1187",
+     "year": 1187,
+     "approx": false,
+     "event": "4 July: Hattin. A band climbs Hattin hill by Jethro's tomb; the Muslims light fires round them and they surrender from thirst. The Templars and Hospitallers are all executed; Renaud de Chatillon killed in Saladin's tent after the sherbet, and Guy spared — 'It is not the wont of kings to kill kings' (Baha al-Din, printed pp. 113-115)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18,
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1187",
+     "year": 1187,
+     "approx": false,
+     "event": "9 July: Acre taken, more than four thousand captives freed; then Nablus, Haifa, Caesarea, Sepphoris and Nazareth, 'left defenceless by reason of the death or captivity of their protectors' (Baha al-Din, printed p. 116)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18,
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1187",
+     "year": 1187,
+     "approx": false,
+     "event": "The Knights Templar abandon Gaza to Saladin's forces without a fight (Filiu p. 22)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18,
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1187",
+     "year": 1187,
+     "approx": false,
+     "event": "20 September - 2 October: siege and surrender of Jerusalem. Ransom of ten Tyrian dinars a man, five a woman, one a child; more than 3,000 Muslim prisoners freed; the cross thrown down from the Dome of the Rock and the Friday sermon preached the same day, 27 Rajab (Baha al-Din, printed pp. 118-120)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18,
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1187",
+     "year": 1187,
+     "approx": false,
+     "event": "Before the surrender, patriarch Heraclius and Balian of Ibelin strip the edicule of the Holy Sepulchre of its silver to mint coin to pay the knights and sergeants (Pringle, Jerusalem entry)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18,
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1187",
+     "year": 1187,
+     "approx": false,
+     "event": "April: al-Rabai's Merits of Jerusalem read out in public while Saladin's army musters. September, one month before the city falls: the surviving manuscript of al-Wasiti's is copied. Scholars from Damascus use the mosque at Acre the same year to prepare popular feeling for the recapture (Hillenbrand ch. 4)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18,
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1187",
+     "year": 1187,
+     "approx": false,
+     "event": "Ibn al-Athir: Saladin at first refuses terms — 'I shall deal with you only in the way you dealt with its inhabitants when you conquered it in the year 492 with killing and taking prisoners'. He then grants the ransom (Hillenbrand ch. 5)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18,
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1187",
+     "year": 1187,
+     "approx": false,
+     "event": "The gilded cross taken off the Dome of the Rock, where it had stood eighty-eight years, to a shout from the whole crowd. Ibn al-Zaki preaches the victory sermon, chosen after a fierce competition (Hillenbrand chs. 4-5)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18,
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1187",
+     "year": 1187,
+     "approx": false,
+     "event": "Saladin's council debates demolishing the Church of the Resurrection and decides against it — not from mercy but because 'what they adore is the sanctity of Jerusalem of which the Refuse is only the noblest place' (Imad al-Din, via Hillenbrand ch. 5)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18,
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1187",
+     "year": 1187,
+     "approx": false,
+     "event": "The patriarch Heraclius leaves Jerusalem with the churches' treasure and as much again of his own; Saladin, urged to seize it, refuses — 'I will not act treacherously towards him' (Ibn al-Athir, via Hillenbrand ch. 5)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18,
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1187-1188",
+     "year": 1187,
+     "approx": false,
+     "event": "The Holy Sepulchre closed, then reopened. Franks admitted on payment and four Latin priests allowed to remain; the main altars placed in the hands of the Orthodox or Suriani (Pringle, Jerusalem entry)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      18,
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1191",
+     "year": 1191,
+     "approx": false,
+     "event": "Richard I's troops take Gaza on the way to Ascalon; by the treaty that follows the crusaders surrender Gaza and Ascalon and destroy their fortifications (Filiu p. 22)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1192",
+     "year": 1192,
+     "approx": false,
+     "event": "Hubert Walter, bishop of Salisbury, obtains Saladin's leave to install two Latin priests and two deacons to celebrate mass daily at the Holy Sepulchre (Pringle, Jerusalem entry)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1202",
+     "year": 1202,
+     "approx": false,
+     "event": "At the death of patriarch Aimery the Latin church of Jerusalem stands at a patriarch, three archbishops (Tyre, Nazareth, Caesarea) and seven bishops (Acre, Beirut, Bethlehem, Lydda, Sidon, Sebastia, Tiberias) — as large as under Fulk, with jurisdiction over 'only a small fraction of the territory of the old kingdom' (Hamilton p. 247)",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1211-1212",
+     "year": 1211,
+     "approx": false,
+     "event": "Wilbrand of Oldenburg pays eight and a half dirhams to enter the Holy Sepulchre and finds it desolate but intact, 'served by four Syrian priests, who were not allowed outside it'; he is forced out before reaching the chapel of St Helena (Pringle, Jerusalem entry)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1219",
+     "year": 1219,
+     "approx": false,
+     "event": "Al-Muazzam Isa threatens to destroy the Holy Sepulchre and contents himself with demolishing the city walls (Pringle, Jerusalem entry)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1229",
+     "year": 1229,
+     "approx": false,
+     "event": "Frederick II's treaty regains Jerusalem (to 1244)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1229",
+     "year": 1229,
+     "approx": false,
+     "event": "17-18 March: Frederick II enters Jerusalem under his treaty with al-Kamil and goes to the Holy Sepulchre for his coronation. Patriarch Gerold, who opposed the treaty, sends the archbishop of Caesarea to place the city under interdict and never returns; the chapter stays at Acre. Gaza is handed back to the crusaders in the same treaty",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1231-1244",
+     "year": 1231,
+     "approx": false,
+     "event": "The Holy Sepulchre 'left largely in the hands of the Orthodox patriarch, Athanasius II' while the Latin patriarch governs from Acre (Pringle, Jerusalem entry)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1239",
+     "year": 1239,
+     "approx": false,
+     "event": "Theobald of Champagne's crusade defeated at Beit Hanoun near Gaza by Shuja al-Din Uthman al-Kurdi, who dies in the battle and gives his name to the Shujaiyya quarter (Filiu pp. 22-23)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1244",
+     "year": 1244,
+     "approx": false,
+     "event": "Khwarazmian sack of Jerusalem",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1244",
+     "year": 1244,
+     "approx": false,
+     "event": "11 July - 23 August: the Khwarazmians sack Jerusalem. Al-Maqrizi: they 'destroyed the structures in the Church of the Resurrection, and ransacked the graves of the Christians and burned their bones'",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1244",
+     "year": 1244,
+     "approx": false,
+     "event": "21 September: the Latin patriarch Robert of Nantes writes to Innocent IV from Acre that the Turks slaughtered the priests in the Sepulchre — Greeks, Armenians, Jacobites and Latins — stripped the lead from the roof and cast down the marble entablature (Pringle, Jerusalem entry)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1244",
+     "year": 1244,
+     "approx": false,
+     "event": "A Turkish and Egyptian coalition seizes Gaza and expels the crusaders, who retreat to Ascalon (Filiu p. 22)",
+     "tier": "S",
+     "bigCh": "22",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1250",
+     "year": 1250,
+     "approx": false,
+     "event": "The Mamluk generals overthrow the Ayyubid Sultanate in Egypt (Filiu p. 22)",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1258",
+     "year": 1258,
+     "approx": false,
+     "event": "Baghdad falls to Hulegu's Mongols and the caliphate is destroyed; Hillenbrand: this 'can only have sharpened' Mamluk attitudes to non-Muslims (Hillenbrand chs. 4, 6)",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1260",
+     "year": 1260,
+     "approx": false,
+     "event": "The Mongols reach Gaza, the westernmost point of their advance and formerly the southernmost point of the Frankish kingdom. Qutuz retakes the city; in September Baybars wins at Ayn Jalut near Nablus and the Mongols withdraw from the Levant (Filiu p. 22)",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1260",
+     "year": 1260,
+     "approx": false,
+     "event": "Baybars, having made himself sultan, builds a new mosque of Umar in Gaza on the site of the Latin cathedral where the former mosque had stood, and endows it with a library of more than 20,000 books (Filiu p. 23)",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1274",
+     "year": 1274,
+     "approx": false,
+     "event": "The Council of Lyons under Gregory X. Burchard reports that a great part of the Greeks 'returned to obedience to the Church' by it, and quotes a Greek patriarch objecting that he is ranked below Latin archbishops and bishops (Burchard, printed p. 103)",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1280s",
+     "year": 1280,
+     "approx": true,
+     "event": "Burchard of Mount Sion on the native Christians: 'Besides these there are the Syrians. The whole land is full of these. They are Christians, but keep no faith with the Latins... They dwell among the Saracens, and for the most part are their servants... distinguished from them by a woollen girdle' (printed p. 103)",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1280s",
+     "year": 1280,
+     "approx": true,
+     "event": "Burchard defends the eastern churches to European readers who take their names for heresies: 'This is by no means true. God forbid!... seeing that even the Church of Rome itself is not free from fools' (printed p. 107). He gives Gaza one line, puts it on the sea-shore and calls it Gazara (printed p. 96)",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1282",
+     "year": 1282,
+     "approx": false,
+     "event": "Qalawun makes a ten years' truce with the Templars and Hospitallers; Burchard is in Palestine during it (PPTS vol. 12, editor's preface)",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1283-1291",
+     "year": 1283,
+     "approx": false,
+     "event": "Burchard and Ricoldus of Montecroce are both allowed to celebrate mass at certain altars in the Holy Sepulchre; the charge on Christians visiting is said to be 36-40 silver tournois. An anonymous Greek account of about this time records the whole church in Greek hands, with Armenians, Jacobites, 'Indians', Nestorians and Italians holding chapels (Pringle, Jerusalem entry)",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    },
+    {
+     "date": "1289",
+     "year": 1289,
+     "approx": false,
+     "event": "Qalawun takes Tripoli.",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19
+     ],
+     "band": "V"
+    }
+   ],
+   "chapters": [
+    17,
+    18,
+    19
+   ]
+  },
+  {
+   "numeral": "VI",
+   "name": "The Long Ottoman Afternoon",
+   "entries": [
+    {
+     "date": "1291",
+     "year": 1291,
+     "approx": false,
+     "event": "Fall of Acre",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19,
+      20
+     ],
+     "band": "VI",
+     "chapterStart": {
+      "n": 20,
+      "title": "The Long Afternoon"
+     }
+    },
+    {
+     "date": "1291",
+     "year": 1291,
+     "approx": false,
+     "event": "February: al-Ashraf assembles Quran reciters, ulama and qadis in his father Qalawun's tomb chamber in Cairo for a complete recitation before setting out; al-Bukhari's Sahih recited publicly at Damascus during the campaign; Ibn Taghribirdi says volunteers outnumbered regular troops (Hillenbrand ch. 4)",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19,
+      20
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1291",
+     "year": 1291,
+     "approx": false,
+     "event": "18 May: Acre falls. June: al-Ashraf's triumphal entry into Damascus, 280 fettered prisoners before him, the route lined by ulama, mosque officials, Sufi shaykhs, Christians and Jews, all holding candles though the parade passed before noon (Hillenbrand ch. 4)",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19,
+      20
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1291",
+     "year": 1291,
+     "approx": false,
+     "event": "Acre falls and the Franks are expelled from the Levant",
+     "tier": "S",
+     "bigCh": "23",
+     "shortCh": [
+      19,
+      20
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1333/1342",
+     "year": 1333,
+     "approx": false,
+     "event": "Franciscan Custody of the Holy Land (bulls Gratias agimus 1342)",
+     "tier": "S",
+     "bigCh": "24",
+     "shortCh": [
+      20
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "c. 1336-41",
+     "year": 1336,
+     "approx": true,
+     "event": "Ludolph von Suchem, a priest of the diocese of Paderborn, in the East; writes up afterwards. His Description of the Holy Land is the chapter's spine (PPTS vol. 12)",
+     "tier": "S",
+     "bigCh": "24",
+     "shortCh": [
+      20
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "c. 1350",
+     "year": 1350,
+     "approx": true,
+     "event": "Ludolph on the Minorites of Mount Sion: permitted public worship, forbidden to preach publicly to Saracens, burying their dead 'without the knowledge of the officers of the city'; endowed by Queen Sancia of Majorca, wife of Robert of Anjou (printed p. 102, verified against the plate)",
+     "tier": "S",
+     "bigCh": "24",
+     "shortCh": [
+      20
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "c. 1350",
+     "year": 1350,
+     "approx": true,
+     "event": "Ludolph: 'ancient Georgians' hold the key of the chapel of the Holy Sepulchre, fed alms and lamp-oil by pilgrims through a window in the south door (printed p. 105, verified)",
+     "tier": "S",
+     "bigCh": "24",
+     "shortCh": [
+      20
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1430s",
+     "year": 1430,
+     "approx": true,
+     "event": "Amedeus Boverii, a Franciscan of the Dauphine at Mount Sion, describes the descent of the Holy Fire: the Saracens close the Sepulchre, \"Greeks and other nations, with the exception of Latins\" process, and a Saracen secretly enters the chapel and shows the light at the window. He calls the custom greatly abused and ends \"prout audivi\" -- this is what I heard being told (Covaci ch. 1, 32-33, Latin at n. 51, from MS BNF Latin 4826, 36r)",
+     "tier": "S",
+     "bigCh": "24",
+     "shortCh": [
+      20
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "844/1440",
+     "year": 1440,
+     "approx": false,
+     "event": "Sultan Jaqmaq (r. 842-54/1438-53) demands that the Georgian king reimburse a 1,000-dinar levy the Georgians had imposed on one of his traders buying military slaves; failing that, the monks 'in charge of Georgian churches and the Golgotha in Jerusalem' must raise it, on pain of vengeance upon 'the Christians and Georgians in the Muslim countries'. The Georgian king replies citing a destroyed church in Damascus and his own good treatment of Muslims. They settle (Pahlitzsch, MSR 9/2, 34, from Abu-Manneh's translation of an unpublished letter)",
+     "tier": "S",
+     "bigCh": "24",
+     "shortCh": [
+      20
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1480s",
+     "year": 1480,
+     "approx": true,
+     "event": "Fabri finds the hermitage at Mount Quarantana empty, 'the dens of wild beasts' — a convent of Eastern monks driven out 'not many years' before. Ludolph in the 1330s had the sultan repair the road and grant the monks leave to dwell there 'for ever' (Fabri, PPTS vol. II printed p. 56; Ludolph printed p. 115)",
+     "tier": "S",
+     "bigCh": "24",
+     "shortCh": [
+      20
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1483",
+     "year": 1483,
+     "approx": false,
+     "event": "Felix Fabri and his companions agree a fare at Venice with Master Augustine Contarini, a nobleman \"going to take a cargo of pilgrims\"; 110 pilgrims sail among 330 people aboard the galley (PPTS vol. 7)",
+     "tier": "S",
+     "bigCh": "26",
+     "shortCh": [
+      20
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1516-17",
+     "year": 1516,
+     "approx": false,
+     "event": "Ottoman conquest of Palestine",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      20
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1517",
+     "year": 1517,
+     "approx": false,
+     "event": "Selim I takes Jerusalem; the Ottoman period begins. The Mamluk arrangements at the holy places stand",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      20,
+      21
+     ],
+     "band": "VI",
+     "chapterStart": {
+      "n": 21,
+      "title": "The Ottoman Centuries"
+     }
+    },
+    {
+     "date": "1525-1596",
+     "year": 1525,
+     "approx": false,
+     "event": "The Ottoman tahrir registers for the six towns of Palestine. Not one is exclusively Muslim. Gaza holds the largest Christian community in the country, a quarter of the city, increasing without interruption to a peak in 1556-7 (Cohen & Lewis)",
+     "tier": "S",
+     "bigCh": "26",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1539-1553",
+     "year": 1539,
+     "approx": false,
+     "event": "The last Christians of Hebron disappear from the registers; an almost identical number appears at Gaza and Ramla, and a further group at Jerusalem ten years later (Cohen & Lewis)",
+     "tier": "S",
+     "bigCh": "26",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1540",
+     "year": 1540,
+     "approx": false,
+     "event": "An Ottoman document names the winners of that year's contract to farm the resm-i Kumame, the entrance fee at the Church of the Holy Sepulchre: two Armenian businessmen. Suleyman shortly afterwards endows the income as a vakif for the Temple Mount mosques instead, and the contract is revoked early (Peri 175; firman of 7 Safer 947 = 13 June 1540, Sijill 9: 32)",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1604",
+     "year": 1604,
+     "approx": false,
+     "event": "French Capitulations confirm the Latins in possession of the Holy Sepulchre and Calvary, the Church of the Nativity and the Church of the Virgin (Cust, printed p. 10)",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1637",
+     "year": 1637,
+     "approx": false,
+     "event": "The Greek Orthodox patriarch of Jerusalem, Theophanes III, obtains a firman in favour of the Orthodox (Cust)",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "13 May 1645",
+     "year": 1645,
+     "approx": false,
+     "event": "Deposition by the Coptic bishop in Jerusalem before the sharia court as to the predicament of his small community of monks (Peri 37 n. 59, from Sijill 135: 442)",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "mid-17th c.",
+     "year": 1650,
+     "approx": true,
+     "event": "The Jacobite Syrian church of Jerusalem, in heavy debt and unable to get help from its small and impoverished congregations, transfers its rights in the Holy Sepulchre -- the chapels of St Nicodemus and Joseph of Arimathea -- to the Armenian church in return for the Armenians covering its debts; Maundrell at the end of the century finds only Latins, Greeks, Armenians and Copts holding title (Peri 37-38 n. 60).",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1673",
+     "year": 1673,
+     "approx": false,
+     "event": "Capitulations again confirm the Latins in possession (Cust)",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1697",
+     "year": 1697,
+     "approx": false,
+     "event": "Maundrell's journey",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1697",
+     "year": 1697,
+     "approx": false,
+     "event": "Henry Maundrell travels from Aleppo to Jerusalem and pays a series of caphars, tolls \"at first levied by Christians\" for maintaining and clearing the roads and kept up by the Ottomans \"pretending the same causes for it.\" An emir takes his dues in person and some of the party coats besides",
+     "tier": "S",
+     "bigCh": "26",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1740",
+     "year": 1740,
+     "approx": false,
+     "event": "Capitulations confirm the Latins a third time. Roman Catholic claims in the twentieth century ask for a return to this arrangement (Cust)",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1745",
+     "year": 1745,
+     "approx": false,
+     "event": "Richard Pococke at Bethlehem: the Christians \"live by making not only crosses and beads of wood, inlaid with mother of pearl, but also models of the church of the holy Sepulchre.\" He also calls them worse than any other Christians. The same decade as the Jifna church and the Beit Jala arrears",
+     "tier": "S",
+     "bigCh": "26",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1757",
+     "year": 1757,
+     "approx": false,
+     "event": "First Status Quo firman",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1757",
+     "year": 1757,
+     "approx": false,
+     "event": "The Orthodox definitively regain the praedominium at the holy places, 'while the European Powers were engaged in continual strife among themselves' (Cust)",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1774",
+     "year": 1774,
+     "approx": false,
+     "event": "At the Treaty of Kucuk Kaynarca, Russia assumes the protection of the sultan's Orthodox subjects; from here the Russian ambassador is the protagonist of the Orthodox as the French ambassador is of the Latins (Cust)",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      21
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1808",
+     "year": 1808,
+     "approx": false,
+     "event": "The Rotunda of the Holy Sepulchre burns. The Orthodox, supported by Russia, rebuild it, effacing what remained of the crusaders' work including the tombs of the Latin kings, and erecting the present shrine over the tomb. Cust's footnote: it is said to have cost two and a half million roubles to get leave to repair the church and one and a half million to do the repairing",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      22
+     ],
+     "band": "VI",
+     "chapterStart": {
+      "n": 22,
+      "title": "The Awakening"
+     }
+    },
+    {
+     "date": "1831-1840",
+     "year": 1831,
+     "approx": false,
+     "event": "Egyptian (Muhammad Ali) rule",
+     "tier": "S",
+     "bigCh": "26",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1831-40",
+     "year": 1831,
+     "approx": false,
+     "event": "The Egyptian decade: Ibrahim Pasha rules Palestine",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1841",
+     "year": 1841,
+     "approx": false,
+     "event": "Anglican-Prussian bishopric of Jerusalem",
+     "tier": "S",
+     "bigCh": "26",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1841",
+     "year": 1841,
+     "approx": false,
+     "event": "The Anglo-Prussian Protestant bishopric in Jerusalem, promoted by Shaftesbury through Palmerston (Robson)",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1846-63",
+     "year": 1846,
+     "approx": false,
+     "event": "James Finn British consul in Jerusalem",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1847",
+     "year": 1847,
+     "approx": false,
+     "event": "Latin Patriarchate restored (Valerga)",
+     "tier": "S",
+     "bigCh": "26",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1847",
+     "year": 1847,
+     "approx": false,
+     "event": "The Latin Patriarchate of Jerusalem restored (Robson)",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1852",
+     "year": 1852,
+     "approx": false,
+     "event": "Status Quo firman (still governing)",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1852",
+     "year": 1852,
+     "approx": false,
+     "event": "The firman of Sultan Abdulmecid rejects the Latin claim to absolute possession of the major shrines and directs that the Status Quo be maintained. 'This firman constitutes the official Declaration of the Status Quo in the Holy Places' (Cust, printed p. 9)",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1852",
+     "year": 1852,
+     "approx": false,
+     "event": "Edward Robinson meets a camel caravan carrying wheat from Nablus to Bethlehem, shares the bread baked in the embers: \"These were men of Bethlehem.\" He also records the great mosque at Jerusalem still receiving rents from the villages of Taybeh and Ramallah",
+     "tier": "S",
+     "bigCh": "26",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1853-56",
+     "year": 1853,
+     "approx": false,
+     "event": "Crimean War (holy-places dispute among triggers)",
+     "tier": "S",
+     "bigCh": "26",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1853-56",
+     "year": 1853,
+     "approx": false,
+     "event": "The Crimean War, of which the dispute over the holy places was one of the causes. The Treaty of Paris leaves the position as it was, the signatory powers including Russia undertaking to uphold the status quo ante bellum (Cust)",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1856",
+     "year": 1856,
+     "approx": false,
+     "event": "The Hatt-i Humayun makes the millet the model of self-government for all non-Muslim communities and requires each community assembly to include clerics and laity -- \"rightly interpreted by some clergy as undermining their authority\" (Masters)",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1870s",
+     "year": 1870,
+     "approx": true,
+     "event": "The PEF Survey describes Jifna as \"an important Christian village, with a Latin church and Latin convent, on the ancient road from the north to Jerusalem,\" population 200 \"some Latins, some Greeks\"; and Taybeh as \"a large Christian village... with well-built stone houses\"",
+     "tier": "S",
+     "bigCh": "26",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1893",
+     "year": 1893,
+     "approx": false,
+     "event": "Raphael Hawaweeny, an archimandrite, publishes An Historical Glance at the Brotherhood of the Holy Sepulcher in Beirut under the pseudonym Sheikh Abd al-Ahad al-Shafi. When the pseudonym is discovered he is expelled and goes to Russia",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1893",
+     "year": 1893,
+     "approx": false,
+     "event": "The Church Missionary Society opens what becomes the Ahli Arab Hospital, Gaza's oldest, 86 beds; run by the Anglican Church since 1982",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1899",
+     "year": 1899,
+     "approx": false,
+     "event": "Malatios enthroned as the first Arab patriarch of Antioch in modern times; he reopens a school to train Syrian candidates for bishop, all its teachers native Syrians (Bliss)",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1902",
+     "year": 1902,
+     "approx": false,
+     "event": "The Imperial Orthodox Palestine Society can house only two thirds of the 9,000 pilgrims then in Palestine. At its 25th anniversary it holds 2 million roubles of property, 8 hostels for 10,000 pilgrims, a hospital, 6 clinics, and 101 schools with 10,400 pupils (Hopwood)",
+     "tier": "S",
+     "bigCh": "26",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1906",
+     "year": 1906,
+     "approx": false,
+     "event": "Baedeker: Gaza has 40,000 inhabitants including 1000 Greeks with a church and 100 Latins with a church; travellers lodge at the Latin Hospice with Mr Gatt, or at the Greek Monastery; the CMS runs a hospital and schools",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1907",
+     "year": 1907,
+     "approx": false,
+     "event": "Meyer's history of Gaza: the site of ancient Anthedon \"has not been positively established\"; a tell north of Gaza known locally as Tida is the likeliest candidate",
+     "tier": "S",
+     "bigCh": "33",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1908",
+     "year": 1908,
+     "approx": false,
+     "event": "The Young Turk revolution restores the 1876 Constitution and a parliament; the censorship of the media and the ban on political activity are lifted (Ginio)",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1909",
+     "year": 1909,
+     "approx": false,
+     "event": "The Young Turk regime abolishes the bedel, the non-Muslim military exemption tax, making service compulsory regardless of religion. \"The non-Muslim response to the promise of equality in the ranks was increased emigration\" (Masters)",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "June 1913",
+     "year": 1913,
+     "approx": false,
+     "event": "The First Arab Congress meets in Paris. Ginio: most speeches and resolutions \"pushed for greater rights within the Ottoman Empire, not outside of it\"",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    },
+    {
+     "date": "1914-18",
+     "year": 1914,
+     "approx": false,
+     "event": "Palestine loses about 6 per cent of its population in the war. McCarthy corrected figures: Muslims 657,377 to 618,528 (5.9 per cent); Jews 60,000 to 58,728 (2.1); Christians 81,012 to 70,429, a loss of 10,583 (13.1). \"Migration of Christians is the only thing that can explain the great population loss -- some 13% --\"",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      22
+     ],
+     "band": "VI"
+    }
+   ],
+   "chapters": [
+    19,
+    20,
+    21,
+    22
+   ]
+  },
+  {
+   "numeral": "VII",
+   "name": "The Palestinian Century",
+   "entries": [
+    {
+     "date": "1 Mar 1917",
+     "year": 1917,
+     "approx": false,
+     "event": "Cemal Pasha orders the entire civilian population of Gaza out within forty-eight hours, \"even if crawling on their knees.\" Most leave on foot (Halevy)",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22,
+      23
+     ],
+     "band": "VII",
+     "chapterStart": {
+      "n": 23,
+      "title": "The Mandate"
+     }
+    },
+    {
+     "date": "12 June 1917",
+     "year": 1917,
+     "approx": false,
+     "event": "Uthman Mustafa al-Tabba returns to Gaza for a few hours and finds the Great Mosque in ruins, its courtyard littered with fragments of manuscripts and Qurans (Halevy)",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22,
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1917",
+     "year": 1917,
+     "approx": false,
+     "event": "Balfour Declaration (2 Nov); Allenby enters Jerusalem (11 Dec)",
+     "tier": "S",
+     "bigCh": "26-27",
+     "shortCh": [
+      22,
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Dec 1917",
+     "year": 1917,
+     "approx": false,
+     "event": "Allenby enters Jerusalem",
+     "tier": "S",
+     "bigCh": "27",
+     "shortCh": [
+      22,
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Dec 1917",
+     "year": 1917,
+     "approx": false,
+     "event": "Allenby's military government (OETA) takes over the administration of Palestine (Robson)",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      22,
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1918",
+     "year": 1918,
+     "approx": false,
+     "event": "The first Muslim-Christian Association forms at Jaffa, a Jerusalem branch a few weeks later. Its statutes: to elevate \"the interests of the country (Palestine) connected with agriculture, technics, economics and commerce, the revival of science and the education of the national youth and the protection of natural rights\" (Robson)",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1920",
+     "year": 1920,
+     "approx": false,
+     "event": "Christians elected to the executive committee at the third Palestinian Arab Congress, Haifa; a Muslim-Christian Association has been at Gaza since this year (Robson; Filiu)",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1921",
+     "year": 1921,
+     "approx": false,
+     "event": "The Orthodox patriarchate repairs the latch of the eastern entrance door of the Holy Sepulchre and claims the sole right to have done so; the Latin patriarch objects; investigation shows the municipality did the same work in 1879 and 1906, and the claim fails (Cust)",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1921",
+     "year": 1921,
+     "approx": false,
+     "event": "The Bertram-Luke commission reports on the Orthodox Patriarchate. It records the fraternity's view that the parochial clergy and laity are \"for all practical purposes a quantite negligeable,\" calls the laity's claims \"entitled to a careful and sympathetic consideration,\" and declines to \"pass any judgement\"",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1922",
+     "year": 1922,
+     "approx": false,
+     "event": "The Handbook of Palestine puts the Orthodox Patriarch's flock at \"40,000 to 80,000,\" the British population at 1,100, and Gaza at 15,000; the Archbishop of Gaza is a titular see held in Jerusalem with no diocesan jurisdiction",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1923",
+     "year": 1923,
+     "approx": false,
+     "event": "The first Arab Orthodox Congress: fifty-four delegates from all the dioceses, under Yaqub Farraj. The same year the British-Greek finance commission sells patriarchate land in Jerusalem to the Zionist Palestine Land Development Company (Robson)",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "April 1928",
+     "year": 1928,
+     "approx": false,
+     "event": "A demonstration at Gaza against proselytising by Christian missionaries is put down by police, without serious casualties (Filiu)",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "March 1928",
+     "year": 1928,
+     "approx": false,
+     "event": "The International Missionary Council meets in Jerusalem for a fortnight. No member of the Orthodox church attends; the Young Orthodox Club of Jaffa tells al-Jamia al-Arabiyya that most Orthodox regard the conference as \"an attack on Islam,\" under the headline \"Our Christian Brothers are Angry\" (Haiduc-Dale)",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1929",
+     "year": 1929,
+     "approx": false,
+     "event": "L. G. A. Cust, The Status Quo in the Holy Places, written for the Mandate government. Five places are subject to it: the Holy Sepulchre with its dependencies, the Deir al-Sultan, the Sanctuary of the Ascension, the Tomb of the Virgin, and the Church of the Nativity.",
+     "tier": "S",
+     "bigCh": "25",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1929",
+     "year": 1929,
+     "approx": false,
+     "event": "An earthquake at Jaffa damages both the Orthodox Club and a mosque; Isa Bandak complains that the government relieved the Christians first (Haiduc-Dale)",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1931",
+     "year": 1931,
+     "approx": false,
+     "event": "Patriarch Damianos dies after thirty-three years. The second Arab Orthodox Congress meets at Jaffa on 28 November under Isa al-Isa; the concurrent Islamic Congress in Jerusalem, under Hajj Amin al-Husayni, congratulates it and resolves that the Arab Orthodox cause is part of the Arab nationalist movement. High Commissioner Wauchope lets the patriarchal election proceed under the 1875 law, without the laity (Robson)",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1934",
+     "year": 1934,
+     "approx": false,
+     "event": "Mughannam Mughannam of Ramallah, an Arab Episcopalian lawyer, argues that rights secured by tradition cannot be withheld \"without prejudicing their Civil and Religious rights\" (Robson)",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "June 1935",
+     "year": 1935,
+     "approx": false,
+     "event": "After a four-year delay caused by Arab protest, the electors choose Timoteus, a Greek, as Damianos's successor; Orthodox clubs protest and telegrams reach the High Commissioner from Lydda, Nablus, Jerusalem, Ramallah, Jifna, Beit Jala, Ramle, Nazareth, Haifa and Jaffa (Haiduc-Dale)",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1936",
+     "year": 1936,
+     "approx": false,
+     "event": "Christians of all denominations back a communally elected legislative council together -- the first time Christians in Palestine present themselves as a single, coherent political bloc (Robson)",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "July 1937",
+     "year": 1937,
+     "approx": false,
+     "event": "At Gaza a Christian, Butros Sayegh, is one of the local leaders of the revolt; Father Elias Rishawi, head of the Greek Orthodox community, intervenes and saves convicted Muslims from being hanged (Filiu)",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1943",
+     "year": 1943,
+     "approx": false,
+     "event": "Gaza College founded by the brothers Shafiq and Wadi Tarazi",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1944",
+     "year": 1944,
+     "approx": false,
+     "event": "Gaza district: 132,500 Muslims, 2,890 Jews, 1,250 Christians (Filiu)",
+     "tier": "S",
+     "bigCh": "28",
+     "shortCh": [
+      23
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "12 May 1948",
+     "year": 1948,
+     "approx": false,
+     "event": "Beisan (Beth Shean) occupied by the Haganah without a battle. Naim Ateek is eleven years old",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII",
+     "chapterStart": {
+      "n": 24,
+      "title": "The Nakba, and the Years After"
+     }
+    },
+    {
+     "date": "14 May 1948",
+     "year": 1948,
+     "approx": false,
+     "event": "The State of Israel proclaimed",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "19 July 1948",
+     "year": 1948,
+     "approx": false,
+     "event": "Nazareth occupied, again without a battle. An expulsion order is issued the following day, refused by the military governor and overruled by Ben-Gurion, who lets Nazareth's Arabs stay (Ateek; Haiduc-Dale citing Morris)",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1948",
+     "year": 1948,
+     "approx": false,
+     "event": "Nakba; Christian refugees; Iqrit and Kafr Bir'im emptied",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "26 May 1948",
+     "year": 1948,
+     "approx": false,
+     "event": "The military governor orders Beisan evacuated within a few hours. \"If you do not leave, we will have to kill you.\" At the courthouse the soldiers separate the town into two groups: the Muslims are sent across the Jordan, the Christians bussed to the outskirts of Nazareth (Ateek)",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Feb 1948",
+     "year": 1948,
+     "approx": false,
+     "event": "A Muslim leader of a national committee formed during the war calls all Christians \"traitors and pimps for the Jews\"; Christian members threaten to leave the committee (Hillel Cohen, in Haiduc-Dale)",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "June 1948",
+     "year": 1948,
+     "approx": false,
+     "event": "The newly established Christian Union accuses Jewish forces of killing three priests and demands Israel take responsibility for the destruction of Christian institutions in Jerusalem (Haiduc-Dale)",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Mar 1948",
+     "year": 1948,
+     "approx": false,
+     "event": "The heads of the Christian churches in Jaffa write to the High Commissioner complaining of violent acts perpetrated against them by Zionist forces (Haiduc-Dale)",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Nov 1948",
+     "year": 1948,
+     "approx": false,
+     "event": "Two weeks after Israeli forces occupy Kafr Birim, its people are ordered out with a promise that they may return within two weeks. Iqrit, nearly 500 Christians and thirty Muslims, is emptied likewise; Morris: the border region was to be Arab-free (BADIL; Haiduc-Dale)",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Oct 1948",
+     "year": 1948,
+     "approx": false,
+     "event": "Operation Hiram. Morris: the outcome \"followed a clear, though by no means systematic, religious-ethnic pattern: Most of the Muslims in the pocket fled to Lebanon while most of the pocket's Christian population remained where they were,\" with no clear guidelines issued. Eilabun, a Christian village that resisted, is expelled and then allowed to return",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "mid-May 1948",
+     "year": 1948,
+     "approx": true,
+     "event": "al-Bassa in the Acre sub-district depopulated; \"about 100 old people and Christians\" out of some 4,000 transferred to Mazraa (Haiduc-Dale)",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1949",
+     "year": 1949,
+     "approx": false,
+     "event": "The Department of Services for Palestinian Refugees established by the Middle East Council of Churches",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "7 Jan 1949",
+     "year": 1949,
+     "approx": false,
+     "event": "The Egypt-Israel ceasefire ends the first Arab-Israeli war. Gaza's 80,000 inhabitants have been joined by more than 200,000 refugees; the city itself has gone from 35,000 to 170,000; 45 of the sub-district's 56 centres of population are emptied (Filiu)",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "July 1951",
+     "year": 1951,
+     "approx": false,
+     "event": "The Israeli Supreme Court rules that the displaced of Kafr Birim should be allowed to return. They are still prevented; in October the Court orders the government to explain why (BADIL)",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1952",
+     "year": 1952,
+     "approx": false,
+     "event": "The YMCA opens in Gaza",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1953",
+     "year": 1953,
+     "approx": false,
+     "event": "The area declared a closed military zone and Kafr Birim destroyed (BADIL).",
+     "tier": "S",
+     "bigCh": "29",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1957",
+     "year": 1957,
+     "approx": false,
+     "event": "Johnson visits Israel \"as a guest of the government, at which time I was shown everything from Dan to Beersheba\" (quoted by Ateek)",
+     "tier": "S",
+     "bigCh": "31",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1964",
+     "year": 1964,
+     "approx": false,
+     "event": "Paul VI visits the Holy Land",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      24
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1967",
+     "year": 1967,
+     "approx": false,
+     "event": "June war; occupation of West Bank, East Jerusalem, Gaza",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      24,
+      25
+     ],
+     "band": "VII",
+     "chapterStart": {
+      "n": 25,
+      "title": "Occupation, Emigration, and a Theology of Their Own"
+     }
+    },
+    {
+     "date": "1967-2015",
+     "year": 1967,
+     "approx": false,
+     "event": "At least 14,565 Jerusalem residencies revoked, more than 11,000 of them after the \"center of life\" policy; over 86,000 counting dependent children (Tamimi)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      24,
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "June 1967",
+     "year": 1967,
+     "approx": false,
+     "event": "Israel occupies the West Bank and Gaza and annexes East Jerusalem. Palestinians there are made \"permanent residents\" rather than citizens; a census registers 65,857, and those absent when it is taken lose the right to reside and must apply for family unification (Tamimi, JQ 72)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      24,
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1970",
+     "year": 1970,
+     "approx": false,
+     "event": "Hal Lindsey, The Late Great Planet Earth -- the book Tooley credits with popularising the Dispensationalism behind modern American Christian Zionism",
+     "tier": "S",
+     "bigCh": "31",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1974",
+     "year": 1974,
+     "approx": false,
+     "event": "The regulations under the Entry into Israel Law of 1952. Regulation 11(c): \"a permanent residency permit expires if the holder leaves Israel and settles in another country\" (Tamimi)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Aug 1974",
+     "year": 1974,
+     "approx": false,
+     "event": "Hilarion Capucci, Greek Catholic patriarchal vicar in Jerusalem and a Syrian by birth, is arrested by the Israeli military for using his diplomatic status to carry guns and money for Fatah into the West Bank in the boot of his car. The Jerusalem district court convicts him and sentences him to twelve years (Tsimhoni; Lybarger)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Nov 1977",
+     "year": 1977,
+     "approx": false,
+     "event": "Capucci released after serving a quarter of his sentence, at the personal request of Pope Paul VI and on the Pope's undertaking that he would not serve in the Near East and would refrain from political activity against Israel. He resumes it from the Arab states. Tsimhoni: his example was not followed, but he \"led the way for Arab church heads in Jerusalem, in involvement and public identification with the Palestinian national cause.\" Lutfi Laham succeeds him as vicar",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1980s",
+     "year": 1980,
+     "approx": true,
+     "event": "An American churchman, Johnson, attacks the Arabic revision of the Book of Common Prayer for cutting the Psalter from 150 psalms to 100: \"Deleted was every Psalm mentioning Israel!\" Ateek counts: 15 of the 100 retained do mention Israel, and 30 of the 50 removed do not mention it at all",
+     "tier": "S",
+     "bigCh": "31",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Dec 1987",
+     "year": 1987,
+     "approx": false,
+     "event": "The first intifada begins",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Dec 1987",
+     "year": 1987,
+     "approx": false,
+     "event": "Michel Sabbah elected the first Arab Latin Patriarch of Jerusalem, the month the intifada begins. The internal Arabization of the churches under Israeli rule had already produced Arab Anglican and Lutheran bishops; only the Greek Orthodox upper hierarchy remains non-Arab (Tsimhoni)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1988",
+     "year": 1988,
+     "approx": false,
+     "event": "In the case of Mubarak Awad the Israeli Supreme Court invokes the \"center of life\" criteria seven years before their administrative introduction: \"This new reality reveals that the petitioner uprooted himself from the country and rooted himself in the U.S.A.\" Awad, a Palestinian Christian organiser of non-violent resistance, is expelled (Tamimi; Tsimhoni)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "9 Feb 1988",
+     "year": 1988,
+     "approx": false,
+     "event": "Khalid Tarazi, a Christian boy in Gaza and a relative of the PLO representative at the UN, is apprehended after a demonstration and dies following interrogation (Tsimhoni)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Jan 1988",
+     "year": 1988,
+     "approx": false,
+     "event": "The heads of the Jerusalem churches join the national struggle -- for the first time in modern history, per Tsimhoni. Sabbah, Greek Catholic Archbishop Lutfi Laham and Anglican Bishop Samir Kafity organise a united Christian front; Christmas celebrations curtailed",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "July 1988",
+     "year": 1988,
+     "approx": false,
+     "event": "Nidal al-Rabadi, a Christian of the Old City, is caught up in a stone-throwing incident and dies on the way to hospital. Five Christians are killed in the intifada's first year, out of 410 deaths -- which Tsimhoni reads both as a symbol of common fate and as an index of low involvement in violence",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1989",
+     "year": 1989,
+     "approx": false,
+     "event": "Ateek, Justice and Only Justice",
+     "tier": "S",
+     "bigCh": "31",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1989",
+     "year": 1989,
+     "approx": false,
+     "event": "The Beit Sahour tax revolt: identity cards handed back, taxes refused, local tax-paying down 30 per cent, and a forty-six-day siege by the army with the telephone lines cut (Tsimhoni)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1989",
+     "year": 1989,
+     "approx": false,
+     "event": "The Council of Latin Arab Bishops calls on believers throughout the Middle East not to emigrate",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "11 Apr 1990",
+     "year": 1990,
+     "approx": false,
+     "event": "On the eve of Good Friday some 150 Jewish settlers enter St John's Hospice in the Christian Quarter, owned by the Greek Orthodox patriarchate, metres from the Holy Sepulchre. The lease had been bought from its protected tenant, Martyros Matossian, by F.D.C. Ltd of Panama for $3,500,000; the housing ministry financed 40 per cent. Teddy Kollek objects and had not been consulted (Tsimhoni)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "4 June 1990",
+     "year": 1990,
+     "approx": false,
+     "event": "Beit Sahour is awarded $50,000 by the Danish Peace Foundation for \"non-violent resistance opposing violent suppression,\" and is nominated that month for the Nobel Peace Prize (Tsimhoni)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Apr 1990",
+     "year": 1990,
+     "approx": false,
+     "event": "Patriarch Diodoros, not an Arab, declares the seizure \"aggression against our holy places and properties\" and that \"We Muslims and Christians have a common problem.\" Black flags on the patriarchate, the bells rung, and for the first time Palestinian flags raised inside the Church of the Holy Sepulchre (Tsimhoni)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Dec 1990",
+     "year": 1990,
+     "approx": false,
+     "event": "The Greek Orthodox patriarchate reports that nearly a third of its members have emigrated since the intifada began (Tsimhoni)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "summer 1990",
+     "year": 1990,
+     "approx": true,
+     "event": "Bernard Sabella's Al-Liqa field research presented at two Jerusalem seminars: 2,000 Christians -- 5 per cent of the 40,000 in Jerusalem and the West Bank -- have emigrated since the intifada began; another 35 per cent intend to, Jerusalem highest at 42 per cent; the candidates are mainly academics and people in their twenties; 46 per cent name the search for work (Tsimhoni)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1994",
+     "year": 1994,
+     "approx": false,
+     "event": "Sabeel founded",
+     "tier": "S",
+     "bigCh": "31",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1994",
+     "year": 1994,
+     "approx": false,
+     "event": "The Gaza-Jericho agreement; Arafat grants the churches state land to build on",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "1995",
+     "year": 1995,
+     "approx": false,
+     "event": "\"In 1995, Israel changed the revocation rules without warning and without the introduction of any official legal amendment.\" The \"center of life\" criterion, introduced by a directive from the Ministry of Interior's legal advisor, extends \"leaves Israel\" to include residency in the West Bank and Gaza Strip (Tamimi)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      25
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "2000",
+     "year": 2000,
+     "approx": false,
+     "event": "John Paul II visit; Second Intifada begins (September)",
+     "tier": "S",
+     "bigCh": "31",
+     "shortCh": [
+      25,
+      26
+     ],
+     "band": "VII",
+     "chapterStart": {
+      "n": 26,
+      "title": "Gaza, and the Road Again"
+     }
+    },
+    {
+     "date": "2002",
+     "year": 2002,
+     "approx": false,
+     "event": "Church of the Nativity siege",
+     "tier": "S",
+     "bigCh": "31",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "2003",
+     "year": 2003,
+     "approx": false,
+     "event": "Israel imposes a full blockade of the Strip; tightened after Hamas takes control in 2006",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "2006",
+     "year": 2006,
+     "approx": false,
+     "event": "Christians United for Israel founded (Tooley)",
+     "tier": "S",
+     "bigCh": "31",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "2007",
+     "year": 2007,
+     "approx": false,
+     "event": "Hamas takes Gaza; Rami Ayyad murdered (October)",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "6 Oct 2007",
+     "year": 2007,
+     "approx": false,
+     "event": "Rami Ayyad, manager of the Bible Society bookshop in Gaza City, is killed; no group identified. Some families move to Bethlehem",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "2009",
+     "year": 2009,
+     "approx": false,
+     "event": "Kairos Palestine (December)",
+     "tier": "S",
+     "bigCh": "31",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "2013-15",
+     "year": 2013,
+     "approx": false,
+     "event": "Fieldwork at Jaffa, Lydda and Ramle. The Melkite priest of Jaffa prints the Lord's Prayer and the Apostles' Creed in vocalised Hebrew characters for children who speak Arabic and cannot read it; asked about the future, he says that in fifteen years he will probably be leading the prayers in Hebrew (Shachmon & Mack, WZKM 106)",
+     "tier": "S",
+     "bigCh": "30",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "2019",
+     "year": 2019,
+     "approx": false,
+     "event": "Dar al-Kalima University opens a training centre in Gaza",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "17 Oct 2023",
+     "year": 2023,
+     "approx": false,
+     "event": "The Ahli Arab Hospital is hit. Cause and toll disputed: Palestinian health authorities put the dead near 500; Israel rejects the figure and attributes the explosion to a failed Palestinian Islamic Jihad rocket",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "19 Oct 2023",
+     "year": 2023,
+     "approx": false,
+     "event": "A strike on the St Porphyrius compound collapses the assembly hall where people were sheltering: 18 Palestinian Christians killed, 9 of them children. The Orthodox Patriarchate calls it a war crime.",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "2023",
+     "year": 2023,
+     "approx": false,
+     "event": "War begins (7 Oct); St. Porphyrius compound strike, 18 killed (19 Oct); Holy Family shootings (Dec)",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Nov 2023-Mar 2024",
+     "year": 2023,
+     "approx": false,
+     "event": "Christian institutions damaged or destroyed: Rosary Sisters School (4 Nov), the YMCA premises (17 Dec), the Dar al-Kalima training centre (late March 2024). 56 Christian homes destroyed and later looted (Raheb & McGeoch)",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "14 Nov 2025",
+     "year": 2025,
+     "approx": false,
+     "event": "Kairos Palestine II, A Moment of Truth: Faith in a Time of Genocide. Four parts, numbered throughout; opens and closes on Psalm 85:10. Rejects the concept of \"conflict\" (1.22); rejects Christian Zionism as \"a theological distortion\" calling on \"a tribal, racist god of war\" (3.7); rejects a religious state as such and asks for \"a culture of pluralism -- not numerical dominance\" (4.4)",
+     "tier": "S",
+     "bigCh": "31",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "17 July 2025",
+     "year": 2025,
+     "approx": false,
+     "event": "An artillery shell strikes Holy Family: 3 killed, about 10 wounded including Fr Gabriel Romanelli. Israel \"deeply regrets\" it and attributes it to \"stray ammunition\"; the IDF's initial probe describes a misfired artillery shell; Netanyahu apologises publicly the next day after a call with President Trump",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "2025",
+     "year": 2025,
+     "approx": false,
+     "event": "Pope Francis dies (April); Leo XIV (May); Holy Family shelled, 3 killed (17 July); ceasefire (October)",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "2025",
+     "year": 2025,
+     "approx": false,
+     "event": "Theology After Gaza, ed. Raheb and McGeoch -- 19 essays in five sections, contributors from Palestine, the global South, Korea and within Islam",
+     "tier": "S",
+     "bigCh": "31",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Apr 2025",
+     "year": 2025,
+     "approx": false,
+     "event": "Pope Francis dies, having telephoned the Holy Family parish almost nightly since the war began. Leo XIV succeeds him",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "2026",
+     "year": 2026,
+     "approx": false,
+     "event": "Fragile ceasefire; sombre Easter (April); epilogue present",
+     "tier": "S",
+     "bigCh": "31-32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "22-23 June 2026",
+     "year": 2026,
+     "approx": false,
+     "event": "Patriarch Theophilos III and Cardinal Pizzaballa visit Gaza together, received first at St Porphyrius and then at Holy Family. \"We are rooted here and will remain here. Do not be afraid.\" Pizzaballa lectures at al-Azhar University of Gaza and plants an olive tree; the visit ends with 24 children graduating from the Latin Patriarchate kindergarten",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    },
+    {
+     "date": "Apr 2026",
+     "year": 2026,
+     "approx": false,
+     "event": "The community keeps its third Easter of the war; Palm Sunday sees the blessing of palms and a procession again",
+     "tier": "S",
+     "bigCh": "32",
+     "shortCh": [
+      26
+     ],
+     "band": "VII"
+    }
+   ],
+   "chapters": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ]
+  }
+ ],
+ "count": 484,
+ "withheld": 32,
+ "needsHand": 2
+}

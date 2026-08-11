@@ -1,0 +1,354 @@
+/* ============================================================
+   The Chronology — skinned off the 16th-century Mount Athos fresco
+   of Porphyrius of Gaza, NOT off the Wroot Press house tokens.
+
+   Colours are read from the painting itself: the aged plaster and
+   black-crossed omophorion of the vestment, the slate-blue ground
+   behind the figure, the gold of the halo and the orphrey, the
+   oxblood earth at his feet, the brick-red arc overhead.
+
+   ⭐ The one mapping that is not decoration: in the fresco a band of
+   gold embroidery runs unbroken from collar to hem. That is what the
+   rule down this page does, so the rule is that gold.
+
+   ⚠ The painting is NOT reproduced here — only its palette, which
+   carries no rights. Embedding it would need a provenance check the
+   image manifest has not been given (web/PLAN.md §5).
+   ============================================================ */
+
+.page {
+  --plaster: #ece4d1;
+  --plaster-raised: #f5efe1;
+  --plaster-sunken: #e2d8c0;
+
+  --ink: #241f19;
+  --ink-soft: #594e40;
+  --ink-quiet: #877a68;
+
+  /* ⚠ The first cut of this palette read as parchment, not as the painting:
+     the slate ground and the oxblood earth barely appeared, and a #bd8f2e rule
+     on a cream field goes to khaki. The fresco is a CREAM FIGURE ON A SLATE
+     GROUND, so the framing bands carry the slate and the gold is deepened until
+     it holds against plaster. */
+  --gold: #a87d1b;
+  --gold-bright: #d4a63c;
+  --slate: #34485a;
+  --slate-deep: #263746;
+  --oxblood: #6b3a2f;
+  --terracotta: #b1543b;
+
+  --line: #d8cbb0;
+  --line-strong: #c4b391;
+
+  --measure: 64ch;
+
+  background: var(--plaster);
+  color: var(--ink);
+  font-family: var(--font-serif), "EB Garamond", Garamond, Georgia, serif;
+  font-size: 17px;
+  line-height: 1.55;
+  min-height: 100vh;
+}
+
+.shell {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 var(--s-5, 24px);
+}
+
+.page a {
+  color: var(--slate);
+  border-bottom-color: transparent;
+}
+.page a:hover {
+  color: var(--oxblood);
+  border-bottom-color: var(--gold);
+}
+
+/* ---------- masthead ---------- */
+
+.header {
+  padding: 22px 0;
+  background: var(--slate-deep);
+  border-bottom: 3px solid var(--gold);
+}
+.header a {
+  border-bottom: none;
+}
+.wordmark {
+  height: auto;
+  width: 160px;
+  /* The wordmark is dark ink on transparent; invert it onto the slate ground. */
+  filter: invert(1) sepia(0.35) saturate(0.5) brightness(1.15);
+  opacity: 0.92;
+}
+
+.main {
+  padding: 56px 0 72px;
+}
+
+.h1 {
+  font-size: clamp(2.1rem, 4.4vw, 3rem);
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin: 0 0 20px;
+  max-width: 20ch;
+  color: var(--oxblood);
+}
+
+.lede {
+  font-size: 1.16rem;
+  line-height: 1.62;
+  max-width: 58ch;
+  margin: 0 0 14px;
+  color: var(--ink-soft);
+}
+
+.meta {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+  margin: 0 0 40px;
+}
+
+/* ---------- era nav ---------- */
+
+.eraNav {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--slate);
+  border-bottom: 1px solid var(--slate-deep);
+  padding: 11px 0;
+  margin-bottom: 44px;
+}
+
+.eraNav .shell {
+  max-width: 1180px;
+}
+
+.eraNavList {
+  display: flex;
+  gap: 26px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.eraNavList::-webkit-scrollbar {
+  display: none;
+}
+
+.eraNavLink {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  white-space: nowrap;
+  border-bottom: none;
+}
+.eraNavLink:hover .eraNavName {
+  color: var(--gold-bright);
+}
+
+.eraNavName {
+  font-size: 0.9rem;
+  color: #e6dcc6;
+}
+
+.eraNavSpan {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.05em;
+  font-variant-numeric: tabular-nums;
+  color: #a9b6c1;
+}
+
+/* ---------- the spine ----------
+   The gold rule is drawn on the shared grid column, never on individual
+   rows, so it cannot break at a band boundary or a long entry. */
+
+.spine {
+  --date-col: 8.6rem;
+  --gutter: 30px;
+}
+
+.band {
+  margin: 0;
+}
+
+.bandHead,
+.entry {
+  display: grid;
+  grid-template-columns: var(--date-col) 1fr;
+  column-gap: var(--gutter);
+  align-items: baseline;
+}
+
+.bandHead {
+  margin: 0;
+  padding: 0 0 8px;
+  font-weight: 400;
+  scroll-margin-top: 4.5rem;
+}
+
+/* The black cross of the omophorion, once per band and never elsewhere. */
+.bandName::before {
+  content: "✚";
+  color: var(--ink);
+  font-size: 0.62em;
+  vertical-align: 0.22em;
+  margin-right: 0.75em;
+}
+
+.bandName {
+  grid-column: 2;
+  font-size: 1.72rem;
+  line-height: 1.15;
+  color: var(--slate);
+  border-left: 3px solid var(--gold);
+  padding: 54px 0 0 var(--gutter);
+  margin-left: calc(var(--gutter) * -1 - 2px);
+}
+.band:first-child .bandName {
+  padding-top: 8px;
+}
+
+.bandSpan {
+  grid-column: 2;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-quiet);
+  border-left: 3px solid var(--gold);
+  padding-left: var(--gutter);
+  margin-left: calc(var(--gutter) * -1 - 2px);
+  padding-bottom: 10px;
+}
+
+.entries {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.entry {
+  padding: 0;
+}
+
+.date {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.93rem;
+  color: var(--ink-quiet);
+  text-align: right;
+  padding: 7px 9px 7px 0;
+}
+
+.event {
+  border-left: 3px solid var(--gold);
+  padding: 7px 0 7px var(--gutter);
+  margin-left: calc(var(--gutter) * -1 - 2px);
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: var(--measure);
+  color: var(--ink);
+}
+
+.entry:hover .event {
+  border-left-color: var(--terracotta);
+}
+.entry:hover .date {
+  color: var(--ink-soft);
+}
+
+/* The book's shape laid over the dates, in the oxblood of the earth
+   the saint is standing on. */
+.chapterMark {
+  grid-column: 2;
+  border-left: 3px solid var(--gold);
+  padding: 34px 0 3px var(--gutter);
+  margin-left: calc(var(--gutter) * -1 - 2px);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--oxblood);
+}
+.chapterMark em {
+  font-style: normal;
+  color: var(--ink-quiet);
+}
+
+/* ---------- close ---------- */
+
+.colophon {
+  margin: 56px 0 0;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  max-width: var(--measure);
+}
+.colophon + .colophon {
+  margin-top: 16px;
+  padding-top: 0;
+  border-top: none;
+}
+
+.footer {
+  border-top: 3px solid var(--gold);
+  background: var(--slate-deep);
+  padding: 22px 0;
+  margin-top: 56px;
+}
+
+.colophonMeta {
+  margin: 0;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.74rem;
+  letter-spacing: 0.03em;
+  color: #9aa8b4;
+}
+
+/* ---------- small screens ----------
+   The date moves above its entry; the gold rule stays where it was. */
+
+@media (max-width: 640px) {
+  .bandHead,
+  .entry {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+
+  .bandName,
+  .bandSpan,
+  .event,
+  .chapterMark {
+    grid-column: 1;
+    margin-left: 0;
+    padding-left: 16px;
+  }
+
+  .date {
+    grid-column: 1;
+    text-align: left;
+    padding: 10px 0 0 16px;
+    border-left: 3px solid var(--gold);
+    font-size: 0.84rem;
+  }
+
+  .event {
+    padding-top: 2px;
+    padding-bottom: 10px;
+  }
+
+  .bandName {
+    font-size: 1.45rem;
+  }
+}
