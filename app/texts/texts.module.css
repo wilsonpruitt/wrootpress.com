@@ -1,0 +1,382 @@
+/* ============================================================
+   Sources — the hosted primary texts.
+
+   Same skin as /chronology: read off the 16th-century Mount Athos
+   fresco of Porphyrius of Gaza, not off the Wroot Press house tokens.
+   A cream figure on a slate ground, with the gold of the halo and
+   orphrey carried by the rules.
+
+   This file is shared by the index and the reading page so the palette
+   exists in ONE place. The chronology keeps its own copy because it
+   shipped first; if a third page joins, lift these tokens to globals
+   rather than making a third copy.
+   ============================================================ */
+
+.page {
+  --plaster: #ece4d1;
+  --plaster-raised: #f5efe1;
+  --plaster-sunken: #e2d8c0;
+
+  --ink: #241f19;
+  --ink-soft: #594e40;
+  --ink-quiet: #877a68;
+
+  --gold: #a87d1b;
+  --gold-bright: #d4a63c;
+  --slate: #34485a;
+  --slate-deep: #263746;
+  --oxblood: #6b3a2f;
+
+  --line: #d8cbb0;
+  --line-strong: #c4b391;
+
+  background: var(--plaster);
+  color: var(--ink);
+  font-family: var(--font-serif), "EB Garamond", Garamond, Georgia, serif;
+  font-size: 17px;
+  line-height: 1.55;
+  min-height: 100vh;
+}
+
+.shell {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.page a {
+  color: var(--slate);
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+.page a:hover {
+  color: var(--oxblood);
+  border-bottom-color: var(--gold);
+}
+
+/* ---------- masthead ---------- */
+
+.header {
+  padding: 22px 0;
+  background: var(--slate-deep);
+  border-bottom: 3px solid var(--gold);
+}
+.header a {
+  border-bottom: none;
+}
+.wordmark {
+  height: auto;
+  width: 160px;
+  filter: invert(1) sepia(0.35) saturate(0.5) brightness(1.15);
+  opacity: 0.92;
+}
+
+.main {
+  padding: 52px 0 72px;
+}
+
+.h1 {
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  line-height: 1.12;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin: 0 0 10px;
+  color: var(--oxblood);
+}
+
+.byline {
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  margin: 0 0 6px;
+}
+
+.kicker {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+  margin: 0 0 14px;
+}
+
+.lede {
+  font-size: 1.14rem;
+  line-height: 1.62;
+  max-width: 60ch;
+  margin: 0 0 16px;
+  color: var(--ink-soft);
+}
+
+/* ---------- index list ---------- */
+
+.works {
+  list-style: none;
+  margin: 36px 0 0;
+  padding: 0;
+  border-top: 2px solid var(--gold);
+}
+
+.work {
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.workTitle {
+  font-size: 1.32rem;
+  margin: 0 0 4px;
+  font-weight: 400;
+}
+.workTitle a {
+  color: var(--oxblood);
+}
+
+.workMeta {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.76rem;
+  letter-spacing: 0.03em;
+  color: var(--ink-quiet);
+  margin: 0 0 8px;
+}
+
+.workBlurb {
+  margin: 0;
+  color: var(--ink-soft);
+  max-width: 62ch;
+}
+
+/* ---------- headnote ---------- */
+
+.headnote {
+  margin: 30px 0 0;
+  padding: 0 0 0 20px;
+  border-left: 3px solid var(--gold);
+}
+.headnote p {
+  margin: 0 0 13px;
+  max-width: 62ch;
+}
+.headnote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- provenance box ----------
+   Visible, never metadata: the page says what it is and why it may be
+   given away. An honest page states its own standing. */
+
+.provenance {
+  margin: 34px 0 0;
+  padding: 18px 20px;
+  background: var(--plaster-sunken);
+  border: 1px solid var(--line-strong);
+  font-size: 0.9rem;
+}
+
+.provenanceHead {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+  margin: 0 0 10px;
+}
+
+.provenanceList {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 5px 16px;
+}
+.provenanceList dt {
+  color: var(--ink-quiet);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.74rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+.provenanceList dd {
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+/* On a phone the two-column form leaves the value about 150px, which wraps a
+   provenance reason into a ribbon. Stack it instead. */
+@media (max-width: 620px) {
+  .provenanceList {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+  .provenanceList dd {
+    margin-bottom: 10px;
+  }
+}
+
+.rights {
+  margin: 14px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--line-strong);
+  color: var(--ink-soft);
+  font-size: 0.86rem;
+}
+
+/* ---------- the text ---------- */
+
+.text {
+  margin: 46px 0 0;
+  border-top: 2px solid var(--gold);
+  padding-top: 30px;
+}
+
+.editorial {
+  background: var(--plaster-sunken);
+  border-left: 3px solid var(--line-strong);
+  padding: 14px 18px;
+  margin: 0 0 30px;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+.editorialTag {
+  display: block;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.66rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+  margin-bottom: 7px;
+}
+
+.heading {
+  font-size: 1.06rem;
+  font-weight: 600;
+  margin: 34px 0 12px;
+  color: var(--oxblood);
+  scroll-margin-top: 1.5rem;
+}
+.heading:first-child {
+  margin-top: 0;
+}
+.headingLabel {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+  display: block;
+  margin-bottom: 3px;
+  font-weight: 400;
+}
+
+.para {
+  margin: 0 0 15px;
+  scroll-margin-top: 1.5rem;
+  position: relative;
+}
+
+/* The section number sits in the margin where there is room for it and
+   folds into the line where there is not, so a phone never clips it. */
+.marker {
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.8rem;
+  user-select: none;
+}
+.marker a {
+  color: var(--gold);
+  border-bottom: none;
+}
+.marker a:hover {
+  color: var(--oxblood);
+}
+
+@media (min-width: 900px) {
+  .marker {
+    position: absolute;
+    left: -3.2rem;
+    top: 0.3em;
+    width: 2.6rem;
+    text-align: right;
+  }
+}
+
+.ref {
+  font-size: 0.72em;
+  vertical-align: super;
+  line-height: 0;
+  color: var(--slate);
+  border-bottom: none;
+  padding: 0 1px;
+}
+.ref:hover {
+  color: var(--oxblood);
+}
+
+/* ---------- notes ---------- */
+
+.notes {
+  margin: 52px 0 0;
+  padding-top: 26px;
+  border-top: 1px solid var(--line-strong);
+}
+.notesHead {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+  margin: 0 0 16px;
+}
+.notesList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+}
+.note {
+  margin: 0 0 9px;
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  gap: 12px;
+  scroll-margin-top: 1.5rem;
+}
+.noteNum {
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+/* ---------- footer ---------- */
+
+.colophon {
+  margin: 40px 0 0;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  max-width: 62ch;
+}
+
+.footer {
+  background: var(--slate-deep);
+  border-top: 3px solid var(--gold);
+  padding: 24px 0;
+  margin-top: 64px;
+}
+.footer p {
+  margin: 0;
+  color: #a9b6c1;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.78rem;
+}
+.footer a {
+  color: #e6dcc6;
+}
+.footer a:hover {
+  color: var(--gold-bright);
+}
+
+/* Section heading inside the index, below the first list. */
+.sectionHead {
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--oxblood);
+  margin: 52px 0 12px;
+}
