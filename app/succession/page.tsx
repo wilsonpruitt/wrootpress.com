@@ -38,7 +38,7 @@ const T0 = 20;
  * mostly empty reads as broken rather than honest. Le Quien's parallel lane now fills 1334-1608
  * and the Ottoman rows carry 1645-1808, so the ribbon runs.
  */
-const T1 = 1950;
+const T1 = 2030;
 /**
  * ⚠ 1.05 px/year was too tight and the page said so: twenty-two Latin patriarchs inside
  * 192 years need ~330px of labels, so the bottom third of both lanes had names sitting
@@ -295,8 +295,13 @@ export default function SuccessionPage() {
             Gaps in a lane mean the sources name no one — the two generations after
             Sophronius, when Gil reports the seat simply vacant, are the longest. Where
             this page has not yet done the work, it shows nothing rather than a guess.
-            The band presently runs to the fall of Acre in 1291; the Ottoman and modern
-            centuries are not drawn here yet.
+            The Latin lane is the one to watch twice. It stops looking like a succession
+            after 1291 because the see stopped being resident, not because it stopped
+            existing: ten more men held it in title, one of them an English bishop of
+            Durham, and for five and a half centuries the Latin holy places were kept by the
+            Franciscan Custodian of Terra Santa. The lane resumes in 1847, when the
+            patriarchate was made resident again. Where a lane here shows nothing at all,
+            that is this page's work unfinished and not a gap in the thing itself.
           </p>
         </section>
       </main>

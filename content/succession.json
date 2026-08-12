@@ -921,6 +921,26 @@
    "note": "Hamilton alone, one attested year."
   },
   {
+   "lane": "latin",
+   "name": "Antony Beake",
+   "start": 1305,
+   "end": 1311,
+   "mark": "bar1",
+   "auth1": "H2: Patriarch 1305-1311",
+   "auth2": "--",
+   "note": "⚠⚠⚠ THE LATIN LINE DID NOT END AT ACRE, AND THIS BAND SAID IT DID BY SAYING NOTHING. The Handbook (printed p. 41, leaf n59, read from the image): after 1291 'ten more DE JURE occupants of the see, including one Englishman, Antony Beake, Bishop of Durham (Patriarch, 1305-1311), were appointed.' ⭐ He is here as the one of the ten the Handbook names -- an English bishop of Durham holding Jerusalem in title. The other nine are unnamed on this shelf."
+  },
+  {
+   "lane": "latin",
+   "name": "--",
+   "start": 1311,
+   "end": 1847,
+   "mark": "gap",
+   "auth1": "H2: titular, NOT vacant",
+   "auth2": "--",
+   "note": "⛔⛔ NOT A VACANCY AND NOT AN EXTINCTION. The Handbook: 'The dignity of Latin Patriarch of Jerusalem then became a purely titular one, accorded to prelates of the Roman Curia, and so remained until the de facto revival of the see in 1847.' ⭐⭐ AND THE GROUND WAS NOT UNHELD: through 'the five and a half centuries in which the Patriarchate was in abeyance the Latin Holy Places in Palestine were in the charge of the Franciscan Order under the Most Reverend Father Custodian of Terra Santa', who held quasi-episcopal jurisdiction, could confirm and give minor orders, conferred the Order of the Holy Sepulchre for the Pope, and kept a merchant marine under the flag of Terra Santa. ⬜ THAT IS `web/PLAN.md` §3's FRANCISCAN CUSTODY LANE, still unbuilt: this shelf gives its existence and its powers but no list of Custodians."
+  },
+  {
    "lane": "jerusalem",
    "name": "Lazaros",
    "start": 1334,
@@ -1301,6 +1321,16 @@
    "note": "✅ Agreed. ⭐ Dowling calls him the 128TH PATRIARCH, the anchor for the numbering question at Damianus. Deposed, per Dowling."
   },
   {
+   "lane": "latin",
+   "name": "Giuseppe Valerga",
+   "start": 1847,
+   "end": 1872,
+   "mark": "bar1",
+   "auth1": "H2: 1847-1872",
+   "auth2": "--",
+   "note": "⭐⭐ THE SEE RESIDENT AGAIN AFTER FIVE AND A HALF CENTURIES. 'In 1847 Pope Pius IX re-established the Patriarchate as a resident see, and the Patriarchs resumed these special rights from the Custodia.' ⭐ ch. 26's spine row carries the restoration; this is the man."
+  },
+  {
    "lane": "jerusalem",
    "name": "Procopius II",
    "start": 1872,
@@ -1309,6 +1339,16 @@
    "auth1": "D: 1872-1875, Resigned",
    "auth2": "H2: 1872-1877",
    "note": "⚠ Two years apart at the end: Dowling 1875 and 'Resigned', the Handbook 1877. Dowling's earlier end leaves a vacancy the Handbook fills."
+  },
+  {
+   "lane": "latin",
+   "name": "Vincenzo Bracco",
+   "start": 1873,
+   "end": 1889,
+   "mark": "bar1",
+   "auth1": "H2: 1873-1889",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem",
@@ -1331,6 +1371,16 @@
    "note": "⚠ A year out at both ends. ⭐⭐ AND THE BOOK IS VINDICATED: ch. 27 follows Bliss in dating the cry that forced him out to 1891, which had looked like a third disagreement. Dowling's own p. 26 footnote resolves it -- Nicodemus resigns 1890, the throne stands empty a year, and Gerasimus is TRANSLATED from Antioch in 1891. The lists compress a resignation, a vacancy and a translation into one number; the book described the EVENT, not the tenure."
   },
   {
+   "lane": "latin",
+   "name": "Ludovico Piavi",
+   "start": 1889,
+   "end": 1905,
+   "mark": "bar1",
+   "auth1": "H2: 1889-1905",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Gerasimus",
    "start": 1891,
@@ -1349,6 +1399,56 @@
    "auth1": "D: 1897- (open)",
    "auth2": "H2: 1897- (open)",
    "note": "⭐ Both leave the end open; the 1931 here is ch. 28's spine row, not either authority. ⚠⚠ OPEN QUESTION, page-verified and therefore real: Dowling calls him the 132ND PATRIARCH and Kyrillus II the 128th, but counting the list between them gives 133 -- one of the five is outside the official numbering, plausibly one who resigned or the one deposed."
+  },
+  {
+   "lane": "latin",
+   "name": "Filippo Camassei",
+   "start": 1906,
+   "end": 1919,
+   "mark": "bar1",
+   "auth1": "H2: 1906-1919",
+   "auth2": "--",
+   "note": "K.B.E., afterwards Cardinal."
+  },
+  {
+   "lane": "latin",
+   "name": "Luigi Barlassina",
+   "start": 1920,
+   "end": 1947,
+   "mark": "point",
+   "auth1": "H2: 1920- (open in 1922)",
+   "auth2": "--",
+   "note": "⚠ The Handbook was published in 1922 and leaves him open; the end here is PLACEMENT ONLY and no authority on this shelf closes it."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Diodoros",
+   "start": 1981,
+   "end": 2000,
+   "mark": "point",
+   "auth1": "--: patriarch in April 1990",
+   "auth2": "--",
+   "note": "⭐ ch. 30's spine rows: on the eve of Good Friday 1990 some 150 settlers entered St John's Hospice, and Diodoros -- 'not an Arab' -- called the seizure 'aggression against our holy places and property'. ⚠⚠ PLACEMENT ONLY at both ends; the shelf gives him in office in 1990 and nothing else."
+  },
+  {
+   "lane": "latin",
+   "name": "Michel Sabbah",
+   "start": 1987,
+   "end": 2008,
+   "mark": "point",
+   "auth1": "--: elected December 1987",
+   "auth2": "--",
+   "note": "⭐⭐⭐ THE FIRST ARAB LATIN PATRIARCH OF JERUSALEM, elected the month the first intifada began -- ch. 30's spine row. ⚠ The end is placement; the shelf gives the election, not the term. ⚠⚠ Between Barlassina and him this lane is UNBUILT, not empty: the shelf simply stops."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Theophilos III",
+   "start": 2005,
+   "end": 2026,
+   "mark": "point",
+   "auth1": "--: patriarch in June 2026",
+   "auth2": "--",
+   "note": "⭐⭐ ch. 32's spine row: on 22-23 June 2026 he and Cardinal Pizzaballa visited Gaza TOGETHER, received first at St Porphyrius and then at Holy Family. ⚠⚠ PLACEMENT ONLY; the shelf gives him in office in 2026."
   }
  ]
 }
