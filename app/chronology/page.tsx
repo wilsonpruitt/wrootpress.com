@@ -74,7 +74,8 @@ export default function ChronologyPage() {
           </p>
           <p className={styles.meta}>
             Companion to <em>The Church in Palestine</em>, forthcoming from Wroot
-            Press.
+            Press. See also{" "}<Link href="/succession">the succession</Link>, the
+            same story told through the men who held the see.
           </p>
         </section>
 
