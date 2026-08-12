@@ -928,7 +928,7 @@
    "mark": "point",
    "auth1": "Pa: elected after 1334",
    "auth2": "--",
-   "note": "⭐⭐ THE FIRST NAME IN THE 1296-1787 HOLE, and it comes from Papadopoulos printed p. 425 read from the ANEMI page image. Elected patriarch after 1334, he went to Constantinople for confirmation of his election by Andronikos III (1328-1341) as custom required -- and IN HIS ABSENCE a monk named Gerasimos laid slanders against him, got himself elected in his place, and went to the capital for confirmation in turn. ⚠ No end date. ⚠⚠ This row does NOT close the hole; it is one name inside a 491-year gap and the validator still reports the gap on either side of it."
+   "note": "✅ CORROBORATED BY SIMAIOS, who numbers him the 102nd (printed ρζ´, a misprint for ρβ´) and gives him 32 years and the crowning of John Kantakouzenos at Adrianople. ⭐⭐ THE FIRST NAME IN THE 1296-1787 HOLE, and it comes from Papadopoulos printed p. 425 read from the ANEMI page image. Elected patriarch after 1334, he went to Constantinople for confirmation of his election by Andronikos III (1328-1341) as custom required -- and IN HIS ABSENCE a monk named Gerasimos laid slanders against him, got himself elected in his place, and went to the capital for confirmation in turn. ⚠ No end date. ⚠⚠ This row does NOT close the hole; it is one name inside a 491-year gap and the validator still reports the gap on either side of it."
   },
   {
    "lane": "jerusalem",
@@ -939,6 +939,326 @@
    "auth1": "Pa: elected against Lazaros",
    "auth2": "--",
    "note": "⚠⚠ A RIVAL, NOT A SUCCESSOR, and recorded because a succession that suppresses its contested elections is not the thing this band is for. The monk who slandered Lazaros in his absence and was elected against him. Andronikos III did not recognise the usurpation outright but 'was not wholly disbelieving' of it. Papadopoulos printed p. 425."
+  },
+  {
+   "lane": "jerusalem-lq",
+   "name": "Lazarus (CV)",
+   "start": 1334,
+   "end": 1367,
+   "mark": "point",
+   "auth1": "LQ: CV; alive in 1367",
+   "auth2": "--",
+   "note": "⭐ Le Quien's CV = Simaios's 102. ⭐⭐ AND HE DATES HIM WHERE SIMAIOS DOES NOT: 'Lazarus his predecessor was still alive in the year 1367' -- used as an argument against Dositheos's chronology, which is how the date survives."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Markos",
+   "start": 1366,
+   "end": 1380,
+   "mark": "point",
+   "auth1": "Si: 103; 14 years",
+   "auth2": "--",
+   "note": "⚠⚠ NOT Le Quien's Marcus III, who sits more than a century later and comes from a Latin source. Same name, different man, different tradition. ⚠⚠ PLACEMENT ONLY. Simaios gives a tenure LENGTH and no year, and THE CHAIN DOES NOT CLOSE on the anchors either side, which is the finding of step 2 and not a defect in this row. The mark is `point`."
+  },
+  {
+   "lane": "jerusalem-lq",
+   "name": "Sophronius IV (CVI)",
+   "start": 1367,
+   "end": 1384,
+   "mark": "point",
+   "auth1": "LQ: CVI; Dositheos's catalogue calls him the 110TH",
+   "auth2": "--",
+   "note": "⚠⚠ A THIRD NUMBERING SITS INSIDE THIS ROW. Le Quien reports that Dositheos's catalogue makes him the 110th and assigns him 46 years -- and then REFUSES it: 'at non video quomodo id verum sit', I do not see how that can be true, since Lazarus his predecessor was still alive in 1367. ⭐ Le Quien adjudicating his own source, in print, in 1740."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Euthymios",
+   "start": 1380,
+   "end": 1392,
+   "mark": "point",
+   "auth1": "Si: 104; no tenure given",
+   "auth2": "--",
+   "note": "⭐ Simaios knows him ONLY FROM A TROPARION in the two hymnographic canons of the patriarchs of Jerusalem, and says so. ⚠⚠ PLACEMENT ONLY. Simaios gives a tenure LENGTH and no year, and THE CHAIN DOES NOT CLOSE on the anchors either side, which is the finding of step 2 and not a defect in this row. The mark is `point`."
+  },
+  {
+   "lane": "jerusalem-lq",
+   "name": "Dorotheus I (CVII)",
+   "start": 1384,
+   "end": 1400,
+   "mark": "point",
+   "auth1": "LQ: CVII; confirmed by John Palaiologos",
+   "auth2": "--",
+   "note": "Confirmed by the Emperor John Palaiologos, who gave up the empire in 1384 or 1387 and died in 1391. ⚠ PLACEMENT ONLY — Le Quien gives no year here; placed between the anchors he does give. The mark is `point`."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Athanasios",
+   "start": 1392,
+   "end": 1415,
+   "mark": "point",
+   "auth1": "Si: 105; 23 years",
+   "auth2": "--",
+   "note": "⭐⭐ COMPOSED HOMILIES IN ARABIC, spiritually beneficial, for every Sunday and feast, read aloud to the pious. A direct datum for the book's Arabic-liturgy thread and one of the earliest. ⚠⚠ PLACEMENT ONLY. Simaios gives a tenure LENGTH and no year, and THE CHAIN DOES NOT CLOSE on the anchors either side, which is the finding of step 2 and not a defect in this row. The mark is `point`."
+  },
+  {
+   "lane": "jerusalem-lq",
+   "name": "Theophilus II (CVIII)",
+   "start": 1400,
+   "end": 1419,
+   "mark": "point",
+   "auth1": "LQ: CVIII; DOROTHEUS'S SON",
+   "auth2": "--",
+   "note": "⭐⭐ 'Hic Theophilus, DOROTHEI FILIUS, cui et successit in sede Hierosolymitana' -- son succeeding father in the see. Flourished under Manuel Palaiologos (from 1384/87) and his son John, who was reigning in 1419. ⚠ PLACEMENT ONLY — Le Quien gives no year here; placed between the anchors he does give. The mark is `point`."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Ioakeim",
+   "start": 1415,
+   "end": 1455,
+   "mark": "point",
+   "auth1": "Si: 106; 40 years",
+   "auth2": "--",
+   "note": "⭐ = Le Quien's CX Joachim, who held the see at the Council of Florence and whose vicars there were Mark of Ephesus and Dositheos of Monembasia. ⚠⚠ PLACEMENT ONLY. Simaios gives a tenure LENGTH and no year, and THE CHAIN DOES NOT CLOSE on the anchors either side, which is the finding of step 2 and not a defect in this row. The mark is `point`."
+  },
+  {
+   "lane": "jerusalem-lq",
+   "name": "Theophanes II (CIX)",
+   "start": 1419,
+   "end": 1430,
+   "mark": "point",
+   "auth1": "LQ: CIX",
+   "auth2": "--",
+   "note": "⚠ One of the 'duplex Theophanes' Le Quien notes at CXV -- of the two Theophanes in Dositheos's catalogue, one is missing who sat after Joachim. ⚠ PLACEMENT ONLY — Le Quien gives no year here; placed between the anchors he does give. The mark is `point`."
+  },
+  {
+   "lane": "jerusalem-lq",
+   "name": "Joachim (CX)",
+   "start": 1430,
+   "end": 1450,
+   "mark": "point",
+   "auth1": "LQ: CX; at the Council of Florence, promoted 1440",
+   "auth2": "--",
+   "note": "⭐⭐ Held the see at the time of the Florentine synod; his vicars there were MARK OF EPHESUS and Dositheos of Monembasia, who subscribed the decree of union 'holding the place of the most holy Patriarch of Jerusalem, Lord Joachim'. ⚠ Le Quien adds that Joachim was so far from ratifying it that he overturned whatever had been done at Florence. = Simaios's 106 Ioakeim (40 years)."
+  },
+  {
+   "lane": "jerusalem-lq",
+   "name": "Theophanes III (CXI)",
+   "start": 1450,
+   "end": 1460,
+   "mark": "point",
+   "auth1": "LQ: CXI",
+   "auth2": "--",
+   "note": "Associated with the Constantinople synod against the Florentine union. ⚠ PLACEMENT ONLY — Le Quien gives no year here; placed between the anchors he does give. The mark is `point`."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Gregorios",
+   "start": 1455,
+   "end": 1489,
+   "mark": "point",
+   "auth1": "Si: 107; 34 years; Hijra 861",
+   "auth2": "--",
+   "note": "⭐⭐ AN ANCHOR THAT LANDS INSIDE ITS OWN SPAN: he went to Mehmed the Conqueror and received a chrysobull in the Hijra year 861 -- 1456/7 -- confirming the covenant of Umar ibn al-Khattab and the later decrees the Arab sultans had given the patriarchs. The placement was set from the tenure length and the anchor falls within it, which is corroboration rather than construction."
+  },
+  {
+   "lane": "jerusalem-lq",
+   "name": "Abraham (CXII)",
+   "start": 1460,
+   "end": 1468,
+   "mark": "point",
+   "auth1": "LQ: CXII; ⛔ NOT IN THE GREEK SOURCES",
+   "auth2": "--",
+   "note": "⭐⭐⭐ THE FIRST OF THE THREE THAT EXPLAIN THE WHOLE DIVERGENCE. Le Quien states it outright: 'Licet nulla occurrat apud Graecos, de tribus istis Patriarchis Hierosolymorum mentio' -- NO MENTION OF THESE THREE OCCURS AMONG THE GREEKS. He takes them from THEODORICUS PAULI by way of Papebrochius. Theodoricus calls Abraham a most Christian man who governed the church of Jerusalem under the greatest pressure of the pagans, in the time of Pope Pius II, and who died in 1468."
+  },
+  {
+   "lane": "jerusalem-lq",
+   "name": "Jacobus III (CXIII)",
+   "start": 1468,
+   "end": 1482,
+   "mark": "point",
+   "auth1": "LQ: CXIII; ⛔ NOT IN THE GREEK SOURCES",
+   "auth2": "--",
+   "note": "The second of the three from Theodoricus Pauli: 'doctor of sacred page, succeeding Abraham, and in great want governing the patriarchate'; the Duke of Burgundy's help renovated the church of the Holy Sepulchre and sent a yearly sum. Died 1482."
+  },
+  {
+   "lane": "jerusalem-lq",
+   "name": "Marcus III (CXIV)",
+   "start": 1482,
+   "end": 1500,
+   "mark": "point",
+   "auth1": "LQ: CXIV; ⛔ NOT IN THE GREEK SOURCES",
+   "auth2": "--",
+   "note": "The third from Theodoricus Pauli: 'Marcus, catholic and pious, by divine mercy archbishop of Bethlehem and Patriarch of the holy city of Jerusalem and of holy Sion, of Syria and Arabia and beyond Jordan'. ⚠⚠ DO NOT CONFUSE HIM WITH SIMAIOS'S 103 MARKOS, who sits more than a century earlier. Same name, different man, different tradition -- and that pair was what first made the two lists look irreconcilable. ⚠ PLACEMENT ONLY — Le Quien gives no year here; placed between the anchors he does give. The mark is `point`."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Atallas or Dorotheos",
+   "start": 1489,
+   "end": 1532,
+   "mark": "point",
+   "auth1": "Si: 108; 43 years; 1514",
+   "auth2": "--",
+   "note": "⭐⭐⭐ THE ROW THAT PROVES THE TWO LISTS ARE ONE SUCCESSION: Simaios gives him 43 years and Le Quien's CXVI Dorotheus II is given 43 years by Dositheos. The same man, the same tenure, in both traditions. ⭐ And the anchor lands inside the span: in 1514 Selim took Aleppo, Damascus and Jerusalem, and Dorotheos went out to receive him with gifts."
+  },
+  {
+   "lane": "jerusalem-lq",
+   "name": "Gregorius III (CXV)",
+   "start": 1500,
+   "end": 1536,
+   "mark": "point",
+   "auth1": "LQ: CXV; 36 years per Dositheos",
+   "auth2": "--",
+   "note": "Le Quien reasons him into place: of the two Theophanes one is missing after Joachim, and 'it is likely that Gregory III succeeded the three just recited', to whom Dositheos assigns thirty-six years. ⚠ An inference of Le Quien's own, and he says so."
+  },
+  {
+   "lane": "jerusalem-lq",
+   "name": "Dorotheus II (CXVI)",
+   "start": 1536,
+   "end": 1579,
+   "mark": "point",
+   "auth1": "LQ: CXVI; 43 years per Dositheos",
+   "auth2": "--",
+   "note": "⭐⭐ THE ROW THAT PROVES THE ALIGNMENT: Dositheos assigns him FORTY-THREE years, and Simaios gives his 108th, Atallas or Dorotheos, FORTY-THREE years. The same man, in both traditions, with the same tenure. ⭐ Le Quien adds that he must therefore have lived into the sixteenth century when it was already well advanced."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Germanos",
+   "start": 1562,
+   "end": 1608,
+   "mark": "point",
+   "auth1": "Si: 109; 46 years; died from Adam 7116",
+   "auth2": "--",
+   "note": "⭐ From Arachova in the Tripolitza country, formerly abbot of the Great Laura of St Sabas. Spent much of his time BEYOND THE JORDAN, 'for there were many multitudes of Orthodox Christians there'. ⚠⚠ The 46 years and the anchor at Adam 7086 (1578) do not close on the death at Adam 7116 (1608) -- thirty years, not forty-six. Recorded as it stands. = Le Quien CXVII."
+  },
+  {
+   "lane": "jerusalem-lq",
+   "name": "Germanus (CXVII)",
+   "start": 1579,
+   "end": 1608,
+   "mark": "point",
+   "auth1": "LQ: CXVII",
+   "auth2": "--",
+   "note": "= Simaios's 109 Germanos, and the point where the two lists rejoin at the standing offset of 8. ⚠ PLACEMENT ONLY — Le Quien gives no year here; placed between the anchors he does give. The mark is `point`."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Sophronios",
+   "start": 1608,
+   "end": 1645,
+   "mark": "point",
+   "auth1": "Si: 110; 38 or 39 years",
+   "auth2": "--",
+   "note": "⭐ GERMANOS'S OWN NEPHEW, a priest whom his uncle clothed in the monastic habit, renamed, and designated successor before dying. ⚠ Simaios gives him 38 or 39 years before he gave way, aged, to Theophanes -- which does not fit between 1608 and Paisios's 1645, and the row does not pretend it does."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Theophanes III",
+   "start": 1645,
+   "end": 1645,
+   "mark": "point",
+   "auth1": "Si: 111; ordained by Alexandria and Antioch",
+   "auth2": "--",
+   "note": "⭐ Ordained by Kyrillos of Alexandria and Dorotheos of Antioch. This is the Theophanes III of ch. 25's 1637 spine row -- the patriarch of the Holy Fire disputes with the Armenians and of the long debt. ⚠⚠ HIS PLACEMENT IS THE WORST IN THE BAND: Simaios's chain puts Sophronios's 38 or 39 years before him and Paisios's consecration after him, and the two do not leave him room. Shown as a point at the join, with the problem stated rather than absorbed."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Paisios",
+   "start": 1645,
+   "end": 1664,
+   "mark": "point",
+   "auth1": "Si: consecrated in Moldavia, 23 March, from Adam 7153 or 7157; 18 years",
+   "auth2": "--",
+   "note": "⭐ Simaios's 112th. Consecrated **in Moldavia**, 23 March on a Lenten Sunday, by Gregorios of Larissa as exarch of Parthenios of Constantinople, with Varlaam of Moldavia and a third bishop. ⚠ The Adam-year is given as EITHER 7153 or 7157 — 1645 or 1649 — so the start is a point, not a span; the 18 years closes on Nektarios's 1664 from the earlier of the two. ⭐⭐ Simaios describes him: 'without possessions, zealous in divine things, brave and strong in body, short of stature, deep-bearded, dark-complexioned, from Demetsana, a relative of Theophanes.' ✅ Le Quien has him as CXX at the standing offset of 8."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Nektarios",
+   "start": 1664,
+   "end": 1669,
+   "mark": "bar1",
+   "auth1": "Si: consecrated Palm Sunday 1664; resigned 1669",
+   "auth2": "--",
+   "note": "⭐⭐ THE FIRST ROW IN THIS STRETCH WITH BOTH ENDS GIVEN AS AD YEARS BY THE SOURCE ITSELF. The Sinaite; came from Egypt to Gaza and met Gabriel of Philippoupolis at Ramla; consecrated in Jerusalem on Palm Sunday 1664 (from Adam 7174), and resigned the throne in 1669. ✅ Le Quien CXXI, offset 8. ⚠ `bar1` and not `bar` because Le Quien's own dates were not extracted — only his name and position."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Dositheos II",
+   "start": 1669,
+   "end": 1707,
+   "mark": "bar1",
+   "auth1": "Si: from 1669; died 7 February 1707, patriarch 37 years",
+   "auth2": "--",
+   "note": "⭐⭐ From **Arachova of Corinth**. Found the throne's debt at 81,000 grosia and raised 20,000 in Greece and Wallachia-Moldavia, bringing back forty silver lamps, one gold, and a gold censer. ⭐ THE ARITHMETIC CLOSES ON ITSELF: Nektarios resigns 1669, Dositheos dies 7 Feb 1707, and Simaios says 37 years — 1669 + 37 = 1706/7. **This is why the Ottoman half could be written and the Byzantine half could not.** ✅ Le Quien CXXII. ⚠ He is also the compiler of the CATALOGUE Le Quien cites and argues with."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Chrysanthos",
+   "start": 1707,
+   "end": 1732,
+   "mark": "bar1",
+   "auth1": "Si: translated from Caesarea 8 February 1707; 25 years",
+   "auth2": "--",
+   "note": "⭐ Dositheos's nephew, translated from Caesarea of Palestine the day after his uncle's death. ⭐⭐ Under him the synodal act of **April 1709** lists the whole hierarchy by see — metropolitans of Caesarea of Palestine, Skythopolis, Petra, Ptolemais, Bethlehem, Nazareth and Sebasteia; archbishops of Lydda, Gaza, Sinai, Joppa, Neapolis-and-Samaria and Thabor; and one bishop, of Philadelphia. ⚠ The end is from Simaios's stated 25 years, not from a stated year. ✅ Le Quien CXXIII."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Meletios",
+   "start": 1732,
+   "end": 1737,
+   "mark": "bar1",
+   "auth1": "Si: to 1737, when he named a successor; start from Chrysanthos's 25 years",
+   "auth2": "--",
+   "note": "⭐ Simaios: 'being old and unable to relieve the debt, he appointed a successor in his own place' in 1737. ⚠ The START is not stated — it follows from Chrysanthos's 25 years — and the row says so rather than hiding it. ✅ Le Quien CXXIV is the last entry his 1740 volume reaches; **from here Simaios is the only authority.**"
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Parthenios",
+   "start": 1737,
+   "end": 1748,
+   "mark": "point",
+   "auth1": "Si: attested 1747; no tenure given",
+   "auth2": "--",
+   "note": "⭐ Of ATHENS. Under him the church of the Annunciation at Nazareth was rebuilt from the foundations by the archimandrite Neophytos of Rhodes. ⚠⚠ PLACEMENT ONLY, AND THE METHOD IS STATED SO IT CANNOT BE MISTAKEN FOR EVIDENCE: Simaios gives him no year. He is placed by dividing the interval between the two FIRM anchors either side of him among the men who fill it. The mark is `point`; the start and end are for the axis and are never a claim."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Ephraim II",
+   "start": 1748,
+   "end": 1759,
+   "mark": "point",
+   "auth1": "Si: no year given",
+   "auth2": "--",
+   "note": "⭐ Of ATHENS. Died and was buried at Constantinople, and his relics were afterwards translated to Jerusalem. ⚠⚠ PLACEMENT ONLY, AND THE METHOD IS STATED SO IT CANNOT BE MISTAKEN FOR EVIDENCE: Simaios gives him no year. He is placed by dividing the interval between the two FIRM anchors either side of him among the men who fill it. The mark is `point`; the start and end are for the axis and are never a claim."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Sophronios",
+   "start": 1759,
+   "end": 1770,
+   "mark": "point",
+   "auth1": "Si: translated to Constantinople 1770",
+   "auth2": "--",
+   "note": "⭐⭐ THE TRAFFIC RUNS BOTH WAYS: he went UP from Jerusalem to the throne of Constantinople in 1770, and in the same year named his own successor at Jerusalem. ⚠ Only the END year is given; the start is placement between the anchors."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Abramios",
+   "start": 1770,
+   "end": 1786,
+   "mark": "point",
+   "auth1": "Si: no year given",
+   "auth2": "--",
+   "note": "Laboured in Wallachia-Moldavia gathering money for the throne, as Dositheos had. ⚠⚠ PLACEMENT ONLY, AND THE METHOD IS STATED SO IT CANNOT BE MISTAKEN FOR EVIDENCE: Simaios gives him no year. He is placed by dividing the interval between the two FIRM anchors either side of him among the men who fill it. The mark is `point`; the start and end are for the axis and are never a claim."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Prokopios",
+   "start": 1786,
+   "end": 1787,
+   "mark": "point",
+   "auth1": "Si: one year; from Caesarea of Palestine",
+   "auth2": "--",
+   "note": "⚠ Simaios gives him ONE YEAR and no anchor; he is placed against Anthimos's stated 1787, which is the firm year on the other side. From Caesarea of Palestine and resident at Constantinople, where he was buried; he named his own successor."
   },
   {
    "lane": "jerusalem",
