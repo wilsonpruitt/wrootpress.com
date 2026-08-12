@@ -1,0 +1,924 @@
+{
+ "rows": [
+  {
+   "lane": "jerusalem",
+   "name": "Hermon",
+   "start": 0,
+   "end": 314,
+   "mark": "point",
+   "auth1": "E: HE VII.32.29",
+   "auth2": "--",
+   "note": "⭐ \"The last before the persecution in our day, succeeded to the apostolic chair, which has been preserved there until the present time.\" ⚠ Eusebius is writing about his own see's neighbour and still gives no year."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Sophronius III",
+   "start": 0,
+   "end": 0,
+   "mark": "point",
+   "auth1": "(not in table)",
+   "auth2": "H: dates not known",
+   "note": "⛔ Hamilton lists him with the words \"dates not known\" and Pringle's table does not reach him. He is a NAME IN THE ORDER and nothing else, and that is exactly what the band should show. Placement between Athanasius II and Gregory I is Hamilton's ordering, not a date."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "James, the brother of the Lord",
+   "start": 33,
+   "end": 62,
+   "mark": "tradition",
+   "auth1": "--",
+   "auth2": "--",
+   "note": "⭐⭐⭐ First of the fifteen bishops \"of the circumcision\" Eusebius names in order at HE IV.5.3, and the only one the band dates, because his death is fixed independently (ch. 2). ⚠ The other fourteen carry NO dates in any source Eusebius could find."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Symeon son of Clopas",
+   "start": 62,
+   "end": 107,
+   "mark": "tradition",
+   "auth1": "--",
+   "auth2": "--",
+   "note": "Second. ⚠ Eusebius dates his martyrdom to Trajan's reign under the governor Atticus (ch. 4's spine row, c.107) -- one of only two or three of the fifteen to whom the Chronicle assigns any date at all. ⚠⚠ NOT the Symeon II of 1092-1099: they are a thousand years apart and the book must never let them collide."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Justus",
+   "start": 107,
+   "end": 0,
+   "mark": "tradition",
+   "auth1": "--",
+   "auth2": "--",
+   "note": "Third. Eusebius's Chronicle refers his accession to the tenth year of Trajan (107); NPNF's editor notes this leaves THIRTEEN bishops for the years to 135, \"which is, to say the least, very suspicious.\""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Zacchaeus, Tobias, Benjamin, John, Matthias, Philip, Seneca, Justus, Levi, Ephres, Joseph, Judas",
+   "start": 107,
+   "end": 135,
+   "mark": "tradition",
+   "auth1": "--",
+   "auth2": "--",
+   "note": "⭐⭐ Fourth to fifteenth, HE IV.5.3, GIVEN AS ONE ROW ON PURPOSE. Twelve names with no dates, no acts and no order beyond Eusebius's listing, ending at Hadrian's siege. Splitting them into twelve dated cells would manufacture a succession out of a list. ⚠ NPNF's editor: after Symeon's death \"the presbyters took the lead, and they were afterward made by tradition into successive monarchical bishops\"; Closs and Gieseler suppose bishops of several Palestinian churches at the SAME TIME, later strung into one Jerusalem line. ✅ ch. 4 already says this in its own words."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Marcus",
+   "start": 135,
+   "end": 0,
+   "mark": "tradition",
+   "auth1": "--",
+   "auth2": "--",
+   "note": "⭐⭐ THE HINGE: the first GENTILE bishop, after Hadrian's refoundation as Aelia Capitolina (HE IV.6, V.12.1). The church of the circumcision ends here and the see continues. No dates."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Cassianus, Publius, Maximus, Julian, Gaius, Symmachus, Gaius II, Julian II, Capito, Maximus II, Valentinus, Valens, Dolichianus",
+   "start": 135,
+   "end": 189,
+   "mark": "tradition",
+   "auth1": "--",
+   "auth2": "--",
+   "note": "⭐⭐ HE V.12.2, again ONE ROW. ⚠⚠ A TEXTUAL PROBLEM THE BAND MUST NOT SMOOTH: Eusebius says Narcissus was \"the fifteenth in succession from the siege\" and \"the thirtieth from the apostles\", but the list as transmitted gives only THIRTEEN names. The Chronicle and Epiphanius restore a second Maximus and a Valentinus between Capito and Valens, and NPNF's editor calls the omission a scribe's mistake. Those two are carried here IN THAT POSITION, on that reasoning, and the reasoning is why. ⚠ The Chronicle's dates for Cassianus (160) and Maximus II (185) are NOT used: \"it is said in the Chron. itself that the dates of the various bishops are not known, and hence no reliance can be placed upon these figures.\""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Narcissus",
+   "start": 189,
+   "end": 216,
+   "mark": "point",
+   "auth1": "--",
+   "auth2": "--",
+   "note": "⭐ THE FIRST NAME IN THE WHOLE BAND WITH A DATE THAT IS EVIDENCE RATHER THAN TRADITION. Attested as bishop in the tenth year of Commodus, 189 (HE V.22 -- already ch. 5's spine row), presided at the Palestinian paschal council under Victor of Rome, alive after 212 in his 116th year, and dead before 216, since Alexander is bishop at Origen's visit. ⚠ NPNF: \"The date of Narcissus' accession to the see of Jerusalem is not known to us.\" The END is inferred, the ATTESTATION is firm, so this is a point."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Alexander",
+   "start": 212,
+   "end": 250,
+   "mark": "point",
+   "auth1": "E: c.212 coadjutor - 250",
+   "auth2": "--",
+   "note": "⭐ Kept at Jerusalem as coadjutor to the aged Narcissus when he arrived on pilgrimage (c.212), and died in prison at Caesarea in the Decian persecution -- both already ch. 6's spine rows. He founded the library at Jerusalem that Eusebius used. ⚠ The overlap with Narcissus is real and is not an error in the list: for a time there were two bishops in the city by arrangement."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Mazabanes",
+   "start": 250,
+   "end": 0,
+   "mark": "point",
+   "auth1": "E: HE VI.39.3, no dates",
+   "auth2": "--",
+   "note": "Named as Alexander's successor and nothing more. No dates in any source."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Hymenaeus",
+   "start": 265,
+   "end": 298,
+   "mark": "est",
+   "auth1": "E: Chron. 265-298",
+   "auth2": "--",
+   "note": "⭐⭐⭐ THE FIRST NAME IN THE BAND WHOSE DATES THE APPARATUS DEFENDS RATHER THAN DISCLAIMS. NPNF n. 2287: the Chronicle expressly says the dates of the EARLIER Jerusalem bishops are unknown, \"but with the dates of the bishops of the latter part of the third century Eusebius can hardly have been unacquainted, and that Hymenaeus was bishop at any rate as early as 265 is proved by chaps. 27 and 30\" -- his presence at the Antiochian synods on Paul of Samosata. \"The dates given in the Chron. may therefore be accepted as at least approximately correct.\" ⭐⭐ THE MECHANISM IS THE POINT AND IT RECURS: the succession becomes datable exactly when its holder starts appearing in OTHER PEOPLE'S dated business. Gil says the same of the Islamic centuries -- \"we have to determine the times of these patriarchs' lives according to the events in which they were involved\" -- 1,600 years apart and from the opposite end."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Zambdas",
+   "start": 298,
+   "end": 0,
+   "mark": "point",
+   "auth1": "E: HE VII.32.29",
+   "auth2": "--",
+   "note": "Succeeded Hymenaeus and \"died in a short time\"."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Macarius",
+   "start": 314,
+   "end": 334,
+   "mark": "point",
+   "auth1": "DS: 314-334",
+   "auth2": "Hi: c.314-333",
+   "note": "⭐⭐ THE ONLY TWO-AUTHORITY ROW IN THE WHOLE BYZANTINE STRETCH, and it already sits in ch. 11's spine row: Di Segni gives 314-334, Hirschfeld ca. 314-333. The ends differ by a year and one is hedged, so it is a point. He received Constantine's letter ordering the basilica over the tomb (ch. 9)."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Maximus",
+   "start": 337,
+   "end": 0,
+   "mark": "point",
+   "auth1": "Soz: 2.20, c.337",
+   "auth2": "--",
+   "note": "⚠ ch. 8's spine row carries him at TIER V -- reported from Sozomen 2.20, whose synchronism the spine flags. He convened the synod that received Athanasius in 346 (ch. 8)."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Cyril",
+   "start": 350,
+   "end": 386,
+   "mark": "point",
+   "auth1": "NPNF: 350 or early 351 - c.386",
+   "auth2": "Hu: to 387",
+   "note": "⭐ Consecrated 350 or early in 351, dying about 386, with Hunt putting the end of the episcopate at 387 -- the disagreement already recorded on the c.386 spine row. Deposed and exiled THREE TIMES between, under Acacius, at Constantinople and under Valens, returning for good in 378: four of the band's most eventful years are years he was not in the city. ⚠⚠ THE EXILES ARE WHY A BAR WOULD LIE HERE even if the ends agreed."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Praylius",
+   "start": 417,
+   "end": 420,
+   "mark": "point",
+   "auth1": "P: began 417",
+   "auth2": "--",
+   "note": "⚠ Recorded only because Pringle's Juvenal entry needs him: \"Praylius began in 417 and did not last long.\" His own succession and end are not on this shelf."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Juvenal",
+   "start": 420,
+   "end": 459,
+   "mark": "point",
+   "auth1": "CS: c.420 - 458/459",
+   "auth2": "--",
+   "note": "⭐⭐ THE HINGE OF THE WHOLE LANE: at Chalcedon in 451 Jerusalem is raised to a patriarchate and the bishop becomes a patriarch. Six of ch. 13's spine rows are his. His death is dated by Cyril of Scythopolis, Vit. Euth. 33 -- the same sentence that dates his successor."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Anastasius",
+   "start": 459,
+   "end": 0,
+   "mark": "point",
+   "auth1": "CS: Vit. Euth. 33",
+   "auth2": "--",
+   "note": "Dated only by the sentence of Cyril of Scythopolis that dates Juvenal's death. No end on this shelf."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Sallustius",
+   "start": 486,
+   "end": 494,
+   "mark": "point",
+   "auth1": "CS: attested 491, dying 494",
+   "auth2": "--",
+   "note": "⚠ THE DATES HERE ARE ATTESTATIONS, NOT A TENURE: he ordained Sabas priest on 12 December 491 and was dying in 494 when the monks assembled at him (both ch. 11 spine rows). The start of 486 is NOT on this shelf and is placement only."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Elias",
+   "start": 494,
+   "end": 516,
+   "mark": "point",
+   "auth1": "CS: attested 501, ousted 1 Sep 516",
+   "auth2": "--",
+   "note": "⭐ Dedicated the great church of the Theotokos at the Great Laura on 1 July 501; ousted by Anastasius on 1 September 516 and banished to Aila (ch. 13 spine rows). ⚠ The 494 start is placement, not evidence."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "John III",
+   "start": 516,
+   "end": 0,
+   "mark": "point",
+   "auth1": "CS: from 1 Sep 516",
+   "auth2": "--",
+   "note": "John son of Marcianus, who promised to conform and did not; the dux of Palestine imprisoned him for breaking the promise and he was released after being coached by Zacharias (ch. 13's spine row)."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Zacharias",
+   "start": 609,
+   "end": 614,
+   "mark": "point",
+   "auth1": "--: carried to Persia 614",
+   "auth2": "--",
+   "note": "⭐⭐ Carried to Persia with the True Cross when the city fell in 614 (ch. 15's spine row). ⚠ The 609 start is placement, not evidence."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Modestus",
+   "start": 614,
+   "end": 630,
+   "mark": "point",
+   "auth1": "--: locum tenens from 614",
+   "auth2": "--",
+   "note": "⚠⚠ NOT A PATRIARCH FOR MOST OF THIS: ch. 15's spine row has him as LOCUM TENENS of the patriarchate, burying the forty-four and rebuilding Golgotha, the Anastasis and the rest c.616-630. The lane carries him because the see was being administered, and the row says by whom and in what capacity."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Sophronius I",
+   "start": 634,
+   "end": 638,
+   "mark": "est",
+   "auth1": "G: 634-638",
+   "auth2": "--",
+   "note": "⭐⭐ The patriarch of the surrender. ch. 15's spine rows already carry his Christmas sermon of 634 and his death in 638 or 639."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "--",
+   "start": 638,
+   "end": 691,
+   "mark": "gap",
+   "auth1": "G: (no patriarch named)",
+   "auth2": "--",
+   "note": "⛔ A REAL VACANCY OF TWO GENERATIONS after Sophronius, stated as such by Gil sec. 684 -- not a hole in the record and not an unbuilt stretch. This is what a `gap` row is for."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Anastasius",
+   "start": 691,
+   "end": 706,
+   "mark": "est",
+   "auth1": "G: 691-706",
+   "auth2": "--",
+   "note": "⭐⭐⭐ NOTE THE 53-YEAR HOLE BEFORE HIM -- it is a REAL VACANCY, not a defect in the record. Gil sec. 684: \"The patriarchal seat was vacant for a period of two generations... following the death of Sophronius\", with some holding that Theodore bishop of Heshbon served in his stead."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "John V",
+   "start": 706,
+   "end": 735,
+   "mark": "est",
+   "auth1": "G: 706-735",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Theodore I",
+   "start": 745,
+   "end": 770,
+   "mark": "est",
+   "auth1": "G: 745-770",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Elias II",
+   "start": 770,
+   "end": 797,
+   "mark": "est",
+   "auth1": "G: 770-797",
+   "auth2": "--",
+   "note": "⚠ ch. 18's spine row already has the civil-war devastation of 788 \"under the patriarch Elias II\" -- Gil's span covers it."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "George",
+   "start": 797,
+   "end": 807,
+   "mark": "est",
+   "auth1": "G: 797-807",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Thomas I",
+   "start": 807,
+   "end": 820,
+   "mark": "est",
+   "auth1": "G: 807-820",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Basil",
+   "start": 820,
+   "end": 838,
+   "mark": "est",
+   "auth1": "G: 820-838",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "John VI",
+   "start": 838,
+   "end": 842,
+   "mark": "est",
+   "auth1": "G: 838-842",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Sergius I",
+   "start": 842,
+   "end": 855,
+   "mark": "est",
+   "auth1": "G: 842-855",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Solomon",
+   "start": 855,
+   "end": 860,
+   "mark": "est",
+   "auth1": "G: 855-860",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Theodosius",
+   "start": 860,
+   "end": 878,
+   "mark": "est",
+   "auth1": "G: 860-878",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Elias III ibn Mansur",
+   "start": 878,
+   "end": 907,
+   "mark": "est",
+   "auth1": "G: 878-907",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Sergius II",
+   "start": 908,
+   "end": 911,
+   "mark": "est",
+   "auth1": "G: 908-911",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Leo I",
+   "start": 912,
+   "end": 929,
+   "mark": "est",
+   "auth1": "G: 912-929",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Athanasius I",
+   "start": 929,
+   "end": 937,
+   "mark": "est",
+   "auth1": "G: 929-937",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Christodulus I",
+   "start": 937,
+   "end": 950,
+   "mark": "est",
+   "auth1": "G: 937-950",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Agathon",
+   "start": 950,
+   "end": 964,
+   "mark": "est",
+   "auth1": "G: 950-964",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "John VII",
+   "start": 964,
+   "end": 966,
+   "mark": "est",
+   "auth1": "G: 964-966",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Christodulus II",
+   "start": 966,
+   "end": 968,
+   "mark": "est",
+   "auth1": "G: 966-968",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Thomas II",
+   "start": 969,
+   "end": 978,
+   "mark": "est",
+   "auth1": "G: 969-978",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Joseph II",
+   "start": 978,
+   "end": 983,
+   "mark": "est",
+   "auth1": "G: 978-983",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Agapius",
+   "start": 983,
+   "end": 984,
+   "mark": "est",
+   "auth1": "G: 983-984",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Orestes",
+   "start": 984,
+   "end": 1005,
+   "mark": "est",
+   "auth1": "G: 984-1005",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Theophilus I",
+   "start": 1012,
+   "end": 1020,
+   "mark": "est",
+   "auth1": "G: 1012-1020",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Nicephorus I",
+   "start": 1020,
+   "end": 1036,
+   "mark": "est",
+   "auth1": "G: 1020-1036",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Ioannicos",
+   "start": 1036,
+   "end": 1058,
+   "mark": "est",
+   "auth1": "G: 1036-1058",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Menas",
+   "start": 1058,
+   "end": 1058,
+   "mark": "est",
+   "auth1": "G: 1058-1058",
+   "auth2": "--",
+   "note": "Gil gives him eight months."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Sophronius II",
+   "start": 1059,
+   "end": 1070,
+   "mark": "est",
+   "auth1": "G: 1059-1070",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Mark II",
+   "start": 1070,
+   "end": 1084,
+   "mark": "est",
+   "auth1": "G: 1070-1084",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Symeon II",
+   "start": 1084,
+   "end": 1099,
+   "mark": "point",
+   "auth1": "P: after 1088/99-before 1106/17",
+   "auth2": "H: ante 1092-1099 · G: 1084-1096",
+   "note": "⚠⚠⚠ THREE AUTHORITIES, THREE DIFFERENT MEN'S WORTH OF DISAGREEMENT, AND THEY ARE ALL THIS ONE MAN. ⭐⭐ HE WAS ENTERED TWICE IN THIS FILE -- once from Gil as \"Simeon II\" and once from Pringle/Hamilton as \"Symeon II\" -- and the duplicate was invisible to the validator and OBVIOUS ON THE RENDERED PAGE, where two labels sat eight years apart in the same lane. Merged 2026-08-12. THE SPELLING SPLIT IS WHY THE DUPLICATE SURVIVED: a file keyed on names cannot see that Simeon and Symeon are one person. ⚠⚠ GIL ENDS HIM IN 1096 and puts EUTHYMIUS in the see to 15 July 1099, where Hamilton, Pringle and the book have him to 1099 -- see the Euthymius (1096) row. ⚠ SPELLING: Hamilton 20/20 Symeon, Gil 5/5 Simeon, MacEvitt inconsistent within one book; the chapters inherit whichever source they lean on. Wilson's call, both books."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Euthymius",
+   "start": 1096,
+   "end": 1099,
+   "mark": "est",
+   "auth1": "G: 1096-1099",
+   "auth2": "--",
+   "note": "⚠⚠⚠ GIL PUTS EUTHYMIUS IN THE SEE FROM 1096 TO 15 JULY 1099 -- the day Jerusalem fell -- WHERE HAMILTON, PRINGLE AND THE BOOK HAVE SYMEON/SIMEON II. Read from the page image, not the text layer. ⭐ The likeliest reconciliation is that they are tracking DIFFERENT THINGS: Gil's list runs to the fall of the city and may follow the patriarch IN JERUSALEM, while Hamilton follows the man in EXILE IN CYPRUS, whom ch. 20 n. 3 has fleeing \"the oppression of the Artukid Turks\". ⛔ THAT IS A HYPOTHESIS AND IS NOT ASSERTED. It needs Gil sec. 684ff read properly before any chapter changes. NOTHING in the book should move until it is."
+  },
+  {
+   "lane": "latin",
+   "name": "Arnulf of Chocques (elect, not consecrated)",
+   "start": 1099,
+   "end": 1099,
+   "mark": "bar",
+   "auth1": "P: elected 1099, not consecrated",
+   "auth2": "H: 1099 (elect, not consecrated)",
+   "note": "Elected and never consecrated; both authorities say so in the same words. ⚠ ch. 20's spine row already carries his expulsion of the eastern Christians."
+  },
+  {
+   "lane": "latin",
+   "name": "Daimbert of Pisa",
+   "start": 1099,
+   "end": 1101,
+   "mark": "bar",
+   "auth1": "P: 1099-1101",
+   "auth2": "H: 1099-1101",
+   "note": ""
+  },
+  {
+   "lane": "latin",
+   "name": "Evremar of Chocques",
+   "start": 1102,
+   "end": 1108,
+   "mark": "bar",
+   "auth1": "P: 1102-8",
+   "auth2": "H: 1102-8",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "John VIII",
+   "start": 1106,
+   "end": 1117,
+   "mark": "point",
+   "auth1": "P: 1106/17-before 1116/17",
+   "auth2": "H: floruit 1106/7",
+   "note": "⭐⭐⭐ THE CASE THAT PROVES THE METHOD. Hamilton claims NO tenure -- floruit means only that the man is attested in that year. Pringle prints a range. The range is Pringle's reconstruction presented as data in a table that names Hamilton as its source."
+  },
+  {
+   "lane": "latin",
+   "name": "Gibelin of Arles",
+   "start": 1108,
+   "end": 1112,
+   "mark": "bar",
+   "auth1": "P: 1108-12",
+   "auth2": "H: 1108-12",
+   "note": ""
+  },
+  {
+   "lane": "latin",
+   "name": "Arnulf of Chocques",
+   "start": 1112,
+   "end": 1118,
+   "mark": "bar",
+   "auth1": "P: 1112-18",
+   "auth2": "H: 1112-18",
+   "note": "His second tenure, this time consecrated."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Sabas",
+   "start": 1117,
+   "end": 1122,
+   "mark": "point",
+   "auth1": "P: 1116/17-before 1122",
+   "auth2": "H: floruit 1117/18",
+   "note": "Hamilton again gives a floruit and no tenure."
+  },
+  {
+   "lane": "latin",
+   "name": "Warmund of Picquigny",
+   "start": 1118,
+   "end": 1128,
+   "mark": "bar",
+   "auth1": "P: 1118-28",
+   "auth2": "H: 1118-28",
+   "note": "⚠ Hamilton's text layer renders the start as \"Piis\" -- read from the page, it is 1118."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Nicolas",
+   "start": 1122,
+   "end": 1156,
+   "mark": "point",
+   "auth1": "P: before 1122-c.1156",
+   "auth2": "H: c1122-c1156",
+   "note": "The closest the Greek lane comes to agreement, and it still is not one: Pringle's \"before 1122\" against Hamilton's \"c1122\". ⚠ SPELLING: Pringle Nicolas, Hamilton Nicholas."
+  },
+  {
+   "lane": "latin",
+   "name": "Stephen of Chartres",
+   "start": 1128,
+   "end": 1130,
+   "mark": "bar",
+   "auth1": "P: 1128-30",
+   "auth2": "H: 1128-30",
+   "note": ""
+  },
+  {
+   "lane": "latin",
+   "name": "William I",
+   "start": 1130,
+   "end": 1145,
+   "mark": "bar",
+   "auth1": "P: 1130-45",
+   "auth2": "H: 1130-45",
+   "note": ""
+  },
+  {
+   "lane": "latin",
+   "name": "Fulcher",
+   "start": 1145,
+   "end": 1157,
+   "mark": "bar",
+   "auth1": "P: 1145-57",
+   "auth2": "H: 1145-57",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "John IX",
+   "start": 1157,
+   "end": 1161,
+   "mark": "point",
+   "auth1": "P: before 1157-before 1161?",
+   "auth2": "H: floruit 1157",
+   "note": "Pringle's end carries his own question mark. Hamilton gives a floruit and no tenure."
+  },
+  {
+   "lane": "latin",
+   "name": "Amalric of Nesle",
+   "start": 1157,
+   "end": 1180,
+   "mark": "bar",
+   "auth1": "P: 1157-80",
+   "auth2": "H: 1157-80",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Nicephorus II",
+   "start": 1166,
+   "end": 1176,
+   "mark": "point",
+   "auth1": "P: before 1166-1176",
+   "auth2": "H: ante 1166-post 1171",
+   "note": "The ends are five years apart and neither is given as firm."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Leontius II",
+   "start": 1174,
+   "end": 1185,
+   "mark": "point",
+   "auth1": "P: Leontius II (1176-85)",
+   "auth2": "H: Leontius II (1174/5-1184/5)",
+   "note": "⭐⭐⭐ THE ONE GREEK PATRIARCH WHO REACHED JERUSALEM in the whole century, in 1177-8, to \"a cool reception from the Latin establishment\" -- so the most load-bearing name in the stretch. ✅ THE NUMERAL IS AGREED: both authorities say Leontius II and the book is CORRECT. ⚠⚠ A first pass of this pilot reported Hamilton as saying Leontius I and RAISED IT AS A DEFECT IN THE BOOK. That was wrong: it came from Hamilton's PDF text layer, which renders the line \"Leontius I = 1174/5-1184/5\", and the \"I =\" is the second I plus spacing. The page image settles it. Withdrawn 2026-08-11. ⚠ The DATES still disagree by two years at the start and one at the end."
+  },
+  {
+   "lane": "latin",
+   "name": "Heraclius",
+   "start": 1180,
+   "end": 1191,
+   "mark": "bar",
+   "auth1": "P: 1180-91",
+   "auth2": "H: 1180-91",
+   "note": "⚠ ch. 22's spine rows carry him stripping the edicule before the surrender and leaving with the treasure."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Dositheus I",
+   "start": 1185,
+   "end": 1189,
+   "mark": "point",
+   "auth1": "P: 1185-9",
+   "auth2": "H: ante 1187-1189",
+   "note": "Ends agree; starts are two years and a hedge apart."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Mark II Cataphlorus",
+   "start": 1189,
+   "end": 1195,
+   "mark": "point",
+   "auth1": "P: Mark II (1189-?)",
+   "auth2": "H: Mark II Cataphlorus (1189/90-post 1195)",
+   "note": "Pringle leaves the end open with a question mark; Hamilton gives \"post 1195\" and the surname. ⭐ After Saladin's conquest the Greek patriarchate is re-established IN THE CITY and the Greeks regain their churches (Pringle, same entry) -- the exile ends here."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "--",
+   "start": 1195,
+   "end": 1222,
+   "mark": "gap",
+   "auth1": "(not in table)",
+   "auth2": "(no name given)",
+   "note": "⛔ A HOLE THAT IS DATA. Hamilton runs Mark II to \"post 1195\" and names no successor before Euthymius, who \"died at Sinai in 1222\". Pringle's table jumps from Mark II to Euthymius II. NEVER INTERPOLATE ACROSS THIS."
+  },
+  {
+   "lane": "latin",
+   "name": "Aimery the Monk",
+   "start": 1197,
+   "end": 1202,
+   "mark": "bar",
+   "auth1": "P: 1197-1202",
+   "auth2": "H: 1197-1202",
+   "note": "⚠ The Latin patriarch now normally resides at ACRE, not Jerusalem. ch. 23's spine row carries the state of his church at his death."
+  },
+  {
+   "lane": "latin",
+   "name": "Soffred, cardinal of Sta Prassede",
+   "start": 1203,
+   "end": 1203,
+   "mark": "bar",
+   "auth1": "P: 1203",
+   "auth2": "H: 1203",
+   "note": ""
+  },
+  {
+   "lane": "latin",
+   "name": "Albert of Vercelli",
+   "start": 1205,
+   "end": 1214,
+   "mark": "bar",
+   "auth1": "P: 1205-14",
+   "auth2": "H: 1205-14",
+   "note": "Hamilton adds \"St\"."
+  },
+  {
+   "lane": "latin",
+   "name": "Ralph of Merencourt",
+   "start": 1215,
+   "end": 1224,
+   "mark": "bar",
+   "auth1": "P: 1215-24",
+   "auth2": "H: 1215-24",
+   "note": ""
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Euthymius",
+   "start": 1222,
+   "end": 1230,
+   "mark": "point",
+   "auth1": "P: Euthymius II (?-1230)",
+   "auth2": "H: Euthymius, died at Sinai in 1222",
+   "note": "⭐⭐ EIGHT YEARS APART ON A DEATH, and they disagree on the numeral too. Pringle gives no start at all."
+  },
+  {
+   "lane": "latin",
+   "name": "Gerold of Lausanne",
+   "start": 1225,
+   "end": 1239,
+   "mark": "bar",
+   "auth1": "P: 1225-39",
+   "auth2": "H: 1225-39",
+   "note": "⚠ ch. 22's spine row has Frederick II entering Jerusalem in March 1229 under his treaty with al-Kamil."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Athanasius II",
+   "start": 1231,
+   "end": 1244,
+   "mark": "point",
+   "auth1": "P: c.1231-44",
+   "auth2": "H: floruit 1235",
+   "note": "⭐ ch. 22's spine row already has the Holy Sepulchre \"left largely in the hands of the Orthodox patriarch, Athanasius II\" in 1231-1244 -- which follows Pringle. Hamilton gives one attested year."
+  },
+  {
+   "lane": "latin",
+   "name": "Robert of Nantes",
+   "start": 1240,
+   "end": 1254,
+   "mark": "bar",
+   "auth1": "P: 1240-54",
+   "auth2": "H: 1240-54",
+   "note": "⭐ ch. 22's spine row has him writing to Innocent IV from Acre in September 1244. Pringle notes he \"may have visited the city briefly in 1244\"."
+  },
+  {
+   "lane": "latin",
+   "name": "James Pantaleon",
+   "start": 1255,
+   "end": 1261,
+   "mark": "bar1",
+   "auth1": "(table ends 1244)",
+   "auth2": "H: 1255-61",
+   "note": "⚠ Hamilton only past 1244 -- Pringle's table stops. SINGLE AUTHORITY: the `bar` here rests on Hamilton alone and a second must be found before it ships as a span."
+  },
+  {
+   "lane": "latin",
+   "name": "William II of Agen",
+   "start": 1262,
+   "end": 1270,
+   "mark": "bar1",
+   "auth1": "(table ends 1244)",
+   "auth2": "H: 1262-70",
+   "note": "⚠ Single authority, as above."
+  },
+  {
+   "lane": "latin",
+   "name": "Thomas Agni of Lentino",
+   "start": 1272,
+   "end": 1277,
+   "mark": "bar1",
+   "auth1": "(table ends 1244)",
+   "auth2": "H: 1272-7",
+   "note": "⚠ Single authority, as above."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Gregory I",
+   "start": 1273,
+   "end": 1285,
+   "mark": "point",
+   "auth1": "(not in table)",
+   "auth2": "H: ante 1273-post 1285",
+   "note": "Hamilton alone, and hedged at both ends."
+  },
+  {
+   "lane": "latin",
+   "name": "Elias of Perigueux",
+   "start": 1279,
+   "end": 1288,
+   "mark": "bar1",
+   "auth1": "(table ends 1244)",
+   "auth2": "H: 1279-87/8",
+   "note": "⚠ Single authority; Hamilton's own end is 87/8."
+  },
+  {
+   "lane": "latin",
+   "name": "Nicholas of Hanapes",
+   "start": 1288,
+   "end": 1291,
+   "mark": "bar1",
+   "auth1": "(table ends 1244)",
+   "auth2": "H: 1288-91",
+   "note": "⚠ Single authority. ⭐ He is the last Latin patriarch of the kingdom: ch. 23 is the fall of Acre, 18 May 1291."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Thaddaeus",
+   "start": 1296,
+   "end": 1296,
+   "mark": "point",
+   "auth1": "(not in table)",
+   "auth2": "H: floruit 1296",
+   "note": "Hamilton alone, one attested year."
+  }
+ ]
+}
