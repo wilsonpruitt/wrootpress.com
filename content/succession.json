@@ -32,7 +32,7 @@
   },
   {
    "lane": "jerusalem",
-   "name": "Symeon son of Clopas",
+   "name": "Simeon son of Clopas",
    "start": 62,
    "end": 107,
    "mark": "tradition",
@@ -552,13 +552,13 @@
   },
   {
    "lane": "jerusalem",
-   "name": "Symeon II",
+   "name": "Simeon II",
    "start": 1084,
    "end": 1099,
    "mark": "point",
    "auth1": "P: after 1088/99-before 1106/17",
    "auth2": "H: ante 1092-1099 · G: 1084-1096",
-   "note": "⚠⚠⚠ THREE AUTHORITIES, THREE DIFFERENT MEN'S WORTH OF DISAGREEMENT, AND THEY ARE ALL THIS ONE MAN. ⭐⭐ HE WAS ENTERED TWICE IN THIS FILE -- once from Gil as \"Simeon II\" and once from Pringle/Hamilton as \"Symeon II\" -- and the duplicate was invisible to the validator and OBVIOUS ON THE RENDERED PAGE, where two labels sat eight years apart in the same lane. Merged 2026-08-12. THE SPELLING SPLIT IS WHY THE DUPLICATE SURVIVED: a file keyed on names cannot see that Simeon and Symeon are one person. ⚠⚠ GIL ENDS HIM IN 1096 and puts EUTHYMIUS in the see to 15 July 1099, where Hamilton, Pringle and the book have him to 1099 -- see the Euthymius (1096) row. ⚠ SPELLING: Hamilton 20/20 Symeon, Gil 5/5 Simeon, MacEvitt inconsistent within one book; the chapters inherit whichever source they lean on. Wilson's call, both books."
+   "note": "⚠⚠⚠ THREE AUTHORITIES, THREE DIFFERENT MEN'S WORTH OF DISAGREEMENT, AND THEY ARE ALL THIS ONE MAN. ⭐⭐ HE WAS ENTERED TWICE IN THIS FILE -- once from Gil as \"Simeon II\" and once from Pringle/Hamilton as \"Symeon II\" -- and the duplicate was invisible to the validator and OBVIOUS ON THE RENDERED PAGE, where two labels sat eight years apart in the same lane. Merged 2026-08-12. THE SPELLING SPLIT IS WHY THE DUPLICATE SURVIVED: a file keyed on names cannot see that Simeon and Symeon are one person. ⚠⚠ GIL ENDS HIM IN 1096 and puts EUTHYMIUS in the see to 15 July 1099, where Hamilton, Pringle and the book have him to 1099 -- see the Euthymius (1096) row. ✅ SPELLING RULED 2026-08-12: SIMEON, both books. Hamilton 20/20 Symeon, Gil 5/5 Simeon, MacEvitt inconsistent within one book -- the chapters had inherited whichever source they leaned on."
   },
   {
    "lane": "jerusalem",
@@ -748,7 +748,7 @@
    "mark": "point",
    "auth1": "P: 1185-9",
    "auth2": "H: ante 1187-1189",
-   "note": "Ends agree; starts are two years and a hedge apart."
+   "note": "Ends agree; starts are two years and a hedge apart. ⭐⭐⭐ Pa: PAPADOPOULOS (1910, printed p. 407, read from the ANEMI page image) GIVES A THIRD AND BETTER-EXPLAINED ACCOUNT: he did not die -- he was TRANSLATED to the throne of Constantinople in 1191 by the Emperor Isaac Angelos, and the translation was held ANTICANONICAL, which is why the lists disagree about when he ceased at Jerusalem. Same mechanism as Nicodemus seven centuries later: an END-DATE in a list is compressing a translation, and the compression is where the disagreement comes from."
   },
   {
    "lane": "jerusalem",
@@ -758,7 +758,7 @@
    "mark": "point",
    "auth1": "P: Mark II (1189-?)",
    "auth2": "H: Mark II Cataphlorus (1189/90-post 1195)",
-   "note": "Pringle leaves the end open with a question mark; Hamilton gives \"post 1195\" and the surname. ⭐ After Saladin's conquest the Greek patriarchate is re-established IN THE CITY and the Greeks regain their churches (Pringle, same entry) -- the exile ends here."
+   "note": "Pringle leaves the end open with a question mark; Hamilton gives \"post 1195\" and the surname. ⭐ After Saladin's conquest the Greek patriarchate is re-established IN THE CITY and the Greeks regain their churches (Pringle, same entry) -- the exile ends here. ⭐⭐ Pa: Papadopoulos p. 407 confirms the surname and supplies the event Pringle and Hamilton only imply -- he was ELECTED PATRIARCH OF JERUSALEM IN DOSITHEOS'S PLACE (Πατριάρχης δὲ Ἱεροσολύμων ἀντ' αὐτοῦ ἐξελέγη ὁ ΜΑΡΚΟΣ Β΄ Κατάφλωρος) after the scandal of the translation, the Emperor convening a synod on 3 SEPTEMBER 1191. ⚠ That is two years later than the 1189/90 both other authorities give, and it is a THIRD reading, not a tiebreak."
   },
   {
    "lane": "jerusalem",
@@ -919,6 +919,116 @@
    "auth1": "(not in table)",
    "auth2": "H: floruit 1296",
    "note": "Hamilton alone, one attested year."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Lazaros",
+   "start": 1334,
+   "end": 0,
+   "mark": "point",
+   "auth1": "Pa: elected after 1334",
+   "auth2": "--",
+   "note": "⭐⭐ THE FIRST NAME IN THE 1296-1787 HOLE, and it comes from Papadopoulos printed p. 425 read from the ANEMI page image. Elected patriarch after 1334, he went to Constantinople for confirmation of his election by Andronikos III (1328-1341) as custom required -- and IN HIS ABSENCE a monk named Gerasimos laid slanders against him, got himself elected in his place, and went to the capital for confirmation in turn. ⚠ No end date. ⚠⚠ This row does NOT close the hole; it is one name inside a 491-year gap and the validator still reports the gap on either side of it."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Gerasimos (rival)",
+   "start": 1334,
+   "end": 0,
+   "mark": "point",
+   "auth1": "Pa: elected against Lazaros",
+   "auth2": "--",
+   "note": "⚠⚠ A RIVAL, NOT A SUCCESSOR, and recorded because a succession that suppresses its contested elections is not the thing this band is for. The monk who slandered Lazaros in his absence and was elected against him. Andronikos III did not recognise the usurpation outright but 'was not wholly disbelieving' of it. Papadopoulos printed p. 425."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Anthimus",
+   "start": 1787,
+   "end": 1808,
+   "mark": "point",
+   "auth1": "D: 1787-1808",
+   "auth2": "H2: 1788-1807",
+   "note": "⚠⚠ BOTH READINGS NOW PAGE-VERIFIED AND THEY DISAGREE AT BOTH ENDS: Dowling 1787-1808 against the Handbook 1788-1807. ⭐ A WebFetch summary of Dowling's page had claimed 1807-1808 -- wrong by twenty years, and invented. Neither real reading is that."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Polycarp",
+   "start": 1808,
+   "end": 1827,
+   "mark": "bar",
+   "auth1": "D: 1808-1827",
+   "auth2": "H2: 1808-1827",
+   "note": "✅ The two authorities agree exactly. ⭐⭐ THE FIRST AGREED SPAN IN THE JERUSALEM LANE IN THE WHOLE BAND -- 79 entries from James onward and not one before this."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Athanasius V",
+   "start": 1827,
+   "end": 1845,
+   "mark": "bar",
+   "auth1": "D: 1827-1845",
+   "auth2": "H2: 1827-1845",
+   "note": "✅ The DATES agree exactly, so this is a bar. ⚠⚠ THE NUMERAL DOES NOT: Dowling has ATHANASIUS V here and again in his Bethlehem list; the Handbook prints ATHANASIOS IV. Both page-verified. A regnal number is not a date and does not change the mark -- it goes here, unresolved."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Kyrillus II",
+   "start": 1845,
+   "end": 1872,
+   "mark": "bar",
+   "auth1": "D: 1845-1872, Deposed",
+   "auth2": "H2: 1845-1872",
+   "note": "✅ Agreed. ⭐ Dowling calls him the 128TH PATRIARCH, the anchor for the numbering question at Damianus. Deposed, per Dowling."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Procopius II",
+   "start": 1872,
+   "end": 1875,
+   "mark": "point",
+   "auth1": "D: 1872-1875, Resigned",
+   "auth2": "H2: 1872-1877",
+   "note": "⚠ Two years apart at the end: Dowling 1875 and 'Resigned', the Handbook 1877. Dowling's earlier end leaves a vacancy the Handbook fills."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Heirotheus",
+   "start": 1875,
+   "end": 1882,
+   "mark": "point",
+   "auth1": "D: 1875-1882",
+   "auth2": "H2: 1879-1882",
+   "note": "⚠ FOUR years apart at the start -- Dowling 1875, the Handbook 1879 -- which is the same disagreement seen from the other side: the Handbook has a 1877-1879 vacancy where Dowling has Heirotheus in office from 1875."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Nicodemus",
+   "start": 1883,
+   "end": 1890,
+   "mark": "point",
+   "auth1": "D: 1883-1890, Resigned",
+   "auth2": "H2: 1882-1889",
+   "note": "⚠ A year out at both ends. ⭐⭐ AND THE BOOK IS VINDICATED: ch. 27 follows Bliss in dating the cry that forced him out to 1891, which had looked like a third disagreement. Dowling's own p. 26 footnote resolves it -- Nicodemus resigns 1890, the throne stands empty a year, and Gerasimus is TRANSLATED from Antioch in 1891. The lists compress a resignation, a vacancy and a translation into one number; the book described the EVENT, not the tenure."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Gerasimus",
+   "start": 1891,
+   "end": 1897,
+   "mark": "point",
+   "auth1": "D: 1891-1897",
+   "auth2": "H2: 1890-1897",
+   "note": "⚠ Dowling 1891, the Handbook 1890, both page-verified -- and Dowling's footnote naming the 1891 translation from Antioch makes his the better-evidenced reading. The book follows the same year."
+  },
+  {
+   "lane": "jerusalem",
+   "name": "Damianus",
+   "start": 1897,
+   "end": 1931,
+   "mark": "point",
+   "auth1": "D: 1897- (open)",
+   "auth2": "H2: 1897- (open)",
+   "note": "⭐ Both leave the end open; the 1931 here is ch. 28's spine row, not either authority. ⚠⚠ OPEN QUESTION, page-verified and therefore real: Dowling calls him the 132ND PATRIARCH and Kyrillus II the 128th, but counting the list between them gives 133 -- one of the five is outside the official numbering, plausibly one who resigned or the one deposed."
   }
  ]
 }
