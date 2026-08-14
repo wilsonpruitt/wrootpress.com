@@ -811,6 +811,16 @@
    "note": ""
   },
   {
+   "lane": "custody",
+   "name": "Francis of Assisi",
+   "start": 1219,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 1. San Francesco d'Assisi",
+   "auth2": "--",
+   "note": "⭐⭐ The Custody's own list opens with FRANCIS HIMSELF. ⚠ The entry gives no year; 1219 is the list's own section heading and is placement, not a tenure. ⚠⚠ NEITHER BOOK MENTIONS HIS JOURNEY and the 1219 spine row is about al-Muazzam's walls, so nothing here may be written as though the chapters carried it."
+  },
+  {
    "lane": "jerusalem",
    "name": "Euthymius",
    "start": 1222,
@@ -851,6 +861,16 @@
    "note": "⭐ ch. 22's spine row has him writing to Innocent IV from Acre in September 1244. Pringle notes he \"may have visited the city briefly in 1244\"."
   },
   {
+   "lane": "custody",
+   "name": "Giacomo",
+   "start": 1247,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 2. Giacomo (Narciso?), 1247 guardiano del M. Sion",
+   "auth2": "--",
+   "note": "The list gives him as guardian of Mount Sion, not yet Custos — the office is not the papal one until 1342."
+  },
+  {
    "lane": "latin",
    "name": "James Pantaleon",
    "start": 1255,
@@ -869,6 +889,36 @@
    "auth1": "(table ends 1244)",
    "auth2": "H: 1262-70",
    "note": "⚠ Single authority, as above."
+  },
+  {
+   "lane": "custody",
+   "name": "Giacomo da Puy",
+   "start": 1266,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 3. Giacomo da Puy - Custode di TS in Siria, martire - 1266",
+   "auth2": "--",
+   "note": "'Custode di TS in Siria, martire' — Custos in Syria, and a martyr."
+  },
+  {
+   "lane": "custody",
+   "name": "Vincentius de Burgundia",
+   "start": 1267,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 4. Vincentius de Burgundia Custos in TS",
+   "auth2": "--",
+   "note": "⚠ THE LIST GIVES HIM NO YEAR AT ALL ('Vincentius de Burgundia Custos in TS'). Placed between his neighbours to keep the order; the placement is not evidence."
+  },
+  {
+   "lane": "custody",
+   "name": "Giovannino da Parma",
+   "start": 1270,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 5. Giovannino da Parma (detto C. TS) sec. XIII (1270?)",
+   "auth2": "--",
+   "note": "⚠ The list hedges its own date: 'sec. XIII (1270?)'."
   },
   {
    "lane": "latin",
@@ -901,6 +951,16 @@
    "note": "⚠ Single authority; Hamilton's own end is 87/8."
   },
   {
+   "lane": "custody",
+   "name": "Geleberto",
+   "start": 1286,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 6. Geleberto, residente ad Acri 1286",
+   "auth2": "--",
+   "note": "⭐ Resident at ACRE — the Latin kingdom's capital after 1187, and the Franciscans are there until it falls in 1291 (ch. 19)."
+  },
+  {
    "lane": "latin",
    "name": "Nicholas of Hanapes",
    "start": 1288,
@@ -931,6 +991,26 @@
    "note": "⚠⚠⚠ THE LATIN LINE DID NOT END AT ACRE, AND THIS BAND SAID IT DID BY SAYING NOTHING. The Handbook (printed p. 41, leaf n59, read from the image): after 1291 'ten more DE JURE occupants of the see, including one Englishman, Antony Beake, Bishop of Durham (Patriarch, 1305-1311), were appointed.' ⭐ He is here as the one of the ten the Handbook names -- an English bishop of Durham holding Jerusalem in title. The other nine are unnamed on this shelf."
   },
   {
+   "lane": "custody",
+   "name": "Guido",
+   "start": 1306,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 7. Guido (res. in Cipro) 1306",
+   "auth2": "--",
+   "note": "⭐⭐ RESIDENT IN CYPRUS. The Latin patriarchate is in exile after 1291 and so is this office; the lane's first fourteenth-century entries are not in Palestine at all."
+  },
+  {
+   "lane": "custody",
+   "name": "Rogero Guarini",
+   "start": 1310,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 8. Rogero Guarini 1310, guard. e sup. M. Sion, poi ancora nel 1333",
+   "auth2": "--",
+   "note": "Guardian and superior of Mount Sion, and the list has him AGAIN in 1333 — the earlier of the two years the spine gives the Custody's beginning (`1333/1342`, ch. 24). ⚠ What happened in 1333 is not narrated on this shelf; the spine pairs the years and stops."
+  },
+  {
    "lane": "latin",
    "name": "--",
    "start": 1311,
@@ -939,6 +1019,26 @@
    "auth1": "H2: titular, NOT vacant",
    "auth2": "--",
    "note": "⛔⛔ NOT A VACANCY AND NOT AN EXTINCTION. The Handbook: 'The dignity of Latin Patriarch of Jerusalem then became a purely titular one, accorded to prelates of the Roman Curia, and so remained until the de facto revival of the see in 1847.' ⭐⭐ AND THE GROUND WAS NOT UNHELD: through 'the five and a half centuries in which the Patriarchate was in abeyance the Latin Holy Places in Palestine were in the charge of the Franciscan Order under the Most Reverend Father Custodian of Terra Santa', who held quasi-episcopal jurisdiction, could confirm and give minor orders, conferred the Order of the Holy Sepulchre for the Pope, and kept a merchant marine under the flag of Terra Santa. ⬜ THAT IS `web/PLAN.md` §3's FRANCISCAN CUSTODY LANE, still unbuilt: this shelf gives its existence and its powers but no list of Custodians."
+  },
+  {
+   "lane": "custody",
+   "name": "Nicolò da San Martino",
+   "start": 1328,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 9. Nicolò (da S. Martino) 1328, superiore e guardiano del M. Sion",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Giovanni Fedanzola da Perugia",
+   "start": 1330,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 10. Giovanni Fedanzola da Perugia 1330",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem",
@@ -971,6 +1071,46 @@
    "note": "⭐ Le Quien's CV = Simaios's 102. ⭐⭐ AND HE DATES HIM WHERE SIMAIOS DOES NOT: 'Lazarus his predecessor was still alive in the year 1367' -- used as an argument against Dositheos's chronology, which is how the date survives."
   },
   {
+   "lane": "custody",
+   "name": "Giovanni di Stefano",
+   "start": 1337,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 11. Giovanni di Stefano, guardiano e Superiore in Sion 1337",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Giacomo Normanno",
+   "start": 1337,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 12. Giacomo Normanno, Custode in Cipro 1337",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Nicola di Giovanni",
+   "start": 1340,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 13. Nicola di Giovanni guardiano del M. Sion",
+   "auth2": "--",
+   "note": "⚠ NO YEAR IN THE LIST. Placed between his neighbours to keep the order."
+  },
+  {
+   "lane": "custody",
+   "name": "Bernardino da Padova",
+   "start": 1363,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 14. Bernardino da Padova, guardiano e superiore Luoghi Santi 1363",
+   "auth2": "--",
+   "note": "⭐⭐ THE FIRST ENTRY AFTER THE PAPAL FOUNDATION: Clement VI's bulls *Gratias agimus* and *Nuper carissimae* of 1342 give the Franciscans the custody of the holy places on the Latin church's behalf. ⚠ The list marks the change nowhere — it runs straight through, which is itself the claim that the office is older than its charter."
+  },
+  {
    "lane": "jerusalem",
    "name": "Markos",
    "start": 1366,
@@ -991,6 +1131,26 @@
    "note": "⚠⚠ A THIRD NUMBERING SITS INSIDE THIS ROW. Le Quien reports that Dositheos's catalogue makes him the 110th and assigns him 46 years -- and then REFUSES it: 'at non video quomodo id verum sit', I do not see how that can be true, since Lazarus his predecessor was still alive in 1367. ⭐ Le Quien adjudicating his own source, in print, in 1740."
   },
   {
+   "lane": "custody",
+   "name": "Antonio di Giacomo",
+   "start": 1372,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 15. Antonio di Giacomo, guardiano del M. Sion 1372",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Nicolò da Creta o Candia",
+   "start": 1376,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 16. Nicolò da Creta o Candia 1376",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Euthymios",
    "start": 1380,
@@ -999,6 +1159,26 @@
    "auth1": "Si: 104; no tenure given",
    "auth2": "--",
    "note": "⭐ Simaios knows him ONLY FROM A TROPARION in the two hymnographic canons of the patriarchs of Jerusalem, and says so. ⚠⚠ PLACEMENT ONLY. Simaios gives a tenure LENGTH and no year, and THE CHAIN DOES NOT CLOSE on the anchors either side, which is the finding of step 2 and not a defect in this row. The mark is `point`."
+  },
+  {
+   "lane": "custody",
+   "name": "Giovanni",
+   "start": 1382,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 17. Giovanni – Custode? 1382",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Nicolò da Venezia",
+   "start": 1384,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 18. Nicolò da Venezia 1384",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem-lq",
@@ -1011,6 +1191,16 @@
    "note": "Confirmed by the Emperor John Palaiologos, who gave up the empire in 1384 or 1387 and died in 1391. ⚠ PLACEMENT ONLY — Le Quien gives no year here; placed between the anchors he does give. The mark is `point`."
   },
   {
+   "lane": "custody",
+   "name": "Gerardo Calvetti",
+   "start": 1388,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 19. Gerardo Calvetti 1388 (12 anni)",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Athanasios",
    "start": 1392,
@@ -1021,6 +1211,16 @@
    "note": "⭐⭐ COMPOSED HOMILIES IN ARABIC, spiritually beneficial, for every Sunday and feast, read aloud to the pious. A direct datum for the book's Arabic-liturgy thread and one of the earliest. ⚠⚠ PLACEMENT ONLY. Simaios gives a tenure LENGTH and no year, and THE CHAIN DOES NOT CLOSE on the anchors either side, which is the finding of step 2 and not a defect in this row. The mark is `point`."
   },
   {
+   "lane": "custody",
+   "name": "Nicolò Coronario",
+   "start": 1400,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 20. Nicolò Coronario (Corner de Candia) 1400",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem-lq",
    "name": "Theophilus II (CVIII)",
    "start": 1400,
@@ -1029,6 +1229,26 @@
    "auth1": "LQ: CVIII; DOROTHEUS'S SON",
    "auth2": "--",
    "note": "⭐⭐ 'Hic Theophilus, DOROTHEI FILIUS, cui et successit in sede Hierosolymitana' -- son succeeding father in the see. Flourished under Manuel Palaiologos (from 1384/87) and his son John, who was reigning in 1419. ⚠ PLACEMENT ONLY — Le Quien gives no year here; placed between the anchors he does give. The mark is `point`."
+  },
+  {
+   "lane": "custody",
+   "name": "Nicolò di Pietro",
+   "start": 1405,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 21. Nicolò di Pietro 1405",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Pascutius Davini de Assisio",
+   "start": 1414,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 22. Pascutius Davini de Assisio 1414",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem",
@@ -1051,6 +1271,36 @@
    "note": "⚠ One of the 'duplex Theophanes' Le Quien notes at CXV -- of the two Theophanes in Dositheos's catalogue, one is missing who sat after Joachim. ⚠ PLACEMENT ONLY — Le Quien gives no year here; placed between the anchors he does give. The mark is `point`."
   },
   {
+   "lane": "custody",
+   "name": "Giacomo di Antonio",
+   "start": 1421,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 23. Giacomo di Antonio 1421",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Giovanni Belloro",
+   "start": 1424,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 24. Giovanni Belloro 1424",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Luigi da Bologna",
+   "start": 1430,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 25. Luigi da Bologna 1430",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem-lq",
    "name": "Joachim (CX)",
    "start": 1430,
@@ -1061,6 +1311,36 @@
    "note": "⭐⭐ Held the see at the time of the Florentine synod; his vicars there were MARK OF EPHESUS and Dositheos of Monembasia, who subscribed the decree of union 'holding the place of the most holy Patriarch of Jerusalem, Lord Joachim'. ⚠ Le Quien adds that Joachim was so far from ratifying it that he overturned whatever had been done at Florence. = Simaios's 106 Ioakeim (40 years)."
   },
   {
+   "lane": "custody",
+   "name": "Giacomo Delfino",
+   "start": 1434,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 26. Giacomo Delfino 1434 (Regolare Osservanza)",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Gandolfo da Sicilia",
+   "start": 1438,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 27. Gandolfo da Sicilia 1438",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Baldassare da S. Maria",
+   "start": 1446,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 28. Baldassare da S. Maria 1446",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem-lq",
    "name": "Theophanes III (CXI)",
    "start": 1450,
@@ -1069,6 +1349,16 @@
    "auth1": "LQ: CXI",
    "auth2": "--",
    "note": "Associated with the Constantinople synod against the Florentine union. ⚠ PLACEMENT ONLY — Le Quien gives no year here; placed between the anchors he does give. The mark is `point`."
+  },
+  {
+   "lane": "custody",
+   "name": "Antonio da Mugnano",
+   "start": 1455,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 29. Antonio da Mugnano 1455",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem",
@@ -1091,6 +1381,36 @@
    "note": "⭐⭐⭐ THE FIRST OF THE THREE THAT EXPLAIN THE WHOLE DIVERGENCE. Le Quien states it outright: 'Licet nulla occurrat apud Graecos, de tribus istis Patriarchis Hierosolymorum mentio' -- NO MENTION OF THESE THREE OCCURS AMONG THE GREEKS. He takes them from THEODORICUS PAULI by way of Papebrochius. Theodoricus calls Abraham a most Christian man who governed the church of Jerusalem under the greatest pressure of the pagans, in the time of Pope Pius II, and who died in 1468."
   },
   {
+   "lane": "custody",
+   "name": "Gabriele Mezzavacca da Bologna",
+   "start": 1462,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 30. Gabriele Mezzavacca da Bologna 1462 – muore 1463",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Paolo d’Albenga",
+   "start": 1464,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 31. Paolo d’Albenga 1464 - da un firmano risulta Custode al 17.4.1472",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Francesco da Piacenza",
+   "start": 1467,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 32. Francesco da Piacenza 1467",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem-lq",
    "name": "Jacobus III (CXIII)",
    "start": 1468,
@@ -1099,6 +1419,46 @@
    "auth1": "LQ: CXIII; ⛔ NOT IN THE GREEK SOURCES",
    "auth2": "--",
    "note": "The second of the three from Theodoricus Pauli: 'doctor of sacred page, succeeding Abraham, and in great want governing the patriarchate'; the Duke of Burgundy's help renovated the church of the Holy Sepulchre and sent a yearly sum. Died 1482."
+  },
+  {
+   "lane": "custody",
+   "name": "Andrea da Parma",
+   "start": 1472,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 33. Andrea da Parma 1472",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Giacomo d’Alessandria",
+   "start": 1475,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 34. Giacomo d’Alessandria 1475 - deceduto 1477",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Giovanni de Thomacellis",
+   "start": 1478,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 35. Giovanni de Thomacellis 1478",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Paolo da Canneto",
+   "start": 1481,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 36. Paolo da Canneto 1481 - rinuncia",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem-lq",
@@ -1111,6 +1471,36 @@
    "note": "The third from Theodoricus Pauli: 'Marcus, catholic and pious, by divine mercy archbishop of Bethlehem and Patriarch of the holy city of Jerusalem and of holy Sion, of Syria and Arabia and beyond Jordan'. ⚠⚠ DO NOT CONFUSE HIM WITH SIMAIOS'S 103 MARKOS, who sits more than a century earlier. Same name, different man, different tradition -- and that pair was what first made the two lists look irreconcilable. ⚠ PLACEMENT ONLY — Le Quien gives no year here; placed between the anchors he does give. The mark is `point`."
   },
   {
+   "lane": "custody",
+   "name": "Bernardino da Parma",
+   "start": 1484,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 37. Bernardino da Parma 1484",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Bernardino Caimo",
+   "start": 1487,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 38. Bernardino Caimo 1487, già presidente 1478",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Bartolomeo da Piacenza",
+   "start": 1489,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 39. Bartolomeo da Piacenza 1489, ridiventa Custode nel 1496",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Atallas or Dorotheos",
    "start": 1489,
@@ -1119,6 +1509,26 @@
    "auth1": "Si: 108; 43 years; 1514",
    "auth2": "--",
    "note": "⭐⭐⭐ THE ROW THAT PROVES THE TWO LISTS ARE ONE SUCCESSION: Simaios gives him 43 years and Le Quien's CXVI Dorotheus II is given 43 years by Dositheos. The same man, the same tenure, in both traditions. ⭐ And the anchor lands inside the span: in 1514 Selim took Aleppo, Damascus and Jerusalem, and Dorotheos went out to receive him with gifts."
+  },
+  {
+   "lane": "custody",
+   "name": "Angelo da Foligno",
+   "start": 1495,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 41. Angelo da Foligno 1495",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Antonio Gozze de Regnis",
+   "start": 1499,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 42. Antonio Gozze de Regnis 1499",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem-lq",
@@ -1131,6 +1541,126 @@
    "note": "Le Quien reasons him into place: of the two Theophanes one is missing after Joachim, and 'it is likely that Gregory III succeeded the three just recited', to whom Dositheos assigns thirty-six years. ⚠ An inference of Le Quien's own, and he says so."
   },
   {
+   "lane": "custody",
+   "name": "Mauro da S. Bernardino",
+   "start": 1501,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 43. Mauro da S. Bernardino 1501",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Luigi da Napoli",
+   "start": 1504,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 44. Luigi da Napoli 1504",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Bernardino del Vecchio",
+   "start": 1507,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 45. Bernardino del Vecchio 1507 - rinuncia",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Francesco Suriano",
+   "start": 1512,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 40. Francesco Suriano1493, ridiventa Custode nel 1512",
+   "auth2": "--",
+   "note": "⭐ FRANCESCO SURIANO, whom big ch. 24 quotes at length on what had changed in the Holy Sepulchre by the 1480s. ⚠ The chapter has him guardian TWICE after 1480; the list gives 1493 and again 1512, which agrees without being the same statement."
+  },
+  {
+   "lane": "custody",
+   "name": "Nicolò da Tossignano",
+   "start": 1514,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 46. Nicolò da Tossignano 1514",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Zenobio da Firenze",
+   "start": 1517,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 47. Zenobio da Firenze 1517",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Gabriele",
+   "start": 1518,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 48. Gabriele, Custode? 1518",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Angelo da Ferrara",
+   "start": 1519,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 49. Angelo da Ferrara 1519",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Giovanni",
+   "start": 1528,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 50. Giovanni 1528",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Mario da Messina",
+   "start": 1532,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 51. Mario da Messina 1532 - deceduto",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Battista da Macerata",
+   "start": 1532,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 52. Battista da Macerata 1532",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Tomaso da Norcia",
+   "start": 1535,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 53. Tomaso da Norcia 1535 - deceduto in prigionia a Damasco nel 1539",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem-lq",
    "name": "Dorotheus II (CXVI)",
    "start": 1536,
@@ -1139,6 +1669,76 @@
    "auth1": "LQ: CXVI; 43 years per Dositheos",
    "auth2": "--",
    "note": "⭐⭐ THE ROW THAT PROVES THE ALIGNMENT: Dositheos assigns him FORTY-THREE years, and Simaios gives his 108th, Atallas or Dorotheos, FORTY-THREE years. The same man, in both traditions, with the same tenure. ⭐ Le Quien adds that he must therefore have lived into the sixteenth century when it was already well advanced."
+  },
+  {
+   "lane": "custody",
+   "name": "Dionisio da Sarcognano",
+   "start": 1541,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 54. Dionisio da Sarcognano 1541",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Giorgio Bosnese",
+   "start": 1544,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 56. Giorgio Bosnese 1544",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Felice da Venezia",
+   "start": 1545,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 55. Felice da Venezia, vedi 1545",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Bonaventura Corsetto Dalmata",
+   "start": 1547,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 57. Bonaventura Corsetto Dalmata 1547",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Bonifacio Stefani da Ragusa",
+   "start": 1551,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 58. Bonifacio Stefani da Ragusa 1551, vedi 1564",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Antonio da Bergamo",
+   "start": 1559,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 59. Antonio da Bergamo 1559",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Aurelio da Griano",
+   "start": 1560,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 60. Aurelio da Griano 1560",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem",
@@ -1151,6 +1751,66 @@
    "note": "⭐ From Arachova in the Tripolitza country, formerly abbot of the Great Laura of St Sabas. Spent much of his time BEYOND THE JORDAN, 'for there were many multitudes of Orthodox Christians there'. ⚠⚠ The 46 years and the anchor at Adam 7086 (1578) do not close on the death at Adam 7116 (1608) -- thirty years, not forty-six. Recorded as it stands. = Le Quien CXVII."
   },
   {
+   "lane": "custody",
+   "name": "Bernardino da Collestate",
+   "start": 1565,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 61. Bernardino da Collestate 1565, presidente nel 1568",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Girolamo da Fossato",
+   "start": 1566,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 62. Girolamo da Fossato 1566",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Angelo da Portomaurizio",
+   "start": 1568,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 63. Angelo da Portomaurizio 1568",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Gian-Francesco d’Arsignano Vicent.",
+   "start": 1568,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 64. Gian-Francesco d’Arsignano Vicent. 1568 - prigioniero dei turchi 1570, nel 1571 rinuncia",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Antonio da S. Angelo",
+   "start": 1571,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 65. Antonio da S. Angelo 1571 - muore",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Geremia da Brescia",
+   "start": 1572,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 66. Geremia da Brescia 1572",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem-lq",
    "name": "Germanus (CXVII)",
    "start": 1579,
@@ -1161,6 +1821,126 @@
    "note": "= Simaios's 109 Germanos, and the point where the two lists rejoin at the standing offset of 8. ⚠ PLACEMENT ONLY — Le Quien gives no year here; placed between the anchors he does give. The mark is `point`."
   },
   {
+   "lane": "custody",
+   "name": "Giovanni da Bergamo",
+   "start": 1580,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 67. Giovanni da Bergamo 1580 - rinuncia dopo pochi mesi",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Angelo Stella Veneto",
+   "start": 1581,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 68. Angelo Stella Veneto 1581 - muore nell’agosto 1583",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Paolino Olivoli da Pisa",
+   "start": 1584,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 69. Paolino Olivoli da Pisa 1584 - muore dopo 4 giorni di governo",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Accursio da Quinzano",
+   "start": 1585,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 70. Accursio da Quinzano 1585",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Gian-Battista da Montegiano",
+   "start": 1588,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 71. Gian-Battista da Montegiano, 1588",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Francesco da Spello",
+   "start": 1590,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 72. Francesco da Spello 1590 - muore a Mantova nel 1593",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Felice Ranieri da Fratta",
+   "start": 1593,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 73. Felice Ranieri da Fratta 1593 - muore dopo 15 gg, è sepolto nel cimitero degli Armeni",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Gian-Francesco da Salandra",
+   "start": 1593,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 74. Gian-Francesco da Salandra 1593",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Evangelista da Gabiano",
+   "start": 1597,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 75. Evangelista da Gabiano 1597",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Francesco Manerba",
+   "start": 1600,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 76. Francesco Manerba 1600",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Cesario da Trino",
+   "start": 1603,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 77. Cesario da Trino 1603",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Gaudenzio Saibanti da Verona",
+   "start": 1608,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 78. Gaudenzio Saibanti da Verona 1608",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Sophronios",
    "start": 1608,
@@ -1169,6 +1949,126 @@
    "auth1": "Si: 110; 38 or 39 years",
    "auth2": "--",
    "note": "⭐ GERMANOS'S OWN NEPHEW, a priest whom his uncle clothed in the monastic habit, renamed, and designated successor before dying. ⚠ Simaios gives him 38 or 39 years before he gave way, aged, to Theophanes -- which does not fit between 1608 and Paisios's 1645, and the row does not pretend it does."
+  },
+  {
+   "lane": "custody",
+   "name": "Angelo da Messina",
+   "start": 1612,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 79. Angelo da Messina 1612",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Basilio Basili da Caprarola",
+   "start": 1616,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 80. Basilio Basili da Caprarola 1616",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Francesco Dulcedo",
+   "start": 1619,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 81. Francesco Dulcedo 1619",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Tomaso Obicini da Novara",
+   "start": 1620,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 82. Tomaso Obicini da Novara 1620 – rinuncia",
+   "auth2": "--",
+   "note": "⚠⚠ THE LIST'S NUMBERING JUMPS 82 → 84 HERE: there is no 83rd entry on the Custody's own page. Recorded, not repaired — this band does not renumber an authority."
+  },
+  {
+   "lane": "custody",
+   "name": "Francesco Spinelli",
+   "start": 1622,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 84. Francesco Spinelli 1622 - deceduto",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Sante da Messina",
+   "start": 1625,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 85. Sante da Messina 1625",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Diego da S. Severino",
+   "start": 1628,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 86. Diego da S. Severino 1628",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Paolo da Lodi",
+   "start": 1632,
+   "end": 1635,
+   "mark": "bar1",
+   "auth1": "C: 87. Paolo da Lodi 1632 - fino al 1635",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Francesco da Cattaro Dalmata",
+   "start": 1634,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 88. Francesco da Cattaro Dalmata 1634 - deceduto",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Andrea d’Arco",
+   "start": 1637,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 89. Andrea d’Arco 1637",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Pietro Verniero da Montepiloso",
+   "start": 1642,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 90. Pietro Verniero da Montepiloso 1642",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Francesco Merisi da Como",
+   "start": 1645,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 91. Francesco Merisi da Como 1645",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem",
@@ -1191,6 +2091,46 @@
    "note": "⭐ Simaios's 112th. Consecrated **in Moldavia**, 23 March on a Lenten Sunday, by Gregorios of Larissa as exarch of Parthenios of Constantinople, with Varlaam of Moldavia and a third bishop. ⚠ The Adam-year is given as EITHER 7153 or 7157 — 1645 or 1649 — so the start is a point, not a span; the 18 years closes on Nektarios's 1664 from the earlier of the two. ⭐⭐ Simaios describes him: 'without possessions, zealous in divine things, brave and strong in body, short of stature, deep-bearded, dark-complexioned, from Demetsana, a relative of Theophanes.' ✅ Le Quien has him as CXX at the standing offset of 8."
   },
   {
+   "lane": "custody",
+   "name": "Antonio da Gaeta",
+   "start": 1648,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 92. Antonio da Gaeta 1648",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Mariano Morone da Maleo",
+   "start": 1652,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 93. Mariano Morone da Maleo 1652",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Eusebio Valles",
+   "start": 1659,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 94. Eusebio Valles 1659 – muore nel 1662 a 57 anni",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Francesco M. Rhini da Polizio",
+   "start": 1664,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 95. Francesco M. Rhini da Polizio 1664",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Nektarios",
    "start": 1664,
@@ -1199,6 +2139,16 @@
    "auth1": "Si: consecrated Palm Sunday 1664; resigned 1669",
    "auth2": "--",
    "note": "⭐⭐ THE FIRST ROW IN THIS STRETCH WITH BOTH ENDS GIVEN AS AD YEARS BY THE SOURCE ITSELF. The Sinaite; came from Egypt to Gaza and met Gabriel of Philippoupolis at Ramla; consecrated in Jerusalem on Palm Sunday 1664 (from Adam 7174), and resigned the throne in 1669. ✅ Le Quien CXXI, offset 8. ⚠ `bar1` and not `bar` because Le Quien's own dates were not extracted — only his name and position."
+  },
+  {
+   "lane": "custody",
+   "name": "Teofilo Testa da Nola",
+   "start": 1669,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 96. Teofilo Testa da Nola, presidente e Custode 1669",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem",
@@ -1211,6 +2161,146 @@
    "note": "⭐⭐ From **Arachova of Corinth**. Found the throne's debt at 81,000 grosia and raised 20,000 in Greece and Wallachia-Moldavia, bringing back forty silver lamps, one gold, and a gold censer. ⭐ THE ARITHMETIC CLOSES ON ITSELF: Nektarios resigns 1669, Dositheos dies 7 Feb 1707, and Simaios says 37 years — 1669 + 37 = 1706/7. **This is why the Ottoman half could be written and the Byzantine half could not.** ✅ Le Quien CXXII. ⚠ He is also the compiler of the CATALOGUE Le Quien cites and argues with."
   },
   {
+   "lane": "custody",
+   "name": "Claudio Gavazzi da Lodi",
+   "start": 1673,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 97. Claudio Gavazzi da Lodi 1673 - muore 1674",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Tomaso da Caltagirone",
+   "start": 1675,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 98. Tomaso da Caltagirone 1675 - “recatosi a Costantinopoli non ritornò più in officio”",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Giovanni Bonsignori da Legnano",
+   "start": 1675,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 99. Giovanni Bonsignori da Legnano 1675",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Pier-Marino Sormanni",
+   "start": 1678,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 100. Pier-Marino Sormanni 1678",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Pier-Antonio Grassi da Cantù",
+   "start": 1683,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 101. Pier-Antonio Grassi da Cantù 1683 - muore 1685",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Angelico da Milano",
+   "start": 1686,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 102. Angelico da Milano 1686",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Gregorio da Parghelia",
+   "start": 1689,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 103. Gregorio da Parghelia 1689",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Gian-Battista D’Atina",
+   "start": 1691,
+   "end": 1694,
+   "mark": "bar1",
+   "auth1": "C: 104. Gian-Battista D’Atina 1691 - governò fino al 1694",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Baldassare Caldera Milanese",
+   "start": 1695,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 105. Baldassare Caldera Milanese 1695",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Francesco da Santo Floro",
+   "start": 1697,
+   "end": 1699,
+   "mark": "bar1",
+   "auth1": "C: 106. Francesco da Santo Floro 1697 - governò fino al 1699",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Bonaventura da Majori",
+   "start": 1701,
+   "end": 1705,
+   "mark": "bar1",
+   "auth1": "C: 107. Bonaventura da Majori 1701-1705 - muore nel 1709",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Benedetto da Bari",
+   "start": 1704,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 108. Benedetto da Bari 1704 - si ammala e rinuncia",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Costantino Ultorchi da Milano",
+   "start": 1705,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 109. Costantino Ultorchi da Milano 1705 - muore 1705",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Gaetano Potestà da Palermo",
+   "start": 1706,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 110. Gaetano Potestà da Palermo 1706 - riparte per l’Italia nel 1708",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Chrysanthos",
    "start": 1707,
@@ -1219,6 +2309,56 @@
    "auth1": "Si: translated from Caesarea 8 February 1707; 25 years",
    "auth2": "--",
    "note": "⭐ Dositheos's nephew, translated from Caesarea of Palestine the day after his uncle's death. ⭐⭐ Under him the synodal act of **April 1709** lists the whole hierarchy by see — metropolitans of Caesarea of Palestine, Skythopolis, Petra, Ptolemais, Bethlehem, Nazareth and Sebasteia; archbishops of Lydda, Gaza, Sinai, Joppa, Neapolis-and-Samaria and Thabor; and one bishop, of Philadelphia. ⚠ The end is from Simaios's stated 25 years, not from a stated year. ✅ Le Quien CXXIII."
+  },
+  {
+   "lane": "custody",
+   "name": "Lorenzo Cozza da S. Lorenzo",
+   "start": 1710,
+   "end": 1715,
+   "mark": "bar1",
+   "auth1": "C: 111. Lorenzo Cozza da S. Lorenzo 1710 - fino al 1715 - eletto Cardinale muore nel 1729",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Giuseppe Maria da Perugia",
+   "start": 1716,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 112. Giuseppe Maria da Perugia 1716 - per tre anni",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Gian-Filippo da Milano",
+   "start": 1720,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 113. Gian-Filippo da Milano 1720 - deceduto 1722",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Giacomo da Lucca",
+   "start": 1723,
+   "end": 1728,
+   "mark": "bar1",
+   "auth1": "C: 114. Giacomo da Lucca 1722 presidente, dal 1723 Custode fino al 1728",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Andrea da Montoro",
+   "start": 1730,
+   "end": 1734,
+   "mark": "bar1",
+   "auth1": "C: 115. Andrea da Montoro 1730-1734",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem",
@@ -1231,6 +2371,16 @@
    "note": "⭐ Simaios: 'being old and unable to relieve the debt, he appointed a successor in his own place' in 1737. ⚠ The START is not stated — it follows from Chrysanthos's 25 years — and the row says so rather than hiding it. ✅ Le Quien CXXIV is the last entry his 1740 volume reaches; **from here Simaios is the only authority.**"
   },
   {
+   "lane": "custody",
+   "name": "Angelico da Gazolo",
+   "start": 1735,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 116. Angelico da Gazolo 1735, confermato nel 1738",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Parthenios",
    "start": 1737,
@@ -1239,6 +2389,26 @@
    "auth1": "Si: attested 1747; no tenure given",
    "auth2": "--",
    "note": "⭐ Of ATHENS. Under him the church of the Annunciation at Nazareth was rebuilt from the foundations by the archimandrite Neophytos of Rhodes. ⚠⚠ PLACEMENT ONLY, AND THE METHOD IS STATED SO IT CANNOT BE MISTAKEN FOR EVIDENCE: Simaios gives him no year. He is placed by dividing the interval between the two FIRM anchors either side of him among the men who fill it. The mark is `point`; the start and end are for the axis and are never a claim."
+  },
+  {
+   "lane": "custody",
+   "name": "Paolo da Laurino",
+   "start": 1740,
+   "end": 1743,
+   "mark": "bar1",
+   "auth1": "C: 117. Paolo da Laurino 1740-1743",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Desiderio da Casabasciana",
+   "start": 1744,
+   "end": 1750,
+   "mark": "bar1",
+   "auth1": "C: 118. Desiderio da Casabasciana 1744-1750 - vice-custode con prerogative e privilegi del custode",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem",
@@ -1251,6 +2421,36 @@
    "note": "⭐ Of ATHENS. Died and was buried at Constantinople, and his relics were afterwards translated to Jerusalem. ⚠⚠ PLACEMENT ONLY, AND THE METHOD IS STATED SO IT CANNOT BE MISTAKEN FOR EVIDENCE: Simaios gives him no year. He is placed by dividing the interval between the two FIRM anchors either side of him among the men who fill it. The mark is `point`; the start and end are for the axis and are never a claim."
   },
   {
+   "lane": "custody",
+   "name": "Prospero Zinelli da Brescia",
+   "start": 1751,
+   "end": 1754,
+   "mark": "bar1",
+   "auth1": "C: 119. Prospero Zinelli da Brescia 1751-1754",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Pio da Mentone",
+   "start": 1754,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 120. Pio da Mentone 1754",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Domenico da Venezia",
+   "start": 1756,
+   "end": 1761,
+   "mark": "bar1",
+   "auth1": "C: 121. Domenico da Venezia 1756-1761",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Sophronios",
    "start": 1759,
@@ -1261,6 +2461,26 @@
    "note": "⭐⭐ THE TRAFFIC RUNS BOTH WAYS: he went UP from Jerusalem to the throne of Constantinople in 1770, and in the same year named his own successor at Jerusalem. ⚠ Only the END year is given; the start is placement between the anchors."
   },
   {
+   "lane": "custody",
+   "name": "Paolo da Piacenza",
+   "start": 1762,
+   "end": 1767,
+   "mark": "bar1",
+   "auth1": "C: 122. Paolo da Piacenza 1762-1767",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Luigi da Bastia",
+   "start": 1767,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 123. Luigi da Bastia 1767, presidente e Custode - muore nel 1771",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Abramios",
    "start": 1770,
@@ -1269,6 +2489,26 @@
    "auth1": "Si: no year given",
    "auth2": "--",
    "note": "Laboured in Wallachia-Moldavia gathering money for the throne, as Dositheos had. ⚠⚠ PLACEMENT ONLY, AND THE METHOD IS STATED SO IT CANNOT BE MISTAKEN FOR EVIDENCE: Simaios gives him no year. He is placed by dividing the interval between the two FIRM anchors either side of him among the men who fill it. The mark is `point`; the start and end are for the axis and are never a claim."
+  },
+  {
+   "lane": "custody",
+   "name": "Valeriano Bellandi da Prato",
+   "start": 1773,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 124. Valeriano Bellandi da Prato 1773 - governò per 6 mesi, muore nel 1788",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Gian-Domenico da Levigliano",
+   "start": 1773,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 125. Gian-Domenico da Levigliano 1773, nominato “fino alla morte” nel 1787 (14 anni)",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem",
@@ -1291,6 +2531,56 @@
    "note": "⚠⚠ BOTH READINGS NOW PAGE-VERIFIED AND THEY DISAGREE AT BOTH ENDS: Dowling 1787-1808 against the Handbook 1788-1807. ⭐ A WebFetch summary of Dowling's page had claimed 1807-1808 -- wrong by twenty years, and invented. Neither real reading is that."
   },
   {
+   "lane": "custody",
+   "name": "Placido da Roma",
+   "start": 1795,
+   "end": 1798,
+   "mark": "bar1",
+   "auth1": "C: 126. Placido da Roma 1795-1798",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Ladislao da Viterbo",
+   "start": 1798,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 127. Ladislao da Viterbo 1798 – muore",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Zenobio Puccini da Firenze",
+   "start": 1801,
+   "end": 1804,
+   "mark": "bar1",
+   "auth1": "C: 128. Zenobio Puccini da Firenze 1801-1804",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Bonaventura da Nola",
+   "start": 1805,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 129. Bonaventura da Nola 1805",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Giuseppe M. Pierallini da Pistoia",
+   "start": 1808,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 130. Giuseppe M. Pierallini da Pistoia 1808 - muore 1811",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Polycarp",
    "start": 1808,
@@ -1299,6 +2589,56 @@
    "auth1": "D: 1808-1827",
    "auth2": "H2: 1808-1827",
    "note": "✅ The two authorities agree exactly. ⭐⭐ THE FIRST AGREED SPAN IN THE JERUSALEM LANE IN THE WHOLE BAND -- 79 entries from James onward and not one before this."
+  },
+  {
+   "lane": "custody",
+   "name": "Girolamo da Osimo",
+   "start": 1815,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 131. Girolamo da Osimo 1815, muore dopo 9 giorni di governo",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Salvatore Antonio da Malta",
+   "start": 1817,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 132. Salvatore Antonio da Malta 1817 - rinuncia 1819 e rimane fino 1820",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Ugolino Cesarini da S. Marino",
+   "start": 1820,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 133. Ugolino Cesarini da S. Marino 1820 - muore 1820 dopo pochi giorni",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Gian-Antonio da Rogliano Corso",
+   "start": 1822,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 134. Gian-Antonio da Rogliano Corso 1822 - muore nel 1824",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Tomaso da Montasola",
+   "start": 1825,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 135. Tomaso da Montasola 1825 - riconfermato nel 1827, torna in Italia nel 1830",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem",
@@ -1311,6 +2651,56 @@
    "note": "✅ The DATES agree exactly, so this is a bar. ⚠⚠ THE NUMERAL DOES NOT: Dowling has ATHANASIUS V here and again in his Bethlehem list; the Handbook prints ATHANASIOS IV. Both page-verified. A regnal number is not a date and does not change the mark -- it goes here, unresolved."
   },
   {
+   "lane": "custody",
+   "name": "Francesco d. Grotte di S. Lorenzo",
+   "start": 1831,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 136. Francesco d. Grotte di S. Lorenzo 1831 - rieletto 1834, rinuncia e torna in Italia",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Francesco Saverio da Malta",
+   "start": 1835,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 137. Francesco Saverio da Malta 1835",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Perpetuo Guasco da Solero",
+   "start": 1838,
+   "end": 1840,
+   "mark": "bar1",
+   "auth1": "C: 138. Perpetuo Guasco da Solero 1838 - Vescovo in 1839, resta C. fino a 1840",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Cherubino Maria da Cori",
+   "start": 1841,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 139. Cherubino Maria da Cori 1841 - muore 1843",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Cherubino da Civezza",
+   "start": 1843,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 140. Cherubino da Civezza 1843, pres. e Custode - rinuncia il 24.5.1847",
+   "auth2": "--",
+   "note": "⭐⭐ He resigns 24 May 1847 — the year Pius IX restores the resident Latin patriarchate and the special rights pass back from the Custodia to the patriarch (ch. 27)."
+  },
+  {
    "lane": "jerusalem",
    "name": "Kyrillus II",
    "start": 1845,
@@ -1321,6 +2711,16 @@
    "note": "✅ Agreed. ⭐ Dowling calls him the 128TH PATRIARCH, the anchor for the numbering question at Damianus. Deposed, per Dowling."
   },
   {
+   "lane": "custody",
+   "name": "Bernardino Trionfetti",
+   "start": 1847,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 141. Bernardino Trionfetti 1847 – nel 1856 è eletto a voti unanimi Min. Gen.",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "latin",
    "name": "Giuseppe Valerga",
    "start": 1847,
@@ -1329,6 +2729,26 @@
    "auth1": "H2: 1847-1872",
    "auth2": "--",
    "note": "⭐⭐ THE SEE RESIDENT AGAIN AFTER FIVE AND A HALF CENTURIES. 'In 1847 Pope Pius IX re-established the Patriarchate as a resident see, and the Patriarchs resumed these special rights from the Custodia.' ⭐ ch. 26's spine row carries the restoration; this is the man."
+  },
+  {
+   "lane": "custody",
+   "name": "Bonaventura da Solero",
+   "start": 1857,
+   "end": 1863,
+   "mark": "bar1",
+   "auth1": "C: 142. Bonaventura da Solero 1857-1863",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Serafino Milani da Carrara",
+   "start": 1863,
+   "end": 1873,
+   "mark": "bar1",
+   "auth1": "C: 143. Serafino Milani da Carrara 1863-1873",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "jerusalem",
@@ -1351,6 +2771,16 @@
    "note": ""
   },
   {
+   "lane": "custody",
+   "name": "Gaudenzio Bonfigli da Matelica",
+   "start": 1874,
+   "end": 1880,
+   "mark": "bar1",
+   "auth1": "C: 144. Gaudenzio Bonfigli da Matelica 1874-1880",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Heirotheus",
    "start": 1875,
@@ -1361,6 +2791,16 @@
    "note": "⚠ FOUR years apart at the start -- Dowling 1875, the Handbook 1879 -- which is the same disagreement seen from the other side: the Handbook has a 1877-1879 vacancy where Dowling has Heirotheus in office from 1875."
   },
   {
+   "lane": "custody",
+   "name": "Guido Corbelli da Cortona",
+   "start": 1880,
+   "end": 1886,
+   "mark": "bar1",
+   "auth1": "C: 145. Guido Corbelli da Cortona 1880-1886",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Nicodemus",
    "start": 1883,
@@ -1369,6 +2809,26 @@
    "auth1": "D: 1883-1890, Resigned",
    "auth2": "H2: 1882-1889",
    "note": "⚠ A year out at both ends. ⭐⭐ AND THE BOOK IS VINDICATED: ch. 27 follows Bliss in dating the cry that forced him out to 1891, which had looked like a third disagreement. Dowling's own p. 26 footnote resolves it -- Nicodemus resigns 1890, the throne stands empty a year, and Gerasimus is TRANSLATED from Antioch in 1891. The lists compress a resignation, a vacancy and a translation into one number; the book described the EVENT, not the tenure."
+  },
+  {
+   "lane": "custody",
+   "name": "Aurelio Briante da Buia",
+   "start": 1886,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 146. Aurelio Briante da Buia 1886, vedi 1894 - governa per 8 mesi e poi rinuncia",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Giacomo Ghezzi da Castelmadama",
+   "start": 1888,
+   "end": 1894,
+   "mark": "bar1",
+   "auth1": "C: 147. Giacomo Ghezzi da Castelmadama 1888-1894",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "latin",
@@ -1401,6 +2861,26 @@
    "note": "⭐ Both leave the end open; the 1931 here is ch. 28's spine row, not either authority. ⚠⚠ OPEN QUESTION, page-verified and therefore real: Dowling calls him the 132ND PATRIARCH and Kyrillus II the 128th, but counting the list between them gives 133 -- one of the five is outside the official numbering, plausibly one who resigned or the one deposed."
   },
   {
+   "lane": "custody",
+   "name": "Frediano Giannini",
+   "start": 1900,
+   "end": 1906,
+   "mark": "bar1",
+   "auth1": "C: 148. Frediano Giannini 1900-1906",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Roberto Razzoli",
+   "start": 1906,
+   "end": 1913,
+   "mark": "bar1",
+   "auth1": "C: 149. Roberto Razzoli, 1906-1913",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "latin",
    "name": "Filippo Camassei",
    "start": 1906,
@@ -1409,6 +2889,36 @@
    "auth1": "H2: 1906-1919",
    "auth2": "--",
    "note": "K.B.E., afterwards Cardinal."
+  },
+  {
+   "lane": "custody",
+   "name": "Onorato Carcaterra",
+   "start": 1913,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 150. Onorato Carcaterra 1 anno",
+   "auth2": "--",
+   "note": "⚠ THE LIST GIVES NO YEAR, only '1 anno' — one year. Placed between his neighbours."
+  },
+  {
+   "lane": "custody",
+   "name": "Serafino Cimino",
+   "start": 1914,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 151. Serafino Cimino",
+   "auth2": "--",
+   "note": "⚠ THE LIST GIVES NO YEAR AT ALL."
+  },
+  {
+   "lane": "custody",
+   "name": "Ferdinando Diotallevi",
+   "start": 1918,
+   "end": 1925,
+   "mark": "bar1",
+   "auth1": "C: 152. Ferdinando Diotallevi 1918-1925",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "latin",
@@ -1421,6 +2931,116 @@
    "note": "⚠ The Handbook was published in 1922 and leaves him open; the end here is PLACEMENT ONLY and no authority on this shelf closes it."
   },
   {
+   "lane": "custody",
+   "name": "Aurelio Marotta",
+   "start": 1925,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 153. Aurelio Marotta 1925, già 4 nomine a presidente 1920-1924",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Nazzareno Jacopozzi",
+   "start": 1931,
+   "end": 1937,
+   "mark": "bar1",
+   "auth1": "C: 154. Nazzareno Jacopozzi 1931-1937",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Alberto Gori",
+   "start": 1937,
+   "end": 1949,
+   "mark": "bar1",
+   "auth1": "C: 155. Sua Beatitudine Mons. Alberto Gori (22.02.1937-21.11.1949)",
+   "auth2": "--",
+   "note": "⭐⭐ The list styles him, alone in 167 entries, 'Sua Beatitudine' — the style of a patriarch and not of a custos. ⬜ The `latin` lane stops at Barlassina in 1920 and does not yet carry the twentieth century; this entry is a pointer to that want, not a claim."
+  },
+  {
+   "lane": "custody",
+   "name": "Giacinto Maria Faccio",
+   "start": 1950,
+   "end": 1955,
+   "mark": "bar1",
+   "auth1": "C: 156. Rev.Mo P. Giacinto Maria Faccio (26.01.1950-05.12.1955)",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Angelico Lazzeri",
+   "start": 1955,
+   "end": 1957,
+   "mark": "bar1",
+   "auth1": "C: 157. Rev.Mo P. Angelico Lazzeri (00.08.1955-11.06.1957)",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Alfredo Polidori",
+   "start": 1957,
+   "end": 1962,
+   "mark": "bar1",
+   "auth1": "C: 158. Rev.Mo Alfredo Polidori (05.07.1957-14.06.1962)",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Vincenzo Cappiello",
+   "start": 1962,
+   "end": 1968,
+   "mark": "bar1",
+   "auth1": "C: 159. Rev.Mo P. Vincenzo Cappiello (25.05.1962-17.08.1968)",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Alfonso Calabrese",
+   "start": 1968,
+   "end": 1969,
+   "mark": "bar1",
+   "auth1": "C: 160. Rev.Mo P. Alfonso Calabrese (06.07.1968-07.05.1969)",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Erminio Roncari",
+   "start": 1969,
+   "end": 1974,
+   "mark": "bar1",
+   "auth1": "C: 161. Rev.Mo P. Erminio Roncari (14.05.1969-17.05.1974)",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Maurilio Sacchi",
+   "start": 1974,
+   "end": 1980,
+   "mark": "bar1",
+   "auth1": "C: 162. Rev.Mo P. Maurilio Sacchi (14.05.1974-04.11.1980)",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Ignazio Mancini",
+   "start": 1980,
+   "end": 1986,
+   "mark": "bar1",
+   "auth1": "C: 163. Rev.Mo P. Ignazio Mancini (05.11.1980-27.05.1986)",
+   "auth2": "--",
+   "note": ""
+  },
+  {
    "lane": "jerusalem",
    "name": "Diodoros",
    "start": 1981,
@@ -1429,6 +3049,16 @@
    "auth1": "--: patriarch in April 1990",
    "auth2": "--",
    "note": "⭐ ch. 30's spine rows: on the eve of Good Friday 1990 some 150 settlers entered St John's Hospice, and Diodoros -- 'not an Arab' -- called the seizure 'aggression against our holy places and property'. ⚠⚠ PLACEMENT ONLY at both ends; the shelf gives him in office in 1990 and nothing else."
+  },
+  {
+   "lane": "custody",
+   "name": "Carlo Cecchitelli",
+   "start": 1986,
+   "end": 1992,
+   "mark": "bar1",
+   "auth1": "C: 164. Rev.Mo P. Carlo Cecchitelli (24.04.1986-08.05.1992)",
+   "auth2": "--",
+   "note": ""
   },
   {
    "lane": "latin",
@@ -1441,6 +3071,36 @@
    "note": "⭐⭐⭐ THE FIRST ARAB LATIN PATRIARCH OF JERUSALEM, elected the month the first intifada began -- ch. 30's spine row. ⚠ The end is placement; the shelf gives the election, not the term. ⚠⚠ Between Barlassina and him this lane is UNBUILT, not empty: the shelf simply stops."
   },
   {
+   "lane": "custody",
+   "name": "Giuseppe Nazzaro",
+   "start": 1992,
+   "end": 1998,
+   "mark": "bar1",
+   "auth1": "C: 165. Rev.Mo P. Giuseppe Nazzaro (10.04.1992-01.16.1998)",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Giovanni Battistelli",
+   "start": 1998,
+   "end": 2004,
+   "mark": "bar1",
+   "auth1": "C: 166. Rev.Mo P. Giovanni Battistelli (04.04.1998-02.06.2004)",
+   "auth2": "--",
+   "note": ""
+  },
+  {
+   "lane": "custody",
+   "name": "Pierbattista Pizzaballa",
+   "start": 2004,
+   "end": 0,
+   "mark": "point",
+   "auth1": "C: 167. Rev.Mo P. Pierbattista Pizzaballa",
+   "auth2": "--",
+   "note": "⚠ The 2016 capture gives only 'Maggio 2004'. His nine years end when he becomes Latin Patriarch of Jerusalem — the two lanes of this band meeting in one man."
+  },
+  {
    "lane": "jerusalem",
    "name": "Theophilos III",
    "start": 2005,
@@ -1449,6 +3109,26 @@
    "auth1": "--: patriarch in June 2026",
    "auth2": "--",
    "note": "⭐⭐ ch. 32's spine row: on 22-23 June 2026 he and Cardinal Pizzaballa visited Gaza TOGETHER, received first at St Porphyrius and then at Holy Family. ⚠⚠ PLACEMENT ONLY; the shelf gives him in office in 2026."
+  },
+  {
+   "lane": "custody",
+   "name": "Francesco Patton",
+   "start": 2016,
+   "end": 2025,
+   "mark": "bar1",
+   "auth1": "N: Custody news, 24 June 2025: \"Fr Francesco Patton concludes his nine-year service\"",
+   "auth2": "--",
+   "note": "⭐ Elected 2016 in succession to Pizzaballa, who had gone to the Latin patriarchate. The nine years are the news release's own statement, and 2016 follows from them."
+  },
+  {
+   "lane": "custody",
+   "name": "Francesco Ielpo",
+   "start": 2025,
+   "end": 0,
+   "mark": "point",
+   "auth1": "N: Vatican News, 24 June 2025: Leo XIV confirms the election of Fr Francesco Ielpo as Custos of the Holy Land and Guardian of Mount Zion",
+   "auth2": "--",
+   "note": "⚠ The 167-entry Cronotassi stops at Pizzaballa; these last two rows are NOT from it and say so. The office is held as this band is built."
   }
  ]
 }

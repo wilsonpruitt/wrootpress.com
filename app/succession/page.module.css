@@ -146,6 +146,13 @@
 
 /* ---------- the chart ---------- */
 
+/* ⭐ The chart alone is allowed to be wider than the prose measure (2026-08-14). A fourth
+   lane took the chart past the 850px shell, and the lane that fell off the right-hand edge
+   was the new one — a page whose newest argument is the part you have to scroll to find. */
+.chartShell {
+  max-width: 1160px;
+}
+
 .chartWrap {
   /* ⚠ The lanes are absolutely positioned against a proportional axis, so the
      chart cannot reflow. On a narrow screen it scrolls sideways rather than
@@ -157,9 +164,9 @@
 .chart {
   position: relative;
   display: grid;
-  grid-template-columns: 62px 1fr 1fr 1fr;
+  grid-template-columns: 62px 1fr 1fr 1fr 0.55fr;
   gap: 0 14px;
-  min-width: 860px;
+  min-width: 1040px;
   margin: 8px 0 0;
 }
 
@@ -302,6 +309,20 @@
   opacity: 0.9;
 }
 
+/* ⭐ The Custody lane, added 2026-08-14. It carries no labels — see page.tsx — so it is a
+   narrow column of marks, in slate because this is the Latin side of the band and not a
+   rival to the Jerusalem line. Its dots are deliberately smaller than the Jerusalem lane's:
+   168 election years in eight centuries, and at full size they would read as a solid bar,
+   which is the one thing none of them is. */
+.laneCustody .tenure {
+  background: var(--slate) !important;
+  opacity: 0.7;
+}
+.laneCustody .point {
+  height: 5px !important;
+  width: 9px;
+}
+
 /* ---------- colophon ---------- */
 
 .colophon {
@@ -335,4 +356,64 @@
 }
 .footer a {
   color: #c8d3dc;
+}
+
+/* ---------- the Custody's full list ---------- */
+/* ⛔ Every entry the band holds is printed here. The chart shows the Custody as marks only
+   because 168 labels do not fit; that is a rendering limit and must never become a silent
+   cap on what the page reports. */
+
+.listHead {
+  margin: 56px 0 0;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+}
+.listLede {
+  margin: 14px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  max-width: var(--measure);
+}
+.custodyList {
+  margin: 22px 0 0;
+  padding-left: 0;
+  list-style: none;
+  columns: 2;
+  column-gap: 40px;
+  font-size: 0.86rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+.custodyList li {
+  break-inside: avoid;
+  margin-bottom: 7px;
+}
+.custodyList b {
+  color: var(--ink);
+  font-weight: 600;
+}
+.custodySrc {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--ink-quiet);
+}
+@media (max-width: 760px) {
+  .custodyList {
+    columns: 1;
+  }
+}
+
+.unplaced {
+  margin: 18px 0 0;
+  font-size: 0.86rem;
+  line-height: 1.5;
+  color: var(--ink-quiet);
+  max-width: var(--measure);
 }

@@ -88,24 +88,51 @@ function labelTops(list: Row[]): number[] {
   });
 }
 
+/**
+ * ⚠⚠ A row is placed by its START or, failing that, by its END. It had been placed by its
+ * start alone, and two men the band holds were therefore on no page at all: Hermon, whom
+ * Eusebius dates only by the year he was succeeded, and Sophronius III, who carries no year
+ * in either direction. Hermon is now drawn at 314. Sophronius III cannot be drawn — and is
+ * NAMED beneath the chart instead of vanishing, because a page that quietly omits what it
+ * cannot draw is making a claim about the record that the record does not make.
+ */
+const anchor = (r: Row) => r.start || r.end;
+
 function laneRows(lane: string) {
   return rows
-    .filter((r) => r.lane === lane && r.mark !== "gap" && r.start >= T0 && r.start <= T1)
-    .sort((a, b) => a.start - b.start);
+    .filter(
+      (r) => r.lane === lane && r.mark !== "gap" && anchor(r) >= T0 && anchor(r) <= T1
+    )
+    .sort((a, b) => anchor(a) - anchor(b));
 }
 
+/** Rows the chart cannot place at all: no start and no end. Printed, never dropped. */
+const unplaced = rows.filter((r) => r.mark !== "gap" && !anchor(r));
+
 function geometry(r: Row) {
-  const top = y(r.start);
-  const end = r.end && r.end > r.start ? y(r.end) : top + STUB;
+  const top = y(anchor(r));
+  const end = r.end && r.end > r.start && r.start ? y(r.end) : top + STUB;
   return { top, height: Math.max(end - top, 3) };
 }
 
 const CENTURIES = Array.from({ length: 13 }, (_, i) => 100 * (i + 1));
 
+/**
+ * ⭐⭐ THE CUSTODY LANE CARRIES NO LABELS, AND THAT IS A DECISION RATHER THAN A LIMIT
+ * (Wilson's ruling, 2026-08-14). It holds 168 entries between 1219 and 2026 — as many names
+ * as the whole rest of the band — and at this scale that stretch is ~1,500px against the
+ * ~2,350px the labels would need. Set beside a taller axis or a chart of its own, this won:
+ * the lane's claim is DENSITY, a stipple running unbroken through the five and a half
+ * centuries where the Latin lane is one grey gap, and a name beside each dot would not make
+ * that argument any better. ⛔ NOTHING IS DROPPED: every one of the 168 is printed in full
+ * below the chart, in order, with its year and the Custody's own entry verbatim. A page that
+ * showed 168 marks and named forty of them would be the silent cap this shop forbids.
+ */
 export default function SuccessionPage() {
   const jerusalem = laneRows("jerusalem");
   const jerusalemLq = laneRows("jerusalem-lq");
   const latin = laneRows("latin");
+  const custody = laneRows("custody");
   const agreed = rows.filter((r) => r.mark === "bar");
 
   /**
@@ -201,7 +228,7 @@ export default function SuccessionPage() {
           </ul>
         </section>
 
-        <div className={styles.shell}>
+        <div className={`${styles.shell} ${styles.chartShell}`}>
           <div className={styles.chartWrap}>
             <div className={styles.chart} style={{ height: `${H}px` }}>
               <div className={styles.axis}>
@@ -250,11 +277,83 @@ export default function SuccessionPage() {
                   })()}
                 </div>
               ))}
+
+              <div className={`${styles.lane} ${styles.laneCustody}`}>
+                <h2 className={styles.laneHead}>Franciscan Custody</h2>
+                {custody.map((r, i) => {
+                  const g = geometry(r);
+                  /**
+                   * ⚠⚠ SIX YEARS IN THIS LANE HOLD TWO MEN, and drawn at the same x they
+                   * were one dot — which hid the most telling fact the list carries. 1593
+                   * is Felice Ranieri, dead after fifteen days of government, and the man
+                   * elected after him in the same year. The second is stepped sideways.
+                   */
+                  const dup = custody.filter(
+                    (o, j) => j < i && anchor(o) === anchor(r)
+                  ).length;
+                  return (
+                    <div
+                      key={`custody-${i}`}
+                      className={`${styles.tenure} ${styles[r.mark]}`}
+                      style={{
+                        top: `${g.top}px`,
+                        height: `${g.height}px`,
+                        left: `${dup * 13}px`,
+                      }}
+                      title={`${r.name} — ${r.auth1}`}
+                    />
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>
 
+        {unplaced.length > 0 && (
+          <section className={styles.shell}>
+            <p className={styles.unplaced}>
+              Held by the band and not drawable above, for want of a year at either end:{" "}
+              {unplaced.map((r) => r.name).join(", ")}. The sources name{" "}
+              {unplaced.length === 1 ? "him" : "them"} and date{" "}
+              {unplaced.length === 1 ? "him" : "them"} not at all.
+            </p>
+          </section>
+        )}
+
         <section className={styles.shell}>
+          <h2 className={styles.listHead}>
+            The Custody of the Holy Land: the whole list
+          </h2>
+          <p className={styles.listLede}>
+            The fourth lane above is the Franciscan Custody, and it is the answer to a
+            question the Latin lane raises and cannot answer. Between the fall of Acre and
+            1847 the Latin patriarchate was a title held in Rome; the friars were the Latin
+            church on the ground, and their superior — the Custos of the Holy Land — had
+            quasi-episcopal jurisdiction, confirmed and gave minor orders, conferred the
+            Order of the Holy Sepulchre on the Pope&rsquo;s behalf, and kept a merchant
+            marine flying the flag of Terra Santa. The <em>Handbook of Palestine</em>{" "}
+            says all of that and prints no list. This one is the Custody&rsquo;s own, and it is
+            numbered as they number it: {custody.length} names, from Francis himself to the
+            custos in office as this page is built. The years are the years they give —{" "}
+            <em>election</em> years, not tenures, which is why the lane is dots.
+          </p>
+          {/*
+            ⚠⚠ AN UNNUMBERED LIST, AND THE REASON IS A DEFECT THE RENDER CAUGHT: an <ol>
+            numbered these 1..168 while every entry ALSO carries the Custody's own number,
+            and the two drift apart at the 83rd, which does not exist on the Custody's page.
+            One man printed as both the 87th and the 88th. The list has ONE numbering and it
+            is theirs — the jump included, because the jump is a fact about the source.
+          */}
+          <ul className={styles.custodyList}>
+            {custody.map((r, i) => (
+              <li key={`c-${i}`}>
+                <b>{r.name}</b>
+                <span className={styles.custodySrc}>
+                  {r.auth1.replace(/^C:\s*/, "").replace(/^N:\s*/, "")}
+                </span>
+              </li>
+            ))}
+          </ul>
           <p className={styles.colophon}>
             The two lanes are not a pair. The Latin patriarchate is an interruption
             drawn beside a line that was already there and continued after it: its
@@ -302,6 +401,20 @@ export default function SuccessionPage() {
             Franciscan Custodian of Terra Santa. The lane resumes in 1847, when the
             patriarchate was made resident again. Where a lane here shows nothing at all,
             that is this page's work unfinished and not a gap in the thing itself.
+          </p>
+          <p className={styles.colophon}>
+            The fourth lane is those Custodians, and it is dots for a different reason than
+            the Jerusalem lane is. There the two catalogues disagree; here there is only one
+            list and it gives the year a man was <em>elected</em>. Ninety-six of the hundred
+            and sixty-seven successions in it fall within four years, and to draw each man as
+            a bar running to his successor&rsquo;s election would be to invent a hundred and
+            thirty-one tenures out of a hundred and thirty-one single years. Nor is there a second
+            authority to be had: the obvious one is Golubovich&rsquo;s catalogue of 1898, and
+
+            this list descends from it, so their agreeing would prove nothing but their
+            descent. Six of the years carry two men — 1593 is a custos dead after fifteen
+            days of government and the man elected in his place — and those are stepped
+            sideways rather than drawn on top of one another.
           </p>
         </section>
       </main>
