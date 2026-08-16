@@ -35,8 +35,9 @@ export default function TextsIndexPage() {
         <div className={styles.shell}>
           <h1 className={styles.h1}>Sources</h1>
           <p className={styles.lede}>
-            The <Link href="/chronology">chronology</Link> gives the dates and{" "}
-            <Link href="/succession">the succession</Link> the office-holders. These
+            The <Link href="/chronology">chronology</Link> gives the dates,{" "}
+            <Link href="/succession">the succession</Link> the office-holders and{" "}
+            <Link href="/atlas">the atlas</Link> the places. These
             are the documents behind them, hosted whole rather than in extract,
             because an extract is a choice about what matters and these pages are
             not making one.

@@ -1,0 +1,426 @@
+/* ============================================================
+   The Atlas — the third surface of the same companion, and skinned
+   off the same 16th-century fresco of Porphyrius of Gaza as
+   /chronology. The palette is copied deliberately and not adapted:
+   three pages at one address that look like three sites would tell
+   the reader they are three things.
+
+   ⭐ The one mapping that is not decoration: the gold of the orphrey
+   is what draws the ROUTES. A route is the only line on this page
+   that the book actually walks.
+   ============================================================ */
+
+.page {
+  --plaster: #ece4d1;
+  --plaster-raised: #f5efe1;
+  --plaster-sunken: #e2d8c0;
+
+  --ink: #241f19;
+  --ink-soft: #594e40;
+  --ink-quiet: #877a68;
+
+  --gold: #a87d1b;
+  --gold-bright: #d4a63c;
+  --slate: #34485a;
+  --slate-deep: #263746;
+  --oxblood: #6b3a2f;
+  --terracotta: #b1543b;
+
+  --line: #d8cbb0;
+  --line-strong: #c4b391;
+
+  --measure: 64ch;
+
+  background: var(--plaster);
+  color: var(--ink);
+  font-family: var(--font-serif), "EB Garamond", Garamond, Georgia, serif;
+  font-size: 17px;
+  line-height: 1.55;
+  min-height: 100vh;
+}
+
+.shell {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 var(--s-5, 24px);
+}
+
+.page a {
+  color: var(--slate);
+  border-bottom-color: transparent;
+}
+.page a:hover {
+  color: var(--oxblood);
+  border-bottom-color: var(--gold);
+}
+
+/* ---------- masthead ---------- */
+
+.header {
+  padding: 22px 0;
+  background: var(--slate-deep);
+  border-bottom: 3px solid var(--gold);
+}
+.header a {
+  border-bottom: none;
+}
+.wordmark {
+  height: auto;
+  width: 160px;
+  filter: invert(1) sepia(0.35) saturate(0.5) brightness(1.15);
+  opacity: 0.92;
+}
+
+.main {
+  padding: 56px 0 72px;
+}
+
+.h1 {
+  font-size: clamp(2.1rem, 4.4vw, 3rem);
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  margin: 0 0 20px;
+  max-width: 20ch;
+  color: var(--oxblood);
+}
+
+.h2 {
+  font-size: 1.12rem;
+  font-weight: 500;
+  margin: 40px 0 0;
+  color: var(--oxblood);
+}
+
+.lede {
+  font-size: 1.16rem;
+  line-height: 1.62;
+  max-width: 58ch;
+  margin: 0 0 14px;
+  color: var(--ink-soft);
+}
+
+.meta {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+  margin: 0 0 36px;
+}
+
+/* ---------- the period control ----------
+   Seven buttons and an eighth for the whole book. It is a period
+   control and not a slider on purpose: the parts are the book's own
+   divisions, and a continuous year axis would invite the reader to
+   read the quiet centuries as absence (web/PLAN.md §1). */
+
+.controls {
+  margin: 0 0 18px;
+}
+
+.periods {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  scrollbar-width: none;
+}
+.periods::-webkit-scrollbar {
+  display: none;
+}
+
+.period,
+.periodOn {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 8px 13px;
+  border: 1px solid var(--line-strong);
+  border-radius: 3px;
+  background: var(--plaster-raised);
+  color: var(--ink-soft);
+  font-family: inherit;
+  text-align: left;
+}
+.period:hover {
+  border-color: var(--gold);
+}
+.periodOn {
+  background: var(--slate-deep);
+  border-color: var(--slate-deep);
+  color: #efe6d2;
+}
+
+.periodName {
+  font-size: 0.94rem;
+}
+
+.periodSpan {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.05em;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-quiet);
+}
+.periodOn .periodSpan {
+  color: #a9b6c1;
+}
+
+/* ---------- map + index ---------- */
+
+.frame {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 18px;
+  align-items: stretch;
+}
+
+.mapWrap {
+  border: 1px solid var(--line-strong);
+  background: var(--plaster-sunken);
+}
+
+.map {
+  height: 620px;
+  width: 100%;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.searchLabel {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+  margin-bottom: 6px;
+}
+
+.search {
+  font-family: inherit;
+  font-size: 0.98rem;
+  padding: 8px 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: 3px;
+  background: var(--plaster-raised);
+  color: var(--ink);
+}
+.search:focus {
+  outline: 2px solid var(--gold);
+  outline-offset: 1px;
+}
+
+.sideCount {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  color: var(--ink-quiet);
+  margin: 10px 0 6px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  max-height: 560px;
+  border-top: 1px solid var(--line);
+}
+
+.listItem,
+.listItemOn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  padding: 7px 4px;
+  font-family: inherit;
+  color: var(--ink);
+}
+.listItem:hover {
+  background: var(--plaster-raised);
+}
+.listItemOn {
+  background: var(--plaster-sunken);
+  box-shadow: inset 2px 0 0 var(--gold);
+}
+
+.listName {
+  display: block;
+  font-size: 0.98rem;
+}
+
+.listAlt {
+  display: block;
+  font-size: 0.76rem;
+  color: var(--ink-quiet);
+  line-height: 1.35;
+}
+
+/* ---------- routes ---------- */
+
+.routes {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.route {
+  border-left: 3px solid var(--gold);
+  padding-left: 12px;
+  max-width: var(--measure);
+}
+
+.routeName {
+  display: block;
+  font-size: 1rem;
+  color: var(--oxblood);
+}
+
+.routeStops {
+  display: block;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.74rem;
+  letter-spacing: 0.03em;
+  color: var(--ink-quiet);
+  margin-top: 2px;
+}
+
+.routeNote {
+  display: block;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  margin-top: 5px;
+  line-height: 1.55;
+}
+
+/* ---------- the popup, styled globally because Leaflet owns the markup ---------- */
+
+.page :global(.leaflet-container) {
+  font-family: var(--font-serif), "EB Garamond", Garamond, Georgia, serif;
+  background: var(--plaster-sunken);
+}
+.page :global(.leaflet-popup-content-wrapper) {
+  border-radius: 3px;
+  background: var(--plaster-raised);
+  color: var(--ink);
+  box-shadow: 0 2px 12px rgba(38, 55, 70, 0.22);
+}
+.page :global(.leaflet-popup-tip) {
+  background: var(--plaster-raised);
+}
+.page :global(.atlas-pop h3) {
+  margin: 0 0 2px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--oxblood);
+}
+.page :global(.atlas-pop-alt) {
+  margin: 0 0 8px;
+  font-size: 0.78rem;
+  color: var(--ink-quiet);
+  line-height: 1.4;
+}
+.page :global(.atlas-pop-note) {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+.page :global(.atlas-pop-chs) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+  padding-top: 6px;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+}
+.page :global(.atlas-pop-ch) {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+}
+.page :global(.atlas-pop-fine) {
+  margin: 8px 0 0;
+  font-size: 0.76rem;
+  color: var(--ink-quiet);
+  line-height: 1.4;
+}
+
+/* ---------- close ---------- */
+
+.colophon {
+  margin: 10px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  max-width: var(--measure);
+}
+
+.footer {
+  border-top: 3px solid var(--gold);
+  background: var(--slate-deep);
+  padding: 22px 0;
+  margin-top: 56px;
+}
+
+.colophonMeta {
+  margin: 0;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.74rem;
+  letter-spacing: 0.03em;
+  color: #9aa8b4;
+}
+
+@media (max-width: 900px) {
+  .frame {
+    grid-template-columns: 1fr;
+  }
+  .map {
+    height: 460px;
+  }
+  .list {
+    max-height: 320px;
+  }
+}
+
+/* The frame toggle sits under the period control because it modifies it. */
+.wide {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 0.88rem;
+  color: var(--ink-quiet);
+  cursor: pointer;
+}
+.wide input {
+  accent-color: var(--slate);
+}
+
+/* A place named in half the book must not produce a popup taller than the map. */
+.page :global(.atlas-pop) {
+  max-height: 320px;
+  overflow-y: auto;
+}
+.page :global(.atlas-pop-many) {
+  margin: 0;
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}

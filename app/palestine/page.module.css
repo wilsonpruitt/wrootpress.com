@@ -1,0 +1,167 @@
+/* ============================================================
+   The companion index — the root of palestine.wrootpress.com.
+   Same fresco palette as /chronology and /atlas: one companion,
+   one skin, whatever the path.
+   ============================================================ */
+
+.page {
+  --plaster: #ece4d1;
+  --plaster-raised: #f5efe1;
+  --plaster-sunken: #e2d8c0;
+
+  --ink: #241f19;
+  --ink-soft: #594e40;
+  --ink-quiet: #877a68;
+
+  --gold: #a87d1b;
+  --slate: #34485a;
+  --slate-deep: #263746;
+  --oxblood: #6b3a2f;
+
+  --line: #d8cbb0;
+  --line-strong: #c4b391;
+
+  --measure: 64ch;
+
+  background: var(--plaster);
+  color: var(--ink);
+  font-family: var(--font-serif), "EB Garamond", Garamond, Georgia, serif;
+  font-size: 17px;
+  line-height: 1.55;
+  min-height: 100vh;
+}
+
+.shell {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 var(--s-5, 24px);
+}
+
+.page a {
+  color: var(--slate);
+  border-bottom-color: transparent;
+}
+.page a:hover {
+  color: var(--oxblood);
+  border-bottom-color: var(--gold);
+}
+
+.header {
+  padding: 22px 0;
+  background: var(--slate-deep);
+  border-bottom: 3px solid var(--gold);
+}
+.header a {
+  border-bottom: none;
+}
+.wordmark {
+  height: auto;
+  width: 160px;
+  filter: invert(1) sepia(0.35) saturate(0.5) brightness(1.15);
+  opacity: 0.92;
+}
+
+.main {
+  padding: 64px 0 72px;
+}
+
+.h1 {
+  font-size: clamp(2.3rem, 5vw, 3.4rem);
+  line-height: 1.08;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  margin: 0 0 20px;
+  max-width: 18ch;
+  color: var(--oxblood);
+}
+
+.lede {
+  font-size: 1.18rem;
+  line-height: 1.62;
+  max-width: 58ch;
+  margin: 0 0 14px;
+  color: var(--ink-soft);
+}
+
+.meta {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+  margin: 0 0 48px;
+}
+
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px 34px;
+}
+
+.card {
+  border-top: 2px solid var(--gold);
+  padding-top: 14px;
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.cardTitle a {
+  border-bottom: none;
+  color: var(--oxblood);
+}
+.cardTitle a:hover {
+  color: var(--slate-deep);
+}
+
+.cardCount {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+  margin: 4px 0 10px;
+}
+
+.cardBody {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.58;
+  color: var(--ink-soft);
+}
+
+.colophon {
+  margin: 56px 0 0;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  max-width: var(--measure);
+}
+
+.footer {
+  border-top: 3px solid var(--gold);
+  background: var(--slate-deep);
+  padding: 22px 0;
+  margin-top: 56px;
+}
+
+.colophonMeta {
+  margin: 0;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 0.74rem;
+  letter-spacing: 0.03em;
+  color: #9aa8b4;
+}
+
+@media (max-width: 720px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
