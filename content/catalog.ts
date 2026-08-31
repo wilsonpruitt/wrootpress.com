@@ -1086,6 +1086,27 @@ export const works: Work[] = [
       { lang: "en", format: "reader", url: "https://difficult.wrootpress.com" },
     ],
   },
+  // The companion to a book that is not out yet, and the card says so. The
+  // COMPANION is live — chronology, atlas, succession, texts — which is why the
+  // status is "live"; the summary carries the book's own stage rather than
+  // letting a "Forthcoming" badge imply the reading edition is unbuilt.
+  // ! The book names this address in print, in its introduction and again at
+  //   the head of its appendix. The host is now a promise on paper.
+  {
+    slug: "church-in-palestine-companion",
+    title: "The Church in Palestine",
+    subtitle: "A companion",
+    author: "Wroot Press",
+    collectionId: "digital",
+    status: "live",
+    summary:
+      "Nineteen centuries of the Christian community in Palestine, laid out to be looked up — a chronology of the whole span, an atlas of every place the book names, the succession of the see of Jerusalem, and the primary texts in full. Companion to the book, which is forthcoming.",
+    detail: false,
+    external: "https://palestine.wrootpress.com",
+    editions: [
+      { lang: "en", format: "reader", url: "https://palestine.wrootpress.com" },
+    ],
+  },
 ];
 
 // ---------- helpers ----------
