@@ -970,6 +970,32 @@ export const works: Work[] = [
     ],
   },
   {
+    slug: "milton-doctrina",
+    title: "Milton, De Doctrina Christiana",
+    author: "John Milton",
+    collectionId: "digital",
+    status: "live",
+    summary:
+      "Parallel Latin–English reading edition of Milton's theological treatise, from Sumner's 1825 editio princeps, with every scriptural citation indexed. In progress, chapter by chapter.",
+    detail: false,
+    external: "https://milton.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://milton.wrootpress.com" }],
+  },
+  {
+    slug: "andrewes-preces-privatae",
+    title: "Lancelot Andrewes, Preces Privatae",
+    author: "Lancelot Andrewes",
+    collectionId: "digital",
+    status: "live",
+    summary:
+      "The private prayers of Lancelot Andrewes in Greek, Latin, and Hebrew, from the 1853 Parker text, with the Wroot Press English on facing lines — the whole apparatus, a scripture index, and a synopsis setting the Creed and confession against the Harley recension that rewrites them. A print Loeb edition is forthcoming.",
+    detail: false,
+    external: "https://andrewes.wrootpress.com",
+    editions: [
+      { lang: "en", format: "reader", url: "https://andrewes.wrootpress.com" },
+    ],
+  },
+  {
     slug: "migne",
     title: "Migne",
     subtitle: "The Patrologia in English",
