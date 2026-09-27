@@ -1009,6 +1009,21 @@ export const works: Work[] = [
     editions: [{ lang: "en", format: "reader", url: "https://migne.app" }],
   },
   {
+    slug: "sententiae",
+    title: "Sententiae",
+    subtitle: "Peter Lombard's Sentences as a daf",
+    author: "Peter Lombard",
+    collectionId: "digital",
+    status: "live",
+    summary:
+      "Peter Lombard's Sentences laid out like a Talmud page — the distinctio in the center, the commentary tradition (c. 1225–1615) around it, every witness dated, sourced, and threaded to the ones it cites, contests, transmits, or parallels.",
+    detail: false,
+    external: "https://sententiae.wrootpress.com",
+    editions: [
+      { lang: "la", format: "reader", url: "https://sententiae.wrootpress.com" },
+    ],
+  },
+  {
     slug: "notabene",
     title: "The Kierkegaard–Notabene Edition",
     author: "Søren Kierkegaard",
@@ -1133,6 +1148,20 @@ export const works: Work[] = [
       { lang: "en", format: "reader", url: "https://palestine.wrootpress.com" },
     ],
   },
+];
+
+// ---------- landing-page features ----------
+// The three best-selling print titles, shown first on the home page.
+export const BESTSELLER_SLUGS = [
+  "ambrose-psalm-118",
+  "homilies-first-book",
+  "homilies-second-book",
+];
+// The Latin scholastic line — the Fathers, the Master, the commentator.
+export const FEATURED_EDITION_SLUGS = [
+  "migne",
+  "sententiae",
+  "bonaventure-sentences",
 ];
 
 // ---------- helpers ----------
