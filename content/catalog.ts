@@ -1182,6 +1182,35 @@ export const works: Work[] = [
   // ! The book names this address in print, in its introduction and again at
   //   the head of its appendix. The host is now a promise on paper.
   {
+    slug: "church-in-palestine",
+    title: "The Church in Palestine",
+    subtitle: "Nineteen Centuries on the Gaza Road",
+    author: "Wilson Pruitt",
+    collectionId: "tradition",
+    status: "live",
+    cover: "/covers/church-in-palestine-en.jpg",
+    summary:
+      "The history of the Christians of Palestine, told once, from end to end: what the sources say, what they cannot be made to say, and where the record simply stops. A companion site holds the chronology, atlas and succession lists.",
+    description: [
+      "In about the year 33 a court official of the Ethiopian queen was reading Isaiah in a carriage on the road that runs down from Jerusalem to Gaza, and a man named Philip climbed up beside him. There have been Christians on that road ever since. They were there when Rome renamed the province, when the desert filled with monks, when the Persians came and the Arabs after them, when the crusaders took Jerusalem and lost it, when the Ottoman assessors counted a quarter of Gaza Christian, and when the shells fell on the church of St Porphyrius in 2023.",
+      "This is their history, told once, from end to end. It is a narrative and not an argument: what the sources say, what they cannot be made to say, and where the record simply stops. But the absence of such an account has had a cost, and the book names it — without a history, the Christians of this country can be dismissed as Christians of political convenience. Nineteen centuries on one road say otherwise.",
+      "Wilson Pruitt is a pastor in Austin, Texas.",
+    ],
+    detail: true,
+    external: "https://palestine.wrootpress.com",
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$25",
+        asin: "B0HFKCHNMC",
+        isbn: "9798193168676",
+        url: "https://www.amazon.com/dp/B0HFKCHNMC",
+      },
+      { lang: "en", format: "reader", url: "https://palestine.wrootpress.com", note: "Companion site: chronology, atlas, succession" },
+    ],
+  },
+  {
     slug: "church-in-palestine-companion",
     title: "The Church in Palestine",
     subtitle: "A companion",
