@@ -137,6 +137,37 @@ export const collections: Collection[] = [
 
 export const works: Work[] = [
   // ---------- The Wesley Library ----------
+  {
+    slug: "wesleys-metaphysics",
+    title: "Wesley's Metaphysics",
+    subtitle: "A Summa for Subscribers",
+    author: "Wilson Pruitt",
+    collectionId: "wesley",
+    status: "live",
+    cover: "/covers/wesleys-metaphysics-en.jpg",
+    summary:
+      "John Wesley never wrote a system of divinity, and said he never would. Yet across half a century of occasional sermons a single, consistent metaphysic runs from end to end. This book reconstructs the plan of the system he had all along.",
+    description: [
+      "John Wesley never wrote a system of divinity, and said he never would. Yet across half a century of occasional sermons a single, consistent metaphysic runs from end to end. This book argues that what looks like the absence of system in Wesley's thought is the presence of a *genre* — the serial discourse written for a lay reading public, not the architectonic treatise — and reconstructs the whole generative structure that genre concealed: a single doctrine of God unfolding, chapter by chapter, into creation, providence, the invisible world, the human creature, and the last things.",
+      "Wesley did the work of a systematic theologian in the tools of a magazine editor. He furnished a whole cosmos — the vehicle of the soul, the empiricism of the invisible, the conscious intermediate state, a providence that reaches to the particular — and never once collected it. This is the gathering: not a new way to read Wesley, but the plan of the system he had all along, laid out at last under its classical heads.",
+    ],
+    detail: true,
+    editions: [
+      {
+        lang: "en",
+        format: "paperback",
+        asin: "B0H9NWF749",
+        isbn: "9798188218102",
+        url: "https://www.amazon.com/dp/B0H9NWF749",
+      },
+      {
+        lang: "en",
+        format: "kindle",
+        asin: "B0H9NYV61Z",
+        url: "https://www.amazon.com/dp/B0H9NYV61Z",
+      },
+    ],
+  },
   // A Life in His Own Words
   {
     slug: "wesley-in-georgia",
