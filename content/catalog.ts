@@ -156,6 +156,7 @@ export const works: Work[] = [
       {
         lang: "en",
         format: "paperback",
+        price: "$10",
         asin: "B0H9NWF749",
         isbn: "9798188218102",
         url: "https://www.amazon.com/dp/B0H9NWF749",
@@ -163,6 +164,7 @@ export const works: Work[] = [
       {
         lang: "en",
         format: "kindle",
+        price: "$5",
         asin: "B0H9NYV61Z",
         url: "https://www.amazon.com/dp/B0H9NYV61Z",
       },
