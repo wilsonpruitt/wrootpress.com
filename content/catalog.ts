@@ -1021,11 +1021,19 @@ export const works: Work[] = [
     collectionId: "digital",
     status: "live",
     summary:
-      "The private prayers of Lancelot Andrewes in Greek, Latin, and Hebrew, from the 1853 Parker text, with the Wroot Press English on facing lines — the whole apparatus, a scripture index, and a synopsis setting the Creed and confession against the Harley recension that rewrites them. A print Loeb edition is forthcoming.",
+      "The private prayers of Lancelot Andrewes in Greek, Latin, and Hebrew, from the 1853 Parker text, with the Wroot Press English on facing lines — the whole apparatus, a scripture index, and a synopsis setting the Creed and confession against the Harley recension that rewrites them. The print Loeb edition is available in paperback.",
     detail: false,
     external: "https://andrewes.wrootpress.com",
     editions: [
       { lang: "en", format: "reader", url: "https://andrewes.wrootpress.com" },
+      {
+        lang: "en",
+        format: "paperback",
+        price: "$25",
+        asin: "B0HGMWGD6S",
+        isbn: "9798170009954",
+        url: "https://www.amazon.com/dp/B0HGMWGD6S",
+      },
     ],
   },
   {
