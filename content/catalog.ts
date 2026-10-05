@@ -1020,9 +1020,16 @@ export const works: Work[] = [
     author: "Lancelot Andrewes",
     collectionId: "digital",
     status: "live",
+    cover: "/covers/andrewes-preces-en.jpg",
     summary:
       "The private prayers of Lancelot Andrewes in Greek, Latin, and Hebrew, from the 1853 Parker text, with the Wroot Press English on facing lines — the whole apparatus, a scripture index, and a synopsis setting the Creed and confession against the Harley recension that rewrites them. The print Loeb edition is available in paperback.",
-    detail: false,
+    description: [
+      "Lancelot Andrewes kept a book of prayers in his own hand — in Greek, in Latin and in Hebrew — and did not publish it. It is among the most private documents the English Church has produced, and it has never been generally available in the languages he wrote it in. No edition now in print, and none in the public domain, presents the Greek and the Latin at all.",
+      "This edition sets out one witness whole — the text printed at Oxford in 1853, reprinting the Sheldonian edition of 1675 — and puts a new English translation on the facing page, one English line to one line of the original, at the same indentation, so a reader can run a finger down the page and stay in step. Where the printed page is wrong it is left wrong and the note says so; where Hebrew stands in the text it is kept, and translated. An apparatus at the foot of each opening records what other witnesses read.",
+      "The prayers are not, for the most part, original composition, and Andrewes does not pretend they are. What he kept was closer to a commonplace book of prayer: Scripture, the Greek and Latin liturgies, the creeds, the Fathers, and — without apology or any change of voice — Cicero and Seneca. The work is in what he took, what he left, and what he set beside what, and it is everywhere.",
+      "Lancelot Andrewes (1555–1626) was Bishop of Chichester, of Ely and of Winchester, and one of the translators of the Authorised Version.",
+    ],
+    detail: true,
     external: "https://andrewes.wrootpress.com",
     editions: [
       { lang: "en", format: "reader", url: "https://andrewes.wrootpress.com" },
