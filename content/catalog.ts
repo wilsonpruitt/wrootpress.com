@@ -34,6 +34,8 @@ export type Work = {
   subtitle?: string;
   author: string;
   collectionId: string;
+  /** Short name for the cross-site shelf strip (see public/shelves.js). */
+  label?: string;
   /** Shelves this work appears on; [] = the "Also from Wroot Press" row. */
   shelves: ShelfId[];
   series?: string; // sub-group heading within the collection
@@ -624,6 +626,7 @@ export const works: Work[] = [
     author: "John Wesley",
     collectionId: "wesley",
     shelves: ["reformation"],
+    label: "A Christian Library",
     series: "A Christian Library",
     status: "live",
     cover: "/covers/christian-library-en.jpg",
@@ -776,6 +779,7 @@ export const works: Work[] = [
     author: "Ambrose of Milan",
     collectionId: "patristic",
     shelves: ["patrum"],
+    label: "Ambrose",
     status: "live",
     cover: "/covers/ambrose-psalm-118-en.jpg",
     summary:
@@ -1036,6 +1040,7 @@ export const works: Work[] = [
     author: "John Wesley",
     collectionId: "wesley",
     shelves: ["scripture", "reformation"],
+    label: "Wesley's Notes",
     status: "live",
     summary:
       "The King James Bible alongside John Wesley's Explanatory Notes Upon the Old and New Testament, side by side — free to read, cover to cover.",
@@ -1051,6 +1056,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "patristic",
     shelves: ["patrum"],
+    label: "Acta Sanctorum",
     status: "live",
     cover: "/covers/acta-sanctorum-plate.jpg",
     summary:
@@ -1065,6 +1071,7 @@ export const works: Work[] = [
     author: "Bonaventure",
     collectionId: "patristic",
     shelves: ["patrum"],
+    label: "Bonaventure",
     status: "live",
     cover: "/covers/bonaventure-plate.jpg",
     summary:
@@ -1081,6 +1088,7 @@ export const works: Work[] = [
     author: "John Milton",
     collectionId: "tradition",
     shelves: ["reformation"],
+    label: "Milton",
     status: "live",
     summary:
       "Parallel Latin–English reading edition of Milton's theological treatise, from Sumner's 1825 editio princeps, with every scriptural citation indexed. In progress, chapter by chapter.",
@@ -1094,6 +1102,7 @@ export const works: Work[] = [
     author: "Lancelot Andrewes",
     collectionId: "tradition",
     shelves: ["reformation"],
+    label: "Andrewes",
     status: "live",
     cover: "/covers/andrewes-preces-en.jpg",
     summary:
@@ -1125,6 +1134,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "patristic",
     shelves: ["patrum"],
+    label: "Migne",
     status: "live",
     cover: "/covers/migne-plate.jpg",
     summary:
@@ -1140,6 +1150,7 @@ export const works: Work[] = [
     author: "Peter Lombard",
     collectionId: "patristic",
     shelves: ["patrum"],
+    label: "Sententiae",
     status: "live",
     cover: "/covers/sententiae-plate.jpg",
     summary:
@@ -1171,6 +1182,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "scripture",
     shelves: ["scripture"],
+    label: "Topographia Sacra",
     status: "live",
     summary:
       "Geographical editions of the place-heavy books of scripture — the World English Bible with maps and a gazetteer of every named place.",
@@ -1186,6 +1198,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "scripture",
     shelves: ["scripture"],
+    label: "Loci",
     status: "live",
     summary:
       "Thematic reading editions of biblical books, each organised around an interpretive frame — Leviticus as an architecture of approach, Lamentations as an alphabet of grief.",
@@ -1199,6 +1212,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "scripture",
     shelves: ["scripture"],
+    label: "Catena",
     status: "live",
     summary:
       "Intertextual reading editions tracing how scripture quotes scripture — every quotation, allusion, and echo a book reaches back to, marked, sourced, and weighed. Seeded with Hebrews.",
@@ -1212,6 +1226,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "scripture",
     shelves: ["scripture"],
+    label: "Annales Sacra",
     status: "live",
     summary:
       "Chronological reading editions that lay scripture's years flat — two kingdoms on one timeline, the reigns and synchronisms Kings tells in a braid, the life of Paul, a gospel harmony.",
@@ -1225,6 +1240,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "scripture",
     shelves: ["scripture"],
+    label: "Voces",
     status: "live",
     summary:
       "Reading editions that color every line by who is speaking — the debate buried in Job, the divine voice inside the Psalms, the unlabeled dialogue of the Song of Songs, the choirs of Revelation. Seeded with five books.",
@@ -1238,6 +1254,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "tradition",
     shelves: ["reformation"],
+    label: "Doctrine",
     status: "live",
     summary:
       "Annotated reading editions of the historic creeds and confessions, with line-level commentary. Seeded with the Apostles' Creed.",
@@ -1253,6 +1270,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "scripture",
     shelves: ["scripture"],
+    label: "Difficult Passages",
     status: "live",
     summary:
       "A pastoral reference mapping the scholarly landscape on hard places in scripture — each entry gives the difficulty, then several historical responses.",
@@ -1320,6 +1338,7 @@ export const works: Work[] = [
     author: "John Wyclif",
     collectionId: "patristic",
     shelves: ["patrum"],
+    label: "Wyclif",
     status: "live",
     cover: "/covers/wyclif-plate.jpg",
     summary:
@@ -1334,6 +1353,7 @@ export const works: Work[] = [
     author: "Richard FitzRalph",
     collectionId: "patristic",
     shelves: ["patrum"],
+    label: "FitzRalph",
     status: "live",
     cover: "/covers/fitzralph-summa-plate.jpg",
     summary:
@@ -1348,6 +1368,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "patristic",
     shelves: ["patrum", "scripture"],
+    label: "Glossa",
     status: "live",
     cover: "/covers/douay-glossa-plate.jpg",
     summary:
@@ -1362,6 +1383,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "patristic",
     shelves: ["patrum"],
+    label: "Neoplatonism",
     status: "live",
     cover: "/covers/neoplatonism-plate.jpg",
     summary:
@@ -1376,6 +1398,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "scripture",
     shelves: ["scripture"],
+    label: "Wroot Press Bible",
     status: "live",
     summary:
       "A fresh English Bible translation under written rules, published a chapter at a time.",
@@ -1389,6 +1412,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "scripture",
     shelves: ["scripture"],
+    label: "Bereshit",
     status: "live",
     summary:
       "Genesis 1:1–5, read as ten cruxes across three benches — the Latin, the rabbinic, and the Greek-Jewish traditions — with every witness dated, sourced, and threaded to the ones it cites, echoes, contests, or answers.",
@@ -1402,6 +1426,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "scripture",
     shelves: ["scripture"],
+    label: "Talmai",
     status: "live",
     summary:
       "Which traditions preserved only in the Greek Bible survived in rabbinic memory? The Greek Additions to Esther, searched against the rabbinic and medieval Jewish bench, every parallel dated, sourced and ruled.",
@@ -1415,6 +1440,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "scripture",
     shelves: ["scripture"],
+    label: "Named in Acts",
     status: "live",
     summary:
       "An interactive prosopography of the New Testament, Acts through Jude: every named person, every verse, colored by attestation and linked across books.",
@@ -1428,6 +1454,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "scripture",
     shelves: ["scripture"],
+    label: "Verbum",
     status: "live",
     summary:
       "Scripture read by sound. A reader's lens that sets the Hebrew beside the English and keys the words that play against each other — surfacing the puns, name-plays, and sound-echoes the translation flattens.",
@@ -1441,6 +1468,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "scripture",
     shelves: ["scripture"],
+    label: "Lectern",
     status: "live",
     summary:
       "A preacher's workbench over the church year: the day's readings anchored, with Wesley sermon companions, hymn recommendations, and calls to worship arranged around them.",
@@ -1454,6 +1482,7 @@ export const works: Work[] = [
     author: "Jacob Arminius",
     collectionId: "tradition",
     shelves: ["reformation"],
+    label: "Arminius",
     status: "live",
     summary:
       "A free edition of Jacob Arminius's Leiden public disputations: the Latin (or, where the Latin is lost, the Dutch) beside a first English translation. Working draft.",
@@ -1467,6 +1496,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "tradition",
     shelves: ["reformation"],
+    label: "These Three Marks",
     status: "live",
     summary:
       "A study document on ordination, commissioning, licensing, and episcopacy in The United Methodist Church.",
@@ -1480,6 +1510,7 @@ export const works: Work[] = [
     author: "Wroot Press",
     collectionId: "tradition",
     shelves: ["reformation"],
+    label: "Hymn Quiz",
     status: "live",
     summary:
       "Answer 22 questions about how you pray, worship and hope, and find the hymn in The United Methodist Hymnal that sings most like you.",
@@ -1493,6 +1524,7 @@ export const works: Work[] = [
     author: "John Wesley",
     collectionId: "wesley",
     shelves: ["reformation"],
+    label: "Wesley's Journal",
     status: "live",
     summary:
       "Travel John Wesley's journal on an inked chart — the voyage to Georgia, Savannah and Frederica, the flight home, Peter Böhler, Aldersgate, Herrnhut, and the New Year love-feast.",
@@ -1506,6 +1538,7 @@ export const works: Work[] = [
     author: "Wilson Pruitt",
     collectionId: "hom",
     shelves: ["reformation"],
+    label: "History of Methodism",
     status: "live",
     summary:
       "The History of Methodism Podcast covers the history of the Methodist and Wesleyan movements, from its precursors in the European Reformation to the present day.",
@@ -1628,4 +1661,35 @@ export function editionsByLang(w: Work): { lang: Lang; editions: Edition[] }[] {
     lang,
     editions: w.editions.filter((e) => e.lang === lang),
   }));
+}
+
+// ---------- cross-site shelf strip feed ----------
+// Served at /shelves.json and read by public/shelves.js, which every edition
+// site loads. A site is any shelved work with a `label` and a reader edition.
+
+export type StripSite = { label: string; url: string };
+export type StripFeed = {
+  shelves: { id: ShelfId; name: string; href: string; sites: StripSite[] }[];
+  /** hostname → the shelf whose strip that site shows (the work's first shelf). */
+  primary: Record<string, ShelfId>;
+};
+
+export function stripFeed(): StripFeed {
+  const primary: Record<string, ShelfId> = {};
+  const siteOf = (w: Work): StripSite | null => {
+    const url = w.editions.find((e) => e.format === "reader" && e.url)?.url;
+    return w.label && url ? { label: w.label, url } : null;
+  };
+  const feed = shelves.map((shelf) => {
+    const sites: StripSite[] = [];
+    for (const w of worksForShelf(shelf.id)) {
+      const site = siteOf(w);
+      if (!site) continue;
+      sites.push(site);
+      const host = new URL(site.url).hostname;
+      if (!(host in primary)) primary[host] = w.shelves[0];
+    }
+    return { id: shelf.id, name: shelf.name, href: shelf.href, sites };
+  });
+  return { shelves: feed, primary };
 }
