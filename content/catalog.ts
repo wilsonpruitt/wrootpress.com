@@ -1060,15 +1060,15 @@ export const works: Work[] = [
     editions: [{ lang: "la", format: "reader", url: "https://actasanctorum.org" }],
   },
   {
-    slug: "bonaventure-sentences",
-    title: "Bonaventure, Sentences",
+    slug: "bonaventure",
+    title: "Bonaventure, Opera Omnia",
     author: "Bonaventure",
     collectionId: "patristic",
     shelves: ["patrum"],
     status: "live",
-    cover: "/covers/bonaventure-sentences-plate.jpg",
+    cover: "/covers/bonaventure-plate.jpg",
     summary:
-      "Quaracchi-text reading edition of Bonaventure's Commentary on the Sentences, Latin alongside English, with scholion and apparatus criticus.",
+      "An English translation of the Opera Omnia of St. Bonaventure from the Quaracchi critical edition, Latin alongside English, with scholia and apparatus criticus — volume by volume, beginning with the Commentary on the Sentences.",
     detail: false,
     external: "https://bonaventure.wrootpress.com",
     editions: [
