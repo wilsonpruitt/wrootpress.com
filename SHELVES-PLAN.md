@@ -87,7 +87,7 @@ to `Work`, plus web-only entries for every live site above. Retire the `digital`
 work with print + web gets ONE card (the Ambrose / Christian Library pattern). Boundary works
 carry two shelves. Péguy/Palestine/Nobel/Jeong/Notabene get `shelves: []` → "Also from" row.
 
-**2 · Shelf pages on wrootpress.com** — `/scripture` and `/reformation` generated from the field;
+**2 · Shelf pages on wrootpress.com** ✅ built 2026-10-26 (see Phase 2 notes) — `/scripture` and `/reformation` generated from the field;
 homepage becomes three shelf bands + "Also from". The Fontes Patrum band links out to the domain.
 
 **3 · fontespatrum.org** — a small static hub (Wroot palette; EB Garamond + Inter) reading the
@@ -114,3 +114,11 @@ strip. Roll out one shelf at a time, Fontes Patrum first.
 - 17 web entries added (summaries copied from each site's own meta description). **Deliberately not added:** Brass (Wilson's call), Wesley Corpus (Patreon-paywalled, not a free reading edition), leiden/dictionary/lincoln (not live), Maurice/Books of Homilies web (no site).
 - Judgment calls to confirm: Newman *Dissertations* → Fontes Patrum (Athanasius/Nicene); Jeong → "Also from" (shelf-less); Hymn quiz + These Three Marks → Reformation shelf; Lectern → Scripture.
 - `pnpm build` passes; homepage shows Scripture & Its Readers + Also from Wroot Press, no Digital Reading Editions.
+
+## Phase 2 notes (2026-10-26)
+
+- Routes: `/fontes-patrum`, `/scripture`, `/reformation` via `app/[shelf]/page.tsx` (`dynamicParams = false`). Each page: "Reading editions" then "In print", `WorkCard`s, links to the other shelves.
+- Homepage: lede → Most read → three `ShelfBand`s (Fontes Patrum dark, 3 featured each from `SHELF_FEATURED`, "Browse the whole shelf (N)") → "Also from Wroot Press". The old Latin-library band and by-collection catalogue are gone (`collections` still exist in data; book detail pages still use them for breadcrumbs).
+- New shared `SiteHeader` / `SiteFooter` (footer now links the History of Methodism Substack); dead CSS removed from `page.module.css`.
+- **Shelf hrefs are internal for now.** Phase 3 swaps patrum's `href` to `https://fontespatrum.org` once the hub exists (and `/fontes-patrum` should then redirect there).
+- Not done (still in repo `CLAUDE.md`): standing Substack line on Wesley/Methodism title pages; flip on Vercel Analytics in the dashboard (snippet already present).

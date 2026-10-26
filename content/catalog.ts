@@ -149,7 +149,7 @@ export type Shelf = {
   id: ShelfId;
   name: string;
   tagline: string;
-  href: string; // hub page
+  href: string; // hub page — /fontes-patrum becomes fontespatrum.org in phase 3
 };
 
 // Names for scripture/reformation are working titles (decided 2026-10-26).
@@ -158,7 +158,7 @@ export const shelves: Shelf[] = [
     id: "patrum",
     name: "Fontes Patrum",
     tagline: "The Fathers and the medieval masters, in Latin, Greek and English.",
-    href: "https://fontespatrum.org",
+    href: "/fontes-patrum",
   },
   {
     id: "scripture",
@@ -1536,12 +1536,12 @@ export const BESTSELLER_SLUGS = [
   "homilies-first-book",
   "homilies-second-book",
 ];
-// The Latin scholastic line — the Fathers, the Master, the commentator.
-export const FEATURED_EDITION_SLUGS = [
-  "migne",
-  "sententiae",
-  "bonaventure-sentences",
-];
+// Three works shown on each shelf's homepage band.
+export const SHELF_FEATURED: Record<ShelfId, string[]> = {
+  patrum: ["migne", "acta-sanctorum", "sententiae"],
+  scripture: ["wpb", "catena", "bereshit"],
+  reformation: ["kjv-wesley", "christian-library", "arminius"],
+};
 
 // ---------- helpers ----------
 
@@ -1579,6 +1579,11 @@ export function seriesGroups(
 /** Works on a given shelf, in catalog order. */
 export function worksForShelf(shelf: ShelfId): Work[] {
   return works.filter((w) => w.shelves.includes(shelf));
+}
+
+/** Shelf for a URL segment, e.g. "fontes-patrum" → the patrum shelf. */
+export function getShelf(segment: string): Shelf | undefined {
+  return shelves.find((sh) => sh.href === `/${segment}`);
 }
 
 /** Works on no shelf — the "Also from Wroot Press" row. */

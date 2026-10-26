@@ -1,0 +1,42 @@
+.shell {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 var(--s-5);
+}
+
+.header {
+  border-bottom: 1px solid var(--border);
+  padding: var(--s-5) 0;
+  background: var(--bg);
+}
+.wordmark {
+  display: block;
+  height: auto;
+  width: 200px;
+}
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding: var(--s-7) 0;
+  margin-top: var(--s-8);
+  background: var(--bg);
+}
+.colophon {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--fen-mist);
+  max-width: var(--measure-prose);
+  margin: 0 auto var(--s-3);
+  text-align: center;
+}
+.colophonMeta {
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--fg-quiet);
+  margin: 0;
+  text-align: center;
+}
