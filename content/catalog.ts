@@ -25,12 +25,17 @@ export type Edition = {
   note?: string;
 };
 
+/** Subject shelves — a findability layer over the collections (see SHELVES-PLAN.md). */
+export type ShelfId = "patrum" | "scripture" | "reformation";
+
 export type Work = {
   slug: string;
   title: string;
   subtitle?: string;
   author: string;
   collectionId: string;
+  /** Shelves this work appears on; [] = the "Also from Wroot Press" row. */
+  shelves: ShelfId[];
   series?: string; // sub-group heading within the collection
   seriesOrder?: number;
   status: "live" | "forthcoming";
@@ -127,11 +132,45 @@ export const collections: Collection[] = [
       "Devotional and formational writing for the practising Christian life — where the habits of the body and the soul meet.",
   },
   {
-    id: "digital",
-    name: "Digital Reading Editions",
+    id: "scripture",
+    name: "Scripture & Its Readers",
     order: 7,
     blurb:
-      "Free, hosted reading editions of primary sources — Latin and original-language text with English translation and apparatus.",
+      "Reading editions and lenses for the Bible itself — a fresh translation, the Greek and Hebrew traditions that stand behind it, and the ways it has been read.",
+  },
+  {
+    id: "also",
+    name: "Also from Wroot Press",
+    order: 8,
+  },
+];
+
+export type Shelf = {
+  id: ShelfId;
+  name: string;
+  tagline: string;
+  href: string; // hub page
+};
+
+// Names for scripture/reformation are working titles (decided 2026-10-26).
+export const shelves: Shelf[] = [
+  {
+    id: "patrum",
+    name: "Fontes Patrum",
+    tagline: "The Fathers and the medieval masters, in Latin, Greek and English.",
+    href: "https://fontespatrum.org",
+  },
+  {
+    id: "scripture",
+    name: "Scripture & Its Readers",
+    tagline: "The Bible, its ancient witnesses, and the ways it has been read.",
+    href: "/scripture",
+  },
+  {
+    id: "reformation",
+    name: "Reformation & Methodism",
+    tagline: "The Protestant and Wesleyan tradition, from Arminius to the Wesleys.",
+    href: "/reformation",
   },
 ];
 
@@ -143,6 +182,7 @@ export const works: Work[] = [
     subtitle: "A Summa for Subscribers",
     author: "Wilson Pruitt",
     collectionId: "wesley",
+    shelves: ["reformation"],
     status: "live",
     cover: "/covers/wesleys-metaphysics-en.jpg",
     summary:
@@ -177,6 +217,7 @@ export const works: Work[] = [
     subtitle: "A Memoir of His Mission, 1735–1738",
     author: "John Wesley",
     collectionId: "wesley",
+    shelves: ["reformation"],
     series: "A Life in His Own Words",
     seriesOrder: 1,
     status: "live",
@@ -230,6 +271,7 @@ export const works: Work[] = [
     subtitle: "A Memoir of the Year His Heart Was Warmed, 1738–1739",
     author: "John Wesley",
     collectionId: "wesley",
+    shelves: ["reformation"],
     series: "A Life in His Own Words",
     seriesOrder: 2,
     status: "live",
@@ -284,6 +326,7 @@ export const works: Work[] = [
       "The King James Text with the Explanatory Notes of John Wesley",
     author: "John Wesley",
     collectionId: "wesley",
+    shelves: ["scripture", "reformation"],
     series: "The Explanatory Notes upon the New Testament",
     seriesOrder: 1,
     status: "live",
@@ -322,6 +365,7 @@ export const works: Work[] = [
       "The King James Text with the Explanatory Notes of John Wesley",
     author: "John Wesley",
     collectionId: "wesley",
+    shelves: ["scripture", "reformation"],
     series: "The Explanatory Notes upon the New Testament",
     seriesOrder: 2,
     status: "live",
@@ -358,6 +402,7 @@ export const works: Work[] = [
       "The King James Text with the Explanatory Notes of John Wesley",
     author: "John Wesley",
     collectionId: "wesley",
+    shelves: ["scripture", "reformation"],
     series: "The Explanatory Notes upon the New Testament",
     seriesOrder: 3,
     status: "live",
@@ -387,6 +432,7 @@ export const works: Work[] = [
       "The King James Text with the Explanatory Notes of John Wesley",
     author: "John Wesley",
     collectionId: "wesley",
+    shelves: ["scripture", "reformation"],
     series: "The Explanatory Notes upon the New Testament",
     seriesOrder: 4,
     status: "live",
@@ -416,6 +462,7 @@ export const works: Work[] = [
       "The King James Text with the Explanatory Notes of John Wesley",
     author: "John Wesley",
     collectionId: "wesley",
+    shelves: ["scripture", "reformation"],
     series: "The Explanatory Notes upon the New Testament",
     seriesOrder: 5,
     status: "live",
@@ -445,6 +492,7 @@ export const works: Work[] = [
       "The King James Text with the Explanatory Notes of John Wesley",
     author: "John Wesley",
     collectionId: "wesley",
+    shelves: ["scripture", "reformation"],
     series: "The Explanatory Notes upon the New Testament",
     seriesOrder: 6,
     status: "live",
@@ -475,6 +523,7 @@ export const works: Work[] = [
     subtitle: "Sermons on the Way of Salvation",
     author: "John Wesley",
     collectionId: "wesley",
+    shelves: ["reformation"],
     series: "Wesley for Today",
     seriesOrder: 1,
     status: "live",
@@ -528,6 +577,7 @@ export const works: Work[] = [
     subtitle: "Thirteen Discourses",
     author: "John Wesley",
     collectionId: "wesley",
+    shelves: ["reformation"],
     series: "Wesley for Today",
     seriesOrder: 2,
     status: "forthcoming",
@@ -545,6 +595,7 @@ export const works: Work[] = [
     subtitle: "A Four-Volume Scholarly Edition",
     author: "John Wesley",
     collectionId: "wesley",
+    shelves: ["reformation"],
     series: "Wesley Dissertations",
     seriesOrder: 1,
     status: "live",
@@ -568,6 +619,7 @@ export const works: Work[] = [
     subtitle: "In Fifty Volumes",
     author: "John Wesley",
     collectionId: "wesley",
+    shelves: ["reformation"],
     series: "A Christian Library",
     status: "live",
     cover: "/covers/christian-library-en.jpg",
@@ -601,6 +653,7 @@ export const works: Work[] = [
     subtitle: "A Narrative History, drawn from the podcast",
     author: "Wilson Pruitt",
     collectionId: "hom",
+    shelves: ["reformation"],
     status: "live",
     summary:
       "A four-volume narrative history with primary-source citations. Volumes 1–2 live on Amazon in English and Spanish; French, German, Portuguese, and Finnish in preparation.",
@@ -620,6 +673,7 @@ export const works: Work[] = [
     subtitle: "Free downloads — Swahili, Hungarian, Korean",
     author: "Wilson Pruitt",
     collectionId: "hom",
+    shelves: ["reformation"],
     status: "live",
     summary:
       "Free PDF and EPUB editions in three languages Amazon KDP does not yet support for paperback — the same typeset interior as the print editions.",
@@ -639,6 +693,7 @@ export const works: Work[] = [
     subtitle: "Dialogue of History and the Carnal Soul",
     author: "Charles Péguy",
     collectionId: "french",
+    shelves: [],
     status: "live",
     summary:
       "Péguy's dialogue between History and the carnal soul — on memory, the past, and the flesh that carries it. The first English translation, by Wilson Pruitt. Paperback and Kindle.",
@@ -669,6 +724,7 @@ export const works: Work[] = [
     title: "Victor-Marie, comte Hugo",
     author: "Charles Péguy",
     collectionId: "french",
+    shelves: [],
     status: "live",
     summary:
       "Péguy's long 1910 essay on Hugo, Corneille, and the inheritance of greatness in French letters. The first English translation, by Wilson Pruitt. Paperback and Kindle.",
@@ -700,6 +756,7 @@ export const works: Work[] = [
     subtitle: "The Cahiers de la Quinzaine shelf",
     author: "Charles Péguy",
     collectionId: "french",
+    shelves: [],
     status: "forthcoming",
     summary:
       "A shelf of print editions and translations from Péguy and his Cahiers de la Quinzaine — some two dozen titles in preparation.",
@@ -714,6 +771,7 @@ export const works: Work[] = [
     subtitle: "Exposition of Psalm 118",
     author: "Ambrose of Milan",
     collectionId: "patristic",
+    shelves: ["patrum"],
     status: "live",
     cover: "/covers/ambrose-psalm-118-en.jpg",
     summary:
@@ -745,6 +803,7 @@ export const works: Work[] = [
       "The Acts, the Greek Recensions, the Oration of Methodius, the Translation, and the Miracles",
     author: "Wroot Press",
     collectionId: "patristic",
+    shelves: ["patrum"],
     series: "The Acta Library",
     status: "live",
     cover: "/covers/agatha-of-catania-en.jpg",
@@ -796,6 +855,7 @@ export const works: Work[] = [
     subtitle: "A Daily Devotional — Three Hundred Fifteen Lives of the Saints",
     author: "Wilson Pruitt",
     collectionId: "patristic",
+    shelves: ["patrum"],
     status: "live",
     cover: "/covers/acta-devotional-en.jpg",
     summary:
@@ -824,6 +884,7 @@ export const works: Work[] = [
     subtitle: "Volume I: The First Book (1547)",
     author: "Thomas Cranmer",
     collectionId: "tradition",
+    shelves: ["reformation"],
     series: "The Books of Homilies",
     seriesOrder: 1,
     status: "live",
@@ -860,6 +921,7 @@ export const works: Work[] = [
     subtitle: "Volume II: The Second Book (1563 & 1571)",
     author: "John Jewel",
     collectionId: "tradition",
+    shelves: ["reformation"],
     series: "The Books of Homilies",
     seriesOrder: 2,
     status: "live",
@@ -898,6 +960,7 @@ export const works: Work[] = [
     subtitle: "On St. Athanasius and the Nicene Creed",
     author: "John Henry Newman",
     collectionId: "tradition",
+    shelves: ["patrum"],
     status: "live",
     cover: "/covers/newman-dissertations-en.jpg",
     summary:
@@ -933,6 +996,7 @@ export const works: Work[] = [
     subtitle: "Sixty Days on the Mat",
     author: "Wilson Pruitt",
     collectionId: "spirituality",
+    shelves: [],
     status: "live",
     cover: "/covers/bjj-and-jesus-en.png",
     summary:
@@ -966,7 +1030,8 @@ export const works: Work[] = [
     slug: "kjv-wesley",
     title: "The Bible with Wesley's Notes",
     author: "John Wesley",
-    collectionId: "digital",
+    collectionId: "wesley",
+    shelves: ["scripture", "reformation"],
     status: "live",
     summary:
       "The King James Bible alongside John Wesley's Explanatory Notes Upon the Old and New Testament, side by side — free to read, cover to cover.",
@@ -980,7 +1045,8 @@ export const works: Work[] = [
     slug: "acta-sanctorum",
     title: "Acta Sanctorum",
     author: "Wroot Press",
-    collectionId: "digital",
+    collectionId: "patristic",
+    shelves: ["patrum"],
     status: "live",
     summary:
       "The flagship — a digital reading edition of the Bollandist Acta Sanctorum: Latin text, English translation, and apparatus, organised by feast day.",
@@ -992,7 +1058,8 @@ export const works: Work[] = [
     slug: "bonaventure-sentences",
     title: "Bonaventure, Sentences",
     author: "Bonaventure",
-    collectionId: "digital",
+    collectionId: "patristic",
+    shelves: ["patrum"],
     status: "live",
     summary:
       "Quaracchi-text reading edition of Bonaventure's Commentary on the Sentences, Latin alongside English, with scholion and apparatus criticus.",
@@ -1006,7 +1073,8 @@ export const works: Work[] = [
     slug: "milton-doctrina",
     title: "Milton, De Doctrina Christiana",
     author: "John Milton",
-    collectionId: "digital",
+    collectionId: "tradition",
+    shelves: ["reformation"],
     status: "live",
     summary:
       "Parallel Latin–English reading edition of Milton's theological treatise, from Sumner's 1825 editio princeps, with every scriptural citation indexed. In progress, chapter by chapter.",
@@ -1018,7 +1086,8 @@ export const works: Work[] = [
     slug: "andrewes-preces-privatae",
     title: "Lancelot Andrewes, Preces Privatae",
     author: "Lancelot Andrewes",
-    collectionId: "digital",
+    collectionId: "tradition",
+    shelves: ["reformation"],
     status: "live",
     cover: "/covers/andrewes-preces-en.jpg",
     summary:
@@ -1048,7 +1117,8 @@ export const works: Work[] = [
     title: "Migne",
     subtitle: "The Patrologia in English",
     author: "Wroot Press",
-    collectionId: "digital",
+    collectionId: "patristic",
+    shelves: ["patrum"],
     status: "live",
     summary:
       "Migne's Patrologia Latina and Graeca, rendered into English and made citable by volume and column — every work a page from day one, Latin and Greek alongside, translation lighting up the map one first-ever English rendering at a time.",
@@ -1061,7 +1131,8 @@ export const works: Work[] = [
     title: "Sententiae",
     subtitle: "Peter Lombard's Sentences as a daf",
     author: "Peter Lombard",
-    collectionId: "digital",
+    collectionId: "patristic",
+    shelves: ["patrum"],
     status: "live",
     summary:
       "Peter Lombard's Sentences laid out like a Talmud page — the distinctio in the center, the commentary tradition (c. 1225–1615) around it, every witness dated, sourced, and threaded to the ones it cites, contests, transmits, or parallels.",
@@ -1075,7 +1146,8 @@ export const works: Work[] = [
     slug: "notabene",
     title: "The Kierkegaard–Notabene Edition",
     author: "Søren Kierkegaard",
-    collectionId: "digital",
+    collectionId: "also",
+    shelves: [],
     status: "live",
     summary:
       "Bilingual critical edition of the eight phantom volumes of Nicolaus Notabene — Danish and English on facing pages, with a biographical companion.",
@@ -1089,7 +1161,8 @@ export const works: Work[] = [
     slug: "topographia-sacra",
     title: "Topographia Sacra",
     author: "Wroot Press",
-    collectionId: "digital",
+    collectionId: "scripture",
+    shelves: ["scripture"],
     status: "live",
     summary:
       "Geographical editions of the place-heavy books of scripture — the World English Bible with maps and a gazetteer of every named place.",
@@ -1103,7 +1176,8 @@ export const works: Work[] = [
     slug: "loci",
     title: "Loci",
     author: "Wroot Press",
-    collectionId: "digital",
+    collectionId: "scripture",
+    shelves: ["scripture"],
     status: "live",
     summary:
       "Thematic reading editions of biblical books, each organised around an interpretive frame — Leviticus as an architecture of approach, Lamentations as an alphabet of grief.",
@@ -1115,7 +1189,8 @@ export const works: Work[] = [
     slug: "catena",
     title: "Catena",
     author: "Wroot Press",
-    collectionId: "digital",
+    collectionId: "scripture",
+    shelves: ["scripture"],
     status: "live",
     summary:
       "Intertextual reading editions tracing how scripture quotes scripture — every quotation, allusion, and echo a book reaches back to, marked, sourced, and weighed. Seeded with Hebrews.",
@@ -1127,7 +1202,8 @@ export const works: Work[] = [
     slug: "annales-sacra",
     title: "Annales Sacra",
     author: "Wroot Press",
-    collectionId: "digital",
+    collectionId: "scripture",
+    shelves: ["scripture"],
     status: "live",
     summary:
       "Chronological reading editions that lay scripture's years flat — two kingdoms on one timeline, the reigns and synchronisms Kings tells in a braid, the life of Paul, a gospel harmony.",
@@ -1139,7 +1215,8 @@ export const works: Work[] = [
     slug: "voces",
     title: "Voces",
     author: "Wroot Press",
-    collectionId: "digital",
+    collectionId: "scripture",
+    shelves: ["scripture"],
     status: "live",
     summary:
       "Reading editions that color every line by who is speaking — the debate buried in Job, the divine voice inside the Psalms, the unlabeled dialogue of the Song of Songs, the choirs of Revelation. Seeded with five books.",
@@ -1151,7 +1228,8 @@ export const works: Work[] = [
     slug: "doctrine",
     title: "Doctrine",
     author: "Wroot Press",
-    collectionId: "digital",
+    collectionId: "tradition",
+    shelves: ["reformation"],
     status: "live",
     summary:
       "Annotated reading editions of the historic creeds and confessions, with line-level commentary. Seeded with the Apostles' Creed.",
@@ -1165,7 +1243,8 @@ export const works: Work[] = [
     slug: "difficult-passages",
     title: "Difficult Passages",
     author: "Wroot Press",
-    collectionId: "digital",
+    collectionId: "scripture",
+    shelves: ["scripture"],
     status: "live",
     summary:
       "A pastoral reference mapping the scholarly landscape on hard places in scripture — each entry gives the difficulty, then several historical responses.",
@@ -1187,6 +1266,7 @@ export const works: Work[] = [
     subtitle: "Nineteen Centuries on the Gaza Road",
     author: "Wilson Pruitt",
     collectionId: "tradition",
+    shelves: [],
     status: "live",
     cover: "/covers/church-in-palestine-en.jpg",
     summary:
@@ -1215,7 +1295,8 @@ export const works: Work[] = [
     title: "The Church in Palestine",
     subtitle: "A companion",
     author: "Wroot Press",
-    collectionId: "digital",
+    collectionId: "tradition",
+    shelves: [],
     status: "live",
     summary:
       "Nineteen centuries of the Christian community in Palestine, laid out to be looked up — a chronology of the whole span, an atlas of every place the book names, the succession of the see of Jerusalem, and the primary texts in full. Companion to the book, which is forthcoming.",
@@ -1224,6 +1305,227 @@ export const works: Work[] = [
     editions: [
       { lang: "en", format: "reader", url: "https://palestine.wrootpress.com" },
     ],
+  },
+  {
+    slug: "wyclif",
+    title: "Wyclif's Latin Works",
+    author: "John Wyclif",
+    collectionId: "patristic",
+    shelves: ["patrum"],
+    status: "live",
+    summary:
+      "The Latin works of John Wyclif, as the Wyclif Society printed them (1883–1922), with a new English translation, work by work.",
+    detail: false,
+    external: "https://wyclif.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://wyclif.wrootpress.com" }],
+  },
+  {
+    slug: "fitzralph-summa",
+    title: "FitzRalph, Summa in quaestionibus Armenorum",
+    author: "Richard FitzRalph",
+    collectionId: "patristic",
+    shelves: ["patrum"],
+    status: "live",
+    summary:
+      "Richard FitzRalph's Summa on the questions of the Armenians (Paris, 1512): the Latin, read by machine from the print, and a new English translation.",
+    detail: false,
+    external: "https://fitzralph.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://fitzralph.wrootpress.com" }],
+  },
+  {
+    slug: "douay-glossa",
+    title: "The Douay-Rheims with the Glossa Ordinaria",
+    author: "Wroot Press",
+    collectionId: "patristic",
+    shelves: ["patrum", "scripture"],
+    status: "live",
+    summary:
+      "The Douay-Rheims Bible (Challoner revision) alongside the Glossa ordinaria, the standard medieval marginal commentary on Scripture, in a fresh English translation.",
+    detail: false,
+    external: "https://glossa.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://glossa.wrootpress.com" }],
+  },
+  {
+    slug: "neoplatonism",
+    title: "Neoplatonism.org",
+    author: "Wroot Press",
+    collectionId: "patristic",
+    shelves: ["patrum"],
+    status: "live",
+    summary:
+      "A digital library of Neoplatonism: Plotinus, Porphyry, Iamblichus, Proclus, Damascius, Dionysius and their Latin, Arabic and Renaissance heirs, from public-domain editions, freshly translated, with the commentators in the margins.",
+    detail: false,
+    external: "https://neoplatonism.org",
+    editions: [{ lang: "en", format: "reader", url: "https://neoplatonism.org" }],
+  },
+  {
+    slug: "wpb",
+    title: "The Wroot Press Bible",
+    author: "Wroot Press",
+    collectionId: "scripture",
+    shelves: ["scripture"],
+    status: "live",
+    summary:
+      "A fresh English Bible translation under written rules, published a chapter at a time.",
+    detail: false,
+    external: "https://bible.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://bible.wrootpress.com" }],
+  },
+  {
+    slug: "bereshit",
+    title: "Bereshit / In Principio",
+    author: "Wroot Press",
+    collectionId: "scripture",
+    shelves: ["scripture"],
+    status: "live",
+    summary:
+      "Genesis 1:1–5, read as ten cruxes across three benches — the Latin, the rabbinic, and the Greek-Jewish traditions — with every witness dated, sourced, and threaded to the ones it cites, echoes, contests, or answers.",
+    detail: false,
+    external: "https://bereshit.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://bereshit.wrootpress.com" }],
+  },
+  {
+    slug: "talmai",
+    title: "Talmai",
+    author: "Wroot Press",
+    collectionId: "scripture",
+    shelves: ["scripture"],
+    status: "live",
+    summary:
+      "Which traditions preserved only in the Greek Bible survived in rabbinic memory? The Greek Additions to Esther, searched against the rabbinic and medieval Jewish bench, every parallel dated, sourced and ruled.",
+    detail: false,
+    external: "https://talmai.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://talmai.wrootpress.com" }],
+  },
+  {
+    slug: "ntnames",
+    title: "Named in Acts and the Letters",
+    author: "Wroot Press",
+    collectionId: "scripture",
+    shelves: ["scripture"],
+    status: "live",
+    summary:
+      "An interactive prosopography of the New Testament, Acts through Jude: every named person, every verse, colored by attestation and linked across books.",
+    detail: false,
+    external: "https://ntnames.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://ntnames.wrootpress.com" }],
+  },
+  {
+    slug: "verbum",
+    title: "Verbum",
+    author: "Wroot Press",
+    collectionId: "scripture",
+    shelves: ["scripture"],
+    status: "live",
+    summary:
+      "Scripture read by sound. A reader's lens that sets the Hebrew beside the English and keys the words that play against each other — surfacing the puns, name-plays, and sound-echoes the translation flattens.",
+    detail: false,
+    external: "https://verbum.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://verbum.wrootpress.com" }],
+  },
+  {
+    slug: "lectern",
+    title: "Lectern",
+    author: "Wroot Press",
+    collectionId: "scripture",
+    shelves: ["scripture"],
+    status: "live",
+    summary:
+      "A preacher's workbench over the church year: the day's readings anchored, with Wesley sermon companions, hymn recommendations, and calls to worship arranged around them.",
+    detail: false,
+    external: "https://lectern.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://lectern.wrootpress.com" }],
+  },
+  {
+    slug: "arminius",
+    title: "Arminius — The Public Disputations",
+    author: "Jacob Arminius",
+    collectionId: "tradition",
+    shelves: ["reformation"],
+    status: "live",
+    summary:
+      "A free edition of Jacob Arminius's Leiden public disputations: the Latin (or, where the Latin is lost, the Dutch) beside a first English translation. Working draft.",
+    detail: false,
+    external: "https://arminius.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://arminius.wrootpress.com" }],
+  },
+  {
+    slug: "these-three-marks",
+    title: "These Three Marks",
+    author: "Wroot Press",
+    collectionId: "tradition",
+    shelves: ["reformation"],
+    status: "live",
+    summary:
+      "A study document on ordination, commissioning, licensing, and episcopacy in The United Methodist Church.",
+    detail: false,
+    external: "https://ordination.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://ordination.wrootpress.com" }],
+  },
+  {
+    slug: "hymnquiz",
+    title: "Which Hymn Are You?",
+    author: "Wroot Press",
+    collectionId: "tradition",
+    shelves: ["reformation"],
+    status: "live",
+    summary:
+      "Answer 22 questions about how you pray, worship and hope, and find the hymn in The United Methodist Hymnal that sings most like you.",
+    detail: false,
+    external: "https://hymnquiz.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://hymnquiz.wrootpress.com" }],
+  },
+  {
+    slug: "wesley-journal-chart",
+    title: "The Journal of John Wesley",
+    author: "John Wesley",
+    collectionId: "wesley",
+    shelves: ["reformation"],
+    status: "live",
+    summary:
+      "Travel John Wesley's journal on an inked chart — the voyage to Georgia, Savannah and Frederica, the flight home, Peter Böhler, Aldersgate, Herrnhut, and the New Year love-feast.",
+    detail: false,
+    external: "https://journal.historyofmethodism.com",
+    editions: [{ lang: "en", format: "reader", url: "https://journal.historyofmethodism.com" }],
+  },
+  {
+    slug: "hom-podcast",
+    title: "The History of Methodism Podcast",
+    author: "Wilson Pruitt",
+    collectionId: "hom",
+    shelves: ["reformation"],
+    status: "live",
+    summary:
+      "The History of Methodism Podcast covers the history of the Methodist and Wesleyan movements, from its precursors in the European Reformation to the present day.",
+    detail: false,
+    external: "https://historyofmethodism.com",
+    editions: [{ lang: "en", format: "reader", url: "https://historyofmethodism.com" }],
+  },
+  {
+    slug: "nobel",
+    title: "Laureates for the Pulpit",
+    author: "Wroot Press",
+    collectionId: "also",
+    shelves: [],
+    status: "live",
+    summary:
+      "Recent Nobel Prizes explained in plain terms for pastors: what was found, how to say it accurately, and where it meets preaching in the Wesleyan tradition.",
+    detail: false,
+    external: "https://nobel.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://nobel.wrootpress.com" }],
+  },
+  {
+    slug: "jeong-theology",
+    title: "Jeong Kyeong-ok, An Introduction to Christian Theology (1939)",
+    author: "Jeong Kyeong-ok",
+    collectionId: "also",
+    shelves: [],
+    status: "live",
+    summary:
+      "The first English translation of Jeong Kyeong-ok's 基督敎神學槪論 (1939), the first Korean systematic theology. A preview from the Wroot Press edition in progress.",
+    detail: false,
+    external: "https://jeong.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://jeong.wrootpress.com" }],
   },
 ];
 
@@ -1272,6 +1574,16 @@ export function seriesGroups(
       .get(key)!
       .sort((a, b) => (a.seriesOrder ?? 0) - (b.seriesOrder ?? 0)),
   }));
+}
+
+/** Works on a given shelf, in catalog order. */
+export function worksForShelf(shelf: ShelfId): Work[] {
+  return works.filter((w) => w.shelves.includes(shelf));
+}
+
+/** Works on no shelf — the "Also from Wroot Press" row. */
+export function unshelvedWorks(): Work[] {
+  return works.filter((w) => w.shelves.length === 0);
 }
 
 export function getWork(slug: string): Work | undefined {
