@@ -26,6 +26,12 @@ import { NextResponse, type NextRequest } from "next/server";
    ============================================================ */
 
 const COMPANION_HOST = "palestine.wrootpress.com";
+
+/* fontespatrum.org (registered 2026-10-26) is the front door of the patristic &
+   medieval shelf. Its "/" is the hub at /fontespatrum-hub; everything else on
+   that host belongs to wrootpress.com. Redirects are 307 while the domain is
+   new — make them permanent once it has settled. */
+const FONTES_HOSTS = ["fontespatrum.org", "www.fontespatrum.org"];
 const MAIN_HOST = "https://wrootpress.com";
 
 /** The paths that belong to the companion, wherever they are asked for. */
@@ -38,6 +44,17 @@ function isCompanionPath(pathname: string): boolean {
 export default function proxy(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
   const host = request.headers.get("host")?.toLowerCase() ?? "";
+
+  if (FONTES_HOSTS.includes(host)) {
+    if (pathname === "/") {
+      return NextResponse.rewrite(new URL("/fontespatrum-hub", request.url));
+    }
+    // The hub's own path and its shelf-page twin are never shown on this host.
+    if (pathname === "/fontespatrum-hub" || pathname === "/fontes-patrum") {
+      return NextResponse.redirect(new URL("/", request.url), 307);
+    }
+    return NextResponse.redirect(`${MAIN_HOST}${pathname}${search}`, 307);
+  }
 
   if (host === COMPANION_HOST) {
     // The index of the companion is a real route at /palestine; the reader

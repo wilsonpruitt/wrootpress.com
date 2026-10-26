@@ -10,3 +10,6 @@ next-env.d.ts
 
 # TypeScript incremental build cache
 *.tsbuildinfo
+
+# OG render fonts (copy from ~/wroot-labs/brand/design-system/fonts/ when regenerating)
+/og-src/fonts/

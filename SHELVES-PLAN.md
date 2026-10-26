@@ -90,7 +90,7 @@ carry two shelves. Péguy/Palestine/Nobel/Jeong/Notabene get `shelves: []` → "
 **2 · Shelf pages on wrootpress.com** ✅ built 2026-10-26 (see Phase 2 notes) — `/scripture` and `/reformation` generated from the field;
 homepage becomes three shelf bands + "Also from". The Fontes Patrum band links out to the domain.
 
-**3 · fontespatrum.org** — a small static hub (Wroot palette; EB Garamond + Inter) reading the
+**3 · fontespatrum.org** ✅ built 2026-10-26 (see Phase 3 notes; NOT live until pushed + domain attached) — a small static hub (Wroot palette; EB Garamond + Inter) reading the
 same shelf data, served from wrootpress.com as JSON so there is one source of truth. **Needs an OG
 image before first deploy** (Wilson's rule; template `~/security-wrootlabs/og/`).
 
@@ -122,3 +122,14 @@ strip. Roll out one shelf at a time, Fontes Patrum first.
 - New shared `SiteHeader` / `SiteFooter` (footer now links the History of Methodism Substack); dead CSS removed from `page.module.css`.
 - **Shelf hrefs are internal for now.** Phase 3 swaps patrum's `href` to `https://fontespatrum.org` once the hub exists (and `/fontes-patrum` should then redirect there).
 - Not done (still in repo `CLAUDE.md`): standing Substack line on Wesley/Methodism title pages; flip on Vercel Analytics in the dashboard (snippet already present).
+
+## Phase 3 notes (2026-10-26)
+
+- One codebase, host-routed (same pattern as palestine.wrootpress.com): `proxy.ts` rewrites `fontespatrum.org/` → `/fontespatrum-hub` (`app/fontespatrum-hub/page.tsx`), redirects every other path on that host to wrootpress.com (307 while new). Hub reads the same `shelves`/`worksForShelf("patrum")` data.
+- OG image: `public/fontespatrum-og.png` (1200×630, Wroot palette; source `og-src/fontespatrum.html`, fonts gitignored — see the comment in that file). Hub head carries og:title/description/url/image(+width/height/alt), twitter:card=summary_large_image, canonical.
+- **Go-live order matters — push BEFORE attaching the domain**, else fontespatrum.org would serve the whole wrootpress.com site:
+  1. Push `main` (deploys the proxy + hub).
+  2. Vercel project `wrootpress.com` → add domain `fontespatrum.org` (and `www.fontespatrum.org`).
+  3. Cloudflare DNS for the zone: `A fontespatrum.org → 76.76.21.21` and `CNAME www → cname.vercel-dns.com`, both **DNS-only (grey cloud)**.
+  4. Verify: `/` shows the hub; `/fontespatrum-og.png` → 200; tags in head.
+  5. Then flip the patrum shelf `href` in `content/catalog.ts` to `https://fontespatrum.org` and make `/fontes-patrum` redirect to it.
