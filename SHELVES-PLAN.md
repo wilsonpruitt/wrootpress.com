@@ -133,3 +133,7 @@ strip. Roll out one shelf at a time, Fontes Patrum first.
   3. Cloudflare DNS for the zone: `A fontespatrum.org → 76.76.21.21` and `CNAME www → cname.vercel-dns.com`, both **DNS-only (grey cloud)**.
   4. Verify: `/` shows the hub; `/fontespatrum-og.png` → 200; tags in head.
   5. Then flip the patrum shelf `href` in `content/catalog.ts` to `https://fontespatrum.org` and make `/fontes-patrum` redirect to it.
+
+## Status 2026-10-26 (end of day)
+
+Phases 1–3 **shipped to production** (`83d3cd5`). fontespatrum.org live (Vercel domains + Cloudflare DNS done; `/fontes-patrum` 308s there; homepage links the real domain). **Open: Phase 4** (return strip on every edition site), shelf 2/3 final names, Brass/Jeong placement, buy `fontespatrum.com` when funds allow, make the 307s on that host permanent once it settles, optional www→apex redirect. Uncommitted note only: this status block.
