@@ -146,3 +146,21 @@ Phases 1–3 **shipped to production** (`83d3cd5`). fontespatrum.org live (Verce
 - Tested by serving the local files as `https://wrootpress.com/shelves.js|json` into the LIVE sites (no repo or deploy involved): migne.app, actasanctorum.org, bonaventure, neoplatonism.org, bible, arminius (390px) — all mounted, correct shelf, no CSP blocks.
 
 **Per-site rollout (not started):** each site adds ONE line, `<script defer src="https://wrootpress.com/shelves.js"></script>`, in the `<head>` of its **build template** (not generated output). Prereq: wrootpress.com must be pushed first so the file exists. Each repo's push = a production deploy → Wilson's OK, batched; standing rule ≤1–2 deploys/project/day, and some sites have a deploy HELD (Bonaventure until *Ioannem* is done; Acta backlog) — piggyback on those deploys rather than adding new ones. Sites that already deploy via `vercel build` + `deploy --prebuilt` (Ambrose, Bonaventure) need their build template edited, then a prebuilt deploy.
+
+### Fontes Patrum rollout — prepared 2026-10-26 (local commits only; NOTHING pushed or deployed)
+
+`shelves.js` + `/shelves.json` are LIVE on wrootpress.com (`c32f76d`). One line added after each site's analytics tag (or before `</head>` for Astro). The strip appears on a site only after that site is **rebuilt and deployed**.
+
+| Site | Repo (branch) | Local commit | Notes |
+|---|---|---|---|
+| Acta Sanctorum | `~/acta-sanctorum` (master) | `48083e3` | build-site.mjs, build-export-page.mjs, site-static/about+rights.html. Deploy backlog held (days 12–19) → ride along. 2 unrelated dirty files left alone. |
+| Migne | `~/patrologia` (master) | `cb8710df` | chrome.mjs + 3 page builders; **generated `site/` pages need a rebuild** to pick it up. |
+| Wyclif | `~/wyclif` (main) | `1386ca74` | site/build.py. |
+| Bonaventure | `~/bonaventure-sentences` (master) | `6a1ea48` | layout.tsx. **Deploy held until *Ioannem* is done** — ride along. |
+| Glossa | `~/douay-glossa` (master, no remote) | `9cc0904` | web/app/layout.tsx. Repo has 79 unrelated uncommitted files — untouched. |
+| Neoplatonism | `~/neoplatonism.org` (main) | `0bbffa9` | Layout.astro (`is:inline`). |
+| Sententiae | `~/wroot-press` monorepo (master) | `8a01ef8f` | sentences/site/src/layouts/Layout.astro; 5 unrelated dirty files left alone. |
+| FitzRalph | `~/fitzralph/site/build.py` | — | **Not a git repo**; edited in place, no commit possible. |
+| Ambrose | — | — | **Repo not on this Mac** (memory says `~/ambrose-psalm-118/site`, local-only, no remote → maybe only on the Air). Needs locating before it can be done. |
+
+Remaining shelves (scripture 14, reformation 10 sites) not started.
