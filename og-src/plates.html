@@ -1,0 +1,45 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- Source for public/covers/*-plate.jpg (700×1050 card plates for web-only editions on the Fontes Patrum shelf).
+     Render: serve this folder, open plates.html?slug=<slug> at a 700×1050 viewport, screenshot, convert to JPG.
+     Text comes only from each work's own catalog entry. Fonts: see fontespatrum.html. -->
+<style>
+@font-face{font-family:"EB Garamond";src:url("./fonts/EBGaramond-VF.ttf");font-weight:400 800;font-style:normal}
+@font-face{font-family:"EB Garamond";src:url("./fonts/EBGaramond-Italic-VF.ttf");font-weight:400 800;font-style:italic}
+@font-face{font-family:"Inter";src:url("./fonts/Inter-VF.ttf");font-weight:100 900}
+*{box-sizing:border-box;margin:0}
+html,body{width:700px;height:1050px;background:#f7f3ec}
+body{position:relative;overflow:hidden;font-family:"Inter",sans-serif;color:#2c3e4a}
+.frame{position:absolute;inset:34px;border:2px solid #2c3e4a}
+.frame::after{content:"";position:absolute;inset:8px;border:1px solid #c9a86a}
+.in{position:absolute;inset:34px;padding:70px 56px 56px;display:flex;flex-direction:column;align-items:center;text-align:center}
+.kicker{font-size:17px;letter-spacing:.2em;text-transform:uppercase;color:#5b6b76;font-weight:500}
+.rule{width:64px;height:2px;background:#a98748;margin:34px 0}
+h1{font-family:"EB Garamond",serif;font-weight:500;color:#2c3e4a;line-height:1.05;letter-spacing:-.005em}
+.sub{font-family:"EB Garamond",serif;font-style:italic;font-size:30px;line-height:1.3;color:#54595e;margin-top:34px;max-width:480px}
+.foot{margin-top:auto;display:flex;flex-direction:column;align-items:center;gap:14px}
+.mark{width:44px;height:44px;border-radius:8px;background:#2c3e4a;color:#f7f3ec;font-family:"EB Garamond",serif;font-size:31px;line-height:44px}
+.host{font-size:20px;font-weight:600;letter-spacing:.02em;border-bottom:2px solid #c9a86a;padding-bottom:3px}
+.mid{margin:auto 0;display:flex;flex-direction:column;align-items:center}
+</style></head>
+<body>
+<div class="frame"></div>
+<div class="in" id="p"></div>
+<script>
+const P={
+ "acta-sanctorum":{k:"Latin · English",t:"Acta Sanctorum",s:"The Bollandist Acta, organised by feast day",h:"actasanctorum.org",z:96},
+ "migne":{k:"Patrologia Latina & Graeca",t:"Migne",s:"The Patrologia in English",h:"migne.app",z:140},
+ "sententiae":{k:"Peter Lombard",t:"Sententiae",s:"The Sentences as a daf",h:"sententiae.wrootpress.com",z:104},
+ "bonaventure-sentences":{k:"Bonaventure",t:"Commentary on the Sentences",s:"Quaracchi text, Latin alongside English",h:"bonaventure.wrootpress.com",z:78},
+ "wyclif":{k:"John Wyclif",t:"Latin Works",s:"The Wyclif Society text, with a new English translation",h:"wyclif.wrootpress.com",z:100},
+ "fitzralph-summa":{k:"Richard FitzRalph",t:"Summa in quaestionibus Armenorum",s:"Paris, 1512 — Latin and a new English translation",h:"fitzralph.wrootpress.com",z:66},
+ "douay-glossa":{k:"Challoner · Glossa ordinaria",t:"The Douay-Rheims with the Glossa Ordinaria",s:"The medieval marginal commentary, in English",h:"glossa.wrootpress.com",z:64},
+ "neoplatonism":{k:"A digital library",t:"Neoplatonism",s:"The tradition after Plotinus, gathered",h:"neoplatonism.org",z:96}
+};
+const d=P[new URLSearchParams(location.search).get("slug")];
+document.getElementById("p").innerHTML=
+ `<div class="kicker">${d.k}</div><div class="rule"></div>`+
+ `<div class="mid"><h1 style="font-size:${d.z}px">${d.t}</h1><p class="sub">${d.s}</p></div>`+
+ `<div class="foot"><div class="mark">W</div><div class="host">${d.h}</div><div class="kicker" style="font-size:14px">A Wroot Press reading edition</div></div>`;
+</script>
+</body></html>

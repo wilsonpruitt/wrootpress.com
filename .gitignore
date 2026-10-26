@@ -13,3 +13,4 @@ next-env.d.ts
 
 # OG render fonts (copy from ~/wroot-labs/brand/design-system/fonts/ when regenerating)
 /og-src/fonts/
+/og-src/out/

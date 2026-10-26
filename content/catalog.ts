@@ -1052,6 +1052,7 @@ export const works: Work[] = [
     collectionId: "patristic",
     shelves: ["patrum"],
     status: "live",
+    cover: "/covers/acta-sanctorum-plate.jpg",
     summary:
       "The flagship — a digital reading edition of the Bollandist Acta Sanctorum: Latin text, English translation, and apparatus, organised by feast day.",
     detail: false,
@@ -1065,6 +1066,7 @@ export const works: Work[] = [
     collectionId: "patristic",
     shelves: ["patrum"],
     status: "live",
+    cover: "/covers/bonaventure-sentences-plate.jpg",
     summary:
       "Quaracchi-text reading edition of Bonaventure's Commentary on the Sentences, Latin alongside English, with scholion and apparatus criticus.",
     detail: false,
@@ -1124,6 +1126,7 @@ export const works: Work[] = [
     collectionId: "patristic",
     shelves: ["patrum"],
     status: "live",
+    cover: "/covers/migne-plate.jpg",
     summary:
       "Migne's Patrologia Latina and Graeca, rendered into English and made citable by volume and column — every work a page from day one, Latin and Greek alongside, translation lighting up the map one first-ever English rendering at a time.",
     detail: false,
@@ -1138,6 +1141,7 @@ export const works: Work[] = [
     collectionId: "patristic",
     shelves: ["patrum"],
     status: "live",
+    cover: "/covers/sententiae-plate.jpg",
     summary:
       "Peter Lombard's Sentences laid out like a Talmud page — the distinctio in the center, the commentary tradition (c. 1225–1615) around it, every witness dated, sourced, and threaded to the ones it cites, contests, transmits, or parallels.",
     detail: false,
@@ -1317,6 +1321,7 @@ export const works: Work[] = [
     collectionId: "patristic",
     shelves: ["patrum"],
     status: "live",
+    cover: "/covers/wyclif-plate.jpg",
     summary:
       "The Latin works of John Wyclif, as the Wyclif Society printed them (1883–1922), with a new English translation, work by work.",
     detail: false,
@@ -1330,6 +1335,7 @@ export const works: Work[] = [
     collectionId: "patristic",
     shelves: ["patrum"],
     status: "live",
+    cover: "/covers/fitzralph-summa-plate.jpg",
     summary:
       "Richard FitzRalph's Summa on the questions of the Armenians (Paris, 1512): the Latin, read by machine from the print, and a new English translation.",
     detail: false,
@@ -1343,6 +1349,7 @@ export const works: Work[] = [
     collectionId: "patristic",
     shelves: ["patrum", "scripture"],
     status: "live",
+    cover: "/covers/douay-glossa-plate.jpg",
     summary:
       "The Douay-Rheims Bible (Challoner revision) alongside the Glossa ordinaria, the standard medieval marginal commentary on Scripture, in a fresh English translation.",
     detail: false,
@@ -1356,6 +1363,7 @@ export const works: Work[] = [
     collectionId: "patristic",
     shelves: ["patrum"],
     status: "live",
+    cover: "/covers/neoplatonism-plate.jpg",
     summary:
       "A digital library of Neoplatonism: Plotinus, Porphyry, Iamblichus, Proclus, Damascius, Dionysius and their Latin, Arabic and Renaissance heirs, from public-domain editions, freshly translated, with the commentators in the margins.",
     detail: false,
