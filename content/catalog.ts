@@ -147,27 +147,31 @@ export const collections: Collection[] = [
 
 export type Shelf = {
   id: ShelfId;
+  slug: string; // path segment on wrootpress.com
   name: string;
   tagline: string;
-  href: string; // hub page — /fontes-patrum becomes fontespatrum.org in phase 3
+  href: string; // hub: a path here, or the shelf's own domain
 };
 
 // Names for scripture/reformation are working titles (decided 2026-10-26).
 export const shelves: Shelf[] = [
   {
     id: "patrum",
+    slug: "fontes-patrum",
     name: "Fontes Patrum",
     tagline: "The Fathers and the medieval masters, in Latin, Greek and English.",
-    href: "/fontes-patrum",
+    href: "https://fontespatrum.org",
   },
   {
     id: "scripture",
+    slug: "scripture",
     name: "Scripture & Its Readers",
     tagline: "The Bible, its ancient witnesses, and the ways it has been read.",
     href: "/scripture",
   },
   {
     id: "reformation",
+    slug: "reformation",
     name: "Reformation & Methodism",
     tagline: "The Protestant and Wesleyan tradition, from Arminius to the Wesleys.",
     href: "/reformation",
@@ -1581,9 +1585,9 @@ export function worksForShelf(shelf: ShelfId): Work[] {
   return works.filter((w) => w.shelves.includes(shelf));
 }
 
-/** Shelf for a URL segment, e.g. "fontes-patrum" → the patrum shelf. */
+/** Shelf for a URL segment on wrootpress.com, e.g. "scripture". */
 export function getShelf(segment: string): Shelf | undefined {
-  return shelves.find((sh) => sh.href === `/${segment}`);
+  return shelves.find((sh) => sh.slug === segment);
 }
 
 /** Works on no shelf — the "Also from Wroot Press" row. */

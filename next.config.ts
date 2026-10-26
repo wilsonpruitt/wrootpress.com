@@ -1,6 +1,16 @@
 import type { NextConfig } from "next";
 
 const config: NextConfig = {
+  async redirects() {
+    // The patrum shelf lives at its own domain now (phase 3 of SHELVES-PLAN.md).
+    return [
+      {
+        source: "/fontes-patrum",
+        destination: "https://fontespatrum.org",
+        permanent: true,
+      },
+    ];
+  },
   async rewrites() {
     return [
       // Cohort curriculum readers are single-file static pages published into

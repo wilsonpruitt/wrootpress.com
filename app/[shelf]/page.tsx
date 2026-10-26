@@ -9,8 +9,12 @@ import styles from "../page.module.css";
 
 export const dynamicParams = false;
 
+// Only shelves hosted on wrootpress.com get a page; a shelf with its own
+// domain (href is absolute) is redirected there in next.config.ts.
 export function generateStaticParams() {
-  return shelves.map((s) => ({ shelf: s.href.slice(1) }));
+  return shelves
+    .filter((s) => s.href.startsWith("/"))
+    .map((s) => ({ shelf: s.slug }));
 }
 
 export async function generateMetadata({
