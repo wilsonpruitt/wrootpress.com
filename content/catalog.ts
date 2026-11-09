@@ -1363,6 +1363,20 @@ export const works: Work[] = [
     editions: [{ lang: "en", format: "reader", url: "https://fitzralph.wrootpress.com" }],
   },
   {
+    slug: "bradwardine-de-causa-dei",
+    title: "Bradwardine, De causa Dei contra Pelagium",
+    author: "Thomas Bradwardine",
+    collectionId: "patristic",
+    shelves: ["patrum"],
+    label: "Bradwardine",
+    status: "live",
+    summary:
+      "Thomas Bradwardine's De causa Dei (1344), in English for the first time, from Savile's 1618 edition, with the Latin, Savile's printed margins and the translator's notes beside it.",
+    detail: false,
+    external: "https://bradwardine.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://bradwardine.wrootpress.com" }],
+  },
+  {
     slug: "douay-glossa",
     title: "The Douay-Rheims with the Glossa Ordinaria",
     author: "Wroot Press",
