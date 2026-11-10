@@ -1039,7 +1039,7 @@ export const works: Work[] = [
     title: "The Bible with Wesley's Notes",
     author: "John Wesley",
     collectionId: "wesley",
-    shelves: ["scripture", "reformation"],
+    shelves: ["reformation"],
     label: "Wesley's Notes",
     status: "live",
     summary:
@@ -1175,6 +1175,20 @@ export const works: Work[] = [
     editions: [
       { lang: "en", format: "reader", url: "https://notabene.wrootpress.com" },
     ],
+  },
+  {
+    slug: "wpb",
+    title: "The Wroot Press Bible",
+    author: "Wroot Press",
+    collectionId: "scripture",
+    shelves: ["scripture"],
+    label: "Wroot Press Bible",
+    status: "live",
+    summary:
+      "A fresh English Bible translation under written rules, published a chapter at a time.",
+    detail: false,
+    external: "https://bible.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://bible.wrootpress.com" }],
   },
   {
     slug: "topographia-sacra",
@@ -1405,20 +1419,6 @@ export const works: Work[] = [
     detail: false,
     external: "https://neoplatonism.org",
     editions: [{ lang: "en", format: "reader", url: "https://neoplatonism.org" }],
-  },
-  {
-    slug: "wpb",
-    title: "The Wroot Press Bible",
-    author: "Wroot Press",
-    collectionId: "scripture",
-    shelves: ["scripture"],
-    label: "Wroot Press Bible",
-    status: "live",
-    summary:
-      "A fresh English Bible translation under written rules, published a chapter at a time.",
-    detail: false,
-    external: "https://bible.wrootpress.com",
-    editions: [{ lang: "en", format: "reader", url: "https://bible.wrootpress.com" }],
   },
   {
     slug: "bereshit",
