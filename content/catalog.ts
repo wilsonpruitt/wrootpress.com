@@ -1491,6 +1491,20 @@ export const works: Work[] = [
     editions: [{ lang: "en", format: "reader", url: "https://lectern.wrootpress.com" }],
   },
   {
+    slug: "scriptura",
+    title: "Scriptura",
+    author: "Wroot Press",
+    collectionId: "scripture",
+    shelves: ["scripture"],
+    label: "Scriptura",
+    status: "live",
+    summary:
+      "The Bible as the Latin Fathers used it, counted: which verses each age quoted most, where the four senses of Scripture are first stated, and what only a reader finds. Preliminary findings.",
+    detail: false,
+    external: "https://scriptura.wrootpress.com",
+    editions: [{ lang: "en", format: "reader", url: "https://scriptura.wrootpress.com" }],
+  },
+  {
     slug: "arminius",
     title: "Arminius — The Public Disputations",
     author: "Jacob Arminius",
